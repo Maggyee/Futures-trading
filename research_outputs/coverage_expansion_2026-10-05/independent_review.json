@@ -1,0 +1,48 @@
+{
+  "status": "passed",
+  "runs": [
+    {
+      "directory": "/home/nishiki/vnpy-ctp/research_outputs/coverage_expansion_2026-10-05/2026-07/k2/run_0001_ec113214672c",
+      "status": "passed",
+      "net": "-5347.73160",
+      "fees": "727.73160",
+      "risk_observations": 161
+    },
+    {
+      "directory": "/home/nishiki/vnpy-ctp/research_outputs/coverage_expansion_2026-10-05/2026-07/k5/run_0002_efe4469c0f8e",
+      "status": "passed",
+      "net": "-15807.18350",
+      "fees": "1737.18350",
+      "risk_observations": 353
+    },
+    {
+      "directory": "/home/nishiki/vnpy-ctp/research_outputs/coverage_expansion_2026-10-05/2026-08/k2/run_0001_e9d6cf49e140",
+      "status": "passed",
+      "net": "-5158.10000",
+      "fees": "1658.10000",
+      "risk_observations": 25
+    },
+    {
+      "directory": "/home/nishiki/vnpy-ctp/research_outputs/coverage_expansion_2026-10-05/2026-08/k5/run_0001_5d30648189af",
+      "status": "passed",
+      "net": "-6894.43280",
+      "fees": "1954.43280",
+      "risk_observations": 27
+    },
+    {
+      "directory": "/home/nishiki/vnpy-ctp/research_outputs/coverage_expansion_2026-10-05/2026-09/k2/run_0001_c2f692cfb45e",
+      "status": "passed",
+      "net": "9346.00320",
+      "fees": "433.99680",
+      "risk_observations": 160
+    },
+    {
+      "directory": "/home/nishiki/vnpy-ctp/research_outputs/coverage_expansion_2026-10-05/2026-09/k5/run_0001_2979e9769a22",
+      "status": "passed",
+      "net": "7602.30320",
+      "fees": "497.69680",
+      "risk_observations": 168
+    }
+  ],
+  "locked_test_read": false
+}

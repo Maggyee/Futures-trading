@@ -1,0 +1,59 @@
+{
+  "status": "passed",
+  "desktop": [
+    1440,
+    1100
+  ],
+  "mobile": [
+    390,
+    320
+  ],
+  "all_six_selections": [
+    {
+      "month": "2026-07",
+      "k": 2,
+      "trades": 6,
+      "equity_points": 23,
+      "csv": true
+    },
+    {
+      "month": "2026-07",
+      "k": 5,
+      "trades": 15,
+      "equity_points": 23,
+      "csv": true
+    },
+    {
+      "month": "2026-08",
+      "k": 2,
+      "trades": 4,
+      "equity_points": 21,
+      "csv": true
+    },
+    {
+      "month": "2026-08",
+      "k": 5,
+      "trades": 5,
+      "equity_points": 21,
+      "csv": true
+    },
+    {
+      "month": "2026-09",
+      "k": 2,
+      "trades": 2,
+      "equity_points": 8,
+      "csv": true
+    },
+    {
+      "month": "2026-09",
+      "k": 5,
+      "trades": 3,
+      "equity_points": 8,
+      "csv": true
+    }
+  ],
+  "all_trade_paths_rendered": true,
+  "offline": true,
+  "browser_errors": [],
+  "external_requests": []
+}

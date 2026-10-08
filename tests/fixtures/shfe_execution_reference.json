@@ -1,0 +1,428 @@
+{
+  "provenance": "REAL_OFFICIAL_PARAMETER_REFERENCE",
+  "no_market_bars_or_strategy_returns": true,
+  "fee_rows": {
+    "cu2611": {
+      "INSTRUMENTID": "cu2611",
+      "COMMODITYDELIVERYFEEUNIT": "0",
+      "TRADEFEERATION": "0.00005",
+      "SHORTMARGINRATIO": "0.1",
+      "SPEC_LONGMARGINRATIO": "0.11",
+      "TRADINGDAY": "20260911",
+      "HTRADEFEERATIO": "0.000025",
+      "DISCOUNTRATE": "2",
+      "TRADEFEEUNIT": "0",
+      "SPEC_SHORTMARGINRATIO": "0.11",
+      "SETTLEMENTPRICE": "108290",
+      "LONGMARGINRATIO": "0.1",
+      "COMMODITYDELIVERYFEERATION": "0",
+      "HTRADEFEEUNIT": "0"
+    },
+    "al2611": {
+      "INSTRUMENTID": "al2611",
+      "COMMODITYDELIVERYFEEUNIT": "0",
+      "TRADEFEERATION": "0",
+      "SHORTMARGINRATIO": "0.1",
+      "SPEC_LONGMARGINRATIO": "0.11",
+      "TRADINGDAY": "20260911",
+      "HTRADEFEERATIO": "0",
+      "DISCOUNTRATE": "1",
+      "TRADEFEEUNIT": "3",
+      "SPEC_SHORTMARGINRATIO": "0.11",
+      "SETTLEMENTPRICE": "24180",
+      "LONGMARGINRATIO": "0.1",
+      "COMMODITYDELIVERYFEERATION": "0",
+      "HTRADEFEEUNIT": "1.5"
+    },
+    "au2612": {
+      "INSTRUMENTID": "au2612",
+      "COMMODITYDELIVERYFEEUNIT": "0",
+      "TRADEFEERATION": "0",
+      "SHORTMARGINRATIO": "0.15",
+      "SPEC_LONGMARGINRATIO": "0.16",
+      "TRADINGDAY": "20260911",
+      "HTRADEFEERATIO": "0",
+      "DISCOUNTRATE": "0",
+      "TRADEFEEUNIT": "20",
+      "SPEC_SHORTMARGINRATIO": "0.16",
+      "SETTLEMENTPRICE": "944.54",
+      "LONGMARGINRATIO": "0.15",
+      "COMMODITYDELIVERYFEERATION": "0",
+      "HTRADEFEEUNIT": "10"
+    },
+    "rb2701": {
+      "INSTRUMENTID": "rb2701",
+      "COMMODITYDELIVERYFEEUNIT": "0",
+      "TRADEFEERATION": "0.0001",
+      "SHORTMARGINRATIO": "0.06",
+      "SPEC_LONGMARGINRATIO": "0.07",
+      "TRADINGDAY": "20260911",
+      "HTRADEFEERATIO": "0.00005",
+      "DISCOUNTRATE": "1",
+      "TRADEFEEUNIT": "0",
+      "SPEC_SHORTMARGINRATIO": "0.07",
+      "SETTLEMENTPRICE": "3117",
+      "LONGMARGINRATIO": "0.06",
+      "COMMODITYDELIVERYFEERATION": "0",
+      "HTRADEFEEUNIT": "0"
+    }
+  },
+  "margin_cases": [
+    {
+      "date": "2026-09-23",
+      "contract": "bu2611.SHFE",
+      "previous_settlement": 0.12,
+      "current_settlement": 0.14,
+      "intraday_raw": {
+        "INSTRUMENTID": "bu2611",
+        "SPEC_SHORTMARGINRATIO": "0.12",
+        "LOWER_VALUE": "0.1",
+        "HDEGE_SHORTMARGINRATIO": "0.11",
+        "PRICE_LIMITS": "",
+        "UPPER_VALUE": "0.1",
+        "SPEC_LONGMARGINRATIO": "0.12",
+        "TRADINGDAY": "20260923",
+        "HDEGE_LONGMARGINRATIO": "0.11"
+      },
+      "changes_after_close": true
+    },
+    {
+      "date": "2026-09-23",
+      "contract": "rb2701.SHFE",
+      "previous_settlement": 0.07,
+      "current_settlement": 0.07,
+      "intraday_raw": {
+        "INSTRUMENTID": "rb2701",
+        "SPEC_SHORTMARGINRATIO": "0.07",
+        "LOWER_VALUE": "0.05",
+        "HDEGE_SHORTMARGINRATIO": "0.06",
+        "PRICE_LIMITS": "",
+        "UPPER_VALUE": "0.05",
+        "SPEC_LONGMARGINRATIO": "0.07",
+        "TRADINGDAY": "20260923",
+        "HDEGE_LONGMARGINRATIO": "0.06"
+      },
+      "changes_after_close": false
+    },
+    {
+      "date": "2026-09-23",
+      "contract": "fu2611.SHFE",
+      "previous_settlement": 0.18,
+      "current_settlement": 0.2,
+      "intraday_raw": {
+        "INSTRUMENTID": "fu2611",
+        "SPEC_SHORTMARGINRATIO": "0.18",
+        "LOWER_VALUE": "0.16",
+        "HDEGE_SHORTMARGINRATIO": "0.17",
+        "PRICE_LIMITS": "",
+        "UPPER_VALUE": "0.16",
+        "SPEC_LONGMARGINRATIO": "0.18",
+        "TRADINGDAY": "20260923",
+        "HDEGE_LONGMARGINRATIO": "0.17"
+      },
+      "changes_after_close": true
+    },
+    {
+      "date": "2026-09-23",
+      "contract": "sc2611.INE",
+      "previous_settlement": 0.18,
+      "current_settlement": 0.2,
+      "intraday_raw": {
+        "INSTRUMENTID": "sc2611",
+        "SPEC_SHORTMARGINRATIO": "0.18",
+        "LOWER_VALUE": "0.16",
+        "HDEGE_SHORTMARGINRATIO": "0.17",
+        "PRICE_LIMITS": "",
+        "UPPER_VALUE": "0.16",
+        "SPEC_LONGMARGINRATIO": "0.18",
+        "TRADINGDAY": "20260923",
+        "HDEGE_LONGMARGINRATIO": "0.17"
+      },
+      "changes_after_close": true
+    },
+    {
+      "date": "2026-09-24",
+      "contract": "bu2611.SHFE",
+      "previous_settlement": 0.14,
+      "current_settlement": 0.14,
+      "intraday_raw": {
+        "INSTRUMENTID": "bu2611",
+        "SPEC_SHORTMARGINRATIO": "0.14",
+        "LOWER_VALUE": "0.12",
+        "HDEGE_SHORTMARGINRATIO": "0.13",
+        "PRICE_LIMITS": "",
+        "UPPER_VALUE": "0.12",
+        "SPEC_LONGMARGINRATIO": "0.14",
+        "TRADINGDAY": "20260924",
+        "HDEGE_LONGMARGINRATIO": "0.13"
+      },
+      "changes_after_close": false
+    },
+    {
+      "date": "2026-09-24",
+      "contract": "rb2701.SHFE",
+      "previous_settlement": 0.07,
+      "current_settlement": 0.07,
+      "intraday_raw": {
+        "INSTRUMENTID": "rb2701",
+        "SPEC_SHORTMARGINRATIO": "0.07",
+        "LOWER_VALUE": "0.05",
+        "HDEGE_SHORTMARGINRATIO": "0.06",
+        "PRICE_LIMITS": "",
+        "UPPER_VALUE": "0.05",
+        "SPEC_LONGMARGINRATIO": "0.07",
+        "TRADINGDAY": "20260924",
+        "HDEGE_LONGMARGINRATIO": "0.06"
+      },
+      "changes_after_close": false
+    },
+    {
+      "date": "2026-09-24",
+      "contract": "fu2611.SHFE",
+      "previous_settlement": 0.2,
+      "current_settlement": 0.2,
+      "intraday_raw": {
+        "INSTRUMENTID": "fu2611",
+        "SPEC_SHORTMARGINRATIO": "0.2",
+        "LOWER_VALUE": "0.18",
+        "HDEGE_SHORTMARGINRATIO": "0.19",
+        "PRICE_LIMITS": "",
+        "UPPER_VALUE": "0.18",
+        "SPEC_LONGMARGINRATIO": "0.2",
+        "TRADINGDAY": "20260924",
+        "HDEGE_LONGMARGINRATIO": "0.19"
+      },
+      "changes_after_close": false
+    },
+    {
+      "date": "2026-09-24",
+      "contract": "sc2611.INE",
+      "previous_settlement": 0.2,
+      "current_settlement": 0.2,
+      "intraday_raw": {
+        "INSTRUMENTID": "sc2611",
+        "SPEC_SHORTMARGINRATIO": "0.2",
+        "LOWER_VALUE": "0.18",
+        "HDEGE_SHORTMARGINRATIO": "0.19",
+        "PRICE_LIMITS": "",
+        "UPPER_VALUE": "0.18",
+        "SPEC_LONGMARGINRATIO": "0.2",
+        "TRADINGDAY": "20260924",
+        "HDEGE_LONGMARGINRATIO": "0.19"
+      },
+      "changes_after_close": false
+    },
+    {
+      "date": "2026-09-29",
+      "contract": "bu2611.SHFE",
+      "previous_settlement": 0.14,
+      "current_settlement": 0.14,
+      "intraday_raw": {
+        "INSTRUMENTID": "bu2611",
+        "SPEC_SHORTMARGINRATIO": "0.14",
+        "LOWER_VALUE": "0.12",
+        "HDEGE_SHORTMARGINRATIO": "0.13",
+        "PRICE_LIMITS": "",
+        "UPPER_VALUE": "0.12",
+        "SPEC_LONGMARGINRATIO": "0.14",
+        "TRADINGDAY": "20260929",
+        "HDEGE_LONGMARGINRATIO": "0.13"
+      },
+      "changes_after_close": false
+    },
+    {
+      "date": "2026-09-29",
+      "contract": "rb2701.SHFE",
+      "previous_settlement": 0.07,
+      "current_settlement": 0.09,
+      "intraday_raw": {
+        "INSTRUMENTID": "rb2701",
+        "SPEC_SHORTMARGINRATIO": "0.07",
+        "LOWER_VALUE": "0.05",
+        "HDEGE_SHORTMARGINRATIO": "0.06",
+        "PRICE_LIMITS": "",
+        "UPPER_VALUE": "0.05",
+        "SPEC_LONGMARGINRATIO": "0.07",
+        "TRADINGDAY": "20260929",
+        "HDEGE_LONGMARGINRATIO": "0.06"
+      },
+      "changes_after_close": true
+    },
+    {
+      "date": "2026-09-29",
+      "contract": "fu2611.SHFE",
+      "previous_settlement": 0.2,
+      "current_settlement": 0.22,
+      "intraday_raw": {
+        "INSTRUMENTID": "fu2611",
+        "SPEC_SHORTMARGINRATIO": "0.2",
+        "LOWER_VALUE": "0.18",
+        "HDEGE_SHORTMARGINRATIO": "0.19",
+        "PRICE_LIMITS": "",
+        "UPPER_VALUE": "0.18",
+        "SPEC_LONGMARGINRATIO": "0.2",
+        "TRADINGDAY": "20260929",
+        "HDEGE_LONGMARGINRATIO": "0.19"
+      },
+      "changes_after_close": true
+    },
+    {
+      "date": "2026-09-29",
+      "contract": "sc2611.INE",
+      "previous_settlement": 0.2,
+      "current_settlement": 0.22,
+      "intraday_raw": {
+        "INSTRUMENTID": "sc2611",
+        "SPEC_SHORTMARGINRATIO": "0.2",
+        "LOWER_VALUE": "0.18",
+        "HDEGE_SHORTMARGINRATIO": "0.19",
+        "PRICE_LIMITS": "",
+        "UPPER_VALUE": "0.18",
+        "SPEC_LONGMARGINRATIO": "0.2",
+        "TRADINGDAY": "20260929",
+        "HDEGE_LONGMARGINRATIO": "0.19"
+      },
+      "changes_after_close": true
+    },
+    {
+      "date": "2026-09-30",
+      "contract": "bu2611.SHFE",
+      "previous_settlement": 0.14,
+      "current_settlement": 0.14,
+      "intraday_raw": {
+        "INSTRUMENTID": "bu2611",
+        "SPEC_SHORTMARGINRATIO": "0.14",
+        "LOWER_VALUE": "0.12",
+        "HDEGE_SHORTMARGINRATIO": "0.13",
+        "PRICE_LIMITS": "",
+        "UPPER_VALUE": "0.12",
+        "SPEC_LONGMARGINRATIO": "0.14",
+        "TRADINGDAY": "20260930",
+        "HDEGE_LONGMARGINRATIO": "0.13"
+      },
+      "changes_after_close": false
+    },
+    {
+      "date": "2026-09-30",
+      "contract": "rb2701.SHFE",
+      "previous_settlement": 0.09,
+      "current_settlement": 0.09,
+      "intraday_raw": {
+        "INSTRUMENTID": "rb2701",
+        "SPEC_SHORTMARGINRATIO": "0.09",
+        "LOWER_VALUE": "0.07",
+        "HDEGE_SHORTMARGINRATIO": "0.08",
+        "PRICE_LIMITS": "",
+        "UPPER_VALUE": "0.07",
+        "SPEC_LONGMARGINRATIO": "0.09",
+        "TRADINGDAY": "20260930",
+        "HDEGE_LONGMARGINRATIO": "0.08"
+      },
+      "changes_after_close": false
+    },
+    {
+      "date": "2026-09-30",
+      "contract": "fu2611.SHFE",
+      "previous_settlement": 0.22,
+      "current_settlement": 0.22,
+      "intraday_raw": {
+        "INSTRUMENTID": "fu2611",
+        "SPEC_SHORTMARGINRATIO": "0.22",
+        "LOWER_VALUE": "0.2",
+        "HDEGE_SHORTMARGINRATIO": "0.21",
+        "PRICE_LIMITS": "",
+        "UPPER_VALUE": "0.2",
+        "SPEC_LONGMARGINRATIO": "0.22",
+        "TRADINGDAY": "20260930",
+        "HDEGE_LONGMARGINRATIO": "0.21"
+      },
+      "changes_after_close": false
+    },
+    {
+      "date": "2026-09-30",
+      "contract": "sc2611.INE",
+      "previous_settlement": 0.22,
+      "current_settlement": 0.22,
+      "intraday_raw": {
+        "INSTRUMENTID": "sc2611",
+        "SPEC_SHORTMARGINRATIO": "0.22",
+        "LOWER_VALUE": "0.2",
+        "HDEGE_SHORTMARGINRATIO": "0.21",
+        "PRICE_LIMITS": "",
+        "UPPER_VALUE": "0.2",
+        "SPEC_LONGMARGINRATIO": "0.22",
+        "TRADINGDAY": "20260930",
+        "HDEGE_LONGMARGINRATIO": "0.21"
+      },
+      "changes_after_close": false
+    }
+  ],
+  "source_fingerprints": [
+    {
+      "path": "research_inputs/2026-09/source_docs/diagnostic/ContractDailyTradeArgument20260923.json",
+      "sha256": "d7ffe045c4e8b8ac778b0cddda204e78c0ae47299ae1f4e891d465ef391b885a",
+      "url": "https://www.shfe.com.cn/data/busiparamdata/future/ContractDailyTradeArgument20260923.dat",
+      "retrieved_utc": "2026-10-03T06:58:42.060316+00:00"
+    },
+    {
+      "path": "research_inputs/2026-09/source_docs/shfe_parameters/Settlement20260923.json",
+      "sha256": "3145be264dc2134f0c19c748d5ea8dd1a6b05ecdd44d99641ca670d1c46edc2f",
+      "url": "https://www.shfe.com.cn/data/busiparamdata/future/Settlement20260923.dat",
+      "retrieved_utc": "2026-10-03T06:20:34.540436+00:00"
+    },
+    {
+      "path": "research_inputs/2026-09/source_docs/shfe_parameters/Settlement20260922.json",
+      "sha256": "b7b080a7039edb39c1e85ec79476b20b59d89deba4b2b939d52570c864d5f312",
+      "url": "https://www.shfe.com.cn/data/busiparamdata/future/Settlement20260922.dat",
+      "retrieved_utc": "2026-10-03T06:20:25.591395+00:00"
+    },
+    {
+      "path": "research_inputs/2026-09/source_docs/diagnostic/ContractDailyTradeArgument20260924.json",
+      "sha256": "519d61168b63810cd37eda812aee9a51bf4d418ede1544890cf0e6c92899bf6d",
+      "url": "https://www.shfe.com.cn/data/busiparamdata/future/ContractDailyTradeArgument20260924.dat",
+      "retrieved_utc": "2026-10-03T06:58:43.033749+00:00"
+    },
+    {
+      "path": "research_inputs/2026-09/source_docs/shfe_parameters/Settlement20260924.json",
+      "sha256": "f928dd3d5c70fcd4a00d8ea7419bef53ad3108142b59b3f8b3a195a06e89a904",
+      "url": "https://www.shfe.com.cn/data/busiparamdata/future/Settlement20260924.dat",
+      "retrieved_utc": "2026-10-03T06:20:42.895283+00:00"
+    },
+    {
+      "path": "research_inputs/2026-09/source_docs/diagnostic/ContractDailyTradeArgument20260929.json",
+      "sha256": "9791d0dd3f59873b566a1bdf0b863562104790191769f811098c705c197e9e64",
+      "url": "https://www.shfe.com.cn/data/busiparamdata/future/ContractDailyTradeArgument20260929.dat",
+      "retrieved_utc": "2026-10-03T07:11:52.000344+00:00"
+    },
+    {
+      "path": "research_inputs/2026-09/source_docs/shfe_parameters/Settlement20260929.json",
+      "sha256": "42a2cef61a0a3b57b89520f29096f097c607ddfd0a9afb2e70f50e0bd204cf31",
+      "url": "https://www.shfe.com.cn/data/busiparamdata/future/Settlement20260929.dat",
+      "retrieved_utc": "2026-10-03T06:21:02.885032+00:00"
+    },
+    {
+      "path": "research_inputs/2026-09/source_docs/shfe_parameters/Settlement20260928.json",
+      "sha256": "41eff90d593f8bd3435851d8982ebcb7133b4d1d38c4d0408096182cb62cff46",
+      "url": "https://www.shfe.com.cn/data/busiparamdata/future/Settlement20260928.dat",
+      "retrieved_utc": "2026-10-03T06:20:52.822581+00:00"
+    },
+    {
+      "path": "research_inputs/2026-09/source_docs/diagnostic/ContractDailyTradeArgument20260930.json",
+      "sha256": "dc4a1bdce3f2bafaa2d12ae9c085dea79a973343af478557bff4588f238f49cf",
+      "url": "https://www.shfe.com.cn/data/busiparamdata/future/ContractDailyTradeArgument20260930.dat",
+      "retrieved_utc": "2026-10-03T07:11:56.317630+00:00"
+    },
+    {
+      "path": "research_inputs/2026-09/source_docs/shfe_parameters/Settlement20260930.json",
+      "sha256": "acf863abdf54dcfb0dd15a9f6043fca3a6880753296df123fafdaf72ec852867",
+      "url": "https://www.shfe.com.cn/data/busiparamdata/future/Settlement20260930.dat",
+      "retrieved_utc": "2026-10-03T06:21:11.707403+00:00"
+    },
+    {
+      "path": "research_inputs/2026-09/source_docs/shfe_parameters/Settlement20260911.json",
+      "sha256": "7ede577d6a0c804418466890e2f32e8528b927073a5d1a1c93d6af0c04d6ec46",
+      "url": "https://www.shfe.com.cn/data/busiparamdata/future/Settlement20260911.dat",
+      "retrieved_utc": "2026-10-03T06:19:17.953168+00:00"
+    }
+  ]
+}

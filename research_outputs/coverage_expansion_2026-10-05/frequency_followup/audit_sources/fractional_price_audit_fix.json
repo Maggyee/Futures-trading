@@ -1,0 +1,18 @@
+{
+  "issue": "Exact final-state dictionary comparison rejected binary roundoff on first fractional-tick IH entry.",
+  "contract": "IH2609.CFFEX",
+  "entry_time": "2026-07-14T11:03:00+08:00",
+  "field": "breakeven_activation_price",
+  "saved_value": 2851.3999999999996,
+  "independent_decimal_value": 2851.4,
+  "tick_size": 0.2,
+  "price_tolerance": 2e-09,
+  "flags_clocks_keys_exact": true,
+  "one_tick_or_1e-6_change_rejected": true,
+  "source_before": "/home/nishiki/vnpy-ctp/research_outputs/coverage_expansion_2026-10-05/frequency_followup/audit_sources/audit_trailing_exit_before_fractional_price_fix.py",
+  "sha256_before": "1a64f3fb944888cddd6213b510fbccc9e1004a71194998dfd2063f6bb99e3d1e",
+  "source_after": "/home/nishiki/vnpy-ctp/research_inputs/2026-09/audit_trailing_exit.py",
+  "sha256_after": "fcaca05203e3f6c06f721f2c565ebacc484986e42860e1ba5c5441dae3cd93cd",
+  "trade_execution_or_results_changed": false,
+  "focused_tests_passed": 11
+}

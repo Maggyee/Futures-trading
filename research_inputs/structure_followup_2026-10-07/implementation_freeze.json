@@ -1,0 +1,28 @@
+{
+  "plan_sha256": "2c54a8e02e558bd6571d718393fe9e0d596a7448b7c5ff86e1a55c56373091c7",
+  "before_candidate_results": true,
+  "strategy_and_runner_hashes": {
+    "research/structure_rules.py": "2b858ad822c370dbaa5f0aff716637cae518d9ea27ea6a7c27392a646600bb5d",
+    "research/structure_followup.py": "0f8a8381926c32d330d205da7377bcd7066bb6df9fa6b98a815f01a53232e078",
+    "research/execution.py": "c27688b9a61f9edabb95ef3fc963a8fc4b90b531894bf0c2465fbb7835ce546c",
+    "research/config.py": "7358bfb0a73e0d17bd6b50a93545bdbe2cf04d4325c28c4423d7493dc0bfbab4",
+    "tests/test_research_structure.py": "736dc666fd5353c119dfb94e3e67914b2d9cc389ef22a0c3a9cfa3b8eeb3eb8c"
+  },
+  "original_risk_allocator_ast_unchanged": true,
+  "original_allocator_ast_sha256": "1deb7e800d48eda3366d666f97e93803801f5747d327067398b9936bd1209997",
+  "verification": {
+    "passed_tests": 139,
+    "commands": [
+      "tests/test_research_structure.py",
+      "tests/test_research_slope.py",
+      "tests/test_research_trailing.py",
+      "tests/test_research_ordered_opportunity.py",
+      "tests/test_research_prepared_entries.py",
+      "tests/test_research_integration.py",
+      "tests/test_research_price_replay.py"
+    ]
+  },
+  "locked_test_read": false,
+  "live_trading_changed": false,
+  "parameter_search": false
+}

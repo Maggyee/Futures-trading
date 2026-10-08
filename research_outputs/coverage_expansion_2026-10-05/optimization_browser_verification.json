@@ -1,0 +1,144 @@
+{
+  "status": "passed",
+  "report_sha256": "04e17c3d3455ed705ee7119b86929717283a23b9fe685ffa9753afa8b303d12f",
+  "desktop": [
+    1440,
+    1100
+  ],
+  "mobile": [
+    390,
+    320
+  ],
+  "selections": [
+    {
+      "month": "2026-07",
+      "variant": "control",
+      "trades": 6,
+      "equity_points": 23,
+      "csv": true
+    },
+    {
+      "month": "2026-08",
+      "variant": "control",
+      "trades": 4,
+      "equity_points": 21,
+      "csv": true
+    },
+    {
+      "month": "2026-09",
+      "variant": "control",
+      "trades": 2,
+      "equity_points": 8,
+      "csv": true
+    },
+    {
+      "month": "2026-07",
+      "variant": "cost",
+      "trades": 6,
+      "equity_points": 23,
+      "csv": true
+    },
+    {
+      "month": "2026-08",
+      "variant": "cost",
+      "trades": 0,
+      "equity_points": 21,
+      "csv": true
+    },
+    {
+      "month": "2026-09",
+      "variant": "cost",
+      "trades": 2,
+      "equity_points": 8,
+      "csv": true
+    },
+    {
+      "month": "2026-07",
+      "variant": "breakeven",
+      "trades": 6,
+      "equity_points": 23,
+      "csv": true
+    },
+    {
+      "month": "2026-08",
+      "variant": "breakeven",
+      "trades": 4,
+      "equity_points": 21,
+      "csv": true
+    },
+    {
+      "month": "2026-09",
+      "variant": "breakeven",
+      "trades": 2,
+      "equity_points": 8,
+      "csv": true
+    },
+    {
+      "month": "2026-07",
+      "variant": "pullback",
+      "trades": 0,
+      "equity_points": 23,
+      "csv": true
+    },
+    {
+      "month": "2026-08",
+      "variant": "pullback",
+      "trades": 0,
+      "equity_points": 21,
+      "csv": true
+    },
+    {
+      "month": "2026-09",
+      "variant": "pullback",
+      "trades": 0,
+      "equity_points": 8,
+      "csv": true
+    },
+    {
+      "month": "2026-07",
+      "variant": "afternoon",
+      "trades": 3,
+      "equity_points": 23,
+      "csv": true
+    },
+    {
+      "month": "2026-08",
+      "variant": "afternoon",
+      "trades": 4,
+      "equity_points": 21,
+      "csv": true
+    },
+    {
+      "month": "2026-09",
+      "variant": "afternoon",
+      "trades": 2,
+      "equity_points": 8,
+      "csv": true
+    },
+    {
+      "month": "2026-07",
+      "variant": "combined",
+      "trades": 6,
+      "equity_points": 23,
+      "csv": true
+    },
+    {
+      "month": "2026-08",
+      "variant": "combined",
+      "trades": 0,
+      "equity_points": 21,
+      "csv": true
+    },
+    {
+      "month": "2026-09",
+      "variant": "combined",
+      "trades": 2,
+      "equity_points": 8,
+      "csv": true
+    }
+  ],
+  "all_trade_paths_rendered": true,
+  "offline": true,
+  "browser_errors": [],
+  "external_requests": []
+}

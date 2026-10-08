@@ -1,0 +1,308 @@
+{
+  "month": "2026-07",
+  "variant": "pool",
+  "directory": "/home/nishiki/vnpy-ctp/research_outputs/coverage_expansion_2026-10-05/ordered_opportunity/pool/2026-07/run_0001_5a4b273aa447",
+  "parent": "/home/nishiki/vnpy-ctp/research_outputs/coverage_expansion_2026-10-05/frequency_followup/stop_reentry/2026-07/run_0001_62b034a3b2b4",
+  "window": {
+    "start": "2026-07-01",
+    "end": "2026-07-31"
+  },
+  "status": "completed",
+  "metrics": {
+    "net_profit": 1726.2101999999722,
+    "net_return": 0.0017262101999999723,
+    "realized_trade_net": 1726.2102,
+    "unrealized_and_open_fee_difference": -2.773958840407431e-11,
+    "max_drawdown": 4514.263099999982,
+    "max_drawdown_fraction": 0.0044906270808821305,
+    "return_drawdown_ratio": 0.3823902510245757,
+    "daily_return_volatility": 0.0012498429155173578,
+    "sharpe": null,
+    "sharpe_definition": "每日收市标记权益简单收益，样本标准差(ddof=1)，sqrt(240)年化；少于20日/20笔不显示",
+    "trade_count": 12,
+    "average_trade_net": 143.85085,
+    "win_rate": 0.6666666666666666,
+    "payoff_ratio": 0.6377115585505688,
+    "profit_factor": 1.2754231171011376,
+    "average_holding_minutes": 7.833333333333333,
+    "fees": 1293.7898000000002,
+    "fee_share_of_abs_gross": 0.09443721167883214,
+    "slippage_cost_diagnostic": 2630.0,
+    "slippage_already_in_prices": true,
+    "ambiguous_trades": 0,
+    "daily_count": 23,
+    "sample_warning": "证据不足：需要更多独立交易日和样本外交易",
+    "candidate_count": 173,
+    "risk_rejection_count": 0,
+    "execution_rejection_count": 0,
+    "candidate_execution_rejection_count": 35,
+    "mean_margin_utilization": 0.003176034354764107,
+    "max_margin_utilization": 0.1493415,
+    "unflattened_session_count": 0,
+    "unflattened_break_count": 0,
+    "daily": [
+      {
+        "date": "2026-07-01",
+        "equity": 1000000,
+        "net_pnl": 0.0,
+        "return": 0.0
+      },
+      {
+        "date": "2026-07-02",
+        "equity": 1000133.266,
+        "net_pnl": 133.26599999994505,
+        "return": 0.00013326599999994505
+      },
+      {
+        "date": "2026-07-03",
+        "equity": 1000133.266,
+        "net_pnl": 0.0,
+        "return": 0.0
+      },
+      {
+        "date": "2026-07-06",
+        "equity": 1000155.3925,
+        "net_pnl": 22.12650000001304,
+        "return": 2.2123551682774484e-05
+      },
+      {
+        "date": "2026-07-07",
+        "equity": 1000155.3925,
+        "net_pnl": 0.0,
+        "return": 0.0
+      },
+      {
+        "date": "2026-07-08",
+        "equity": 998645.4276999999,
+        "net_pnl": -1509.9648000000743,
+        "return": -0.0015097301992500875
+      },
+      {
+        "date": "2026-07-09",
+        "equity": 998645.4276999999,
+        "net_pnl": 0.0,
+        "return": 0.0
+      },
+      {
+        "date": "2026-07-10",
+        "equity": 998645.4276999999,
+        "net_pnl": 0.0,
+        "return": 0.0
+      },
+      {
+        "date": "2026-07-13",
+        "equity": 998645.4276999999,
+        "net_pnl": 0.0,
+        "return": 0.0
+      },
+      {
+        "date": "2026-07-14",
+        "equity": 998888.4116999999,
+        "net_pnl": 242.98400000005495,
+        "return": 0.00024331358584365247
+      },
+      {
+        "date": "2026-07-15",
+        "equity": 999007.4116999999,
+        "net_pnl": 119.0,
+        "return": 0.00011913242621112691
+      },
+      {
+        "date": "2026-07-16",
+        "equity": 1003359.4116999999,
+        "net_pnl": 4352.0,
+        "return": 0.00435632403626941
+      },
+      {
+        "date": "2026-07-17",
+        "equity": 1002045.4116999999,
+        "net_pnl": -1314.0,
+        "return": -0.0013096005127152584
+      },
+      {
+        "date": "2026-07-20",
+        "equity": 1002045.4116999999,
+        "net_pnl": 0.0,
+        "return": 0.0
+      },
+      {
+        "date": "2026-07-21",
+        "equity": 1004192.6686,
+        "net_pnl": 2147.2569000000367,
+        "return": 0.0021428738407744926
+      },
+      {
+        "date": "2026-07-22",
+        "equity": 1004192.6686,
+        "net_pnl": 0.0,
+        "return": 0.0
+      },
+      {
+        "date": "2026-07-23",
+        "equity": 1004192.6686,
+        "net_pnl": 0.0,
+        "return": 0.0
+      },
+      {
+        "date": "2026-07-24",
+        "equity": 1004192.6686,
+        "net_pnl": 0.0,
+        "return": 0.0
+      },
+      {
+        "date": "2026-07-27",
+        "equity": 1002471.3886,
+        "net_pnl": -1721.280000000028,
+        "return": -0.0017140933745311631
+      },
+      {
+        "date": "2026-07-28",
+        "equity": 1000749.1486,
+        "net_pnl": -1722.2399999999907,
+        "return": -0.001717994168796361
+      },
+      {
+        "date": "2026-07-29",
+        "equity": 1000749.1486,
+        "net_pnl": 0.0,
+        "return": 0.0
+      },
+      {
+        "date": "2026-07-30",
+        "equity": 1001726.2102,
+        "net_pnl": 977.0616000000155,
+        "return": 0.0009763301836098264
+      },
+      {
+        "date": "2026-07-31",
+        "equity": 1001726.2102,
+        "net_pnl": 0.0,
+        "return": 0.0
+      }
+    ],
+    "monthly": {
+      "2026-07": 1726.2101999999722
+    },
+    "decomposition": {
+      "group": {
+        "commodity": {
+          "trade_count": 12,
+          "net_pnl": 1726.2102,
+          "fees": 1293.7898000000002
+        }
+      },
+      "product": {
+        "OI": {
+          "trade_count": 1,
+          "net_pnl": 4352.0,
+          "fees": 68.0
+        },
+        "PL": {
+          "trade_count": 2,
+          "net_pnl": 238.0,
+          "fees": 42.0
+        },
+        "PX": {
+          "trade_count": 2,
+          "net_pnl": 257.25,
+          "fees": 162.75000000000003
+        },
+        "ag": {
+          "trade_count": 3,
+          "net_pnl": 3146.445,
+          "fees": 93.555
+        },
+        "lc": {
+          "trade_count": 3,
+          "net_pnl": -4953.4848,
+          "fees": 873.4848000000002
+        },
+        "ni": {
+          "trade_count": 1,
+          "net_pnl": -1314.0,
+          "fees": 54.0
+        }
+      },
+      "direction": {
+        "LONG": {
+          "trade_count": 8,
+          "net_pnl": 4394.7825,
+          "fees": 785.2175000000001
+        },
+        "SHORT": {
+          "trade_count": 4,
+          "net_pnl": -2668.5723000000003,
+          "fees": 508.5723000000001
+        }
+      },
+      "entry_mode": {
+        "direct": {
+          "trade_count": 12,
+          "net_pnl": 1726.2102,
+          "fees": 1293.7898000000002
+        }
+      },
+      "exit_reason": {
+        "breakeven_stop": {
+          "trade_count": 5,
+          "net_pnl": 517.3765,
+          "fees": 272.62350000000004
+        },
+        "fixed_stop": {
+          "trade_count": 4,
+          "net_pnl": -6267.4848,
+          "fees": 927.4848000000002
+        },
+        "trailing_stop": {
+          "trade_count": 3,
+          "net_pnl": 7476.3185,
+          "fees": 93.6815
+        }
+      },
+      "rank": {
+        "1": {
+          "trade_count": 2,
+          "net_pnl": -336.9384,
+          "fees": 66.9384
+        },
+        "2": {
+          "trade_count": 3,
+          "net_pnl": -1469.0140000000001,
+          "fees": 379.014
+        },
+        "3": {
+          "trade_count": 1,
+          "net_pnl": 123.98399999999998,
+          "fees": 86.01600000000002
+        },
+        "4": {
+          "trade_count": 3,
+          "net_pnl": 756.2921000000001,
+          "fees": 343.7079000000001
+        },
+        "7": {
+          "trade_count": 1,
+          "net_pnl": -1722.24,
+          "fees": 282.24
+        },
+        "8": {
+          "trade_count": 1,
+          "net_pnl": 4352.0,
+          "fees": 68.0
+        },
+        "9": {
+          "trade_count": 1,
+          "net_pnl": 22.1265,
+          "fees": 67.8735
+        }
+      },
+      "month": {
+        "2026-07": {
+          "trade_count": 12,
+          "net_pnl": 1726.2102
+        }
+      }
+    }
+  },
+  "locked_test_read": false
+}

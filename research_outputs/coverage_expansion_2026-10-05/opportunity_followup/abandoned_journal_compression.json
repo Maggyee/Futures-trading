@@ -1,0 +1,29 @@
+{
+  "status": "passed",
+  "original_path": "/home/nishiki/vnpy-ctp/research_outputs/coverage_expansion_2026-10-05/2026-07/k5/run_0001_efe4469c0f8e/signals_buffer.partial",
+  "archive_path": "/home/nishiki/vnpy-ctp/research_outputs/coverage_expansion_2026-10-05/2026-07/k5/run_0001_efe4469c0f8e/signals_buffer.partial.gz",
+  "original_bytes": 232166203,
+  "original_sha256": "748f9e602bee509d41f7b6b7618f0594bf8e5e293347a955e842b501f2778a14",
+  "archive_sha256": "5e114f10bcdcb017b087ae87352d91a941429c8dbe9c2cd075df859f395dd1c6",
+  "archive_bytes": 22140501,
+  "original_mode": 436,
+  "original_uid": 1001,
+  "original_gid": 1001,
+  "original_mtime_ns": 1791192329829727657,
+  "lossless_decompression_verified": true,
+  "failed_run_preserved": "/home/nishiki/vnpy-ctp/research_outputs/coverage_expansion_2026-10-05/2026-07/k5/run_0001_efe4469c0f8e",
+  "active_process_users_checked": true,
+  "before": {
+    "used_bytes": 5007820084,
+    "free_bytes": 11765825536,
+    "max_bytes": 5368709120,
+    "minimum_free_bytes": 4294967296
+  },
+  "uncompressed_abandoned_temporary_replaced_by_lossless_archive": true,
+  "after": {
+    "used_bytes": 4797795449,
+    "free_bytes": 11975831552,
+    "max_bytes": 5368709120,
+    "minimum_free_bytes": 4294967296
+  }
+}

@@ -1,0 +1,2800 @@
+{
+  "created_at": "2026-10-07T00:09:09.292544+08:00",
+  "kind": "read_only_current_strategy_diagnosis",
+  "sources": [
+    {
+      "path": "/home/nishiki/vnpy-ctp/research_outputs/coverage_expansion_2026-10-05/ordered_opportunity/control/2026-07/run_0001_1aba36425311/config_snapshot.json",
+      "sha256": "7c3160732fe0b137d2f2864b17e75b7fe1ad2df5298c066ae2b983af2215a705",
+      "bytes": 3810250
+    },
+    {
+      "path": "/home/nishiki/vnpy-ctp/research_outputs/coverage_expansion_2026-10-05/ordered_opportunity/control/2026-07/run_0001_1aba36425311/trades.csv.gz",
+      "sha256": "618566cd26d98cfde9ca31214d15413a61269eeb0b840b217cd8a443bdb591d2",
+      "bytes": 4721
+    },
+    {
+      "path": "/home/nishiki/vnpy-ctp/research_outputs/coverage_expansion_2026-10-05/ordered_opportunity/control/2026-07/run_0001_1aba36425311/signals.csv.gz",
+      "sha256": "79969d2bd726e144686369e7e18574638844e156277356712d953c89d57eeb59",
+      "bytes": 7925033
+    },
+    {
+      "path": "/home/nishiki/vnpy-ctp/research_outputs/coverage_expansion_2026-10-05/ordered_opportunity/control/2026-07/run_0001_1aba36425311/independent_ordered_opportunity_audit.json",
+      "sha256": "f222e65c0d750c8cb5733f2f7039f476d9e72b56282c00dd3376853816ae2cc7",
+      "bytes": 30628
+    },
+    {
+      "path": "/home/nishiki/vnpy-ctp/research_outputs/coverage_expansion_2026-10-05/ordered_opportunity/control/2026-08/run_0001_3dad7c4c9503/config_snapshot.json",
+      "sha256": "36f0ba1c6cdc93d9a7ecac64272a73ee2260829706fb50bd7b639d4d3ec18865",
+      "bytes": 3539956
+    },
+    {
+      "path": "/home/nishiki/vnpy-ctp/research_outputs/coverage_expansion_2026-10-05/ordered_opportunity/control/2026-08/run_0001_3dad7c4c9503/trades.csv.gz",
+      "sha256": "0510818b525a8789fd01997a41c25f8984e4704f7764f0c52600e2458544bdd2",
+      "bytes": 31
+    },
+    {
+      "path": "/home/nishiki/vnpy-ctp/research_outputs/coverage_expansion_2026-10-05/ordered_opportunity/control/2026-08/run_0001_3dad7c4c9503/signals.csv.gz",
+      "sha256": "61ab5202272ccae554c9bb773d1a99b9a4e5a56943cc6c324773202b62f27132",
+      "bytes": 7097958
+    },
+    {
+      "path": "/home/nishiki/vnpy-ctp/research_outputs/coverage_expansion_2026-10-05/ordered_opportunity/control/2026-08/run_0001_3dad7c4c9503/independent_ordered_opportunity_audit.json",
+      "sha256": "70a0f0a3dba17fe18fc6f866e14f59000921e43604b0f7e1dea5c6d6c9ab21eb",
+      "bytes": 2331
+    },
+    {
+      "path": "/home/nishiki/vnpy-ctp/research_outputs/coverage_expansion_2026-10-05/ordered_opportunity/control/2026-09/run_0001_09f61aef2939/config_snapshot.json",
+      "sha256": "95377cca13d35e88176de652e1c1128181ac05d7a4ec2b519acc24ea495710d7",
+      "bytes": 1937076
+    },
+    {
+      "path": "/home/nishiki/vnpy-ctp/research_outputs/coverage_expansion_2026-10-05/ordered_opportunity/control/2026-09/run_0001_09f61aef2939/trades.csv.gz",
+      "sha256": "d93b1cb2077497ff52bf65b8b61d5ebe0d043ff1de8fad7ad98a0e9c09985279",
+      "bytes": 3171
+    },
+    {
+      "path": "/home/nishiki/vnpy-ctp/research_outputs/coverage_expansion_2026-10-05/ordered_opportunity/control/2026-09/run_0001_09f61aef2939/signals.csv.gz",
+      "sha256": "fba717b10aa36394a2afb9b6dd1bd6ca8d14765e57bac9da7f4d9fdae0ea36e6",
+      "bytes": 2673419
+    },
+    {
+      "path": "/home/nishiki/vnpy-ctp/research_outputs/coverage_expansion_2026-10-05/ordered_opportunity/control/2026-09/run_0001_09f61aef2939/independent_ordered_opportunity_audit.json",
+      "sha256": "9488b851048ef222af8b43fae4fe9e1aecb80d74938e4f01937e64cd8327009d",
+      "bytes": 31890
+    },
+    {
+      "path": "/home/nishiki/vnpy-ctp/research_outputs/coverage_expansion_2026-10-05/ordered_opportunity/pool/2026-07/run_0001_5a4b273aa447/config_snapshot.json",
+      "sha256": "fcdfd6e5faf40c1b3058398b134df21960ef7626ef34b73603fabf5c96e4672b",
+      "bytes": 3810445
+    },
+    {
+      "path": "/home/nishiki/vnpy-ctp/research_outputs/coverage_expansion_2026-10-05/ordered_opportunity/pool/2026-07/run_0001_5a4b273aa447/trades.csv.gz",
+      "sha256": "8c7ad373e5cb569c02f8d3d16100d703dd63ba1b891c6702345f8b04e04aae44",
+      "bytes": 8806
+    },
+    {
+      "path": "/home/nishiki/vnpy-ctp/research_outputs/coverage_expansion_2026-10-05/ordered_opportunity/pool/2026-07/run_0001_5a4b273aa447/signals.csv.gz",
+      "sha256": "1389a312ac00dd465f0ea1898ed81963bcb6915271546bb7a92c73d16e712546",
+      "bytes": 4822642
+    },
+    {
+      "path": "/home/nishiki/vnpy-ctp/research_outputs/coverage_expansion_2026-10-05/ordered_opportunity/pool/2026-07/run_0001_5a4b273aa447/independent_ordered_opportunity_audit.json",
+      "sha256": "43ec867c9d87faf814db9729b0aa10d31078158a494d8d5f6119a08a69c9d096",
+      "bytes": 72719
+    },
+    {
+      "path": "/home/nishiki/vnpy-ctp/research_outputs/coverage_expansion_2026-10-05/ordered_opportunity/pool/2026-08/run_0001_bc5f0a72200a/config_snapshot.json",
+      "sha256": "1823604cc6db409ea421d0f86f6a4275995b28cc6082f8064e58d3b179370840",
+      "bytes": 3540151
+    },
+    {
+      "path": "/home/nishiki/vnpy-ctp/research_outputs/coverage_expansion_2026-10-05/ordered_opportunity/pool/2026-08/run_0001_bc5f0a72200a/trades.csv.gz",
+      "sha256": "dc4aebae8724c1bc24e0ca287e1beab816578687655bd4a15e6fe0b040181834",
+      "bytes": 4036
+    },
+    {
+      "path": "/home/nishiki/vnpy-ctp/research_outputs/coverage_expansion_2026-10-05/ordered_opportunity/pool/2026-08/run_0001_bc5f0a72200a/signals.csv.gz",
+      "sha256": "ce4b4aa333e832d3a80e45e051801e4f80df678f3651c803b9a42666e08007b0",
+      "bytes": 3681223
+    },
+    {
+      "path": "/home/nishiki/vnpy-ctp/research_outputs/coverage_expansion_2026-10-05/ordered_opportunity/pool/2026-08/run_0001_bc5f0a72200a/independent_ordered_opportunity_audit.json",
+      "sha256": "626b44056a2574f7ce63cea1dd45da6ce6dc40b5aa3a5f8125424c514862219b",
+      "bytes": 11945
+    },
+    {
+      "path": "/home/nishiki/vnpy-ctp/research_outputs/coverage_expansion_2026-10-05/ordered_opportunity/pool/2026-09/run_0001_bb3fa05c9b3e/config_snapshot.json",
+      "sha256": "2fe11f956ab922d51795eb20bec54f62f0677f04b0b63958dad0f3dbf6d7936a",
+      "bytes": 1937271
+    },
+    {
+      "path": "/home/nishiki/vnpy-ctp/research_outputs/coverage_expansion_2026-10-05/ordered_opportunity/pool/2026-09/run_0001_bb3fa05c9b3e/trades.csv.gz",
+      "sha256": "bbacc56dc4a5d58e288b65872fd06180b1da5f124aae74e732256a1754a5df4c",
+      "bytes": 3989
+    },
+    {
+      "path": "/home/nishiki/vnpy-ctp/research_outputs/coverage_expansion_2026-10-05/ordered_opportunity/pool/2026-09/run_0001_bb3fa05c9b3e/signals.csv.gz",
+      "sha256": "587de3f91d213e86c64111ffaffd69ff38f2750022d3a035f5e72dc73f6c4078",
+      "bytes": 1355573
+    },
+    {
+      "path": "/home/nishiki/vnpy-ctp/research_outputs/coverage_expansion_2026-10-05/ordered_opportunity/pool/2026-09/run_0001_bb3fa05c9b3e/independent_ordered_opportunity_audit.json",
+      "sha256": "0aa8f3a4d167672b60306cd531f2f5ab8d35620035d8f45d720c2d7d580e4775",
+      "bytes": 38565
+    },
+    {
+      "path": "/home/nishiki/vnpy-ctp/research_outputs/coverage_expansion_2026-10-05/ordered_opportunity/dual/2026-07/run_0001_ae3193a49caa/config_snapshot.json",
+      "sha256": "8fbe9b0a5f6db1a75a7fd2c8e66c5aec868e7b67203b7eff499c5866ad077cbf",
+      "bytes": 3810610
+    },
+    {
+      "path": "/home/nishiki/vnpy-ctp/research_outputs/coverage_expansion_2026-10-05/ordered_opportunity/dual/2026-07/run_0001_ae3193a49caa/trades.csv.gz",
+      "sha256": "80d8bb40bfb33a84271160e75bbfe32d92a779f604f4982a7652792b2605138e",
+      "bytes": 6137
+    },
+    {
+      "path": "/home/nishiki/vnpy-ctp/research_outputs/coverage_expansion_2026-10-05/ordered_opportunity/dual/2026-07/run_0001_ae3193a49caa/signals.csv.gz",
+      "sha256": "ab86370d16e23d8ba6cb429908d232adfe384c0a3e54f0e77a717c98742eb45a",
+      "bytes": 7937553
+    },
+    {
+      "path": "/home/nishiki/vnpy-ctp/research_outputs/coverage_expansion_2026-10-05/ordered_opportunity/dual/2026-07/run_0001_ae3193a49caa/independent_ordered_opportunity_audit.json",
+      "sha256": "08725cb34e5bd556bf8640a8a5454011c3641e08ffbf2d8f70102c11bf292fd6",
+      "bytes": 38095
+    },
+    {
+      "path": "/home/nishiki/vnpy-ctp/research_outputs/coverage_expansion_2026-10-05/ordered_opportunity/dual/2026-08/run_0001_2285f3b68c8c/config_snapshot.json",
+      "sha256": "32978b22c9e0fdbd0e3bc19d212916ba5f5c1e57cb417001ded1384a3b17bc74",
+      "bytes": 3540316
+    },
+    {
+      "path": "/home/nishiki/vnpy-ctp/research_outputs/coverage_expansion_2026-10-05/ordered_opportunity/dual/2026-08/run_0001_2285f3b68c8c/trades.csv.gz",
+      "sha256": "0510818b525a8789fd01997a41c25f8984e4704f7764f0c52600e2458544bdd2",
+      "bytes": 31
+    },
+    {
+      "path": "/home/nishiki/vnpy-ctp/research_outputs/coverage_expansion_2026-10-05/ordered_opportunity/dual/2026-08/run_0001_2285f3b68c8c/signals.csv.gz",
+      "sha256": "087dbf2f3f902c112dff63d589e4a334c6a7fc955dcb6c272cba78d428258db7",
+      "bytes": 7107290
+    },
+    {
+      "path": "/home/nishiki/vnpy-ctp/research_outputs/coverage_expansion_2026-10-05/ordered_opportunity/dual/2026-08/run_0001_2285f3b68c8c/independent_ordered_opportunity_audit.json",
+      "sha256": "82379a98e45629c2a8c222289aa1e1cb98a895ed25476e1f5216ca9c6666f3b7",
+      "bytes": 2598
+    },
+    {
+      "path": "/home/nishiki/vnpy-ctp/research_outputs/coverage_expansion_2026-10-05/ordered_opportunity/dual/2026-09/run_0001_b5da08dc029f/config_snapshot.json",
+      "sha256": "fd0b50a6a8df289e635f0f855d9c0f4d004d31bf0ca4abdfa0879e5bf2a02589",
+      "bytes": 1937436
+    },
+    {
+      "path": "/home/nishiki/vnpy-ctp/research_outputs/coverage_expansion_2026-10-05/ordered_opportunity/dual/2026-09/run_0001_b5da08dc029f/trades.csv.gz",
+      "sha256": "b945e4c7d44fca9ddbe6f6f4760e33556550c46074d7455119a4d4eca8123f28",
+      "bytes": 3183
+    },
+    {
+      "path": "/home/nishiki/vnpy-ctp/research_outputs/coverage_expansion_2026-10-05/ordered_opportunity/dual/2026-09/run_0001_b5da08dc029f/signals.csv.gz",
+      "sha256": "fecd81319e6989f696ae8e9aee53a1c15f2369ed3f9f174635c9d1f45fde7c6e",
+      "bytes": 2676759
+    },
+    {
+      "path": "/home/nishiki/vnpy-ctp/research_outputs/coverage_expansion_2026-10-05/ordered_opportunity/dual/2026-09/run_0001_b5da08dc029f/independent_ordered_opportunity_audit.json",
+      "sha256": "c2b830e29db12252030551f7c80479efeb6a8959155e756387478651fd3b67a3",
+      "bytes": 32070
+    },
+    {
+      "path": "/home/nishiki/vnpy-ctp/research_outputs/coverage_expansion_2026-10-05/ordered_opportunity/trade_review/review_data.json.gz",
+      "sha256": "c9c219c1149b67264efb1ab74f067f8bc502d4322c36f3d8db1a55c9810f1f86"
+    }
+  ],
+  "scenarios": [
+    {
+      "variant": "control",
+      "month": "2026-07",
+      "directory": "/home/nishiki/vnpy-ctp/research_outputs/coverage_expansion_2026-10-05/ordered_opportunity/control/2026-07/run_0001_1aba36425311",
+      "metrics": {
+        "trade_count": 5,
+        "net_profit": -1805.9524000000674,
+        "max_drawdown": 5135.280000000028,
+        "daily_count": 23
+      },
+      "strategy": {
+        "k": 2,
+        "enable_night": false,
+        "include_night_indicators": false,
+        "require_current_session_15m": true,
+        "entry_mode": "direct",
+        "approximate_vwap": true,
+        "atr_period": 14,
+        "efficiency_min": 0.45,
+        "shock_max": 2.0,
+        "extension_max": 1.5,
+        "pullback_epsilon_ticks": 1,
+        "pullback_epsilon_atr": 0.2,
+        "volume_exit_multiple": 2.5,
+        "ma40_mode": "cross",
+        "ma40_approach_atr": 0.2,
+        "enable_volume_exit": true,
+        "enable_ma40_exit": true,
+        "enable_oi_filter": true,
+        "enable_smooth_filter": true,
+        "enable_multicycle_filter": true,
+        "allow_hold_across_break": true,
+        "cooldown_minutes": 3,
+        "slippage_ticks": 1,
+        "times": {
+          "commodity": {
+            "entry_cutoff": "14:30",
+            "force_close": "14:50"
+          },
+          "index": {
+            "entry_cutoff": "14:30",
+            "force_close": "14:50"
+          },
+          "treasury": {
+            "entry_cutoff": "14:45",
+            "force_close": "15:05"
+          }
+        },
+        "recheck_entry_price": true,
+        "trend_quality": {
+          "min_price_changes": 3,
+          "min_displacement_atr": 1.0,
+          "min_displacement_ticks": 2
+        },
+        "protection_scale": {
+          "atr_multiple": 1.0,
+          "roundtrip_cost_multiple": 2.0
+        },
+        "volume_exit_mode": "weakness",
+        "slope_band": {
+          "min_move_ticks": 1.0,
+          "timeframes": {
+            "1m": {
+              "lookback_bars": 5,
+              "min_atr_per_bar": 0.035684521754350294,
+              "max_atr_per_bar": 0.18062552197464085
+            },
+            "5m": {
+              "lookback_bars": 3,
+              "min_atr_per_bar": 0.039663707360665615,
+              "max_atr_per_bar": 0.20956268210902915
+            }
+          }
+        },
+        "trailing_exit": {
+          "activation": "original_target",
+          "atr_multiple": 2.0
+        },
+        "entry_cost_filter": {
+          "max_cost_atr": 0.5
+        },
+        "breakeven": {
+          "activation_r": 1.0,
+          "include_costs": true
+        },
+        "block_same_day_reentry_after_stop": true
+      },
+      "audit_status": "passed",
+      "signals": {
+        "unit": "完成分钟观察，以及去重的合约/交易日/方向组合；二者都不是独立交易样本",
+        "stages": [
+          {
+            "stage": "全部观察",
+            "observations": 39244,
+            "contract_day_directions": 173
+          },
+          {
+            "stage": "可观察且允许开仓",
+            "observations": 32377,
+            "contract_day_directions": 173
+          },
+          {
+            "stage": "三周期方向",
+            "observations": 4884,
+            "contract_day_directions": 124
+          },
+          {
+            "stage": "价格与即时退出条件",
+            "observations": 2327,
+            "contract_day_directions": 115
+          },
+          {
+            "stage": "净增仓",
+            "observations": 1053,
+            "contract_day_directions": 61
+          },
+          {
+            "stage": "效率、活动、位移与冲击",
+            "observations": 113,
+            "contract_day_directions": 35
+          },
+          {
+            "stage": "1分钟斜率区间",
+            "observations": 47,
+            "contract_day_directions": 23
+          },
+          {
+            "stage": "5分钟斜率区间",
+            "observations": 23,
+            "contract_day_directions": 12
+          },
+          {
+            "stage": "成本",
+            "observations": 18,
+            "contract_day_directions": 10
+          },
+          {
+            "stage": "止损后禁入",
+            "observations": 15,
+            "contract_day_directions": 10
+          },
+          {
+            "stage": "执行资料通过",
+            "observations": 15,
+            "contract_day_directions": 10
+          },
+          {
+            "stage": "触发",
+            "observations": 15,
+            "contract_day_directions": 10
+          },
+          {
+            "stage": "资金通过",
+            "observations": 5,
+            "contract_day_directions": 5
+          },
+          {
+            "stage": "成交",
+            "observations": 5,
+            "contract_day_directions": 5
+          }
+        ],
+        "sole_blocking_group": {
+          "1分钟斜率": {
+            "observations": 12,
+            "contract_day_directions": 4
+          },
+          "5分钟斜率": {
+            "observations": 5,
+            "contract_day_directions": 2
+          },
+          "两周期斜率": {
+            "observations": 29,
+            "contract_day_directions": 9
+          },
+          "净增仓": {
+            "observations": 22,
+            "contract_day_directions": 14
+          },
+          "方向效率": {
+            "observations": 30,
+            "contract_day_directions": 10
+          },
+          "同向位移": {
+            "observations": 0,
+            "contract_day_directions": 0
+          },
+          "成本": {
+            "observations": 2,
+            "contract_day_directions": 1
+          },
+          "效率与位移": {
+            "observations": 86,
+            "contract_day_directions": 13
+          }
+        },
+        "relaxation_note": "只统计其他现有条件已通过的观察；未重放触发、资金、订单或退出，不能解释为新增成交或收益",
+        "capital_rejections": [
+          {
+            "time": "2026-07-13T14:12:00+08:00",
+            "date": "2026-07-13",
+            "contract": "IM2609.CFFEX",
+            "direction": "SHORT",
+            "group": "financial",
+            "risk_rejections": "[\"single_trade_risk\", \"group_margin\"]"
+          },
+          {
+            "time": "2026-07-13T14:13:00+08:00",
+            "date": "2026-07-13",
+            "contract": "IC2609.CFFEX",
+            "direction": "SHORT",
+            "group": "financial",
+            "risk_rejections": "[\"single_trade_risk\", \"group_margin\"]"
+          },
+          {
+            "time": "2026-07-13T14:13:00+08:00",
+            "date": "2026-07-13",
+            "contract": "IM2609.CFFEX",
+            "direction": "SHORT",
+            "group": "financial",
+            "risk_rejections": "[\"single_trade_risk\", \"group_margin\"]"
+          },
+          {
+            "time": "2026-07-13T14:14:00+08:00",
+            "date": "2026-07-13",
+            "contract": "IC2609.CFFEX",
+            "direction": "SHORT",
+            "group": "financial",
+            "risk_rejections": "[\"single_trade_risk\", \"group_margin\"]"
+          },
+          {
+            "time": "2026-07-16T14:16:00+08:00",
+            "date": "2026-07-16",
+            "contract": "IC2609.CFFEX",
+            "direction": "SHORT",
+            "group": "financial",
+            "risk_rejections": "[\"single_trade_risk\", \"group_margin\"]"
+          },
+          {
+            "time": "2026-07-16T14:17:00+08:00",
+            "date": "2026-07-16",
+            "contract": "IM2609.CFFEX",
+            "direction": "SHORT",
+            "group": "financial",
+            "risk_rejections": "[\"single_trade_risk\", \"group_margin\"]"
+          },
+          {
+            "time": "2026-07-16T14:18:00+08:00",
+            "date": "2026-07-16",
+            "contract": "IM2609.CFFEX",
+            "direction": "SHORT",
+            "group": "financial",
+            "risk_rejections": "[\"single_trade_risk\", \"group_margin\"]"
+          },
+          {
+            "time": "2026-07-28T13:51:00+08:00",
+            "date": "2026-07-28",
+            "contract": "IF2609.CFFEX",
+            "direction": "SHORT",
+            "group": "financial",
+            "risk_rejections": "[\"group_margin\"]"
+          },
+          {
+            "time": "2026-07-28T13:52:00+08:00",
+            "date": "2026-07-28",
+            "contract": "IF2609.CFFEX",
+            "direction": "SHORT",
+            "group": "financial",
+            "risk_rejections": "[\"group_margin\"]"
+          },
+          {
+            "time": "2026-07-28T13:53:00+08:00",
+            "date": "2026-07-28",
+            "contract": "IF2609.CFFEX",
+            "direction": "SHORT",
+            "group": "financial",
+            "risk_rejections": "[\"group_margin\"]"
+          }
+        ],
+        "unique_capital_rejected_contract_day_directions": 5
+      },
+      "cancelled_entries": []
+    },
+    {
+      "variant": "control",
+      "month": "2026-08",
+      "directory": "/home/nishiki/vnpy-ctp/research_outputs/coverage_expansion_2026-10-05/ordered_opportunity/control/2026-08/run_0001_3dad7c4c9503",
+      "metrics": {
+        "trade_count": 0,
+        "net_profit": 0.0,
+        "max_drawdown": -0.0,
+        "daily_count": 21
+      },
+      "strategy": {
+        "k": 2,
+        "enable_night": false,
+        "include_night_indicators": false,
+        "require_current_session_15m": true,
+        "entry_mode": "direct",
+        "approximate_vwap": true,
+        "atr_period": 14,
+        "efficiency_min": 0.45,
+        "shock_max": 2.0,
+        "extension_max": 1.5,
+        "pullback_epsilon_ticks": 1,
+        "pullback_epsilon_atr": 0.2,
+        "volume_exit_multiple": 2.5,
+        "ma40_mode": "cross",
+        "ma40_approach_atr": 0.2,
+        "enable_volume_exit": true,
+        "enable_ma40_exit": true,
+        "enable_oi_filter": true,
+        "enable_smooth_filter": true,
+        "enable_multicycle_filter": true,
+        "allow_hold_across_break": true,
+        "cooldown_minutes": 3,
+        "slippage_ticks": 1,
+        "times": {
+          "commodity": {
+            "entry_cutoff": "14:30",
+            "force_close": "14:50"
+          },
+          "index": {
+            "entry_cutoff": "14:30",
+            "force_close": "14:50"
+          },
+          "treasury": {
+            "entry_cutoff": "14:45",
+            "force_close": "15:05"
+          }
+        },
+        "recheck_entry_price": true,
+        "trend_quality": {
+          "min_price_changes": 3,
+          "min_displacement_atr": 1.0,
+          "min_displacement_ticks": 2
+        },
+        "protection_scale": {
+          "atr_multiple": 1.0,
+          "roundtrip_cost_multiple": 2.0
+        },
+        "volume_exit_mode": "weakness",
+        "slope_band": {
+          "min_move_ticks": 1.0,
+          "timeframes": {
+            "1m": {
+              "lookback_bars": 5,
+              "min_atr_per_bar": 0.035684521754350294,
+              "max_atr_per_bar": 0.18062552197464085
+            },
+            "5m": {
+              "lookback_bars": 3,
+              "min_atr_per_bar": 0.039663707360665615,
+              "max_atr_per_bar": 0.20956268210902915
+            }
+          }
+        },
+        "trailing_exit": {
+          "activation": "original_target",
+          "atr_multiple": 2.0
+        },
+        "entry_cost_filter": {
+          "max_cost_atr": 0.5
+        },
+        "breakeven": {
+          "activation_r": 1.0,
+          "include_costs": true
+        },
+        "block_same_day_reentry_after_stop": true
+      },
+      "audit_status": "passed",
+      "signals": {
+        "unit": "完成分钟观察，以及去重的合约/交易日/方向组合；二者都不是独立交易样本",
+        "stages": [
+          {
+            "stage": "全部观察",
+            "observations": 35884,
+            "contract_day_directions": 158
+          },
+          {
+            "stage": "可观察且允许开仓",
+            "observations": 29038,
+            "contract_day_directions": 158
+          },
+          {
+            "stage": "三周期方向",
+            "observations": 4570,
+            "contract_day_directions": 105
+          },
+          {
+            "stage": "价格与即时退出条件",
+            "observations": 2151,
+            "contract_day_directions": 98
+          },
+          {
+            "stage": "净增仓",
+            "observations": 903,
+            "contract_day_directions": 47
+          },
+          {
+            "stage": "效率、活动、位移与冲击",
+            "observations": 101,
+            "contract_day_directions": 31
+          },
+          {
+            "stage": "1分钟斜率区间",
+            "observations": 50,
+            "contract_day_directions": 17
+          },
+          {
+            "stage": "5分钟斜率区间",
+            "observations": 15,
+            "contract_day_directions": 7
+          },
+          {
+            "stage": "成本",
+            "observations": 1,
+            "contract_day_directions": 1
+          },
+          {
+            "stage": "止损后禁入",
+            "observations": 1,
+            "contract_day_directions": 1
+          },
+          {
+            "stage": "执行资料通过",
+            "observations": 1,
+            "contract_day_directions": 1
+          },
+          {
+            "stage": "触发",
+            "observations": 1,
+            "contract_day_directions": 1
+          },
+          {
+            "stage": "资金通过",
+            "observations": 0,
+            "contract_day_directions": 0
+          },
+          {
+            "stage": "成交",
+            "observations": 0,
+            "contract_day_directions": 0
+          }
+        ],
+        "sole_blocking_group": {
+          "1分钟斜率": {
+            "observations": 10,
+            "contract_day_directions": 4
+          },
+          "5分钟斜率": {
+            "observations": 4,
+            "contract_day_directions": 4
+          },
+          "两周期斜率": {
+            "observations": 18,
+            "contract_day_directions": 8
+          },
+          "净增仓": {
+            "observations": 18,
+            "contract_day_directions": 7
+          },
+          "方向效率": {
+            "observations": 11,
+            "contract_day_directions": 6
+          },
+          "同向位移": {
+            "observations": 0,
+            "contract_day_directions": 0
+          },
+          "成本": {
+            "observations": 14,
+            "contract_day_directions": 6
+          },
+          "效率与位移": {
+            "observations": 35,
+            "contract_day_directions": 8
+          }
+        },
+        "relaxation_note": "只统计其他现有条件已通过的观察；未重放触发、资金、订单或退出，不能解释为新增成交或收益",
+        "capital_rejections": [
+          {
+            "time": "2026-08-19T13:51:00+08:00",
+            "date": "2026-08-19",
+            "contract": "IM2609.CFFEX",
+            "direction": "SHORT",
+            "group": "financial",
+            "risk_rejections": "[\"single_trade_risk\", \"group_margin\"]"
+          }
+        ],
+        "unique_capital_rejected_contract_day_directions": 1
+      },
+      "cancelled_entries": []
+    },
+    {
+      "variant": "control",
+      "month": "2026-09",
+      "directory": "/home/nishiki/vnpy-ctp/research_outputs/coverage_expansion_2026-10-05/ordered_opportunity/control/2026-09/run_0001_09f61aef2939",
+      "metrics": {
+        "trade_count": 2,
+        "net_profit": 9346.00319999992,
+        "max_drawdown": 2639.942400000058,
+        "daily_count": 8
+      },
+      "strategy": {
+        "k": 2,
+        "enable_night": false,
+        "include_night_indicators": false,
+        "require_current_session_15m": true,
+        "entry_mode": "direct",
+        "approximate_vwap": true,
+        "atr_period": 14,
+        "efficiency_min": 0.45,
+        "shock_max": 2.0,
+        "extension_max": 1.5,
+        "pullback_epsilon_ticks": 1,
+        "pullback_epsilon_atr": 0.2,
+        "volume_exit_multiple": 2.5,
+        "ma40_mode": "cross",
+        "ma40_approach_atr": 0.2,
+        "enable_volume_exit": true,
+        "enable_ma40_exit": true,
+        "enable_oi_filter": true,
+        "enable_smooth_filter": true,
+        "enable_multicycle_filter": true,
+        "allow_hold_across_break": true,
+        "cooldown_minutes": 3,
+        "slippage_ticks": 1,
+        "times": {
+          "commodity": {
+            "entry_cutoff": "14:30",
+            "force_close": "14:50"
+          },
+          "index": {
+            "entry_cutoff": "14:30",
+            "force_close": "14:50"
+          },
+          "treasury": {
+            "entry_cutoff": "14:45",
+            "force_close": "15:05"
+          }
+        },
+        "recheck_entry_price": true,
+        "trend_quality": {
+          "min_price_changes": 3,
+          "min_displacement_atr": 1.0,
+          "min_displacement_ticks": 2
+        },
+        "protection_scale": {
+          "atr_multiple": 1.0,
+          "roundtrip_cost_multiple": 2.0
+        },
+        "volume_exit_mode": "weakness",
+        "slope_band": {
+          "min_move_ticks": 1.0,
+          "timeframes": {
+            "1m": {
+              "lookback_bars": 5,
+              "min_atr_per_bar": 0.035684521754350294,
+              "max_atr_per_bar": 0.18062552197464085
+            },
+            "5m": {
+              "lookback_bars": 3,
+              "min_atr_per_bar": 0.039663707360665615,
+              "max_atr_per_bar": 0.20956268210902915
+            }
+          }
+        },
+        "trailing_exit": {
+          "activation": "original_target",
+          "atr_multiple": 2.0
+        },
+        "entry_cost_filter": {
+          "max_cost_atr": 0.5
+        },
+        "breakeven": {
+          "activation_r": 1.0,
+          "include_costs": true
+        },
+        "block_same_day_reentry_after_stop": true
+      },
+      "audit_status": "passed",
+      "signals": {
+        "unit": "完成分钟观察，以及去重的合约/交易日/方向组合；二者都不是独立交易样本",
+        "stages": [
+          {
+            "stage": "全部观察",
+            "observations": 14146,
+            "contract_day_directions": 62
+          },
+          {
+            "stage": "可观察且允许开仓",
+            "observations": 11514,
+            "contract_day_directions": 62
+          },
+          {
+            "stage": "三周期方向",
+            "observations": 1229,
+            "contract_day_directions": 38
+          },
+          {
+            "stage": "价格与即时退出条件",
+            "observations": 618,
+            "contract_day_directions": 35
+          },
+          {
+            "stage": "净增仓",
+            "observations": 273,
+            "contract_day_directions": 19
+          },
+          {
+            "stage": "效率、活动、位移与冲击",
+            "observations": 28,
+            "contract_day_directions": 11
+          },
+          {
+            "stage": "1分钟斜率区间",
+            "observations": 14,
+            "contract_day_directions": 8
+          },
+          {
+            "stage": "5分钟斜率区间",
+            "observations": 3,
+            "contract_day_directions": 3
+          },
+          {
+            "stage": "成本",
+            "observations": 3,
+            "contract_day_directions": 3
+          },
+          {
+            "stage": "止损后禁入",
+            "observations": 3,
+            "contract_day_directions": 3
+          },
+          {
+            "stage": "执行资料通过",
+            "observations": 3,
+            "contract_day_directions": 3
+          },
+          {
+            "stage": "触发",
+            "observations": 3,
+            "contract_day_directions": 3
+          },
+          {
+            "stage": "资金通过",
+            "observations": 2,
+            "contract_day_directions": 2
+          },
+          {
+            "stage": "成交",
+            "observations": 2,
+            "contract_day_directions": 2
+          }
+        ],
+        "sole_blocking_group": {
+          "1分钟斜率": {
+            "observations": 2,
+            "contract_day_directions": 2
+          },
+          "5分钟斜率": {
+            "observations": 10,
+            "contract_day_directions": 4
+          },
+          "两周期斜率": {
+            "observations": 13,
+            "contract_day_directions": 5
+          },
+          "净增仓": {
+            "observations": 0,
+            "contract_day_directions": 0
+          },
+          "方向效率": {
+            "observations": 11,
+            "contract_day_directions": 3
+          },
+          "同向位移": {
+            "observations": 0,
+            "contract_day_directions": 0
+          },
+          "成本": {
+            "observations": 0,
+            "contract_day_directions": 0
+          },
+          "效率与位移": {
+            "observations": 21,
+            "contract_day_directions": 4
+          }
+        },
+        "relaxation_note": "只统计其他现有条件已通过的观察；未重放触发、资金、订单或退出，不能解释为新增成交或收益",
+        "capital_rejections": [
+          {
+            "time": "2026-09-18T13:15:00+08:00",
+            "date": "2026-09-18",
+            "contract": "IM2612.CFFEX",
+            "direction": "LONG",
+            "group": "financial",
+            "risk_rejections": "[\"single_trade_risk\", \"group_margin\"]"
+          }
+        ],
+        "unique_capital_rejected_contract_day_directions": 1
+      },
+      "cancelled_entries": []
+    },
+    {
+      "variant": "pool",
+      "month": "2026-07",
+      "directory": "/home/nishiki/vnpy-ctp/research_outputs/coverage_expansion_2026-10-05/ordered_opportunity/pool/2026-07/run_0001_5a4b273aa447",
+      "metrics": {
+        "trade_count": 12,
+        "net_profit": 1726.2101999999722,
+        "max_drawdown": 4514.263099999982,
+        "daily_count": 23
+      },
+      "strategy": {
+        "k": 2,
+        "enable_night": false,
+        "include_night_indicators": false,
+        "require_current_session_15m": true,
+        "entry_mode": "direct",
+        "approximate_vwap": true,
+        "atr_period": 14,
+        "efficiency_min": 0.45,
+        "shock_max": 2.0,
+        "extension_max": 1.5,
+        "pullback_epsilon_ticks": 1,
+        "pullback_epsilon_atr": 0.2,
+        "volume_exit_multiple": 2.5,
+        "ma40_mode": "cross",
+        "ma40_approach_atr": 0.2,
+        "enable_volume_exit": true,
+        "enable_ma40_exit": true,
+        "enable_oi_filter": true,
+        "enable_smooth_filter": true,
+        "enable_multicycle_filter": true,
+        "allow_hold_across_break": true,
+        "cooldown_minutes": 3,
+        "slippage_ticks": 1,
+        "times": {
+          "commodity": {
+            "entry_cutoff": "14:30",
+            "force_close": "14:50"
+          },
+          "index": {
+            "entry_cutoff": "14:30",
+            "force_close": "14:50"
+          },
+          "treasury": {
+            "entry_cutoff": "14:45",
+            "force_close": "15:05"
+          }
+        },
+        "recheck_entry_price": true,
+        "trend_quality": {
+          "min_price_changes": 3,
+          "min_displacement_atr": 1.0,
+          "min_displacement_ticks": 2
+        },
+        "protection_scale": {
+          "atr_multiple": 1.0,
+          "roundtrip_cost_multiple": 2.0
+        },
+        "volume_exit_mode": "weakness",
+        "slope_band": {
+          "min_move_ticks": 1.0,
+          "timeframes": {
+            "1m": {
+              "lookback_bars": 5,
+              "min_atr_per_bar": 0.035684521754350294,
+              "max_atr_per_bar": 0.18062552197464085
+            },
+            "5m": {
+              "lookback_bars": 3,
+              "min_atr_per_bar": 0.039663707360665615,
+              "max_atr_per_bar": 0.20956268210902915
+            }
+          }
+        },
+        "trailing_exit": {
+          "activation": "original_target",
+          "atr_multiple": 2.0
+        },
+        "entry_cost_filter": {
+          "max_cost_atr": 0.5
+        },
+        "breakeven": {
+          "activation_r": 1.0,
+          "include_costs": true
+        },
+        "block_same_day_reentry_after_stop": true,
+        "candidate_pool": {
+          "policy": "executable_affordable_cost",
+          "preserve_original_rank": true,
+          "refresh": "completed_minute",
+          "preserve_held_and_pending_slots": true
+        }
+      },
+      "audit_status": "passed",
+      "signals": {
+        "unit": "完成分钟观察，以及去重的合约/交易日/方向组合；二者都不是独立交易样本",
+        "stages": [
+          {
+            "stage": "全部观察",
+            "observations": 23236,
+            "contract_day_directions": 250
+          },
+          {
+            "stage": "可观察且允许开仓",
+            "observations": 19265,
+            "contract_day_directions": 228
+          },
+          {
+            "stage": "三周期方向",
+            "observations": 3035,
+            "contract_day_directions": 113
+          },
+          {
+            "stage": "价格与即时退出条件",
+            "observations": 1269,
+            "contract_day_directions": 96
+          },
+          {
+            "stage": "净增仓",
+            "observations": 693,
+            "contract_day_directions": 62
+          },
+          {
+            "stage": "效率、活动、位移与冲击",
+            "observations": 72,
+            "contract_day_directions": 31
+          },
+          {
+            "stage": "1分钟斜率区间",
+            "observations": 43,
+            "contract_day_directions": 24
+          },
+          {
+            "stage": "5分钟斜率区间",
+            "observations": 20,
+            "contract_day_directions": 13
+          },
+          {
+            "stage": "成本",
+            "observations": 20,
+            "contract_day_directions": 13
+          },
+          {
+            "stage": "止损后禁入",
+            "observations": 16,
+            "contract_day_directions": 13
+          },
+          {
+            "stage": "执行资料通过",
+            "observations": 16,
+            "contract_day_directions": 13
+          },
+          {
+            "stage": "触发",
+            "observations": 15,
+            "contract_day_directions": 13
+          },
+          {
+            "stage": "资金通过",
+            "observations": 15,
+            "contract_day_directions": 13
+          },
+          {
+            "stage": "成交",
+            "observations": 12,
+            "contract_day_directions": 12
+          }
+        ],
+        "sole_blocking_group": {
+          "1分钟斜率": {
+            "observations": 12,
+            "contract_day_directions": 7
+          },
+          "5分钟斜率": {
+            "observations": 23,
+            "contract_day_directions": 12
+          },
+          "两周期斜率": {
+            "observations": 52,
+            "contract_day_directions": 23
+          },
+          "净增仓": {
+            "observations": 12,
+            "contract_day_directions": 9
+          },
+          "方向效率": {
+            "observations": 45,
+            "contract_day_directions": 21
+          },
+          "同向位移": {
+            "observations": 0,
+            "contract_day_directions": 0
+          },
+          "成本": {
+            "observations": 0,
+            "contract_day_directions": 0
+          },
+          "效率与位移": {
+            "observations": 118,
+            "contract_day_directions": 32
+          }
+        },
+        "relaxation_note": "只统计其他现有条件已通过的观察；未重放触发、资金、订单或退出，不能解释为新增成交或收益",
+        "capital_rejections": [],
+        "unique_capital_rejected_contract_day_directions": 0
+      },
+      "cancelled_entries": [
+        {
+          "accepted": "False",
+          "action": "entry_cancelled",
+          "atr_previous": "19.163398101481064",
+          "continuous_boundary": "15038.154902847778",
+          "contract": "ag2608.SHFE",
+          "direction": "SHORT",
+          "extension_max": "1.5",
+          "ma20": "15066.9",
+          "matching": "next_available_open_or_cancel",
+          "modeled_price": "15038",
+          "modeled_price_limit": "15039.0",
+          "opening_time": "2026-07-06T14:05:00+08:00",
+          "raw_open": "15039.0",
+          "raw_open_price_limit": "15040.0",
+          "reason": "fill_price_recheck",
+          "signal_time": "2026-07-06T14:05:00+08:00",
+          "tick_size": "1.0",
+          "time": "2026-07-06T14:05:00+08:00"
+        },
+        {
+          "accepted": "False",
+          "action": "entry_cancelled",
+          "atr_previous": "6.0830789624255",
+          "continuous_boundary": "10020.474618443639",
+          "contract": "OI609.CZCE",
+          "direction": "LONG",
+          "extension_max": "1.5",
+          "ma20": "10011.35",
+          "matching": "next_available_open_or_cancel",
+          "modeled_price": "10021",
+          "modeled_price_limit": "10020.0",
+          "opening_time": "2026-07-16T14:12:00+08:00",
+          "raw_open": "10020.0",
+          "raw_open_price_limit": "10019.0",
+          "reason": "fill_price_recheck",
+          "signal_time": "2026-07-16T14:12:00+08:00",
+          "tick_size": "1.0",
+          "time": "2026-07-16T14:12:00+08:00"
+        },
+        {
+          "accepted": "False",
+          "action": "entry_cancelled",
+          "atr_previous": "5.986057097790361",
+          "continuous_boundary": "10157.179085646685",
+          "contract": "OI609.CZCE",
+          "direction": "LONG",
+          "extension_max": "1.5",
+          "ma20": "10148.2",
+          "matching": "next_available_open_or_cancel",
+          "modeled_price": "10158",
+          "modeled_price_limit": "10157.0",
+          "opening_time": "2026-07-23T14:29:00+08:00",
+          "raw_open": "10157.0",
+          "raw_open_price_limit": "10156.0",
+          "reason": "fill_price_recheck",
+          "signal_time": "2026-07-23T14:29:00+08:00",
+          "tick_size": "1.0",
+          "time": "2026-07-23T14:29:00+08:00"
+        }
+      ]
+    },
+    {
+      "variant": "pool",
+      "month": "2026-08",
+      "directory": "/home/nishiki/vnpy-ctp/research_outputs/coverage_expansion_2026-10-05/ordered_opportunity/pool/2026-08/run_0001_bc5f0a72200a",
+      "metrics": {
+        "trade_count": 4,
+        "net_profit": -5712.812299999874,
+        "max_drawdown": 5712.812299999874,
+        "daily_count": 21
+      },
+      "strategy": {
+        "k": 2,
+        "enable_night": false,
+        "include_night_indicators": false,
+        "require_current_session_15m": true,
+        "entry_mode": "direct",
+        "approximate_vwap": true,
+        "atr_period": 14,
+        "efficiency_min": 0.45,
+        "shock_max": 2.0,
+        "extension_max": 1.5,
+        "pullback_epsilon_ticks": 1,
+        "pullback_epsilon_atr": 0.2,
+        "volume_exit_multiple": 2.5,
+        "ma40_mode": "cross",
+        "ma40_approach_atr": 0.2,
+        "enable_volume_exit": true,
+        "enable_ma40_exit": true,
+        "enable_oi_filter": true,
+        "enable_smooth_filter": true,
+        "enable_multicycle_filter": true,
+        "allow_hold_across_break": true,
+        "cooldown_minutes": 3,
+        "slippage_ticks": 1,
+        "times": {
+          "commodity": {
+            "entry_cutoff": "14:30",
+            "force_close": "14:50"
+          },
+          "index": {
+            "entry_cutoff": "14:30",
+            "force_close": "14:50"
+          },
+          "treasury": {
+            "entry_cutoff": "14:45",
+            "force_close": "15:05"
+          }
+        },
+        "recheck_entry_price": true,
+        "trend_quality": {
+          "min_price_changes": 3,
+          "min_displacement_atr": 1.0,
+          "min_displacement_ticks": 2
+        },
+        "protection_scale": {
+          "atr_multiple": 1.0,
+          "roundtrip_cost_multiple": 2.0
+        },
+        "volume_exit_mode": "weakness",
+        "slope_band": {
+          "min_move_ticks": 1.0,
+          "timeframes": {
+            "1m": {
+              "lookback_bars": 5,
+              "min_atr_per_bar": 0.035684521754350294,
+              "max_atr_per_bar": 0.18062552197464085
+            },
+            "5m": {
+              "lookback_bars": 3,
+              "min_atr_per_bar": 0.039663707360665615,
+              "max_atr_per_bar": 0.20956268210902915
+            }
+          }
+        },
+        "trailing_exit": {
+          "activation": "original_target",
+          "atr_multiple": 2.0
+        },
+        "entry_cost_filter": {
+          "max_cost_atr": 0.5
+        },
+        "breakeven": {
+          "activation_r": 1.0,
+          "include_costs": true
+        },
+        "block_same_day_reentry_after_stop": true,
+        "candidate_pool": {
+          "policy": "executable_affordable_cost",
+          "preserve_original_rank": true,
+          "refresh": "completed_minute",
+          "preserve_held_and_pending_slots": true
+        }
+      },
+      "audit_status": "passed",
+      "signals": {
+        "unit": "完成分钟观察，以及去重的合约/交易日/方向组合；二者都不是独立交易样本",
+        "stages": [
+          {
+            "stage": "全部观察",
+            "observations": 18125,
+            "contract_day_directions": 235
+          },
+          {
+            "stage": "可观察且允许开仓",
+            "observations": 14971,
+            "contract_day_directions": 217
+          },
+          {
+            "stage": "三周期方向",
+            "observations": 2110,
+            "contract_day_directions": 99
+          },
+          {
+            "stage": "价格与即时退出条件",
+            "observations": 930,
+            "contract_day_directions": 82
+          },
+          {
+            "stage": "净增仓",
+            "observations": 574,
+            "contract_day_directions": 56
+          },
+          {
+            "stage": "效率、活动、位移与冲击",
+            "observations": 63,
+            "contract_day_directions": 30
+          },
+          {
+            "stage": "1分钟斜率区间",
+            "observations": 30,
+            "contract_day_directions": 22
+          },
+          {
+            "stage": "5分钟斜率区间",
+            "observations": 7,
+            "contract_day_directions": 6
+          },
+          {
+            "stage": "成本",
+            "observations": 7,
+            "contract_day_directions": 6
+          },
+          {
+            "stage": "止损后禁入",
+            "observations": 7,
+            "contract_day_directions": 6
+          },
+          {
+            "stage": "执行资料通过",
+            "observations": 7,
+            "contract_day_directions": 6
+          },
+          {
+            "stage": "触发",
+            "observations": 6,
+            "contract_day_directions": 6
+          },
+          {
+            "stage": "资金通过",
+            "observations": 6,
+            "contract_day_directions": 6
+          },
+          {
+            "stage": "成交",
+            "observations": 4,
+            "contract_day_directions": 4
+          }
+        ],
+        "sole_blocking_group": {
+          "1分钟斜率": {
+            "observations": 20,
+            "contract_day_directions": 9
+          },
+          "5分钟斜率": {
+            "observations": 23,
+            "contract_day_directions": 16
+          },
+          "两周期斜率": {
+            "observations": 56,
+            "contract_day_directions": 26
+          },
+          "净增仓": {
+            "observations": 4,
+            "contract_day_directions": 4
+          },
+          "方向效率": {
+            "observations": 41,
+            "contract_day_directions": 20
+          },
+          "同向位移": {
+            "observations": 0,
+            "contract_day_directions": 0
+          },
+          "成本": {
+            "observations": 0,
+            "contract_day_directions": 0
+          },
+          "效率与位移": {
+            "observations": 107,
+            "contract_day_directions": 25
+          }
+        },
+        "relaxation_note": "只统计其他现有条件已通过的观察；未重放触发、资金、订单或退出，不能解释为新增成交或收益",
+        "capital_rejections": [],
+        "unique_capital_rejected_contract_day_directions": 0
+      },
+      "cancelled_entries": [
+        {
+          "accepted": "False",
+          "action": "entry_cancelled",
+          "atr_previous": "5.080582341019261",
+          "continuous_boundary": "7379.170873511529",
+          "contract": "PL611.CZCE",
+          "direction": "LONG",
+          "extension_max": "1.5",
+          "ma20": "7371.55",
+          "matching": "next_available_open_or_cancel",
+          "modeled_price": "7380",
+          "modeled_price_limit": "7379.0",
+          "opening_time": "2026-08-12T10:08:00+08:00",
+          "raw_open": "7379.0",
+          "raw_open_price_limit": "7378.0",
+          "reason": "fill_price_recheck",
+          "signal_time": "2026-08-12T10:08:00+08:00",
+          "tick_size": "1.0",
+          "time": "2026-08-12T10:08:00+08:00"
+        },
+        {
+          "accepted": "False",
+          "action": "entry_cancelled",
+          "atr_previous": "9.317383743510465",
+          "continuous_boundary": "7740.526075615266",
+          "contract": "PL611.CZCE",
+          "direction": "LONG",
+          "extension_max": "1.5",
+          "ma20": "7726.55",
+          "matching": "next_available_open_or_cancel",
+          "modeled_price": "7741",
+          "modeled_price_limit": "7740.0",
+          "opening_time": "2026-08-18T09:45:00+08:00",
+          "raw_open": "7740.0",
+          "raw_open_price_limit": "7739.0",
+          "reason": "fill_price_recheck",
+          "signal_time": "2026-08-18T09:45:00+08:00",
+          "tick_size": "1.0",
+          "time": "2026-08-18T09:45:00+08:00"
+        }
+      ]
+    },
+    {
+      "variant": "pool",
+      "month": "2026-09",
+      "directory": "/home/nishiki/vnpy-ctp/research_outputs/coverage_expansion_2026-10-05/ordered_opportunity/pool/2026-09/run_0001_bb3fa05c9b3e",
+      "metrics": {
+        "trade_count": 3,
+        "net_profit": 7602.303199999966,
+        "max_drawdown": 2639.942400000058,
+        "daily_count": 8
+      },
+      "strategy": {
+        "k": 2,
+        "enable_night": false,
+        "include_night_indicators": false,
+        "require_current_session_15m": true,
+        "entry_mode": "direct",
+        "approximate_vwap": true,
+        "atr_period": 14,
+        "efficiency_min": 0.45,
+        "shock_max": 2.0,
+        "extension_max": 1.5,
+        "pullback_epsilon_ticks": 1,
+        "pullback_epsilon_atr": 0.2,
+        "volume_exit_multiple": 2.5,
+        "ma40_mode": "cross",
+        "ma40_approach_atr": 0.2,
+        "enable_volume_exit": true,
+        "enable_ma40_exit": true,
+        "enable_oi_filter": true,
+        "enable_smooth_filter": true,
+        "enable_multicycle_filter": true,
+        "allow_hold_across_break": true,
+        "cooldown_minutes": 3,
+        "slippage_ticks": 1,
+        "times": {
+          "commodity": {
+            "entry_cutoff": "14:30",
+            "force_close": "14:50"
+          },
+          "index": {
+            "entry_cutoff": "14:30",
+            "force_close": "14:50"
+          },
+          "treasury": {
+            "entry_cutoff": "14:45",
+            "force_close": "15:05"
+          }
+        },
+        "recheck_entry_price": true,
+        "trend_quality": {
+          "min_price_changes": 3,
+          "min_displacement_atr": 1.0,
+          "min_displacement_ticks": 2
+        },
+        "protection_scale": {
+          "atr_multiple": 1.0,
+          "roundtrip_cost_multiple": 2.0
+        },
+        "volume_exit_mode": "weakness",
+        "slope_band": {
+          "min_move_ticks": 1.0,
+          "timeframes": {
+            "1m": {
+              "lookback_bars": 5,
+              "min_atr_per_bar": 0.035684521754350294,
+              "max_atr_per_bar": 0.18062552197464085
+            },
+            "5m": {
+              "lookback_bars": 3,
+              "min_atr_per_bar": 0.039663707360665615,
+              "max_atr_per_bar": 0.20956268210902915
+            }
+          }
+        },
+        "trailing_exit": {
+          "activation": "original_target",
+          "atr_multiple": 2.0
+        },
+        "entry_cost_filter": {
+          "max_cost_atr": 0.5
+        },
+        "breakeven": {
+          "activation_r": 1.0,
+          "include_costs": true
+        },
+        "block_same_day_reentry_after_stop": true,
+        "candidate_pool": {
+          "policy": "executable_affordable_cost",
+          "preserve_original_rank": true,
+          "refresh": "completed_minute",
+          "preserve_held_and_pending_slots": true
+        }
+      },
+      "audit_status": "passed",
+      "signals": {
+        "unit": "完成分钟观察，以及去重的合约/交易日/方向组合；二者都不是独立交易样本",
+        "stages": [
+          {
+            "stage": "全部观察",
+            "observations": 6680,
+            "contract_day_directions": 57
+          },
+          {
+            "stage": "可观察且允许开仓",
+            "observations": 5473,
+            "contract_day_directions": 48
+          },
+          {
+            "stage": "三周期方向",
+            "observations": 794,
+            "contract_day_directions": 28
+          },
+          {
+            "stage": "价格与即时退出条件",
+            "observations": 300,
+            "contract_day_directions": 24
+          },
+          {
+            "stage": "净增仓",
+            "observations": 216,
+            "contract_day_directions": 17
+          },
+          {
+            "stage": "效率、活动、位移与冲击",
+            "observations": 23,
+            "contract_day_directions": 11
+          },
+          {
+            "stage": "1分钟斜率区间",
+            "observations": 16,
+            "contract_day_directions": 9
+          },
+          {
+            "stage": "5分钟斜率区间",
+            "observations": 3,
+            "contract_day_directions": 3
+          },
+          {
+            "stage": "成本",
+            "observations": 3,
+            "contract_day_directions": 3
+          },
+          {
+            "stage": "止损后禁入",
+            "observations": 3,
+            "contract_day_directions": 3
+          },
+          {
+            "stage": "执行资料通过",
+            "observations": 3,
+            "contract_day_directions": 3
+          },
+          {
+            "stage": "触发",
+            "observations": 3,
+            "contract_day_directions": 3
+          },
+          {
+            "stage": "资金通过",
+            "observations": 3,
+            "contract_day_directions": 3
+          },
+          {
+            "stage": "成交",
+            "observations": 3,
+            "contract_day_directions": 3
+          }
+        ],
+        "sole_blocking_group": {
+          "1分钟斜率": {
+            "observations": 2,
+            "contract_day_directions": 2
+          },
+          "5分钟斜率": {
+            "observations": 13,
+            "contract_day_directions": 6
+          },
+          "两周期斜率": {
+            "observations": 20,
+            "contract_day_directions": 9
+          },
+          "净增仓": {
+            "observations": 4,
+            "contract_day_directions": 2
+          },
+          "方向效率": {
+            "observations": 15,
+            "contract_day_directions": 5
+          },
+          "同向位移": {
+            "observations": 0,
+            "contract_day_directions": 0
+          },
+          "成本": {
+            "observations": 0,
+            "contract_day_directions": 0
+          },
+          "效率与位移": {
+            "observations": 31,
+            "contract_day_directions": 8
+          }
+        },
+        "relaxation_note": "只统计其他现有条件已通过的观察；未重放触发、资金、订单或退出，不能解释为新增成交或收益",
+        "capital_rejections": [],
+        "unique_capital_rejected_contract_day_directions": 0
+      },
+      "cancelled_entries": []
+    },
+    {
+      "variant": "dual",
+      "month": "2026-07",
+      "directory": "/home/nishiki/vnpy-ctp/research_outputs/coverage_expansion_2026-10-05/ordered_opportunity/dual/2026-07/run_0001_ae3193a49caa",
+      "metrics": {
+        "trade_count": 7,
+        "net_profit": -3391.2994000001345,
+        "max_drawdown": 5289.601000000141,
+        "daily_count": 23
+      },
+      "strategy": {
+        "k": 2,
+        "enable_night": false,
+        "include_night_indicators": false,
+        "require_current_session_15m": true,
+        "entry_mode": "direct",
+        "approximate_vwap": true,
+        "atr_period": 14,
+        "efficiency_min": 0.45,
+        "shock_max": 2.0,
+        "extension_max": 1.5,
+        "pullback_epsilon_ticks": 1,
+        "pullback_epsilon_atr": 0.2,
+        "volume_exit_multiple": 2.5,
+        "ma40_mode": "cross",
+        "ma40_approach_atr": 0.2,
+        "enable_volume_exit": true,
+        "enable_ma40_exit": true,
+        "enable_oi_filter": true,
+        "enable_smooth_filter": true,
+        "enable_multicycle_filter": true,
+        "allow_hold_across_break": true,
+        "cooldown_minutes": 3,
+        "slippage_ticks": 1,
+        "times": {
+          "commodity": {
+            "entry_cutoff": "14:30",
+            "force_close": "14:50"
+          },
+          "index": {
+            "entry_cutoff": "14:30",
+            "force_close": "14:50"
+          },
+          "treasury": {
+            "entry_cutoff": "14:45",
+            "force_close": "15:05"
+          }
+        },
+        "recheck_entry_price": true,
+        "trend_quality": {
+          "min_price_changes": 3,
+          "min_displacement_atr": 1.0,
+          "min_displacement_ticks": 2
+        },
+        "protection_scale": {
+          "atr_multiple": 1.0,
+          "roundtrip_cost_multiple": 2.0
+        },
+        "volume_exit_mode": "weakness",
+        "slope_band": {
+          "min_move_ticks": 1.0,
+          "timeframes": {
+            "1m": {
+              "lookback_bars": 5,
+              "min_atr_per_bar": 0.035684521754350294,
+              "max_atr_per_bar": 0.18062552197464085
+            },
+            "5m": {
+              "lookback_bars": 3,
+              "min_atr_per_bar": 0.039663707360665615,
+              "max_atr_per_bar": 0.20956268210902915
+            }
+          }
+        },
+        "trailing_exit": {
+          "activation": "original_target",
+          "atr_multiple": 2.0
+        },
+        "entry_cost_filter": {
+          "max_cost_atr": 0.5
+        },
+        "breakeven": {
+          "activation_r": 1.0,
+          "include_costs": true
+        },
+        "block_same_day_reentry_after_stop": true,
+        "trend_entry": {
+          "quality_minutes": 5,
+          "valid_minutes": 5,
+          "require_touch_after_armed": true,
+          "cancel_on_invalid_higher_trend": true,
+          "efficiency_min": 0.45,
+          "remove_low_period_slope_gate": true
+        },
+        "dual_entry": {
+          "priority": "direct",
+          "shared_capital": true,
+          "consume_pullback_once": true
+        }
+      },
+      "audit_status": "passed",
+      "cancelled_entries": []
+    },
+    {
+      "variant": "dual",
+      "month": "2026-08",
+      "directory": "/home/nishiki/vnpy-ctp/research_outputs/coverage_expansion_2026-10-05/ordered_opportunity/dual/2026-08/run_0001_2285f3b68c8c",
+      "metrics": {
+        "trade_count": 0,
+        "net_profit": 0.0,
+        "max_drawdown": -0.0,
+        "daily_count": 21
+      },
+      "strategy": {
+        "k": 2,
+        "enable_night": false,
+        "include_night_indicators": false,
+        "require_current_session_15m": true,
+        "entry_mode": "direct",
+        "approximate_vwap": true,
+        "atr_period": 14,
+        "efficiency_min": 0.45,
+        "shock_max": 2.0,
+        "extension_max": 1.5,
+        "pullback_epsilon_ticks": 1,
+        "pullback_epsilon_atr": 0.2,
+        "volume_exit_multiple": 2.5,
+        "ma40_mode": "cross",
+        "ma40_approach_atr": 0.2,
+        "enable_volume_exit": true,
+        "enable_ma40_exit": true,
+        "enable_oi_filter": true,
+        "enable_smooth_filter": true,
+        "enable_multicycle_filter": true,
+        "allow_hold_across_break": true,
+        "cooldown_minutes": 3,
+        "slippage_ticks": 1,
+        "times": {
+          "commodity": {
+            "entry_cutoff": "14:30",
+            "force_close": "14:50"
+          },
+          "index": {
+            "entry_cutoff": "14:30",
+            "force_close": "14:50"
+          },
+          "treasury": {
+            "entry_cutoff": "14:45",
+            "force_close": "15:05"
+          }
+        },
+        "recheck_entry_price": true,
+        "trend_quality": {
+          "min_price_changes": 3,
+          "min_displacement_atr": 1.0,
+          "min_displacement_ticks": 2
+        },
+        "protection_scale": {
+          "atr_multiple": 1.0,
+          "roundtrip_cost_multiple": 2.0
+        },
+        "volume_exit_mode": "weakness",
+        "slope_band": {
+          "min_move_ticks": 1.0,
+          "timeframes": {
+            "1m": {
+              "lookback_bars": 5,
+              "min_atr_per_bar": 0.035684521754350294,
+              "max_atr_per_bar": 0.18062552197464085
+            },
+            "5m": {
+              "lookback_bars": 3,
+              "min_atr_per_bar": 0.039663707360665615,
+              "max_atr_per_bar": 0.20956268210902915
+            }
+          }
+        },
+        "trailing_exit": {
+          "activation": "original_target",
+          "atr_multiple": 2.0
+        },
+        "entry_cost_filter": {
+          "max_cost_atr": 0.5
+        },
+        "breakeven": {
+          "activation_r": 1.0,
+          "include_costs": true
+        },
+        "block_same_day_reentry_after_stop": true,
+        "trend_entry": {
+          "quality_minutes": 5,
+          "valid_minutes": 5,
+          "require_touch_after_armed": true,
+          "cancel_on_invalid_higher_trend": true,
+          "efficiency_min": 0.45,
+          "remove_low_period_slope_gate": true
+        },
+        "dual_entry": {
+          "priority": "direct",
+          "shared_capital": true,
+          "consume_pullback_once": true
+        }
+      },
+      "audit_status": "passed",
+      "cancelled_entries": [
+        {
+          "accepted": "False",
+          "action": "entry_cancelled",
+          "atr_previous": "4.325583402071479",
+          "continuous_boundary": "3531.1883751031073",
+          "contract": "fu2611.SHFE",
+          "direction": "LONG",
+          "extension_max": "1.5",
+          "ma20": "3524.7",
+          "matching": "next_available_open_or_cancel",
+          "modeled_price": "3532",
+          "modeled_price_limit": "3531.0",
+          "opening_time": "2026-08-14T11:19:00+08:00",
+          "raw_open": "3531.0",
+          "raw_open_price_limit": "3530.0",
+          "reason": "fill_price_recheck",
+          "signal_time": "2026-08-14T11:19:00+08:00",
+          "tick_size": "1.0",
+          "time": "2026-08-14T11:19:00+08:00"
+        }
+      ]
+    },
+    {
+      "variant": "dual",
+      "month": "2026-09",
+      "directory": "/home/nishiki/vnpy-ctp/research_outputs/coverage_expansion_2026-10-05/ordered_opportunity/dual/2026-09/run_0001_b5da08dc029f",
+      "metrics": {
+        "trade_count": 2,
+        "net_profit": 9346.00319999992,
+        "max_drawdown": 2639.942400000058,
+        "daily_count": 8
+      },
+      "strategy": {
+        "k": 2,
+        "enable_night": false,
+        "include_night_indicators": false,
+        "require_current_session_15m": true,
+        "entry_mode": "direct",
+        "approximate_vwap": true,
+        "atr_period": 14,
+        "efficiency_min": 0.45,
+        "shock_max": 2.0,
+        "extension_max": 1.5,
+        "pullback_epsilon_ticks": 1,
+        "pullback_epsilon_atr": 0.2,
+        "volume_exit_multiple": 2.5,
+        "ma40_mode": "cross",
+        "ma40_approach_atr": 0.2,
+        "enable_volume_exit": true,
+        "enable_ma40_exit": true,
+        "enable_oi_filter": true,
+        "enable_smooth_filter": true,
+        "enable_multicycle_filter": true,
+        "allow_hold_across_break": true,
+        "cooldown_minutes": 3,
+        "slippage_ticks": 1,
+        "times": {
+          "commodity": {
+            "entry_cutoff": "14:30",
+            "force_close": "14:50"
+          },
+          "index": {
+            "entry_cutoff": "14:30",
+            "force_close": "14:50"
+          },
+          "treasury": {
+            "entry_cutoff": "14:45",
+            "force_close": "15:05"
+          }
+        },
+        "recheck_entry_price": true,
+        "trend_quality": {
+          "min_price_changes": 3,
+          "min_displacement_atr": 1.0,
+          "min_displacement_ticks": 2
+        },
+        "protection_scale": {
+          "atr_multiple": 1.0,
+          "roundtrip_cost_multiple": 2.0
+        },
+        "volume_exit_mode": "weakness",
+        "slope_band": {
+          "min_move_ticks": 1.0,
+          "timeframes": {
+            "1m": {
+              "lookback_bars": 5,
+              "min_atr_per_bar": 0.035684521754350294,
+              "max_atr_per_bar": 0.18062552197464085
+            },
+            "5m": {
+              "lookback_bars": 3,
+              "min_atr_per_bar": 0.039663707360665615,
+              "max_atr_per_bar": 0.20956268210902915
+            }
+          }
+        },
+        "trailing_exit": {
+          "activation": "original_target",
+          "atr_multiple": 2.0
+        },
+        "entry_cost_filter": {
+          "max_cost_atr": 0.5
+        },
+        "breakeven": {
+          "activation_r": 1.0,
+          "include_costs": true
+        },
+        "block_same_day_reentry_after_stop": true,
+        "trend_entry": {
+          "quality_minutes": 5,
+          "valid_minutes": 5,
+          "require_touch_after_armed": true,
+          "cancel_on_invalid_higher_trend": true,
+          "efficiency_min": 0.45,
+          "remove_low_period_slope_gate": true
+        },
+        "dual_entry": {
+          "priority": "direct",
+          "shared_capital": true,
+          "consume_pullback_once": true
+        }
+      },
+      "audit_status": "passed",
+      "cancelled_entries": []
+    }
+  ],
+  "totals": {
+    "control": {
+      "trades": 7,
+      "net": 7540.0508,
+      "without_best_trade": 341.14519999999993,
+      "without_best_two_trades": -1805.9523999999992,
+      "days_with_trade": 7,
+      "best_trade_share_of_net": 0.9547555833443456,
+      "month_net": {
+        "2026-07": -1805.9524000000674,
+        "2026-08": 0.0,
+        "2026-09": 9346.00319999992
+      }
+    },
+    "pool": {
+      "trades": 19,
+      "net": 3615.7011,
+      "without_best_trade": -3583.2045,
+      "without_best_two_trades": -7935.2045,
+      "days_with_trade": 18,
+      "best_trade_share_of_net": 1.9910123654856315,
+      "month_net": {
+        "2026-07": 1726.2101999999722,
+        "2026-08": -5712.812299999874,
+        "2026-09": 7602.303199999966
+      }
+    },
+    "dual": {
+      "trades": 9,
+      "net": 5954.7038,
+      "without_best_trade": -1244.2017999999998,
+      "without_best_two_trades": -3391.299399999999,
+      "days_with_trade": 7,
+      "best_trade_share_of_net": 1.2089443642855922,
+      "month_net": {
+        "2026-07": -3391.2994000001345,
+        "2026-08": 0.0,
+        "2026-09": 9346.00319999992
+      }
+    }
+  },
+  "trade_scale": [
+    {
+      "variant": "control",
+      "month": "2026-07",
+      "contract": "PX609.CZCE",
+      "direction": "SHORT",
+      "entry_time": "2026-07-02T11:20:00+08:00",
+      "entry_signal_time": "2026-07-02T11:20:00+08:00",
+      "exit_time": "2026-07-02T11:28:00+08:00",
+      "exit_reason": "breakeven_stop",
+      "holding_minutes": 8.0,
+      "net_pnl": 133.266,
+      "entry_channel": "direct",
+      "entry_price": 7308.0,
+      "stop_price": 7322.0,
+      "stop_distance": 14.0,
+      "atr_1m_previous": 10.842737031616455,
+      "atr_5m_previous": 28.260953092184295,
+      "atr_5m_source_end": "2026-07-02T11:20:00+08:00",
+      "stop_atr_5m": 0.49538315124523413,
+      "verified_favorable_initial_r": 1.2857142857142858,
+      "intrabar_exit_extrema_excluded": true
+    },
+    {
+      "variant": "control",
+      "month": "2026-07",
+      "contract": "PL609.CZCE",
+      "direction": "LONG",
+      "entry_time": "2026-07-14T14:26:00+08:00",
+      "entry_signal_time": "2026-07-14T14:26:00+08:00",
+      "exit_time": "2026-07-14T14:31:00+08:00",
+      "exit_reason": "breakeven_stop",
+      "holding_minutes": 5.0,
+      "net_pnl": 119.0,
+      "entry_channel": "direct",
+      "entry_price": 7568.0,
+      "stop_price": 7556.0,
+      "stop_distance": 12.0,
+      "atr_1m_previous": 8.287204832591827,
+      "atr_5m_previous": 25.986301584266187,
+      "atr_5m_source_end": "2026-07-14T14:25:00+08:00",
+      "stop_atr_5m": 0.46178175686476247,
+      "verified_favorable_initial_r": 1.75,
+      "intrabar_exit_extrema_excluded": true
+    },
+    {
+      "variant": "control",
+      "month": "2026-07",
+      "contract": "ni2609.SHFE",
+      "direction": "SHORT",
+      "entry_time": "2026-07-17T13:59:00+08:00",
+      "entry_signal_time": "2026-07-17T13:59:00+08:00",
+      "exit_time": "2026-07-17T14:03:00+08:00",
+      "exit_reason": "fixed_stop",
+      "holding_minutes": 4.0,
+      "net_pnl": -1314.0,
+      "entry_channel": "direct",
+      "entry_price": 128680.0,
+      "stop_price": 128810.0,
+      "stop_distance": 130.0,
+      "atr_1m_previous": 125.82078980803115,
+      "atr_5m_previous": 335.5230534392905,
+      "atr_5m_source_end": "2026-07-17T13:55:00+08:00",
+      "stop_atr_5m": 0.38745474764678783,
+      "verified_favorable_initial_r": 0.07692307692307693,
+      "intrabar_exit_extrema_excluded": true
+    },
+    {
+      "variant": "control",
+      "month": "2026-07",
+      "contract": "lc2609.GFEX",
+      "direction": "LONG",
+      "entry_time": "2026-07-27T14:06:00+08:00",
+      "entry_signal_time": "2026-07-27T14:06:00+08:00",
+      "exit_time": "2026-07-27T14:15:00+08:00",
+      "exit_reason": "fixed_stop",
+      "holding_minutes": 9.0,
+      "net_pnl": -1721.2800000000002,
+      "entry_channel": "direct",
+      "entry_price": 146740.0,
+      "stop_price": 146400.0,
+      "stop_distance": 340.0,
+      "atr_1m_previous": 315.7444333873772,
+      "atr_5m_previous": 676.7984320672226,
+      "atr_5m_source_end": "2026-07-27T14:05:00+08:00",
+      "stop_atr_5m": 0.5023652300161205,
+      "verified_favorable_initial_r": 0.8823529411764706,
+      "intrabar_exit_extrema_excluded": true
+    },
+    {
+      "variant": "control",
+      "month": "2026-07",
+      "contract": "ag2610.SHFE",
+      "direction": "LONG",
+      "entry_time": "2026-07-30T09:25:00+08:00",
+      "entry_signal_time": "2026-07-30T09:25:00+08:00",
+      "exit_time": "2026-07-30T09:37:00+08:00",
+      "exit_reason": "trailing_stop",
+      "holding_minutes": 12.0,
+      "net_pnl": 977.0616,
+      "entry_channel": "direct",
+      "entry_price": 14365.0,
+      "stop_price": 14346.0,
+      "stop_distance": 19.0,
+      "atr_1m_previous": 18.51341139001436,
+      "atr_5m_previous": 41.92090132873892,
+      "atr_5m_source_end": "2026-07-30T09:25:00+08:00",
+      "stop_atr_5m": 0.45323452973981093,
+      "verified_favorable_initial_r": 2.8421052631578947,
+      "intrabar_exit_extrema_excluded": true
+    },
+    {
+      "variant": "control",
+      "month": "2026-09",
+      "contract": "lc2701.GFEX",
+      "direction": "SHORT",
+      "entry_time": "2026-09-16T09:31:00+08:00",
+      "entry_signal_time": "2026-09-16T09:31:00+08:00",
+      "exit_time": "2026-09-16T10:10:00+08:00",
+      "exit_reason": "trailing_stop",
+      "holding_minutes": 39.0,
+      "net_pnl": 7198.9056,
+      "entry_channel": "direct",
+      "entry_price": 127400.0,
+      "stop_price": 127900.0,
+      "stop_distance": 500.0,
+      "atr_1m_previous": 485.0023034682314,
+      "atr_5m_previous": 1000.3865873013659,
+      "atr_5m_source_end": "2026-09-16T09:30:00+08:00",
+      "stop_atr_5m": 0.4998067810453113,
+      "verified_favorable_initial_r": 6.76,
+      "intrabar_exit_extrema_excluded": true
+    },
+    {
+      "variant": "control",
+      "month": "2026-09",
+      "contract": "lc2701.GFEX",
+      "direction": "LONG",
+      "entry_time": "2026-09-17T11:27:00+08:00",
+      "entry_signal_time": "2026-09-17T11:27:00+08:00",
+      "exit_time": "2026-09-17T13:30:00+08:00",
+      "exit_reason": "volume",
+      "holding_minutes": 3.0,
+      "net_pnl": 2147.0976,
+      "entry_channel": "direct",
+      "entry_price": 131320.0,
+      "stop_price": 130980.0,
+      "stop_distance": 340.0,
+      "atr_1m_previous": 320.40252089776686,
+      "atr_5m_previous": 826.8596215701141,
+      "atr_5m_source_end": "2026-09-17T11:25:00+08:00",
+      "stop_atr_5m": 0.4111943443971517,
+      "verified_favorable_initial_r": 1.8823529411764706,
+      "intrabar_exit_extrema_excluded": true
+    },
+    {
+      "variant": "pool",
+      "month": "2026-07",
+      "contract": "PX609.CZCE",
+      "direction": "SHORT",
+      "entry_time": "2026-07-02T11:20:00+08:00",
+      "entry_signal_time": "2026-07-02T11:20:00+08:00",
+      "exit_time": "2026-07-02T11:28:00+08:00",
+      "exit_reason": "breakeven_stop",
+      "holding_minutes": 8.0,
+      "net_pnl": 133.266,
+      "entry_channel": "direct",
+      "entry_price": 7308.0,
+      "stop_price": 7322.0,
+      "stop_distance": 14.0,
+      "atr_1m_previous": 10.842737031616455,
+      "atr_5m_previous": 28.260953092184295,
+      "atr_5m_source_end": "2026-07-02T11:20:00+08:00",
+      "stop_atr_5m": 0.49538315124523413,
+      "verified_favorable_initial_r": 1.2857142857142858,
+      "intrabar_exit_extrema_excluded": true
+    },
+    {
+      "variant": "pool",
+      "month": "2026-07",
+      "contract": "ag2608.SHFE",
+      "direction": "SHORT",
+      "entry_time": "2026-07-06T13:46:00+08:00",
+      "entry_signal_time": "2026-07-06T13:46:00+08:00",
+      "exit_time": "2026-07-06T13:52:00+08:00",
+      "exit_reason": "breakeven_stop",
+      "holding_minutes": 6.0,
+      "net_pnl": 22.1265,
+      "entry_channel": "direct",
+      "entry_price": 15084.0,
+      "stop_price": 15105.0,
+      "stop_distance": 21.0,
+      "atr_1m_previous": 20.221313701574825,
+      "atr_5m_previous": 49.32936964502695,
+      "atr_5m_source_end": "2026-07-06T13:45:00+08:00",
+      "stop_atr_5m": 0.4257098793500816,
+      "verified_favorable_initial_r": 1.3333333333333333,
+      "intrabar_exit_extrema_excluded": true
+    },
+    {
+      "variant": "pool",
+      "month": "2026-07",
+      "contract": "lc2609.GFEX",
+      "direction": "SHORT",
+      "entry_time": "2026-07-08T13:53:00+08:00",
+      "entry_signal_time": "2026-07-08T13:53:00+08:00",
+      "exit_time": "2026-07-08T14:04:00+08:00",
+      "exit_reason": "fixed_stop",
+      "holding_minutes": 11.0,
+      "net_pnl": -1509.9648000000002,
+      "entry_channel": "direct",
+      "entry_price": 161240.0,
+      "stop_price": 161620.0,
+      "stop_distance": 380.0,
+      "atr_1m_previous": 360.30327635066755,
+      "atr_5m_previous": 885.9712301652359,
+      "atr_5m_source_end": "2026-07-08T13:50:00+08:00",
+      "stop_atr_5m": 0.42890783251407505,
+      "verified_favorable_initial_r": 0.7894736842105263,
+      "intrabar_exit_extrema_excluded": true
+    },
+    {
+      "variant": "pool",
+      "month": "2026-07",
+      "contract": "PX609.CZCE",
+      "direction": "LONG",
+      "entry_time": "2026-07-14T11:11:00+08:00",
+      "entry_signal_time": "2026-07-14T11:11:00+08:00",
+      "exit_time": "2026-07-14T11:21:00+08:00",
+      "exit_reason": "breakeven_stop",
+      "holding_minutes": 10.0,
+      "net_pnl": 123.98399999999998,
+      "entry_channel": "direct",
+      "entry_price": 8192.0,
+      "stop_price": 8178.0,
+      "stop_distance": 14.0,
+      "atr_1m_previous": 10.255952477403165,
+      "atr_5m_previous": 33.59719094220381,
+      "atr_5m_source_end": "2026-07-14T11:10:00+08:00",
+      "stop_atr_5m": 0.4167015041252633,
+      "verified_favorable_initial_r": 1.2857142857142858,
+      "intrabar_exit_extrema_excluded": true
+    },
+    {
+      "variant": "pool",
+      "month": "2026-07",
+      "contract": "PL609.CZCE",
+      "direction": "LONG",
+      "entry_time": "2026-07-14T14:26:00+08:00",
+      "entry_signal_time": "2026-07-14T14:26:00+08:00",
+      "exit_time": "2026-07-14T14:31:00+08:00",
+      "exit_reason": "breakeven_stop",
+      "holding_minutes": 5.0,
+      "net_pnl": 119.0,
+      "entry_channel": "direct",
+      "entry_price": 7568.0,
+      "stop_price": 7556.0,
+      "stop_distance": 12.0,
+      "atr_1m_previous": 8.287204832591827,
+      "atr_5m_previous": 25.986301584266187,
+      "atr_5m_source_end": "2026-07-14T14:25:00+08:00",
+      "stop_atr_5m": 0.46178175686476247,
+      "verified_favorable_initial_r": 1.75,
+      "intrabar_exit_extrema_excluded": true
+    },
+    {
+      "variant": "pool",
+      "month": "2026-07",
+      "contract": "PL609.CZCE",
+      "direction": "LONG",
+      "entry_time": "2026-07-15T09:54:00+08:00",
+      "entry_signal_time": "2026-07-15T09:54:00+08:00",
+      "exit_time": "2026-07-15T10:00:00+08:00",
+      "exit_reason": "breakeven_stop",
+      "holding_minutes": 6.0,
+      "net_pnl": 119.0,
+      "entry_channel": "direct",
+      "entry_price": 7614.0,
+      "stop_price": 7602.0,
+      "stop_distance": 12.0,
+      "atr_1m_previous": 8.766337883435117,
+      "atr_5m_previous": 24.044469231242143,
+      "atr_5m_source_end": "2026-07-15T09:50:00+08:00",
+      "stop_atr_5m": 0.4990752710984287,
+      "verified_favorable_initial_r": 1.3333333333333333,
+      "intrabar_exit_extrema_excluded": true
+    },
+    {
+      "variant": "pool",
+      "month": "2026-07",
+      "contract": "OI609.CZCE",
+      "direction": "LONG",
+      "entry_time": "2026-07-16T14:14:00+08:00",
+      "entry_signal_time": "2026-07-16T14:14:00+08:00",
+      "exit_time": "2026-07-16T14:34:00+08:00",
+      "exit_reason": "trailing_stop",
+      "holding_minutes": 20.0,
+      "net_pnl": 4352.0,
+      "entry_channel": "direct",
+      "entry_price": 10019.0,
+      "stop_price": 10010.0,
+      "stop_distance": 9.0,
+      "atr_1m_previous": 6.076736452295457,
+      "atr_5m_previous": 15.155798779751704,
+      "atr_5m_source_end": "2026-07-16T14:10:00+08:00",
+      "stop_atr_5m": 0.5938321121037902,
+      "verified_favorable_initial_r": 4.555555555555555,
+      "intrabar_exit_extrema_excluded": true
+    },
+    {
+      "variant": "pool",
+      "month": "2026-07",
+      "contract": "ni2609.SHFE",
+      "direction": "SHORT",
+      "entry_time": "2026-07-17T13:59:00+08:00",
+      "entry_signal_time": "2026-07-17T13:59:00+08:00",
+      "exit_time": "2026-07-17T14:03:00+08:00",
+      "exit_reason": "fixed_stop",
+      "holding_minutes": 4.0,
+      "net_pnl": -1314.0,
+      "entry_channel": "direct",
+      "entry_price": 128680.0,
+      "stop_price": 128810.0,
+      "stop_distance": 130.0,
+      "atr_1m_previous": 125.82078980803115,
+      "atr_5m_previous": 335.5230534392905,
+      "atr_5m_source_end": "2026-07-17T13:55:00+08:00",
+      "stop_atr_5m": 0.38745474764678783,
+      "verified_favorable_initial_r": 0.07692307692307693,
+      "intrabar_exit_extrema_excluded": true
+    },
+    {
+      "variant": "pool",
+      "month": "2026-07",
+      "contract": "ag2610.SHFE",
+      "direction": "LONG",
+      "entry_time": "2026-07-21T11:29:00+08:00",
+      "entry_signal_time": "2026-07-21T11:29:00+08:00",
+      "exit_time": "2026-07-21T13:31:00+08:00",
+      "exit_reason": "trailing_stop",
+      "holding_minutes": 2.0,
+      "net_pnl": 2147.2569000000003,
+      "entry_channel": "direct",
+      "entry_price": 14135.0,
+      "stop_price": 14118.0,
+      "stop_distance": 17.0,
+      "atr_1m_previous": 15.765690275997125,
+      "atr_5m_previous": 46.240395586587745,
+      "atr_5m_source_end": "2026-07-21T11:25:00+08:00",
+      "stop_atr_5m": 0.3676439136029133,
+      "verified_favorable_initial_r": 4.764705882352941,
+      "intrabar_exit_extrema_excluded": true
+    },
+    {
+      "variant": "pool",
+      "month": "2026-07",
+      "contract": "lc2609.GFEX",
+      "direction": "LONG",
+      "entry_time": "2026-07-27T14:06:00+08:00",
+      "entry_signal_time": "2026-07-27T14:06:00+08:00",
+      "exit_time": "2026-07-27T14:15:00+08:00",
+      "exit_reason": "fixed_stop",
+      "holding_minutes": 9.0,
+      "net_pnl": -1721.2800000000002,
+      "entry_channel": "direct",
+      "entry_price": 146740.0,
+      "stop_price": 146400.0,
+      "stop_distance": 340.0,
+      "atr_1m_previous": 315.7444333873772,
+      "atr_5m_previous": 676.7984320672226,
+      "atr_5m_source_end": "2026-07-27T14:05:00+08:00",
+      "stop_atr_5m": 0.5023652300161205,
+      "verified_favorable_initial_r": 0.8823529411764706,
+      "intrabar_exit_extrema_excluded": true
+    },
+    {
+      "variant": "pool",
+      "month": "2026-07",
+      "contract": "lc2609.GFEX",
+      "direction": "LONG",
+      "entry_time": "2026-07-28T09:32:00+08:00",
+      "entry_signal_time": "2026-07-28T09:32:00+08:00",
+      "exit_time": "2026-07-28T09:33:00+08:00",
+      "exit_reason": "fixed_stop",
+      "holding_minutes": 1.0,
+      "net_pnl": -1722.24,
+      "entry_channel": "direct",
+      "entry_price": 147240.0,
+      "stop_price": 146900.0,
+      "stop_distance": 340.0,
+      "atr_1m_previous": 332.89099801171005,
+      "atr_5m_previous": 703.8439387759909,
+      "atr_5m_source_end": "2026-07-28T09:30:00+08:00",
+      "stop_atr_5m": 0.48306162953008,
+      "verified_favorable_initial_r": 0.0,
+      "intrabar_exit_extrema_excluded": true
+    },
+    {
+      "variant": "pool",
+      "month": "2026-07",
+      "contract": "ag2610.SHFE",
+      "direction": "LONG",
+      "entry_time": "2026-07-30T09:25:00+08:00",
+      "entry_signal_time": "2026-07-30T09:25:00+08:00",
+      "exit_time": "2026-07-30T09:37:00+08:00",
+      "exit_reason": "trailing_stop",
+      "holding_minutes": 12.0,
+      "net_pnl": 977.0616,
+      "entry_channel": "direct",
+      "entry_price": 14365.0,
+      "stop_price": 14346.0,
+      "stop_distance": 19.0,
+      "atr_1m_previous": 18.51341139001436,
+      "atr_5m_previous": 41.92090132873892,
+      "atr_5m_source_end": "2026-07-30T09:25:00+08:00",
+      "stop_atr_5m": 0.45323452973981093,
+      "verified_favorable_initial_r": 2.8421052631578947,
+      "intrabar_exit_extrema_excluded": true
+    },
+    {
+      "variant": "pool",
+      "month": "2026-08",
+      "contract": "PL611.CZCE",
+      "direction": "LONG",
+      "entry_time": "2026-08-11T11:21:00+08:00",
+      "entry_signal_time": "2026-08-11T11:21:00+08:00",
+      "exit_time": "2026-08-11T11:23:00+08:00",
+      "exit_reason": "fixed_stop",
+      "holding_minutes": 2.0,
+      "net_pnl": -1841.0,
+      "entry_channel": "direct",
+      "entry_price": 7307.0,
+      "stop_price": 7295.0,
+      "stop_distance": 12.0,
+      "atr_1m_previous": 5.738805194010303,
+      "atr_5m_previous": 16.453538605122993,
+      "atr_5m_source_end": "2026-08-11T11:20:00+08:00",
+      "stop_atr_5m": 0.7293263952511507,
+      "verified_favorable_initial_r": 0.0,
+      "intrabar_exit_extrema_excluded": true
+    },
+    {
+      "variant": "pool",
+      "month": "2026-08",
+      "contract": "lc2701.GFEX",
+      "direction": "LONG",
+      "entry_time": "2026-08-14T10:39:00+08:00",
+      "entry_signal_time": "2026-08-14T10:39:00+08:00",
+      "exit_time": "2026-08-14T10:42:00+08:00",
+      "exit_reason": "fixed_stop",
+      "holding_minutes": 3.0,
+      "net_pnl": -1736.3328,
+      "entry_channel": "direct",
+      "entry_price": 154580.0,
+      "stop_price": 154240.0,
+      "stop_distance": 340.0,
+      "atr_1m_previous": 305.9073586670462,
+      "atr_5m_previous": 705.2875007195761,
+      "atr_5m_source_end": "2026-08-14T10:35:00+08:00",
+      "stop_atr_5m": 0.4820729130363318,
+      "verified_favorable_initial_r": 0.4117647058823529,
+      "intrabar_exit_extrema_excluded": true
+    },
+    {
+      "variant": "pool",
+      "month": "2026-08",
+      "contract": "ag2610.SHFE",
+      "direction": "LONG",
+      "entry_time": "2026-08-21T13:52:00+08:00",
+      "entry_signal_time": "2026-08-21T13:52:00+08:00",
+      "exit_time": "2026-08-21T13:55:00+08:00",
+      "exit_reason": "fixed_stop",
+      "holding_minutes": 3.0,
+      "net_pnl": -620.4795,
+      "entry_channel": "direct",
+      "entry_price": 16836.0,
+      "stop_price": 16818.0,
+      "stop_distance": 18.0,
+      "atr_1m_previous": 17.58691462003438,
+      "atr_5m_previous": 47.96883560119419,
+      "atr_5m_source_end": "2026-08-21T13:50:00+08:00",
+      "stop_atr_5m": 0.37524363004450095,
+      "verified_favorable_initial_r": 0.5,
+      "intrabar_exit_extrema_excluded": true
+    },
+    {
+      "variant": "pool",
+      "month": "2026-08",
+      "contract": "ru2701.SHFE",
+      "direction": "LONG",
+      "entry_time": "2026-08-28T11:08:00+08:00",
+      "entry_signal_time": "2026-08-28T11:08:00+08:00",
+      "exit_time": "2026-08-28T11:10:00+08:00",
+      "exit_reason": "fixed_stop",
+      "holding_minutes": 2.0,
+      "net_pnl": -1515.0,
+      "entry_channel": "direct",
+      "entry_price": 18955.0,
+      "stop_price": 18930.0,
+      "stop_distance": 25.0,
+      "atr_1m_previous": 21.019168258319812,
+      "atr_5m_previous": 49.38203526430934,
+      "atr_5m_source_end": "2026-08-28T11:05:00+08:00",
+      "stop_atr_5m": 0.5062569792069435,
+      "verified_favorable_initial_r": 0.0,
+      "intrabar_exit_extrema_excluded": true
+    },
+    {
+      "variant": "pool",
+      "month": "2026-09",
+      "contract": "lc2701.GFEX",
+      "direction": "SHORT",
+      "entry_time": "2026-09-16T09:31:00+08:00",
+      "entry_signal_time": "2026-09-16T09:31:00+08:00",
+      "exit_time": "2026-09-16T10:10:00+08:00",
+      "exit_reason": "trailing_stop",
+      "holding_minutes": 39.0,
+      "net_pnl": 7198.9056,
+      "entry_channel": "direct",
+      "entry_price": 127400.0,
+      "stop_price": 127900.0,
+      "stop_distance": 500.0,
+      "atr_1m_previous": 485.0023034682314,
+      "atr_5m_previous": 1000.3865873013659,
+      "atr_5m_source_end": "2026-09-16T09:30:00+08:00",
+      "stop_atr_5m": 0.4998067810453113,
+      "verified_favorable_initial_r": 6.76,
+      "intrabar_exit_extrema_excluded": true
+    },
+    {
+      "variant": "pool",
+      "month": "2026-09",
+      "contract": "lc2701.GFEX",
+      "direction": "LONG",
+      "entry_time": "2026-09-17T11:27:00+08:00",
+      "entry_signal_time": "2026-09-17T11:27:00+08:00",
+      "exit_time": "2026-09-17T13:30:00+08:00",
+      "exit_reason": "volume",
+      "holding_minutes": 3.0,
+      "net_pnl": 2147.0976,
+      "entry_channel": "direct",
+      "entry_price": 131320.0,
+      "stop_price": 130980.0,
+      "stop_distance": 340.0,
+      "atr_1m_previous": 320.40252089776686,
+      "atr_5m_previous": 826.8596215701141,
+      "atr_5m_source_end": "2026-09-17T11:25:00+08:00",
+      "stop_atr_5m": 0.4111943443971517,
+      "verified_favorable_initial_r": 1.8823529411764706,
+      "intrabar_exit_extrema_excluded": true
+    },
+    {
+      "variant": "pool",
+      "month": "2026-09",
+      "contract": "PX611.CZCE",
+      "direction": "SHORT",
+      "entry_time": "2026-09-21T09:21:00+08:00",
+      "entry_signal_time": "2026-09-21T09:21:00+08:00",
+      "exit_time": "2026-09-21T09:30:00+08:00",
+      "exit_reason": "fixed_stop",
+      "holding_minutes": 9.0,
+      "net_pnl": -1743.7,
+      "entry_channel": "direct",
+      "entry_price": 9100.0,
+      "stop_price": 9122.0,
+      "stop_distance": 22.0,
+      "atr_1m_previous": 21.459934233578302,
+      "atr_5m_previous": 41.4873239255757,
+      "atr_5m_source_end": "2026-09-21T09:20:00+08:00",
+      "stop_atr_5m": 0.5302824554185731,
+      "verified_favorable_initial_r": 0.7272727272727273,
+      "intrabar_exit_extrema_excluded": true
+    },
+    {
+      "variant": "dual",
+      "month": "2026-07",
+      "contract": "PR609.CZCE",
+      "direction": "SHORT",
+      "entry_time": "2026-07-02T09:52:00+08:00",
+      "entry_signal_time": "2026-07-02T09:52:00+08:00",
+      "exit_time": "2026-07-02T09:57:00+08:00",
+      "exit_reason": "fixed_stop",
+      "holding_minutes": 5.0,
+      "net_pnl": -1718.76,
+      "entry_channel": "pullback",
+      "entry_price": 6460.0,
+      "stop_price": 6472.0,
+      "stop_distance": 12.0,
+      "atr_1m_previous": 9.159534541155615,
+      "atr_5m_previous": 24.40831609617875,
+      "atr_5m_source_end": "2026-07-02T09:50:00+08:00",
+      "stop_atr_5m": 0.491635717626529,
+      "verified_favorable_initial_r": 0.8333333333333334,
+      "intrabar_exit_extrema_excluded": true
+    },
+    {
+      "variant": "dual",
+      "month": "2026-07",
+      "contract": "PX609.CZCE",
+      "direction": "SHORT",
+      "entry_time": "2026-07-02T11:20:00+08:00",
+      "entry_signal_time": "2026-07-02T11:20:00+08:00",
+      "exit_time": "2026-07-02T11:28:00+08:00",
+      "exit_reason": "breakeven_stop",
+      "holding_minutes": 8.0,
+      "net_pnl": 133.266,
+      "entry_channel": "direct",
+      "entry_price": 7308.0,
+      "stop_price": 7322.0,
+      "stop_distance": 14.0,
+      "atr_1m_previous": 10.842737031616455,
+      "atr_5m_previous": 28.260953092184295,
+      "atr_5m_source_end": "2026-07-02T11:20:00+08:00",
+      "stop_atr_5m": 0.49538315124523413,
+      "verified_favorable_initial_r": 1.2857142857142858,
+      "intrabar_exit_extrema_excluded": true
+    },
+    {
+      "variant": "dual",
+      "month": "2026-07",
+      "contract": "PX609.CZCE",
+      "direction": "SHORT",
+      "entry_time": "2026-07-02T13:37:00+08:00",
+      "entry_signal_time": "2026-07-02T13:37:00+08:00",
+      "exit_time": "2026-07-02T13:40:00+08:00",
+      "exit_reason": "breakeven_stop",
+      "holding_minutes": 3.0,
+      "net_pnl": 133.41299999999998,
+      "entry_channel": "pullback",
+      "entry_price": 7294.0,
+      "stop_price": 7308.0,
+      "stop_distance": 14.0,
+      "atr_1m_previous": 12.027792224270351,
+      "atr_5m_previous": 26.26505610186913,
+      "atr_5m_source_end": "2026-07-02T13:35:00+08:00",
+      "stop_atr_5m": 0.5330276069352733,
+      "verified_favorable_initial_r": 1.8571428571428572,
+      "intrabar_exit_extrema_excluded": true
+    },
+    {
+      "variant": "dual",
+      "month": "2026-07",
+      "contract": "PL609.CZCE",
+      "direction": "LONG",
+      "entry_time": "2026-07-14T14:26:00+08:00",
+      "entry_signal_time": "2026-07-14T14:26:00+08:00",
+      "exit_time": "2026-07-14T14:31:00+08:00",
+      "exit_reason": "breakeven_stop",
+      "holding_minutes": 5.0,
+      "net_pnl": 119.0,
+      "entry_channel": "direct",
+      "entry_price": 7568.0,
+      "stop_price": 7556.0,
+      "stop_distance": 12.0,
+      "atr_1m_previous": 8.287204832591827,
+      "atr_5m_previous": 25.986301584266187,
+      "atr_5m_source_end": "2026-07-14T14:25:00+08:00",
+      "stop_atr_5m": 0.46178175686476247,
+      "verified_favorable_initial_r": 1.75,
+      "intrabar_exit_extrema_excluded": true
+    },
+    {
+      "variant": "dual",
+      "month": "2026-07",
+      "contract": "ni2609.SHFE",
+      "direction": "SHORT",
+      "entry_time": "2026-07-17T13:59:00+08:00",
+      "entry_signal_time": "2026-07-17T13:59:00+08:00",
+      "exit_time": "2026-07-17T14:03:00+08:00",
+      "exit_reason": "fixed_stop",
+      "holding_minutes": 4.0,
+      "net_pnl": -1314.0,
+      "entry_channel": "direct",
+      "entry_price": 128680.0,
+      "stop_price": 128810.0,
+      "stop_distance": 130.0,
+      "atr_1m_previous": 125.82078980803115,
+      "atr_5m_previous": 335.5230534392905,
+      "atr_5m_source_end": "2026-07-17T13:55:00+08:00",
+      "stop_atr_5m": 0.38745474764678783,
+      "verified_favorable_initial_r": 0.07692307692307693,
+      "intrabar_exit_extrema_excluded": true
+    },
+    {
+      "variant": "dual",
+      "month": "2026-07",
+      "contract": "lc2609.GFEX",
+      "direction": "LONG",
+      "entry_time": "2026-07-27T14:06:00+08:00",
+      "entry_signal_time": "2026-07-27T14:06:00+08:00",
+      "exit_time": "2026-07-27T14:15:00+08:00",
+      "exit_reason": "fixed_stop",
+      "holding_minutes": 9.0,
+      "net_pnl": -1721.2800000000002,
+      "entry_channel": "direct",
+      "entry_price": 146740.0,
+      "stop_price": 146400.0,
+      "stop_distance": 340.0,
+      "atr_1m_previous": 315.7444333873772,
+      "atr_5m_previous": 676.7984320672226,
+      "atr_5m_source_end": "2026-07-27T14:05:00+08:00",
+      "stop_atr_5m": 0.5023652300161205,
+      "verified_favorable_initial_r": 0.8823529411764706,
+      "intrabar_exit_extrema_excluded": true
+    },
+    {
+      "variant": "dual",
+      "month": "2026-07",
+      "contract": "ag2610.SHFE",
+      "direction": "LONG",
+      "entry_time": "2026-07-30T09:25:00+08:00",
+      "entry_signal_time": "2026-07-30T09:25:00+08:00",
+      "exit_time": "2026-07-30T09:37:00+08:00",
+      "exit_reason": "trailing_stop",
+      "holding_minutes": 12.0,
+      "net_pnl": 977.0616,
+      "entry_channel": "direct",
+      "entry_price": 14365.0,
+      "stop_price": 14346.0,
+      "stop_distance": 19.0,
+      "atr_1m_previous": 18.51341139001436,
+      "atr_5m_previous": 41.92090132873892,
+      "atr_5m_source_end": "2026-07-30T09:25:00+08:00",
+      "stop_atr_5m": 0.45323452973981093,
+      "verified_favorable_initial_r": 2.8421052631578947,
+      "intrabar_exit_extrema_excluded": true
+    },
+    {
+      "variant": "dual",
+      "month": "2026-09",
+      "contract": "lc2701.GFEX",
+      "direction": "SHORT",
+      "entry_time": "2026-09-16T09:31:00+08:00",
+      "entry_signal_time": "2026-09-16T09:31:00+08:00",
+      "exit_time": "2026-09-16T10:10:00+08:00",
+      "exit_reason": "trailing_stop",
+      "holding_minutes": 39.0,
+      "net_pnl": 7198.9056,
+      "entry_channel": "direct",
+      "entry_price": 127400.0,
+      "stop_price": 127900.0,
+      "stop_distance": 500.0,
+      "atr_1m_previous": 485.0023034682314,
+      "atr_5m_previous": 1000.3865873013659,
+      "atr_5m_source_end": "2026-09-16T09:30:00+08:00",
+      "stop_atr_5m": 0.4998067810453113,
+      "verified_favorable_initial_r": 6.76,
+      "intrabar_exit_extrema_excluded": true
+    },
+    {
+      "variant": "dual",
+      "month": "2026-09",
+      "contract": "lc2701.GFEX",
+      "direction": "LONG",
+      "entry_time": "2026-09-17T11:27:00+08:00",
+      "entry_signal_time": "2026-09-17T11:27:00+08:00",
+      "exit_time": "2026-09-17T13:30:00+08:00",
+      "exit_reason": "volume",
+      "holding_minutes": 3.0,
+      "net_pnl": 2147.0976,
+      "entry_channel": "direct",
+      "entry_price": 131320.0,
+      "stop_price": 130980.0,
+      "stop_distance": 340.0,
+      "atr_1m_previous": 320.40252089776686,
+      "atr_5m_previous": 826.8596215701141,
+      "atr_5m_source_end": "2026-09-17T11:25:00+08:00",
+      "stop_atr_5m": 0.4111943443971517,
+      "verified_favorable_initial_r": 1.8823529411764706,
+      "intrabar_exit_extrema_excluded": true
+    }
+  ],
+  "runtime": {
+    "document_counts": {
+      "versions": 2
+    },
+    "versions": [
+      {
+        "id": "57ed94cac3f641fc8efd575186429caf",
+        "name": "验证-布林带-0930",
+        "class_name": "BollStrategy",
+        "published": true
+      },
+      {
+        "id": "932ff6fffbc940b4a920642e30107b08",
+        "name": "验证-双均线-0930",
+        "class_name": "DoubleMaStrategy",
+        "published": true
+      }
+    ]
+  },
+  "control_stop_atr_5m_range": [
+    0.38745474764678783,
+    0.5023652300161205
+  ],
+  "development_days": 52,
+  "new_backtest_run": false,
+  "strategy_changed": false,
+  "locked_test_read": false,
+  "source_results_changed": false,
+  "checks": {
+    "existing_relevant_tests": 68,
+    "existing_relevant_tests_passed": true,
+    "trade_totals_match_saved_runs": true,
+    "causal_completed_5m_source": true
+  }
+}

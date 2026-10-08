@@ -1,0 +1,285 @@
+{
+  "records": [
+    {
+      "path": "/home/nishiki/vnpy-ctp/research_outputs/structure_followup_2026-10-07/control/2026-07/run_0001_1d3a1de3618f/orders.csv.gz",
+      "source": "/home/nishiki/vnpy-ctp/research_inputs/coverage_expansion_2026-10-05/cloud_state/objects/e2/e204cfb382ff33db9f5856791f5ba8919c65cd5dea84bf7056a6057748763296",
+      "sha256": "e204cfb382ff33db9f5856791f5ba8919c65cd5dea84bf7056a6057748763296",
+      "released_bytes": 973,
+      "mode": "0o600"
+    },
+    {
+      "path": "/home/nishiki/vnpy-ctp/research_outputs/structure_followup_2026-10-07/control/2026-07/run_0001_1d3a1de3618f/trades.csv.gz",
+      "source": "/home/nishiki/vnpy-ctp/research_inputs/coverage_expansion_2026-10-05/cloud_state/objects/61/618566cd26d98cfde9ca31214d15413a61269eeb0b840b217cd8a443bdb591d2",
+      "sha256": "618566cd26d98cfde9ca31214d15413a61269eeb0b840b217cd8a443bdb591d2",
+      "released_bytes": 4721,
+      "mode": "0o600"
+    },
+    {
+      "path": "/home/nishiki/vnpy-ctp/research_outputs/structure_followup_2026-10-07/control/2026-07/run_0001_1d3a1de3618f/events.csv.gz",
+      "source": "/home/nishiki/vnpy-ctp/research_inputs/coverage_expansion_2026-10-05/cloud_state/objects/60/60efce3e9909ad1131eaa9faea4a61b8d043d1da1d275f19ac768836616c368b",
+      "sha256": "60efce3e9909ad1131eaa9faea4a61b8d043d1da1d275f19ac768836616c368b",
+      "released_bytes": 1692,
+      "mode": "0o600"
+    },
+    {
+      "path": "/home/nishiki/vnpy-ctp/research_outputs/structure_followup_2026-10-07/control/2026-07/run_0001_1d3a1de3618f/equity.csv.gz",
+      "source": "/home/nishiki/vnpy-ctp/research_inputs/coverage_expansion_2026-10-05/cloud_state/objects/74/74550560ff417b7c65f2b8f0bf3272af99308e8b7c2798043fabd9dff2715c4a",
+      "sha256": "74550560ff417b7c65f2b8f0bf3272af99308e8b7c2798043fabd9dff2715c4a",
+      "released_bytes": 22743,
+      "mode": "0o600"
+    },
+    {
+      "path": "/home/nishiki/vnpy-ctp/research_outputs/structure_followup_2026-10-07/control/2026-07/run_0001_1d3a1de3618f/result.json.gz",
+      "source": "/home/nishiki/vnpy-ctp/research_inputs/coverage_expansion_2026-10-05/cloud_state/objects/e7/e7e7c9d38ec7af133504ce2569fde6af3fdd18c45ee8fb8de88473bd4d82b14a",
+      "sha256": "e7e7c9d38ec7af133504ce2569fde6af3fdd18c45ee8fb8de88473bd4d82b14a",
+      "released_bytes": 8185310,
+      "mode": "0o600"
+    },
+    {
+      "path": "/home/nishiki/vnpy-ctp/research_outputs/structure_followup_2026-10-07/control/2026-07/run_0001_1d3a1de3618f/candidate_execution.csv.gz",
+      "source": "/home/nishiki/vnpy-ctp/research_inputs/coverage_expansion_2026-10-05/cloud_state/objects/4a/4a7d6260e5b556d248fe4c2da9dfe3c674a74442bb9a2772dba8251752f170da",
+      "sha256": "4a7d6260e5b556d248fe4c2da9dfe3c674a74442bb9a2772dba8251752f170da",
+      "released_bytes": 46793,
+      "mode": "0o600"
+    },
+    {
+      "path": "/home/nishiki/vnpy-ctp/research_outputs/structure_followup_2026-10-07/control/2026-07/run_0001_1d3a1de3618f/daily_pool.csv.gz",
+      "source": "/home/nishiki/vnpy-ctp/research_inputs/coverage_expansion_2026-10-05/cloud_state/objects/89/8982646d5ab157d4feae008910878b5cb7d16928762aa55a4d342b669354a371",
+      "sha256": "8982646d5ab157d4feae008910878b5cb7d16928762aa55a4d342b669354a371",
+      "released_bytes": 27876,
+      "mode": "0o600"
+    },
+    {
+      "path": "/home/nishiki/vnpy-ctp/research_outputs/structure_followup_2026-10-07/control/2026-07/run_0001_1d3a1de3618f/pool_exclusions.csv.gz",
+      "source": "/home/nishiki/vnpy-ctp/research_inputs/coverage_expansion_2026-10-05/cloud_state/objects/f2/f2dac9cfec4636df89e77a8e5b61fe95e98c6bfc4c7b780557c0e0950144bc9c",
+      "sha256": "f2dac9cfec4636df89e77a8e5b61fe95e98c6bfc4c7b780557c0e0950144bc9c",
+      "released_bytes": 81746,
+      "mode": "0o600"
+    },
+    {
+      "path": "/home/nishiki/vnpy-ctp/research_outputs/structure_followup_2026-10-07/control/2026-07/run_0001_1d3a1de3618f/daily_candidates.csv.gz",
+      "source": "/home/nishiki/vnpy-ctp/research_inputs/coverage_expansion_2026-10-05/cloud_state/objects/ba/ba439cee27eca8bf66b415bc99e085c3e4af5850bbe80f132983dad64d228d6b",
+      "sha256": "ba439cee27eca8bf66b415bc99e085c3e4af5850bbe80f132983dad64d228d6b",
+      "released_bytes": 52606,
+      "mode": "0o600"
+    },
+    {
+      "path": "/home/nishiki/vnpy-ctp/research_outputs/structure_followup_2026-10-07/control/2026-07/run_0001_1d3a1de3618f/signals.csv.gz",
+      "source": "/home/nishiki/vnpy-ctp/research_inputs/coverage_expansion_2026-10-05/cloud_state/objects/79/79969d2bd726e144686369e7e18574638844e156277356712d953c89d57eeb59",
+      "sha256": "79969d2bd726e144686369e7e18574638844e156277356712d953c89d57eeb59",
+      "released_bytes": 7925033,
+      "mode": "0o600"
+    },
+    {
+      "path": "/home/nishiki/vnpy-ctp/research_outputs/structure_followup_2026-10-07/control/2026-07/run_0001_1d3a1de3618f/rank_contribution.csv.gz",
+      "source": "/home/nishiki/vnpy-ctp/research_inputs/coverage_expansion_2026-10-05/cloud_state/objects/04/04c9835129fc8b9bcd923f3c7a68be6adde3a7fe805e9fb09c6d1c5dbd3e861d",
+      "sha256": "04c9835129fc8b9bcd923f3c7a68be6adde3a7fe805e9fb09c6d1c5dbd3e861d",
+      "released_bytes": 314,
+      "mode": "0o600"
+    },
+    {
+      "path": "/home/nishiki/vnpy-ctp/research_outputs/structure_followup_2026-10-07/control/2026-08/run_0001_2ad9ec2e7f71/orders.csv.gz",
+      "source": "/home/nishiki/vnpy-ctp/research_inputs/coverage_expansion_2026-10-05/cloud_state/objects/05/0510818b525a8789fd01997a41c25f8984e4704f7764f0c52600e2458544bdd2",
+      "sha256": "0510818b525a8789fd01997a41c25f8984e4704f7764f0c52600e2458544bdd2",
+      "released_bytes": 31,
+      "mode": "0o600"
+    },
+    {
+      "path": "/home/nishiki/vnpy-ctp/research_outputs/structure_followup_2026-10-07/control/2026-08/run_0001_2ad9ec2e7f71/trades.csv.gz",
+      "source": "/home/nishiki/vnpy-ctp/research_inputs/coverage_expansion_2026-10-05/cloud_state/objects/05/0510818b525a8789fd01997a41c25f8984e4704f7764f0c52600e2458544bdd2",
+      "sha256": "0510818b525a8789fd01997a41c25f8984e4704f7764f0c52600e2458544bdd2",
+      "released_bytes": 31,
+      "mode": "0o600"
+    },
+    {
+      "path": "/home/nishiki/vnpy-ctp/research_outputs/structure_followup_2026-10-07/control/2026-08/run_0001_2ad9ec2e7f71/events.csv.gz",
+      "source": "/home/nishiki/vnpy-ctp/research_inputs/coverage_expansion_2026-10-05/cloud_state/objects/05/0510818b525a8789fd01997a41c25f8984e4704f7764f0c52600e2458544bdd2",
+      "sha256": "0510818b525a8789fd01997a41c25f8984e4704f7764f0c52600e2458544bdd2",
+      "released_bytes": 31,
+      "mode": "0o600"
+    },
+    {
+      "path": "/home/nishiki/vnpy-ctp/research_outputs/structure_followup_2026-10-07/control/2026-08/run_0001_2ad9ec2e7f71/equity.csv.gz",
+      "source": "/home/nishiki/vnpy-ctp/research_inputs/coverage_expansion_2026-10-05/cloud_state/objects/ee/ee4d519ecfda1d9c3c9e28abbd73815dcb385668867fcfc0fb651d17dfdf9b53",
+      "sha256": "ee4d519ecfda1d9c3c9e28abbd73815dcb385668867fcfc0fb651d17dfdf9b53",
+      "released_bytes": 18335,
+      "mode": "0o600"
+    },
+    {
+      "path": "/home/nishiki/vnpy-ctp/research_outputs/structure_followup_2026-10-07/control/2026-08/run_0001_2ad9ec2e7f71/result.json.gz",
+      "source": "/home/nishiki/vnpy-ctp/research_inputs/coverage_expansion_2026-10-05/cloud_state/objects/e2/e2c68ee14a07bbeab6b55a328df79f47870ac597d2b74648c5064f0ca45722df",
+      "sha256": "e2c68ee14a07bbeab6b55a328df79f47870ac597d2b74648c5064f0ca45722df",
+      "released_bytes": 7325421,
+      "mode": "0o600"
+    },
+    {
+      "path": "/home/nishiki/vnpy-ctp/research_outputs/structure_followup_2026-10-07/control/2026-08/run_0001_2ad9ec2e7f71/data_quality.json",
+      "source": "/home/nishiki/vnpy-ctp/research_inputs/coverage_expansion_2026-10-05/cloud_state/objects/af/af477c6eae7b39dc5da1356da28b16fdb108b8188b21b128d92f43efdd74febe",
+      "sha256": "af477c6eae7b39dc5da1356da28b16fdb108b8188b21b128d92f43efdd74febe",
+      "released_bytes": 689321,
+      "mode": "0o600"
+    },
+    {
+      "path": "/home/nishiki/vnpy-ctp/research_outputs/structure_followup_2026-10-07/control/2026-08/run_0001_2ad9ec2e7f71/candidate_execution.csv.gz",
+      "source": "/home/nishiki/vnpy-ctp/research_inputs/coverage_expansion_2026-10-05/cloud_state/objects/b2/b2ac751cbbad3a24b49ec3fe3758c2cefada4866fb6e1604a7115a7d4887a4e6",
+      "sha256": "b2ac751cbbad3a24b49ec3fe3758c2cefada4866fb6e1604a7115a7d4887a4e6",
+      "released_bytes": 43074,
+      "mode": "0o600"
+    },
+    {
+      "path": "/home/nishiki/vnpy-ctp/research_outputs/structure_followup_2026-10-07/control/2026-08/run_0001_2ad9ec2e7f71/daily_pool.csv.gz",
+      "source": "/home/nishiki/vnpy-ctp/research_inputs/coverage_expansion_2026-10-05/cloud_state/objects/73/73a215fa1fecbde3c2a0be4c820f1bbdbcdf14456655e0d4643cff0f934b045c",
+      "sha256": "73a215fa1fecbde3c2a0be4c820f1bbdbcdf14456655e0d4643cff0f934b045c",
+      "released_bytes": 25529,
+      "mode": "0o600"
+    },
+    {
+      "path": "/home/nishiki/vnpy-ctp/research_outputs/structure_followup_2026-10-07/control/2026-08/run_0001_2ad9ec2e7f71/pool_exclusions.csv.gz",
+      "source": "/home/nishiki/vnpy-ctp/research_inputs/coverage_expansion_2026-10-05/cloud_state/objects/9c/9c56ff1186ae2d45405e8f896c8b6ed76fd1853c01163436d4497d3654ebf854",
+      "sha256": "9c56ff1186ae2d45405e8f896c8b6ed76fd1853c01163436d4497d3654ebf854",
+      "released_bytes": 67870,
+      "mode": "0o600"
+    },
+    {
+      "path": "/home/nishiki/vnpy-ctp/research_outputs/structure_followup_2026-10-07/control/2026-08/run_0001_2ad9ec2e7f71/daily_candidates.csv.gz",
+      "source": "/home/nishiki/vnpy-ctp/research_inputs/coverage_expansion_2026-10-05/cloud_state/objects/91/910de77ae6af7f93b29899c4ab2dee2fdcd7abff8ad81c0da75e13153b05f530",
+      "sha256": "910de77ae6af7f93b29899c4ab2dee2fdcd7abff8ad81c0da75e13153b05f530",
+      "released_bytes": 47862,
+      "mode": "0o600"
+    },
+    {
+      "path": "/home/nishiki/vnpy-ctp/research_outputs/structure_followup_2026-10-07/control/2026-08/run_0001_2ad9ec2e7f71/signals.csv.gz",
+      "source": "/home/nishiki/vnpy-ctp/research_inputs/coverage_expansion_2026-10-05/cloud_state/objects/61/61ab5202272ccae554c9bb773d1a99b9a4e5a56943cc6c324773202b62f27132",
+      "sha256": "61ab5202272ccae554c9bb773d1a99b9a4e5a56943cc6c324773202b62f27132",
+      "released_bytes": 7097958,
+      "mode": "0o600"
+    },
+    {
+      "path": "/home/nishiki/vnpy-ctp/research_outputs/structure_followup_2026-10-07/control/2026-08/run_0001_2ad9ec2e7f71/rank_contribution.csv.gz",
+      "source": "/home/nishiki/vnpy-ctp/research_inputs/coverage_expansion_2026-10-05/cloud_state/objects/2e/2e79f2f33094b73d83901f0706bee2e08958f09dc3403dedeb53179d72d4dc66",
+      "sha256": "2e79f2f33094b73d83901f0706bee2e08958f09dc3403dedeb53179d72d4dc66",
+      "released_bytes": 283,
+      "mode": "0o600"
+    },
+    {
+      "path": "/home/nishiki/vnpy-ctp/research_outputs/structure_followup_2026-10-07/control/2026-08/run_0002_2ad9ec2e7f71/orders.csv.gz",
+      "source": "/home/nishiki/vnpy-ctp/research_inputs/coverage_expansion_2026-10-05/cloud_state/objects/05/0510818b525a8789fd01997a41c25f8984e4704f7764f0c52600e2458544bdd2",
+      "sha256": "0510818b525a8789fd01997a41c25f8984e4704f7764f0c52600e2458544bdd2",
+      "released_bytes": 31,
+      "mode": "0o600"
+    },
+    {
+      "path": "/home/nishiki/vnpy-ctp/research_outputs/structure_followup_2026-10-07/control/2026-08/run_0002_2ad9ec2e7f71/trades.csv.gz",
+      "source": "/home/nishiki/vnpy-ctp/research_inputs/coverage_expansion_2026-10-05/cloud_state/objects/05/0510818b525a8789fd01997a41c25f8984e4704f7764f0c52600e2458544bdd2",
+      "sha256": "0510818b525a8789fd01997a41c25f8984e4704f7764f0c52600e2458544bdd2",
+      "released_bytes": 31,
+      "mode": "0o600"
+    },
+    {
+      "path": "/home/nishiki/vnpy-ctp/research_outputs/structure_followup_2026-10-07/control/2026-08/run_0002_2ad9ec2e7f71/events.csv.gz",
+      "source": "/home/nishiki/vnpy-ctp/research_inputs/coverage_expansion_2026-10-05/cloud_state/objects/05/0510818b525a8789fd01997a41c25f8984e4704f7764f0c52600e2458544bdd2",
+      "sha256": "0510818b525a8789fd01997a41c25f8984e4704f7764f0c52600e2458544bdd2",
+      "released_bytes": 31,
+      "mode": "0o600"
+    },
+    {
+      "path": "/home/nishiki/vnpy-ctp/research_outputs/structure_followup_2026-10-07/control/2026-08/run_0002_2ad9ec2e7f71/equity.csv.gz",
+      "source": "/home/nishiki/vnpy-ctp/research_inputs/coverage_expansion_2026-10-05/cloud_state/objects/ee/ee4d519ecfda1d9c3c9e28abbd73815dcb385668867fcfc0fb651d17dfdf9b53",
+      "sha256": "ee4d519ecfda1d9c3c9e28abbd73815dcb385668867fcfc0fb651d17dfdf9b53",
+      "released_bytes": 18335,
+      "mode": "0o600"
+    },
+    {
+      "path": "/home/nishiki/vnpy-ctp/research_outputs/structure_followup_2026-10-07/control/2026-08/run_0002_2ad9ec2e7f71/result.json.gz",
+      "source": "/home/nishiki/vnpy-ctp/research_inputs/coverage_expansion_2026-10-05/cloud_state/objects/e2/e2c68ee14a07bbeab6b55a328df79f47870ac597d2b74648c5064f0ca45722df",
+      "sha256": "e2c68ee14a07bbeab6b55a328df79f47870ac597d2b74648c5064f0ca45722df",
+      "released_bytes": 7325421,
+      "mode": "0o600"
+    },
+    {
+      "path": "/home/nishiki/vnpy-ctp/research_outputs/structure_followup_2026-10-07/control/2026-08/run_0002_2ad9ec2e7f71/data_quality.json",
+      "source": "/home/nishiki/vnpy-ctp/research_inputs/coverage_expansion_2026-10-05/cloud_state/objects/af/af477c6eae7b39dc5da1356da28b16fdb108b8188b21b128d92f43efdd74febe",
+      "sha256": "af477c6eae7b39dc5da1356da28b16fdb108b8188b21b128d92f43efdd74febe",
+      "released_bytes": 689321,
+      "mode": "0o600"
+    },
+    {
+      "path": "/home/nishiki/vnpy-ctp/research_outputs/structure_followup_2026-10-07/control/2026-08/run_0002_2ad9ec2e7f71/candidate_execution.csv.gz",
+      "source": "/home/nishiki/vnpy-ctp/research_inputs/coverage_expansion_2026-10-05/cloud_state/objects/b2/b2ac751cbbad3a24b49ec3fe3758c2cefada4866fb6e1604a7115a7d4887a4e6",
+      "sha256": "b2ac751cbbad3a24b49ec3fe3758c2cefada4866fb6e1604a7115a7d4887a4e6",
+      "released_bytes": 43074,
+      "mode": "0o600"
+    },
+    {
+      "path": "/home/nishiki/vnpy-ctp/research_outputs/structure_followup_2026-10-07/control/2026-08/run_0002_2ad9ec2e7f71/daily_pool.csv.gz",
+      "source": "/home/nishiki/vnpy-ctp/research_inputs/coverage_expansion_2026-10-05/cloud_state/objects/73/73a215fa1fecbde3c2a0be4c820f1bbdbcdf14456655e0d4643cff0f934b045c",
+      "sha256": "73a215fa1fecbde3c2a0be4c820f1bbdbcdf14456655e0d4643cff0f934b045c",
+      "released_bytes": 25529,
+      "mode": "0o600"
+    },
+    {
+      "path": "/home/nishiki/vnpy-ctp/research_outputs/structure_followup_2026-10-07/control/2026-08/run_0002_2ad9ec2e7f71/pool_exclusions.csv.gz",
+      "source": "/home/nishiki/vnpy-ctp/research_inputs/coverage_expansion_2026-10-05/cloud_state/objects/9c/9c56ff1186ae2d45405e8f896c8b6ed76fd1853c01163436d4497d3654ebf854",
+      "sha256": "9c56ff1186ae2d45405e8f896c8b6ed76fd1853c01163436d4497d3654ebf854",
+      "released_bytes": 67870,
+      "mode": "0o600"
+    },
+    {
+      "path": "/home/nishiki/vnpy-ctp/research_outputs/structure_followup_2026-10-07/control/2026-08/run_0002_2ad9ec2e7f71/daily_candidates.csv.gz",
+      "source": "/home/nishiki/vnpy-ctp/research_inputs/coverage_expansion_2026-10-05/cloud_state/objects/91/910de77ae6af7f93b29899c4ab2dee2fdcd7abff8ad81c0da75e13153b05f530",
+      "sha256": "910de77ae6af7f93b29899c4ab2dee2fdcd7abff8ad81c0da75e13153b05f530",
+      "released_bytes": 47862,
+      "mode": "0o600"
+    },
+    {
+      "path": "/home/nishiki/vnpy-ctp/research_outputs/structure_followup_2026-10-07/control/2026-08/run_0002_2ad9ec2e7f71/signals.csv.gz",
+      "source": "/home/nishiki/vnpy-ctp/research_inputs/coverage_expansion_2026-10-05/cloud_state/objects/61/61ab5202272ccae554c9bb773d1a99b9a4e5a56943cc6c324773202b62f27132",
+      "sha256": "61ab5202272ccae554c9bb773d1a99b9a4e5a56943cc6c324773202b62f27132",
+      "released_bytes": 7097958,
+      "mode": "0o600"
+    },
+    {
+      "path": "/home/nishiki/vnpy-ctp/research_outputs/structure_followup_2026-10-07/control/2026-08/run_0002_2ad9ec2e7f71/rank_contribution.csv.gz",
+      "source": "/home/nishiki/vnpy-ctp/research_inputs/coverage_expansion_2026-10-05/cloud_state/objects/2e/2e79f2f33094b73d83901f0706bee2e08958f09dc3403dedeb53179d72d4dc66",
+      "sha256": "2e79f2f33094b73d83901f0706bee2e08958f09dc3403dedeb53179d72d4dc66",
+      "released_bytes": 283,
+      "mode": "0o600"
+    },
+    {
+      "path": "/home/nishiki/vnpy-ctp/research_outputs/structure_followup_2026-10-07/control/2026-09/run_0001_2b381d921a51/trades.csv.gz",
+      "source": "/home/nishiki/vnpy-ctp/research_inputs/coverage_expansion_2026-10-05/cloud_state/objects/d9/d93b1cb2077497ff52bf65b8b61d5ebe0d043ff1de8fad7ad98a0e9c09985279",
+      "sha256": "d93b1cb2077497ff52bf65b8b61d5ebe0d043ff1de8fad7ad98a0e9c09985279",
+      "released_bytes": 3171,
+      "mode": "0o600"
+    },
+    {
+      "path": "/home/nishiki/vnpy-ctp/research_outputs/structure_followup_2026-10-07/control/2026-09/run_0001_2b381d921a51/events.csv.gz",
+      "source": "/home/nishiki/vnpy-ctp/research_inputs/coverage_expansion_2026-10-05/cloud_state/objects/01/0161cc8f17454d1bb71b28a4a48ed43e2e612c87fb7dc3125087efd7d2dbfb9c",
+      "sha256": "0161cc8f17454d1bb71b28a4a48ed43e2e612c87fb7dc3125087efd7d2dbfb9c",
+      "released_bytes": 2219,
+      "mode": "0o600"
+    },
+    {
+      "path": "/home/nishiki/vnpy-ctp/research_outputs/structure_followup_2026-10-07/control/2026-09/run_0001_2b381d921a51/result.json.gz",
+      "source": "/home/nishiki/vnpy-ctp/research_inputs/coverage_expansion_2026-10-05/cloud_state/objects/50/505d6a8a0bfd9d74fa9714f71f3cb47521613b1e6598a2afcce7d43c817f1e67",
+      "sha256": "505d6a8a0bfd9d74fa9714f71f3cb47521613b1e6598a2afcce7d43c817f1e67",
+      "released_bytes": 2785906,
+      "mode": "0o600"
+    },
+    {
+      "path": "/home/nishiki/vnpy-ctp/research_outputs/structure_followup_2026-10-07/control/2026-09/run_0001_2b381d921a51/signals.csv.gz",
+      "source": "/home/nishiki/vnpy-ctp/research_inputs/coverage_expansion_2026-10-05/cloud_state/objects/fb/fba717b10aa36394a2afb9b6dd1bd6ca8d14765e57bac9da7f4d9fdae0ea36e6",
+      "sha256": "fba717b10aa36394a2afb9b6dd1bd6ca8d14765e57bac9da7f4d9fdae0ea36e6",
+      "released_bytes": 2673419,
+      "mode": "0o600"
+    },
+    {
+      "path": "/home/nishiki/vnpy-ctp/research_outputs/structure_followup_2026-10-07/control/2026-09/run_0001_2b381d921a51/rank_contribution.csv.gz",
+      "source": "/home/nishiki/vnpy-ctp/research_inputs/coverage_expansion_2026-10-05/cloud_state/objects/1c/1c915d0e7986492101987947bc203da853dbf553985a3393ffb27772c2be34ec",
+      "sha256": "1c915d0e7986492101987947bc203da853dbf553985a3393ffb27772c2be34ec",
+      "released_bytes": 312,
+      "mode": "0o600"
+    }
+  ],
+  "released_bytes": 52446326
+}

@@ -1,0 +1,53 @@
+{
+  "variant": "cost",
+  "totals": {
+    "net": 3998.2716,
+    "gross": 5160.0,
+    "fees": 1161.7284000000002,
+    "trade_count": 8,
+    "win_count": 4,
+    "best_trade": 7198.9056,
+    "without_best_trade": -3200.634,
+    "without_two_best_trades": -5347.731599999999,
+    "best_share_of_winning_net": 0.6714103798365404,
+    "quick_trades": 3,
+    "slippage_in_gross": true,
+    "independent_windows": true,
+    "max_window_drawdown": 7298.059200000018
+  },
+  "promotion": {
+    "passed": true,
+    "checks": {
+      "total_net_improves": true,
+      "each_window_net_not_worse": true,
+      "each_window_drawdown_not_worse": true,
+      "without_best_trade_net_not_worse": true,
+      "minimum_trade_count": true
+    },
+    "windows": [
+      {
+        "month": "2026-07",
+        "net_delta": 0.0,
+        "drawdown_delta": 0.0,
+        "trade_delta": 0
+      },
+      {
+        "month": "2026-08",
+        "net_delta": 5158.099999999977,
+        "drawdown_delta": -6345.469999999972,
+        "trade_delta": -4
+      },
+      {
+        "month": "2026-09",
+        "net_delta": 0.0,
+        "drawdown_delta": 0.0,
+        "trade_delta": 0
+      }
+    ],
+    "total_net_delta": 5158.1,
+    "without_best_trade_delta": 5158.1,
+    "total_trade_delta": -4
+  },
+  "locked_test_read": false,
+  "sample_status": "retrospective_diagnostic_on_already_inspected_windows"
+}

@@ -1,0 +1,33 @@
+{
+  "status": "passed",
+  "verified_utc": "2026-10-05T11:05:04.403063+00:00",
+  "manifest_id": "56f4dff26dca5807685a572f44aa0c1d2c8665b17c52d6be0a778d6a44ecf14e",
+  "report_sha256": "e856eb629d685bc5d7516be19c9d27fb0b9845b264cb9997efaea517704bfc58",
+  "cloud_report_path": "gdrive:quant_backup/vnpy-ctp/research-v1/reports/2026-10-05/strategy_coverage_review.html",
+  "cloud_report_readback_equal": true,
+  "critical_file_hashes_verified": 447,
+  "six_complete_runs_backed_up": true,
+  "monthly_data_sources_backed_up": 262,
+  "reproducibility_snapshot": "c1eb19fe536e49f24d358274b5f7ba609c4b050d94b2b93664209222335b2021",
+  "services": {
+    "rclone-googledrive.service": {
+      "enabled": "enabled",
+      "active": "active"
+    },
+    "quant-research-acquire.timer": {
+      "enabled": "enabled",
+      "active": "active"
+    },
+    "quant-research-archive.timer": {
+      "enabled": "enabled",
+      "active": "active"
+    }
+  },
+  "last_sync_exit": 0,
+  "local_bytes": 3259102329,
+  "cache_bytes": 56121024,
+  "transfer_reserved_bytes_by_day": {
+    "2026-10-05": 1156714246
+  },
+  "locked_test_read": false
+}

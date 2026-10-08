@@ -1,0 +1,228 @@
+{
+  "status": "passed",
+  "charts": 49,
+  "selected": "stop_reentry",
+  "selected_trades": 7,
+  "files": {
+    "stop_reentry-2026-07-1.png": {
+      "sha256": "f9dbebd1c3094eb9abce29b24f141032c5aae356f8a9ec438bfcda8892c2e430",
+      "bytes": 299980
+    },
+    "stop_reentry-2026-07-2.png": {
+      "sha256": "fdf75830c62294fc0cc67a3ab34494d2d10c80c2cf0e5dd9f9376578025cafb5",
+      "bytes": 304445
+    },
+    "stop_reentry-2026-07-3.png": {
+      "sha256": "968aa60327e2660eda1b32b72493c4650a90e6f646695491726ce847be74b2d9",
+      "bytes": 302197
+    },
+    "stop_reentry-2026-07-4.png": {
+      "sha256": "745dd6df83eb6d849dedb0474a79e6ce0b14d4453f563404d116a16322ef7cca",
+      "bytes": 298876
+    },
+    "stop_reentry-2026-07-5.png": {
+      "sha256": "19d6bb1fbf42d85d1cbbbb8a79a6f4d83ddbc9083d9f82aa868987a46e700500",
+      "bytes": 296018
+    },
+    "stop_reentry-2026-09-1.png": {
+      "sha256": "9d88bff986158edc3e7a47d2569734888f222878812781e72dfe9017d2f5b656",
+      "bytes": 333390
+    },
+    "stop_reentry-2026-09-2.png": {
+      "sha256": "9d293c86dd3bab1f1c97a9909cbb6ad5c72f3b3565e35af7b54333bd73280e13",
+      "bytes": 306817
+    },
+    "control-2026-07-1.png": {
+      "sha256": "949cd28e76ddc6c69d7133c142793e2f2379e714d51691b85963f62689eb730e",
+      "bytes": 290241
+    },
+    "control-2026-07-2.png": {
+      "sha256": "cb9ad252f8061d50371b4c7e872fd9af080100cfaedaa1ce3713822efbbc7d3d",
+      "bytes": 294585
+    },
+    "control-2026-07-3.png": {
+      "sha256": "06bceaf928bd885a9249fe4b627fc2d1ce0db12c794c65383d099ba6d0dde1ae",
+      "bytes": 292098
+    },
+    "control-2026-07-4.png": {
+      "sha256": "8d4bf7f9ee7d452eb96f24a53818e0478d8d8c04133294bcbbdb9ecb959ef4f4",
+      "bytes": 289179
+    },
+    "control-2026-07-5.png": {
+      "sha256": "9bfab9f3f5ac175eefdd3e5e395bb64fedc49e27493829cdd35e1c87b2cd10e4",
+      "bytes": 295075
+    },
+    "control-2026-07-6.png": {
+      "sha256": "b03d474027443cfd2fbd31195e2f813b29fbdc8d3ddcab4bf96d2004c205f2ac",
+      "bytes": 286084
+    },
+    "efficiency-2026-07-1.png": {
+      "sha256": "3843d1d27655f19512e16bdad0c8525819144c1fd5eb9297ee7b46341e2809f2",
+      "bytes": 291486
+    },
+    "efficiency-2026-07-2.png": {
+      "sha256": "6e685dbe1b9dd49561911f6020b26be87684a908a1011e75e204cd6f3111708f",
+      "bytes": 292019
+    },
+    "efficiency-2026-07-3.png": {
+      "sha256": "54b4d8e42723208268fe08039a2ba82d3ff37900f2da2b51522315a4a6415150",
+      "bytes": 293463
+    },
+    "efficiency-2026-07-4.png": {
+      "sha256": "142ec06a665762cfeeab4868fe1f91487942ef9e86f90ff489c08304bdd36efe",
+      "bytes": 296711
+    },
+    "efficiency-2026-07-5.png": {
+      "sha256": "13c9f7fc11db5f732a7152d046709264856ecfc7adf3aea1858835f878431dda",
+      "bytes": 287562
+    },
+    "oi-2026-07-1.png": {
+      "sha256": "9de3d4e0a11f78827bd9d00e63347e2975b6d75630061faaa1edbef4a4d1ffa3",
+      "bytes": 294120
+    },
+    "oi-2026-07-2.png": {
+      "sha256": "8cc531f1820d40ae507ebd7fda76bd3a50aedd24c7ae8edd70b62aef35642e78",
+      "bytes": 298916
+    },
+    "oi-2026-07-3.png": {
+      "sha256": "9f13a301bec3578177fbcde551488b99104eed939061eb0da4483395a2666424",
+      "bytes": 299199
+    },
+    "oi-2026-07-4.png": {
+      "sha256": "66adca662b1b45a54702f157ba5fb10c22b993e97bf0c77427242dbd2e8a35d9",
+      "bytes": 296485
+    },
+    "oi-2026-07-5.png": {
+      "sha256": "80d15d5e0d453074f590b40e323ac8abad21a0aad13e79158243ed1171be041f",
+      "bytes": 293131
+    },
+    "oi-2026-07-6.png": {
+      "sha256": "bd87452b9b87964fff5acfaa9e67df9278f97886dd92066fe4f92d27e5a44ff1",
+      "bytes": 299266
+    },
+    "oi-2026-07-7.png": {
+      "sha256": "34b3752d132e1ccdc537b86239fcf4a6da6412cb655f0646d851c4b077f188ea",
+      "bytes": 298722
+    },
+    "oi-2026-07-8.png": {
+      "sha256": "5eb183e076273e78da016dedad1a282c18cb8296f4267f9c0df2aa07d72cca61",
+      "bytes": 290581
+    },
+    "slope5-2026-07-1.png": {
+      "sha256": "f558bd5e18c794c350beeb23185d38321d8aa9f23a4a7c8afd93ab134e6c59ad",
+      "bytes": 292144
+    },
+    "slope5-2026-07-2.png": {
+      "sha256": "27113e236325019ade7b7d24a8e952b83a3a5a2c4eefa3496062cd34696f57f8",
+      "bytes": 281607
+    },
+    "slope5-2026-07-3.png": {
+      "sha256": "3ade98f154a307a59f3503a2a1baef87c8d3f631836d7edb0214c433c573955b",
+      "bytes": 297133
+    },
+    "slope5-2026-07-4.png": {
+      "sha256": "101e3a9cf49b6474b64da314127db55ab5a0c9f3e0471ab3c569b81d5a9f5557",
+      "bytes": 294507
+    },
+    "slope5-2026-07-5.png": {
+      "sha256": "bf574ae1048af9efa5400da2928b6cf3571713daa7405b056068eda5356e58aa",
+      "bytes": 291106
+    },
+    "slope5-2026-07-6.png": {
+      "sha256": "921c7f8bff7579b925ae8cc594f457ffbf30cda6ac1eeba3df2f6c791775f761",
+      "bytes": 297609
+    },
+    "slope5-2026-07-7.png": {
+      "sha256": "c5b1aadf9688a28ea27e2a6172d60a1ad5a85c052d6d5cdd3b9f39890533b111",
+      "bytes": 288755
+    },
+    "efficiency-2026-08-1.png": {
+      "sha256": "87758c442f50994ceec76952885ca543b0aa0d716d9da30fb7f00f897e6bbd3c",
+      "bytes": 284913
+    },
+    "efficiency-2026-08-2.png": {
+      "sha256": "b6ff8757363b14b16018692974efd6fe2b34ea3e751737332629f662db911108",
+      "bytes": 284361
+    },
+    "oi-2026-08-1.png": {
+      "sha256": "8d0f81845870d320991b038812ee5f1c2b79e1534ec43d8e2a3f485a457b66c7",
+      "bytes": 272401
+    },
+    "slope5-2026-08-1.png": {
+      "sha256": "a9c70e1a38f3ffc23580be9fc804cce208647685b1588bcdf2c9bb15314da853",
+      "bytes": 295510
+    },
+    "slope5-2026-08-2.png": {
+      "sha256": "dbcc3bf2f8630f1cf595888c0abe01528331241fa8c658be372222f380be6a45",
+      "bytes": 287464
+    },
+    "slope5-2026-08-3.png": {
+      "sha256": "25358831ee9b54a7d4372f5e2d58233a8e87d3caf93c750606e1e78a6aadda73",
+      "bytes": 295553
+    },
+    "control-2026-09-1.png": {
+      "sha256": "932b3678cc8d706093648d889f3978f7a37fc1c2a040fe66d33288b93d977fea",
+      "bytes": 323672
+    },
+    "control-2026-09-2.png": {
+      "sha256": "64dc647195ba0f42347e9382da85b3e16172bbc678514a3a502c24a87aa3755f",
+      "bytes": 297029
+    },
+    "efficiency-2026-09-1.png": {
+      "sha256": "2820102f342cea5d4e2d9253192fa94d5ef78927fb80367a5b7b980c762c866b",
+      "bytes": 326607
+    },
+    "efficiency-2026-09-2.png": {
+      "sha256": "63d4ec84a979a87d336a9603737f9e993abb1de1556b02423ec88ed9574e45d2",
+      "bytes": 298625
+    },
+    "efficiency-2026-09-3.png": {
+      "sha256": "25eaa97ac87a8b865185cd7cd7e4a7e32ea6ddc5d85f24a1cb62e625c63adf59",
+      "bytes": 292625
+    },
+    "oi-2026-09-1.png": {
+      "sha256": "8c767ad875221861af48755d8ac4de1cc449f1771bed4a5d66f489e333929e48",
+      "bytes": 327870
+    },
+    "oi-2026-09-2.png": {
+      "sha256": "ab727126a4737df1bbd890fcd4810003157fffc02286e5ba304b82a1ca6a96fd",
+      "bytes": 301395
+    },
+    "slope5-2026-09-1.png": {
+      "sha256": "01bd3d7b7abc0a70f54c6d070cfaf8d595dd2475cd666cb167631971ef39be31",
+      "bytes": 326201
+    },
+    "slope5-2026-09-2.png": {
+      "sha256": "1cdffd1db4e9948f05a5ede1062675e2f767d9987b0f1551e8ef4fa4726155b2",
+      "bytes": 299711
+    },
+    "slope5-2026-09-3.png": {
+      "sha256": "73b8f79042a37ad53645bf75e3790ccc390da4a03003f54815a4e64050505b46",
+      "bytes": 287001
+    },
+    "trade_review.csv": {
+      "sha256": "652fb98d9ff57b2609c790d7e7cfc49da002247ee801f937d3303df5b51086fd",
+      "bytes": 11142
+    },
+    "selected_trades_export.csv": {
+      "sha256": "ed2d3b9ad931abdd6b4dee77d1dcd724ab3951d226eeefea4fa7ba42199ac7db",
+      "bytes": 1428
+    },
+    "review_notes.md": {
+      "sha256": "b8e727d94633a12a07a47afb4bbd12c4f95ba84dba6fe1867b9850aade60845a",
+      "bytes": 4155
+    },
+    "进出场图与成交清单.zip": {
+      "sha256": "da37b2495a5146c124c9fef9fb7f50f9bffc37a804f6381721942e28f61aeafa",
+      "bytes": 14025046
+    },
+    "frequency_followup_review.html": {
+      "sha256": "512d3f144bddf98aacae6a8dce8afab1f2f3ae510db42e7ae2ae96c3a0d1e25c",
+      "bytes": 15391475
+    }
+  },
+  "source_checks": 49,
+  "browser_views": 98,
+  "locked_test_read": false,
+  "live_trading_changed": false
+}

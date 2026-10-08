@@ -1,0 +1,6 @@
+[submodule "src/vnpy"]
+	path = src/vnpy
+	url = https://github.com/vnpy/vnpy.git
+[submodule "src/vnpy_ctp"]
+	path = src/vnpy_ctp
+	url = https://github.com/vnpy/vnpy_ctp.git

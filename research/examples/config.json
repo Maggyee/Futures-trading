@@ -1,0 +1,90 @@
+{
+  "synthetic": false,
+  "seed": 20261002,
+  "metadata": "metadata.json",
+  "calendar": "calendar.json",
+  "data": {
+    "timezone": "Asia/Shanghai",
+    "timestamp": "start",
+    "counter_mode": "incremental",
+    "cumulative_first_is_zero_based": false,
+    "sources": [
+      {"format": "csv", "path": "../../runtime/history/20260930-125229/rb2701.SHFE.csv"},
+      {"format": "csv", "path": "../../runtime/history/20260930-125229/m2701.DCE.csv"},
+      {"format": "csv", "path": "../../runtime/history/20260930-125229/cu2611.SHFE.csv"},
+      {"format": "csv", "path": "../../runtime/history/20260930-125229/au2612.SHFE.csv"},
+      {"format": "csv", "path": "../../runtime/history/20260930-125229/sc2612.INE.csv"}
+    ]
+  },
+  "strategy": {
+    "k": 1,
+    "enable_night": false,
+    "include_night_indicators": false,
+    "require_current_session_15m": true,
+    "entry_mode": "direct",
+    "approximate_vwap": false,
+    "atr_period": 14,
+    "efficiency_min": 0.45,
+    "shock_max": 2.0,
+    "extension_max": 1.5,
+    "pullback_epsilon_ticks": 1,
+    "pullback_epsilon_atr": 0.2,
+    "volume_exit_multiple": 2.5,
+    "ma40_mode": "cross",
+    "ma40_approach_atr": 0.2,
+    "enable_volume_exit": true,
+    "enable_ma40_exit": true,
+    "enable_oi_filter": true,
+    "enable_smooth_filter": true,
+    "enable_multicycle_filter": true,
+    "allow_hold_across_break": true,
+    "cooldown_minutes": 3,
+    "slippage_ticks": 1,
+    "fixed_ticks": {
+      "rb": {"stop_loss_ticks": null, "take_profit_ticks": null},
+      "m": {"stop_loss_ticks": null, "take_profit_ticks": null},
+      "cu": {"stop_loss_ticks": null, "take_profit_ticks": null},
+      "au": {"stop_loss_ticks": null, "take_profit_ticks": null},
+      "sc": {"stop_loss_ticks": null, "take_profit_ticks": null}
+    },
+    "times": {
+      "commodity": {"entry_cutoff": "14:30", "force_close": "14:50"},
+      "index": {"entry_cutoff": "14:30", "force_close": "14:50"},
+      "treasury": {"entry_cutoff": "14:45", "force_close": "15:05"}
+    }
+  },
+  "risk": {
+    "initial_capital": 1000000,
+    "trade_risk_fraction": 0.002,
+    "portfolio_risk_fraction": 0.01,
+    "margin_fraction": 0.3,
+    "max_positions": 5,
+    "max_lots_per_contract": 100,
+    "cost_buffer_multiple": 1.0,
+    "group_fractions": {"commodity": 0.5, "financial": 0.5},
+    "block_after_unflattened": true
+  },
+  "splits": {
+    "train": {"start": "2026-09-23", "end": "2026-09-28"},
+    "validation": {"start": "2026-09-29", "end": "2026-09-29"},
+    "test": {"start": "2026-09-30", "end": "2026-09-30"}
+  },
+  "experiments": {
+    "max_runs": 32,
+    "k_values": [1, 2, 3, 4, 5, 8, 10, "ALL"],
+    "entry_modes": ["direct", "pullback_ma10", "pullback_ma20", "pullback_either"],
+    "efficiency_values": [0.35, 0.45, 0.55],
+    "volume_values": [2.0, 2.5, 3.0],
+    "slippage_values": [1, 2, 3],
+    "stop_atr_multiples": [1.0, 1.5, 2.0],
+    "target_atr_multiples": [2.0, 3.0, 4.0],
+    "minimum_trades_for_selection": 20,
+    "minimum_validation_days": 20,
+    "stability_profit_fraction": 0.001,
+    "stability_drawdown_fraction": 0.001,
+    "calibration_candidate_index": 0,
+    "time_variants": {},
+    "fixed_tick_variants": [],
+    "windows": []
+  }
+}

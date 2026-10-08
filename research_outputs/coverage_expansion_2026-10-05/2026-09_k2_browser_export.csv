@@ -1,0 +1,3 @@
+﻿contract,direction,entry_time,exit_time,rank,quantity,entry_price,exit_price,exit_reason,holding_minutes,fees,net_pnl
+lc2701.GFEX,SHORT,2026-09-16T09:31:00+08:00,2026-09-16T10:10:00+08:00,2,3,127400,124940,trailing_stop,39,181.09440000000004,7198.9056
+lc2701.GFEX,LONG,2026-09-17T11:27:00+08:00,2026-09-17T13:30:00+08:00,1,4,131320,131920,volume,3,252.90240000000003,2147.0976

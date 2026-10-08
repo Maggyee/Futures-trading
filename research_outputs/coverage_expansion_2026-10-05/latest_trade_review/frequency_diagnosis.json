@@ -1,0 +1,223 @@
+{
+  "gates": [
+    {
+      "label": "候选分钟",
+      "observations": 89274
+    },
+    {
+      "label": "时段、预热及数据连续",
+      "observations": 73025
+    },
+    {
+      "label": "1/5/15分钟趋势",
+      "observations": 10757
+    },
+    {
+      "label": "近似均价位置",
+      "observations": 10217
+    },
+    {
+      "label": "开盘净增仓",
+      "observations": 4355
+    },
+    {
+      "label": "效率、异常波幅及乖离",
+      "observations": 269
+    },
+    {
+      "label": "活跃度及同向位移",
+      "observations": 261
+    },
+    {
+      "label": "1/5分钟斜率范围",
+      "observations": 47
+    },
+    {
+      "label": "无即时退场否决",
+      "observations": 43
+    },
+    {
+      "label": "执行资料可用",
+      "observations": 40
+    },
+    {
+      "label": "成本/ATR≤0.5",
+      "observations": 24
+    }
+  ],
+  "eligible": {
+    "observations": 24,
+    "contract_day_directions": 14,
+    "contiguous_spells": 15
+  },
+  "risk_rejections": [
+    {
+      "contract": "IM2609.CFFEX",
+      "date": "2026-07-13",
+      "direction": "SHORT",
+      "time": "2026-07-13T14:12:00+08:00",
+      "risk_rejections": "[\"single_trade_risk\", \"group_margin\"]"
+    },
+    {
+      "contract": "IC2609.CFFEX",
+      "date": "2026-07-13",
+      "direction": "SHORT",
+      "time": "2026-07-13T14:13:00+08:00",
+      "risk_rejections": "[\"single_trade_risk\", \"group_margin\"]"
+    },
+    {
+      "contract": "IM2609.CFFEX",
+      "date": "2026-07-13",
+      "direction": "SHORT",
+      "time": "2026-07-13T14:13:00+08:00",
+      "risk_rejections": "[\"single_trade_risk\", \"group_margin\"]"
+    },
+    {
+      "contract": "IC2609.CFFEX",
+      "date": "2026-07-13",
+      "direction": "SHORT",
+      "time": "2026-07-13T14:14:00+08:00",
+      "risk_rejections": "[\"single_trade_risk\", \"group_margin\"]"
+    },
+    {
+      "contract": "IC2609.CFFEX",
+      "date": "2026-07-16",
+      "direction": "SHORT",
+      "time": "2026-07-16T14:16:00+08:00",
+      "risk_rejections": "[\"single_trade_risk\", \"group_margin\"]"
+    },
+    {
+      "contract": "IM2609.CFFEX",
+      "date": "2026-07-16",
+      "direction": "SHORT",
+      "time": "2026-07-16T14:17:00+08:00",
+      "risk_rejections": "[\"single_trade_risk\", \"group_margin\"]"
+    },
+    {
+      "contract": "IM2609.CFFEX",
+      "date": "2026-07-16",
+      "direction": "SHORT",
+      "time": "2026-07-16T14:18:00+08:00",
+      "risk_rejections": "[\"single_trade_risk\", \"group_margin\"]"
+    },
+    {
+      "contract": "IF2609.CFFEX",
+      "date": "2026-07-28",
+      "direction": "SHORT",
+      "time": "2026-07-28T13:51:00+08:00",
+      "risk_rejections": "[\"group_margin\"]"
+    },
+    {
+      "contract": "IF2609.CFFEX",
+      "date": "2026-07-28",
+      "direction": "SHORT",
+      "time": "2026-07-28T13:52:00+08:00",
+      "risk_rejections": "[\"group_margin\"]"
+    },
+    {
+      "contract": "IF2609.CFFEX",
+      "date": "2026-07-28",
+      "direction": "SHORT",
+      "time": "2026-07-28T13:53:00+08:00",
+      "risk_rejections": "[\"group_margin\"]"
+    },
+    {
+      "contract": "IM2609.CFFEX",
+      "date": "2026-08-19",
+      "direction": "SHORT",
+      "time": "2026-08-19T13:51:00+08:00",
+      "risk_rejections": "[\"single_trade_risk\", \"group_margin\"]"
+    },
+    {
+      "contract": "IM2612.CFFEX",
+      "date": "2026-09-18",
+      "direction": "LONG",
+      "time": "2026-09-18T13:15:00+08:00",
+      "risk_rejections": "[\"single_trade_risk\", \"group_margin\"]"
+    }
+  ],
+  "risk_distinct": {
+    "observations": 12,
+    "contract_day_directions": 7,
+    "contiguous_spells": 7
+  },
+  "alternatives": [
+    {
+      "key": "efficiency_035",
+      "label": "效率下限0.45改为0.35",
+      "observations": 45,
+      "contract_day_directions": 18,
+      "contiguous_spells": 24
+    },
+    {
+      "key": "slope_1m",
+      "label": "移除1分钟斜率范围及1跳下限",
+      "observations": 50,
+      "contract_day_directions": 21,
+      "contiguous_spells": 31
+    },
+    {
+      "key": "slope_5m",
+      "label": "移除5分钟斜率范围及1跳下限",
+      "observations": 43,
+      "contract_day_directions": 24,
+      "contiguous_spells": 29
+    },
+    {
+      "key": "slope_both",
+      "label": "同时移除两周期斜率范围及1跳下限",
+      "observations": 86,
+      "contract_day_directions": 31,
+      "contiguous_spells": 57
+    },
+    {
+      "key": "oi",
+      "label": "移除开盘净增仓要求",
+      "observations": 64,
+      "contract_day_directions": 33,
+      "contiguous_spells": 44
+    },
+    {
+      "key": "efficiency",
+      "label": "移除方向效率门槛",
+      "observations": 87,
+      "contract_day_directions": 23,
+      "contiguous_spells": 54
+    },
+    {
+      "key": "shock",
+      "label": "移除异常波幅门槛",
+      "observations": 25,
+      "contract_day_directions": 14,
+      "contiguous_spells": 16
+    },
+    {
+      "key": "displacement",
+      "label": "移除同向位移下限",
+      "observations": 24,
+      "contract_day_directions": 14,
+      "contiguous_spells": 15
+    },
+    {
+      "key": "extension",
+      "label": "移除MA20乖离上限",
+      "observations": 74,
+      "contract_day_directions": 20,
+      "contiguous_spells": 34
+    },
+    {
+      "key": "five_trend",
+      "label": "移除5分钟价格位置要求",
+      "observations": 25,
+      "contract_day_directions": 15,
+      "contiguous_spells": 16
+    },
+    {
+      "key": "cost",
+      "label": "移除成本/ATR上限",
+      "observations": 40,
+      "contract_day_directions": 21,
+      "contiguous_spells": 22
+    }
+  ]
+}

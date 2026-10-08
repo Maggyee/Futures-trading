@@ -1,0 +1,70 @@
+{
+  "schema": 1,
+  "remote": "gdrive:quant_backup/vnpy-ctp/research-v1",
+  "local_state": "/home/nishiki/vnpy-ctp/research_inputs/coverage_expansion_2026-10-05/cloud_state",
+  "cache_root": "/home/nishiki/vnpy-ctp/.cache/quant_research",
+  "cache_max_bytes": 1073741824,
+  "cloud_max_bytes": 53687091200,
+  "transfer_max_bytes_per_day": 2147483648,
+  "bandwidth": "4M",
+  "transfers": 1,
+  "local_budget": {
+    "roots": [
+      "/home/nishiki/vnpy-ctp/research_inputs/coverage_expansion_2026-10-05",
+      "/home/nishiki/vnpy-ctp/research_outputs/coverage_expansion_2026-10-05"
+    ],
+    "max_bytes": 5368709120,
+    "min_free_bytes": 4294967296
+  },
+  "sources": [
+    {
+      "name": "expanded_inputs",
+      "root": "/home/nishiki/vnpy-ctp/research_inputs/coverage_expansion_2026-10-05",
+      "exclude": [
+        "cloud_state",
+        "test_tmp"
+      ]
+    },
+    {
+      "name": "expanded_outputs",
+      "root": "/home/nishiki/vnpy-ctp/research_outputs/coverage_expansion_2026-10-05"
+    },
+    {
+      "name": "recommended_strategy",
+      "root": "/home/nishiki/vnpy-ctp/research_outputs/2026-09/trailing_exit_review/trailing/run_0001_78f1dce4894c",
+      "exclude": []
+    },
+    {
+      "name": "original_training_run",
+      "root": "/home/nishiki/vnpy-ctp/research_outputs/2026-09/lc_history_baseline_k2/run_0001_21c90080fd67"
+    },
+    {
+      "name": "immutable_data_0",
+      "root": "/home/nishiki/vnpy-ctp/research_inputs/2026-09/datasets",
+      "include": [
+        "6cafc278d9329f5134582c629ada17361d2b517ec1bb3217642a4e4c34e19625.jsonl.gz",
+        "6cafc278d9329f5134582c629ada17361d2b517ec1bb3217642a4e4c34e19625.jsonl.gz.sha256",
+        "c7d1355921f9d63be9deffb21f33762f8de45cdf8abae4255b0fc7c5dff999f8.jsonl.gz",
+        "c7d1355921f9d63be9deffb21f33762f8de45cdf8abae4255b0fc7c5dff999f8.jsonl.gz.sha256"
+      ]
+    },
+    {
+      "name": "original_indicators",
+      "root": "/home/nishiki/vnpy-ctp/research_outputs/2026-09/diagnostic_baseline/indicator_cache",
+      "include": [
+        "a5673ad579092e90a1ac7626deaa1820b67f903af9923aca2364ae1ae68b0d95.jsonl.gz",
+        "a5673ad579092e90a1ac7626deaa1820b67f903af9923aca2364ae1ae68b0d95.jsonl.gz.sha256"
+      ]
+    }
+  ],
+  "sync_interval_minutes": 15,
+  "credentials_backed_up": false,
+  "pack_objects": true,
+  "manifest_max_bytes": 16777216,
+  "rclone_config": "/home/nishiki/.config/rclone/quant-googledrive.conf",
+  "report_mirrors": {
+    "expanded_outputs/strategy_coverage_review.html": "reports/2026-10-05/strategy_coverage_review.html",
+    "expanded_outputs/optimization_review.html": "reports/2026-10-05/optimization_review.html"
+  },
+  "proxy": "http://127.0.0.1:10808"
+}

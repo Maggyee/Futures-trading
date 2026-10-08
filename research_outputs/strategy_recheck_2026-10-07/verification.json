@@ -1,0 +1,10 @@
+{
+  "status": "passed",
+  "original_source_files_unchanged": 37,
+  "saved_trade_rows_checked": 35,
+  "signal_observations_checked": 137315,
+  "report_local_links_checked": 3,
+  "embedded_chart_checked": 1,
+  "relevant_existing_tests_passed": 68,
+  "new_backtest_run": false
+}

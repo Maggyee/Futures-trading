@@ -1,0 +1,425 @@
+{
+  "status": "passed",
+  "checks": [
+    {
+      "uid": "control-2026-07-1",
+      "all_entry_filters": true,
+      "entry_and_exit_events": true,
+      "raw_candles": true,
+      "independent_MA_and_slopes": true,
+      "exit_rule_and_price": true,
+      "known_protection_only": true,
+      "missing_selection_minutes_restored_from_causal_sources": true,
+      "net_pnl": 133.266
+    },
+    {
+      "uid": "control-2026-07-2",
+      "all_entry_filters": true,
+      "entry_and_exit_events": true,
+      "raw_candles": true,
+      "independent_MA_and_slopes": true,
+      "exit_rule_and_price": true,
+      "known_protection_only": true,
+      "missing_selection_minutes_restored_from_causal_sources": true,
+      "net_pnl": 119.0
+    },
+    {
+      "uid": "control-2026-07-3",
+      "all_entry_filters": true,
+      "entry_and_exit_events": true,
+      "raw_candles": true,
+      "independent_MA_and_slopes": true,
+      "exit_rule_and_price": true,
+      "known_protection_only": true,
+      "missing_selection_minutes_restored_from_causal_sources": true,
+      "net_pnl": -1314.0
+    },
+    {
+      "uid": "control-2026-07-4",
+      "all_entry_filters": true,
+      "entry_and_exit_events": true,
+      "raw_candles": true,
+      "independent_MA_and_slopes": true,
+      "exit_rule_and_price": true,
+      "known_protection_only": true,
+      "missing_selection_minutes_restored_from_causal_sources": true,
+      "net_pnl": -1721.2800000000002
+    },
+    {
+      "uid": "control-2026-07-5",
+      "all_entry_filters": true,
+      "entry_and_exit_events": true,
+      "raw_candles": true,
+      "independent_MA_and_slopes": true,
+      "exit_rule_and_price": true,
+      "known_protection_only": true,
+      "missing_selection_minutes_restored_from_causal_sources": true,
+      "net_pnl": 977.0616
+    },
+    {
+      "uid": "control-2026-09-1",
+      "all_entry_filters": true,
+      "entry_and_exit_events": true,
+      "raw_candles": true,
+      "independent_MA_and_slopes": true,
+      "exit_rule_and_price": true,
+      "known_protection_only": true,
+      "missing_selection_minutes_restored_from_causal_sources": true,
+      "net_pnl": 7198.9056
+    },
+    {
+      "uid": "control-2026-09-2",
+      "all_entry_filters": true,
+      "entry_and_exit_events": true,
+      "raw_candles": true,
+      "independent_MA_and_slopes": true,
+      "exit_rule_and_price": true,
+      "known_protection_only": true,
+      "missing_selection_minutes_restored_from_causal_sources": true,
+      "net_pnl": 2147.0976
+    },
+    {
+      "uid": "confirmation-2026-07-1",
+      "all_entry_filters": true,
+      "entry_and_exit_events": true,
+      "raw_candles": true,
+      "independent_MA_and_slopes": true,
+      "exit_rule_and_price": true,
+      "known_protection_only": true,
+      "missing_selection_minutes_restored_from_causal_sources": true,
+      "net_pnl": 133.266
+    },
+    {
+      "uid": "confirmation-2026-07-2",
+      "all_entry_filters": true,
+      "entry_and_exit_events": true,
+      "raw_candles": true,
+      "independent_MA_and_slopes": true,
+      "exit_rule_and_price": true,
+      "known_protection_only": true,
+      "missing_selection_minutes_restored_from_causal_sources": true,
+      "net_pnl": 119.0
+    },
+    {
+      "uid": "confirmation-2026-07-3",
+      "all_entry_filters": true,
+      "entry_and_exit_events": true,
+      "raw_candles": true,
+      "independent_MA_and_slopes": true,
+      "exit_rule_and_price": true,
+      "known_protection_only": true,
+      "missing_selection_minutes_restored_from_causal_sources": true,
+      "net_pnl": -1314.0
+    },
+    {
+      "uid": "confirmation-2026-07-4",
+      "all_entry_filters": true,
+      "entry_and_exit_events": true,
+      "raw_candles": true,
+      "independent_MA_and_slopes": true,
+      "exit_rule_and_price": true,
+      "known_protection_only": true,
+      "missing_selection_minutes_restored_from_causal_sources": true,
+      "net_pnl": -1721.2800000000002
+    },
+    {
+      "uid": "confirmation-2026-07-5",
+      "all_entry_filters": true,
+      "entry_and_exit_events": true,
+      "raw_candles": true,
+      "independent_MA_and_slopes": true,
+      "exit_rule_and_price": true,
+      "known_protection_only": true,
+      "missing_selection_minutes_restored_from_causal_sources": true,
+      "net_pnl": 977.0616
+    },
+    {
+      "uid": "structure-2026-07-1",
+      "all_entry_filters": true,
+      "entry_and_exit_events": true,
+      "raw_candles": true,
+      "independent_MA_and_slopes": true,
+      "exit_rule_and_price": true,
+      "known_protection_only": true,
+      "missing_selection_minutes_restored_from_causal_sources": true,
+      "net_pnl": -932.886
+    },
+    {
+      "uid": "structure-2026-07-2",
+      "all_entry_filters": true,
+      "entry_and_exit_events": true,
+      "raw_candles": true,
+      "independent_MA_and_slopes": true,
+      "exit_rule_and_price": true,
+      "known_protection_only": true,
+      "missing_selection_minutes_restored_from_causal_sources": true,
+      "net_pnl": 171.0
+    },
+    {
+      "uid": "structure-2026-07-3",
+      "all_entry_filters": true,
+      "entry_and_exit_events": true,
+      "raw_candles": true,
+      "independent_MA_and_slopes": true,
+      "exit_rule_and_price": true,
+      "known_protection_only": true,
+      "missing_selection_minutes_restored_from_causal_sources": true,
+      "net_pnl": -780.0
+    },
+    {
+      "uid": "structure-2026-07-4",
+      "all_entry_filters": true,
+      "entry_and_exit_events": true,
+      "raw_candles": true,
+      "independent_MA_and_slopes": true,
+      "exit_rule_and_price": true,
+      "known_protection_only": true,
+      "missing_selection_minutes_restored_from_causal_sources": true,
+      "net_pnl": -300.8192
+    },
+    {
+      "uid": "structure-2026-07-5",
+      "all_entry_filters": true,
+      "entry_and_exit_events": true,
+      "raw_candles": true,
+      "independent_MA_and_slopes": true,
+      "exit_rule_and_price": true,
+      "known_protection_only": true,
+      "missing_selection_minutes_restored_from_causal_sources": true,
+      "net_pnl": 21.3807
+    },
+    {
+      "uid": "confirmation-2026-09-1",
+      "all_entry_filters": true,
+      "entry_and_exit_events": true,
+      "raw_candles": true,
+      "independent_MA_and_slopes": true,
+      "exit_rule_and_price": true,
+      "known_protection_only": true,
+      "missing_selection_minutes_restored_from_causal_sources": true,
+      "net_pnl": 7198.9056
+    },
+    {
+      "uid": "confirmation-2026-09-2",
+      "all_entry_filters": true,
+      "entry_and_exit_events": true,
+      "raw_candles": true,
+      "independent_MA_and_slopes": true,
+      "exit_rule_and_price": true,
+      "known_protection_only": true,
+      "missing_selection_minutes_restored_from_causal_sources": true,
+      "net_pnl": 2147.0976
+    },
+    {
+      "uid": "structure-2026-09-1",
+      "all_entry_filters": true,
+      "entry_and_exit_events": true,
+      "raw_candles": true,
+      "independent_MA_and_slopes": true,
+      "exit_rule_and_price": true,
+      "known_protection_only": true,
+      "missing_selection_minutes_restored_from_causal_sources": true,
+      "net_pnl": 2399.6352
+    },
+    {
+      "uid": "structure-2026-09-2",
+      "all_entry_filters": true,
+      "entry_and_exit_events": true,
+      "raw_candles": true,
+      "independent_MA_and_slopes": true,
+      "exit_rule_and_price": true,
+      "known_protection_only": true,
+      "missing_selection_minutes_restored_from_causal_sources": true,
+      "net_pnl": 536.7744
+    }
+  ],
+  "sources": [
+    {
+      "month": "2026-07",
+      "variant": "control",
+      "directory": "/home/nishiki/vnpy-ctp/research_outputs/structure_followup_2026-10-07/control/2026-07/run_0001_1d3a1de3618f",
+      "hashes": {
+        "config_snapshot.json": "64b546cc49dcb7d39dff952e62f5f4ad36bd03ed6c4987f640478cfb76d54815",
+        "manifest.json": "e3039e59f5d2e33de30f04d8c7546d3be59729be7ae7a85ade298d490a443120",
+        "trades.csv.gz": "618566cd26d98cfde9ca31214d15413a61269eeb0b840b217cd8a443bdb591d2",
+        "summary.json": "46af4387697933b70ed7c12c2c3fd8378604d46a6728e2d35a3f0bb47f650ed7",
+        "independent_coverage_audit.json": "b0dccc3c63d4d61afcee0369520be5cb991ba8a73af3994e4530330f22e6c4d8",
+        "source_snapshot.tar.gz": "8199f190722095811d4f0b5bbf4d7e7ac2847292f6db907298f9b0d714ad03ab",
+        "independent_structure_audit.json": "c14e1f90bf4fbcd967eebff2614cb7fe7df5e14a228b7a4343c01b6fb3df80cf",
+        "signals.csv.gz": "79969d2bd726e144686369e7e18574638844e156277356712d953c89d57eeb59",
+        "events.csv.gz": "60efce3e9909ad1131eaa9faea4a61b8d043d1da1d275f19ac768836616c368b",
+        "orders.csv.gz": "e204cfb382ff33db9f5856791f5ba8919c65cd5dea84bf7056a6057748763296"
+      }
+    },
+    {
+      "month": "2026-08",
+      "variant": "control",
+      "directory": "/home/nishiki/vnpy-ctp/research_outputs/structure_followup_2026-10-07/control/2026-08/run_0002_2ad9ec2e7f71",
+      "hashes": {
+        "config_snapshot.json": "2e610c3d0f2f4eff119bb97da5868791d606afe75671ea19f9f839deb3c1ec10",
+        "manifest.json": "ba24702e4eec1ee5efa78df580cc6ba735eb224b16ddc414847a2033890994ec",
+        "trades.csv.gz": "0510818b525a8789fd01997a41c25f8984e4704f7764f0c52600e2458544bdd2",
+        "summary.json": "8fb8ec097b1d4485ee4c18fcdc2a4f3b8aa959e675d8d6336f41c4260f27d87d",
+        "independent_coverage_audit.json": "0fada94a3bcad42a5547e544f69258e608590b55ebe53a8ea3a907add0d035ae",
+        "source_snapshot.tar.gz": "9aa277b4569963652355d099145730f895f00b0e369c5b9a1b40655fbcd72501",
+        "independent_structure_audit.json": "9a04c012bfbe6a841705adf35d39fd7e91887bd9c89af9e56a84f9ae99db6171",
+        "signals.csv.gz": "61ab5202272ccae554c9bb773d1a99b9a4e5a56943cc6c324773202b62f27132",
+        "events.csv.gz": "0510818b525a8789fd01997a41c25f8984e4704f7764f0c52600e2458544bdd2",
+        "orders.csv.gz": "0510818b525a8789fd01997a41c25f8984e4704f7764f0c52600e2458544bdd2"
+      }
+    },
+    {
+      "month": "2026-09",
+      "variant": "control",
+      "directory": "/home/nishiki/vnpy-ctp/research_outputs/structure_followup_2026-10-07/control/2026-09/run_0001_2b381d921a51",
+      "hashes": {
+        "config_snapshot.json": "1b0b54a60bd890a8083ec8f04864a61a5a5a2fd21dff45cd937ef47eac07de50",
+        "manifest.json": "41997f91ca0500e9e4996abcdda16bb1feda79737b3dfd8ff12771ed5327a37c",
+        "trades.csv.gz": "d93b1cb2077497ff52bf65b8b61d5ebe0d043ff1de8fad7ad98a0e9c09985279",
+        "summary.json": "dc5859005b0bfe764363a3f03c60d60b6a6027ddfb02d4499b43633afd96d428",
+        "independent_coverage_audit.json": "6bac99f6e8087763802eb5fbdfae917b0b4690b23611020aa054c5587e9a1708",
+        "source_snapshot.tar.gz": "f562200483ddf6bb1a874d8864c8270fac2c485908353a2c4a05662b91d02d7a",
+        "independent_structure_audit.json": "b63f17b20d13396aebbbcc9f9633c7daefe4080ea722cac6586b6ad91e031fcb",
+        "signals.csv.gz": "fba717b10aa36394a2afb9b6dd1bd6ca8d14765e57bac9da7f4d9fdae0ea36e6",
+        "events.csv.gz": "0161cc8f17454d1bb71b28a4a48ed43e2e612c87fb7dc3125087efd7d2dbfb9c",
+        "orders.csv.gz": "5305480dae1e9e610cdd85d0ad6f14006587cc7b2744bbcfa0ae9bbc02e166fb"
+      }
+    },
+    {
+      "month": "2026-07",
+      "variant": "confirmation",
+      "directory": "/home/nishiki/vnpy-ctp/research_outputs/structure_followup_2026-10-07/confirmation/2026-07/run_0002_d0cf6cf51a4f",
+      "hashes": {
+        "config_snapshot.json": "5383cd422d65a2c2dd05154e7f24e43b4e267a0c5c7b122dffad6610e7e72a1a",
+        "manifest.json": "0e70d589a2c3af022121016e5b79559a9941cf4e3339475df9009242afb4e26e",
+        "trades.csv.gz": "1a8ffdb18049dc8e2fcaca4ef9bcb1d32e2cef2326a504072638785011e3ab03",
+        "summary.json": "55bde16c287f0cfc0e7c04080dcd933e6391244d94119b75a81beab2a273209f",
+        "independent_coverage_audit.json": "81f8ea227f4fac1ee688f1a76de30a680f3d3766fd7a28957af1e7a37b82c4cc",
+        "source_snapshot.tar.gz": "fe5bd819b4dd9869ad417fc79e4919263860c0e3b57a1ff50c8a33062c139fc7",
+        "independent_structure_audit.json": "47b0eb1d7d84b42956ba56610cdf518d0bd5bdbb850018f392998cdbf021a04e",
+        "confirmation_setups.csv.gz": "d1a028ffa986d75e2b51d39c0d3977e9ad1f33bc0a0dd4e9aa01f3b4d01ecd35",
+        "confirmed_channels.csv.gz": "8119bc01d0ffbe52835eddd87b9ffa79ab4425983337c9fe511ea2c6e7520709",
+        "signals.csv.gz": "e999a32fddfbe4e5eba2c8a82126a700172fefae894d7b0b5508574507c57865",
+        "events.csv.gz": "db4744d36877708f35a0a2bbce28f368a2ac91b0f45a1e9f92adf6ef0ccb7faa",
+        "orders.csv.gz": "756d90926b81ab99007d3bbd134c853cad265006a74dd11b5ab98e46a2397865"
+      }
+    },
+    {
+      "month": "2026-07",
+      "variant": "structure",
+      "directory": "/home/nishiki/vnpy-ctp/research_outputs/structure_followup_2026-10-07/structure/2026-07/run_0001_329c34feecba",
+      "hashes": {
+        "config_snapshot.json": "0241cdede416850308d09f1c7182d4efdeeac5169d3b888dcd704f0fce9f22cc",
+        "manifest.json": "92913ff6afc002b144d0f74bac2eb232c25922bdf8c2d2dcf60ee85528dc3c45",
+        "trades.csv.gz": "20be530f167f1e60ac753fa6d9b5a6913aca09a0fd4b033329bf22ae615ef1c4",
+        "summary.json": "f730540ca671d15f2623c96c3ab98e90528be9fcd45634fc4ab3e2d3a63d21c6",
+        "independent_coverage_audit.json": "5a5f6dc1bdbddddaa1a828e500484293b23e886ff8d565b40d663a35eb6bf18f",
+        "source_snapshot.tar.gz": "9ab18f5fe91687418f50858da17c5b08dca641b725d33bda1f1e47185cb12d89",
+        "independent_structure_audit.json": "5724626889b7bd66c09fa789fd79c9f5e93dd2b2498671c89c8199b2a158a614",
+        "confirmation_setups.csv.gz": "0510818b525a8789fd01997a41c25f8984e4704f7764f0c52600e2458544bdd2",
+        "confirmed_channels.csv.gz": "0510818b525a8789fd01997a41c25f8984e4704f7764f0c52600e2458544bdd2",
+        "signals.csv.gz": "f9e5ada0297e2b8ca7d03834f040a8f47643136cd23e5dbf7302dbe1639bd595",
+        "events.csv.gz": "df277e9cf84a57c9540071c749181be77c83d761739b11cc55d56586ec851c50",
+        "orders.csv.gz": "445efb04a0f889e6ea356d4a11dfb09e2644b77f2281b66d4310b00074f138b0"
+      }
+    },
+    {
+      "month": "2026-08",
+      "variant": "confirmation",
+      "directory": "/home/nishiki/vnpy-ctp/research_outputs/structure_followup_2026-10-07/confirmation/2026-08/run_0001_c6dc2b37bb73",
+      "hashes": {
+        "config_snapshot.json": "92654bfad3ddad46990f953f6c26031a053c02508a53b06601815e181550090a",
+        "manifest.json": "8aaece92350751ef1f99fc4291c973afffaf04a4dcb2039505b0255cf04a002e",
+        "trades.csv.gz": "0510818b525a8789fd01997a41c25f8984e4704f7764f0c52600e2458544bdd2",
+        "summary.json": "8fb8ec097b1d4485ee4c18fcdc2a4f3b8aa959e675d8d6336f41c4260f27d87d",
+        "independent_coverage_audit.json": "5fab5db001cbc642bafed64d6e53b2d453bcb841d4ab60ac2729f23167df6fa1",
+        "source_snapshot.tar.gz": "25719ea8a539dfb3ce2af2d8b08e02a0603357a875ac1a2cbfb547679d1b702e",
+        "independent_structure_audit.json": "0691f53477542a87232411081c4f25704c431f3f0db339a24607f9532d589001",
+        "confirmation_setups.csv.gz": "cc22c5dc6475218e81393e42a8430064b02f830f35319f21549788c75d564fb2",
+        "confirmed_channels.csv.gz": "5bd4ec6d6e3348f47e1552298148039cc88d7211c627511b80bd8a96a459e60e",
+        "signals.csv.gz": "d73c7a1eceaf6b02f226b2d94220e260553d963c53aa48ff13368ac56374bcc3",
+        "events.csv.gz": "0510818b525a8789fd01997a41c25f8984e4704f7764f0c52600e2458544bdd2",
+        "orders.csv.gz": "0510818b525a8789fd01997a41c25f8984e4704f7764f0c52600e2458544bdd2"
+      }
+    },
+    {
+      "month": "2026-08",
+      "variant": "structure",
+      "directory": "/home/nishiki/vnpy-ctp/research_outputs/structure_followup_2026-10-07/structure/2026-08/run_0001_e0cf53b9b5de",
+      "hashes": {
+        "config_snapshot.json": "d7ca6200bd3306dd4facb788595818198db88e4868375acc4fa8b6be8c72ef08",
+        "manifest.json": "b8bc671bb53aa052630943077d28d198fcfd759e8ab58a0e70602fbe6b28352c",
+        "trades.csv.gz": "0510818b525a8789fd01997a41c25f8984e4704f7764f0c52600e2458544bdd2",
+        "summary.json": "0098bbd875c9ad3dc7b6c6bfe057f2bde254c354517a677b1a261e7b9f5b8de2",
+        "independent_coverage_audit.json": "339ae487b4f580a8e5eccf574b8bce9a09d61dfc96680fafd40f48d2ca1fee62",
+        "source_snapshot.tar.gz": "1432400a1412a5a4feccc3679cf17c310d75921dcb60df0ce4faa52411a77824",
+        "independent_structure_audit.json": "e2abce851a8d97b7d2fbf370936f474e9689c1e82b70b8b103d1a6b09be908ae",
+        "confirmation_setups.csv.gz": "0510818b525a8789fd01997a41c25f8984e4704f7764f0c52600e2458544bdd2",
+        "confirmed_channels.csv.gz": "0510818b525a8789fd01997a41c25f8984e4704f7764f0c52600e2458544bdd2",
+        "signals.csv.gz": "8f3a645fa6d04f0ab6fd4e8376e5969008d8e9d2945789a7029cac772c7b1a8d",
+        "events.csv.gz": "0510818b525a8789fd01997a41c25f8984e4704f7764f0c52600e2458544bdd2",
+        "orders.csv.gz": "0510818b525a8789fd01997a41c25f8984e4704f7764f0c52600e2458544bdd2"
+      }
+    },
+    {
+      "month": "2026-09",
+      "variant": "confirmation",
+      "directory": "/home/nishiki/vnpy-ctp/research_outputs/structure_followup_2026-10-07/confirmation/2026-09/run_0001_22973703c441",
+      "hashes": {
+        "config_snapshot.json": "201d1e2d4ba8adba224c43ee332d01665676be87a39b32ffe7f4bb5bae1a14a4",
+        "manifest.json": "6e6241c9d402f191bb788b2deaaea5705dc9011aaed6322676dba18fdc87c50f",
+        "trades.csv.gz": "c7776a50b7ddb5cdce575cc7d572ecdfe19401c855758b76ee6d630c4b2696b5",
+        "summary.json": "dc5859005b0bfe764363a3f03c60d60b6a6027ddfb02d4499b43633afd96d428",
+        "independent_coverage_audit.json": "dee259b07774530cef2c75699385cd56e64acbf4eb5eaaaa672abd80e1a37717",
+        "source_snapshot.tar.gz": "c37141ad861b3ff9b3095d4276c77800be19037c0e625d0aed325eb6aa9bd9f8",
+        "independent_structure_audit.json": "74fab38ce57100a8eede794a96ac4318b154657a314603369f38b0cbe3177e26",
+        "confirmation_setups.csv.gz": "02b2e8d30d37cdc1f35a3fc6d48a47573afbec21c981309763b4a54feff790d7",
+        "confirmed_channels.csv.gz": "1f4b24ac48b9d6bcdba6413b0209816e0cba917fdf673d2f815136863e70e376",
+        "signals.csv.gz": "b1b030fb75873aafa5fff9c83b2ded7de96bb3863df1279072b2131340431ac1",
+        "events.csv.gz": "0161cc8f17454d1bb71b28a4a48ed43e2e612c87fb7dc3125087efd7d2dbfb9c",
+        "orders.csv.gz": "5305480dae1e9e610cdd85d0ad6f14006587cc7b2744bbcfa0ae9bbc02e166fb"
+      }
+    },
+    {
+      "month": "2026-09",
+      "variant": "structure",
+      "directory": "/home/nishiki/vnpy-ctp/research_outputs/structure_followup_2026-10-07/structure/2026-09/run_0001_eedb03e3f401",
+      "hashes": {
+        "config_snapshot.json": "f8cead03e1317f2244da3eef1f7d9bbc765b0fb6df81ed82504822d60e94f700",
+        "manifest.json": "a4530b56fd62ccf710933ae7ed64ee894191776c52c4fd3e16b4bbffb72d6e7b",
+        "trades.csv.gz": "5809f0333c079faa5d8d8099843e98b3bd50488d2e64ab29c2742d2e0a0c143b",
+        "summary.json": "bc314ca1ba707c5f8e04c9839276792a04718622e9f57c1b01916b3c34822092",
+        "independent_coverage_audit.json": "e6060fba8758aedc085bf1cc5914f80b0a00b9cadae75597d1392b34d48ff07a",
+        "source_snapshot.tar.gz": "f81a1bfa3dc1e71c5c85237da59ad225b00aed99ec935449fc2c83065164fadb",
+        "independent_structure_audit.json": "d13bd4054772bc954a8dd987d90607eb3871b80869ccfd460aca2ec7245b4e8b",
+        "confirmation_setups.csv.gz": "0510818b525a8789fd01997a41c25f8984e4704f7764f0c52600e2458544bdd2",
+        "confirmed_channels.csv.gz": "0510818b525a8789fd01997a41c25f8984e4704f7764f0c52600e2458544bdd2",
+        "signals.csv.gz": "50044d740f4d61ee9e5ad347711fbd9e7b96624d04cac4fea874420a0fe69ca7",
+        "events.csv.gz": "9584db2cc7cde48df808c5bec0fbed027c52003dac9dd0e5a717492094c9a5a6",
+        "orders.csv.gz": "a6548cfd168dfd24430c959bf4729c4a68bc8b3dfcd17a7f51e56887b208a21b"
+      }
+    }
+  ],
+  "cache_sources": {
+    "2026-07": {
+      "cache": "/home/nishiki/vnpy-ctp/research_outputs/coverage_expansion_2026-10-05/2026-07/indicator_cache/09566f853de4c1d10bcfd6cf7593f72ede83f769d0b1f8253bb71287bfd92089.jsonl.gz",
+      "cache_sha256": "78dab67445f453dc0049d7922f73d8a70b8161fe6c5bd38d17c8abf41cb5a9e3",
+      "market": "/home/nishiki/vnpy-ctp/research_inputs/coverage_expansion_2026-10-05/datasets/92bfcc72dc2e774d86985ab2e9141e70b6885bbfa9157bad88a31f66fbe82cb9.jsonl.gz",
+      "market_sha256": "6dec3690f3a9e161b7c109f8bb65a60fae40b5e3d6be97d3547273a05bcfd4b1"
+    },
+    "2026-08": {
+      "cache": "/home/nishiki/vnpy-ctp/research_outputs/coverage_expansion_2026-10-05/2026-08/indicator_cache/27a098817b9a513dfaca2488546a627fc3070ea86cd462417b6cb6c2fca0fbcb.jsonl.gz",
+      "cache_sha256": "45e1745212c293c67181bc5772a45043d0c04d8c90efccaca6360ce60cb24379",
+      "market": "/home/nishiki/vnpy-ctp/research_inputs/coverage_expansion_2026-10-05/datasets/28d7af29a927b406dc4e53d72b96d8c726199f283352dff97a814977fa0c695c.jsonl.gz",
+      "market_sha256": "47ea450717035a3d6fd74032ea29d2e7fb955ea73912306229e5663026692106"
+    },
+    "2026-09": {
+      "cache": "/home/nishiki/vnpy-ctp/research_outputs/2026-09/diagnostic_baseline/indicator_cache/a5673ad579092e90a1ac7626deaa1820b67f903af9923aca2364ae1ae68b0d95.jsonl.gz",
+      "cache_sha256": "d1aacf4be0d4c457d9aea42b2c2af27cd1a5658078ed77eed8e37df4f3df4073",
+      "market": "/home/nishiki/vnpy-ctp/research_inputs/coverage_expansion_2026-10-05/datasets/6cafc278d9329f5134582c629ada17361d2b517ec1bb3217642a4e4c34e19625.jsonl.gz",
+      "market_sha256": "71b55a867d6ca125c1016f51d5ae2ff4db05ef7617524878982ccde87bda5cee"
+    }
+  },
+  "locked_test_read": false,
+  "strategy_changed": false
+}

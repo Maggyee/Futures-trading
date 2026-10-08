@@ -1,0 +1,127 @@
+{
+  "schema": 1,
+  "kind": "sequential_optimization_diagnostic",
+  "created_utc": "2026-10-06T11:22:58.655918+00:00",
+  "baselines": {
+    "2026-07": {
+      "directory": "/home/nishiki/vnpy-ctp/research_outputs/coverage_expansion_2026-10-05/frequency_followup/stop_reentry/2026-07/run_0001_62b034a3b2b4",
+      "config_sha256": "6ce55135022ae831f62e27c0f7604c2539e75357ae29683bb7ef6281aa9e11c1",
+      "trades_sha256": "618566cd26d98cfde9ca31214d15413a61269eeb0b840b217cd8a443bdb591d2",
+      "manifest_sha256": "d7c7a59a4cacfa9390fe966a52bb0f5a45ebe20f58c2e1db0171af34070a8fa8",
+      "audit_sha256": "4d5f12f7bf563209918fd7e74153988c162d2e517e816e94fa5c24efc60fbd7a"
+    },
+    "2026-08": {
+      "directory": "/home/nishiki/vnpy-ctp/research_outputs/coverage_expansion_2026-10-05/frequency_followup/stop_reentry/2026-08/run_0001_5360c3422042",
+      "config_sha256": "5ce04fd4f68d5284463f9cdd5162ee01f6928e418af3c624fe5caa48e5fc4f95",
+      "trades_sha256": "0510818b525a8789fd01997a41c25f8984e4704f7764f0c52600e2458544bdd2",
+      "manifest_sha256": "5de4c585de87141f92780b675494b3d7f99837c9cc06d3e9b47cb332a85b578f",
+      "audit_sha256": "121458a3661644f0002add43a1e78de59407d95b991cfa14511d0969851a17d9"
+    },
+    "2026-09": {
+      "directory": "/home/nishiki/vnpy-ctp/research_outputs/coverage_expansion_2026-10-05/frequency_followup/stop_reentry/2026-09/run_0001_8ff870028efc",
+      "config_sha256": "50982864894833876fe497b4d86473d3010aacfe84f0804805e5d2a5cf757282",
+      "trades_sha256": "d93b1cb2077497ff52bf65b8b61d5ebe0d043ff1de8fad7ad98a0e9c09985279",
+      "manifest_sha256": "4586ef88dd68e99f5a2e38e7a14e76c10b696bf068003be4aa60ac74da8de057",
+      "audit_sha256": "d0058e147a404208ad4e623310adc905fe4a46d18831a383362fecb9f57e493a"
+    }
+  },
+  "order": [
+    "control",
+    "pool",
+    "dual"
+  ],
+  "variants": {
+    "control": {},
+    "pool": {
+      "candidate_pool": {
+        "policy": "executable_affordable_cost",
+        "preserve_original_rank": true,
+        "refresh": "completed_minute",
+        "preserve_held_and_pending_slots": true
+      }
+    },
+    "dual": {
+      "trend_entry": {
+        "quality_minutes": 5,
+        "valid_minutes": 5,
+        "require_touch_after_armed": true,
+        "cancel_on_invalid_higher_trend": true,
+        "efficiency_min": 0.45,
+        "remove_low_period_slope_gate": true
+      },
+      "dual_entry": {
+        "priority": "direct",
+        "shared_capital": true,
+        "consume_pullback_once": true
+      }
+    },
+    "pool_dual": {
+      "candidate_pool": {
+        "policy": "executable_affordable_cost",
+        "preserve_original_rank": true,
+        "refresh": "completed_minute",
+        "preserve_held_and_pending_slots": true
+      },
+      "trend_entry": {
+        "quality_minutes": 5,
+        "valid_minutes": 5,
+        "require_touch_after_armed": true,
+        "cancel_on_invalid_higher_trend": true,
+        "efficiency_min": 0.45,
+        "remove_low_period_slope_gate": true
+      },
+      "dual_entry": {
+        "priority": "direct",
+        "shared_capital": true,
+        "consume_pullback_once": true
+      }
+    }
+  },
+  "labels": {
+    "control": "已通过的止损后禁入对照",
+    "pool": "可承担且成本合格候选池",
+    "dual": "原突破＋趋势回踩双通道",
+    "pool_dual": "候选池＋双通道"
+  },
+  "output": "/home/nishiki/vnpy-ctp/research_outputs/coverage_expansion_2026-10-05/ordered_opportunity",
+  "audit_filename": "independent_ordered_opportunity_audit.json",
+  "budget": {
+    "roots": [
+      "/home/nishiki/vnpy-ctp/research_inputs/coverage_expansion_2026-10-05",
+      "/home/nishiki/vnpy-ctp/research_outputs/coverage_expansion_2026-10-05"
+    ],
+    "max_bytes": 5368709120,
+    "min_free_bytes": 4294967296
+  },
+  "k": 2,
+  "maximum_runs": 12,
+  "promotion": {
+    "total_net_improves": true,
+    "each_window_net_not_worse": true,
+    "each_window_drawdown_not_worse": true,
+    "without_best_trade_net_not_worse": true,
+    "entry_variant_trade_count_must_increase": true,
+    "stop_variant_may_reduce_trade_count": true
+  },
+  "selection": {
+    "priority": [
+      "pool",
+      "dual"
+    ],
+    "combination": "only if both independently pass; must pass against control and both individuals",
+    "failure": "retain passed stop-reentry control, preserve failures, do not retune frozen recipes"
+  },
+  "candidate_scope": "Use only current completed close, causal ATR and execution inputs available by the decision time. Skip unavailable, unaffordable minimum-lot or cost/ATR-ineligible candidates; retain original R8 ordering, K=2 and held/pending slots. Do not select by eventual market signals or profit.",
+  "dual_scope": "Preserve all original breakout conditions; add the prior frozen 5m/15m trend and completed MA10 pullback recipe as a supplement. Both use shared capacity and original stop-reentry gate. Same contract/minute triggers prefer breakout; consume each accepted pullback once. Direct edge detection remains independent of pullback qualification.",
+  "protection_stage": "Retain and independently audit original 1R cost-covered break-even, hard stop, 2ATR original-target trail, volume, MA40 and session exits on both channels. Do not repeat failed 1.5R or two-bar MA40 experiments.",
+  "sample_status": "retrospective_diagnostic_on_already_inspected_windows",
+  "locked_test_read": false,
+  "live_trading_changed": false,
+  "parameter_search": false,
+  "retune_after_result": false,
+  "new_holdout_results_claimed": false,
+  "prior_assessments": {
+    "/home/nishiki/vnpy-ctp/research_outputs/coverage_expansion_2026-10-05/frequency_followup/assessment.json": "141fefc7ed92a64a3af3344fa6d9aaff361576e7a43489c789bbe487a23cb8e4",
+    "/home/nishiki/vnpy-ctp/research_outputs/coverage_expansion_2026-10-05/opportunity_followup/assessment.json": "216494575b98034f8bf68b8dd6b388087c3a4e58c324c00f1888b4be7f38cfcd"
+  }
+}

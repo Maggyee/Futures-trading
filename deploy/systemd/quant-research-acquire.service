@@ -1,0 +1,16 @@
+[Unit]
+Description=Resume predeclared bounded July and August futures downloads
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=oneshot
+User=nishiki
+WorkingDirectory=/home/nishiki/vnpy-ctp
+ExecStart=/home/nishiki/vnpy-ctp/.venv/bin/python -m research.coverage_expansion acquire --requests 400
+Nice=10
+CPUQuota=50%
+MemoryMax=700M
+TimeoutStartSec=15min
+UMask=0077
+

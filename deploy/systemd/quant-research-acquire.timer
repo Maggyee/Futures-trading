@@ -1,0 +1,11 @@
+[Unit]
+Description=Resume approved bounded research downloads every 15 minutes
+
+[Timer]
+OnCalendar=*:5/15
+Persistent=true
+RandomizedDelaySec=30
+Unit=quant-research-acquire.service
+
+[Install]
+WantedBy=timers.target

@@ -1,0 +1,251 @@
+{
+  "status": "passed",
+  "chart_checks": [
+    {
+      "uid": "control-2026-07-1",
+      "view": "local",
+      "passed": true
+    },
+    {
+      "uid": "control-2026-07-1",
+      "view": "day",
+      "passed": true
+    },
+    {
+      "uid": "control-2026-07-2",
+      "view": "local",
+      "passed": true
+    },
+    {
+      "uid": "control-2026-07-2",
+      "view": "day",
+      "passed": true
+    },
+    {
+      "uid": "control-2026-07-3",
+      "view": "local",
+      "passed": true
+    },
+    {
+      "uid": "control-2026-07-3",
+      "view": "day",
+      "passed": true
+    },
+    {
+      "uid": "control-2026-07-4",
+      "view": "local",
+      "passed": true
+    },
+    {
+      "uid": "control-2026-07-4",
+      "view": "day",
+      "passed": true
+    },
+    {
+      "uid": "control-2026-07-5",
+      "view": "local",
+      "passed": true
+    },
+    {
+      "uid": "control-2026-07-5",
+      "view": "day",
+      "passed": true
+    },
+    {
+      "uid": "control-2026-09-1",
+      "view": "local",
+      "passed": true
+    },
+    {
+      "uid": "control-2026-09-1",
+      "view": "day",
+      "passed": true
+    },
+    {
+      "uid": "control-2026-09-2",
+      "view": "local",
+      "passed": true
+    },
+    {
+      "uid": "control-2026-09-2",
+      "view": "day",
+      "passed": true
+    },
+    {
+      "uid": "confirmation-2026-07-1",
+      "view": "local",
+      "passed": true
+    },
+    {
+      "uid": "confirmation-2026-07-1",
+      "view": "day",
+      "passed": true
+    },
+    {
+      "uid": "confirmation-2026-07-2",
+      "view": "local",
+      "passed": true
+    },
+    {
+      "uid": "confirmation-2026-07-2",
+      "view": "day",
+      "passed": true
+    },
+    {
+      "uid": "confirmation-2026-07-3",
+      "view": "local",
+      "passed": true
+    },
+    {
+      "uid": "confirmation-2026-07-3",
+      "view": "day",
+      "passed": true
+    },
+    {
+      "uid": "confirmation-2026-07-4",
+      "view": "local",
+      "passed": true
+    },
+    {
+      "uid": "confirmation-2026-07-4",
+      "view": "day",
+      "passed": true
+    },
+    {
+      "uid": "confirmation-2026-07-5",
+      "view": "local",
+      "passed": true
+    },
+    {
+      "uid": "confirmation-2026-07-5",
+      "view": "day",
+      "passed": true
+    },
+    {
+      "uid": "structure-2026-07-1",
+      "view": "local",
+      "passed": true
+    },
+    {
+      "uid": "structure-2026-07-1",
+      "view": "day",
+      "passed": true
+    },
+    {
+      "uid": "structure-2026-07-2",
+      "view": "local",
+      "passed": true
+    },
+    {
+      "uid": "structure-2026-07-2",
+      "view": "day",
+      "passed": true
+    },
+    {
+      "uid": "structure-2026-07-3",
+      "view": "local",
+      "passed": true
+    },
+    {
+      "uid": "structure-2026-07-3",
+      "view": "day",
+      "passed": true
+    },
+    {
+      "uid": "structure-2026-07-4",
+      "view": "local",
+      "passed": true
+    },
+    {
+      "uid": "structure-2026-07-4",
+      "view": "day",
+      "passed": true
+    },
+    {
+      "uid": "structure-2026-07-5",
+      "view": "local",
+      "passed": true
+    },
+    {
+      "uid": "structure-2026-07-5",
+      "view": "day",
+      "passed": true
+    },
+    {
+      "uid": "confirmation-2026-09-1",
+      "view": "local",
+      "passed": true
+    },
+    {
+      "uid": "confirmation-2026-09-1",
+      "view": "day",
+      "passed": true
+    },
+    {
+      "uid": "confirmation-2026-09-2",
+      "view": "local",
+      "passed": true
+    },
+    {
+      "uid": "confirmation-2026-09-2",
+      "view": "day",
+      "passed": true
+    },
+    {
+      "uid": "structure-2026-09-1",
+      "view": "local",
+      "passed": true
+    },
+    {
+      "uid": "structure-2026-09-1",
+      "view": "day",
+      "passed": true
+    },
+    {
+      "uid": "structure-2026-09-2",
+      "view": "local",
+      "passed": true
+    },
+    {
+      "uid": "structure-2026-09-2",
+      "view": "day",
+      "passed": true
+    }
+  ],
+  "trade_count": 21,
+  "selected": "control",
+  "browser_errors": [],
+  "network_requests": [],
+  "mobile_layout": true,
+  "mobile_initial_load": true,
+  "unfilled_cases_checked": 3,
+  "files": {
+    "structure_followup_review.html": {
+      "sha256": "8ba09e7c1bddf121ce15c7e3ea40e9e3ed585a70927eee576c567107f0eb82c3"
+    },
+    "review_data.json.gz": {
+      "sha256": "e52878c19c31830578f7f5174a5ccf394f0b5d38214f0d067cd1f1731f2e59e2"
+    },
+    "verification.json": {
+      "sha256": "9ff27cff5c6147490678e0d1e742f88362a25def4b9304bc0b187a0e11372313"
+    },
+    "stage_evidence.json": {
+      "sha256": "7be12f88bdc01cfd882783dc1ca0d486fadf6e625f01a46feca56da91ef644c5"
+    },
+    "report_sources.json": {
+      "sha256": "04e41567c149cd6d41adc7cedc1991779e40fa375692250a09b46643f36ecafd"
+    },
+    "trade_review.csv": {
+      "sha256": "aee8db463e54f97d4384395f379014303e152c6f78cc934d7141c27e406f28a2"
+    },
+    "report_overview.png": {
+      "sha256": "2c4f0fde5a706724ca6098a4b4751318d9afb163882c14d821823866ca6f2b55"
+    },
+    "trade_chart.png": {
+      "sha256": "2d0a9b8d62b68b909ed5a08affdffd912ac233ad62fe6e4e4f3e12f589649168"
+    },
+    "report_mobile.png": {
+      "sha256": "78e04aad4edbf3c32e49645fcc8ebe0ef2b379cac18c03b03fef4daa8276eb7a"
+    }
+  }
+}

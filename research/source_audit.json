@@ -1,0 +1,87 @@
+{
+  "review_date": "2026-10-02",
+  "installed_version": "1.3.0",
+  "installed_sources": {
+    "template.py": {
+      "sha256": "01ddb41aa0e75317ab5e1c5947d6bb681bce6ae61dc4bba923c4ceb1becd0a87",
+      "apis": [
+        {
+          "name": "on_bars",
+          "arguments": "self, bars: dict[str, BarData]",
+          "line": 111
+        },
+        {
+          "name": "update_trade",
+          "arguments": "self, trade: TradeData",
+          "line": 115
+        },
+        {
+          "name": "update_order",
+          "arguments": "self, order: OrderData",
+          "line": 122
+        },
+        {
+          "name": "send_order",
+          "arguments": "self, vt_symbol: str, direction: Direction, offset: Offset, price: float, volume: float, lock: bool=False, net: bool=False",
+          "line": 145
+        }
+      ]
+    },
+    "backtesting.py": {
+      "sha256": "2d512218eb04bb5433fffa2d02463523bca3bb8c1ba52730d8b0345a43b7f515",
+      "apis": [
+        {
+          "name": "set_parameters",
+          "arguments": "self, vt_symbols: list[str], interval: Interval, start: datetime, rates: dict[str, float], slippages: dict[str, float], sizes: dict[str, float], priceticks: dict[str, float], capital: float=0, end: datetime | None=None, risk_free: float=0, annual_days: int=240",
+          "line": 92
+        },
+        {
+          "name": "new_bars",
+          "arguments": "self, dt: datetime",
+          "line": 572
+        },
+        {
+          "name": "send_order",
+          "arguments": "self, strategy: StrategyTemplate, vt_symbol: str, direction: Direction, offset: Offset, price: float, volume: float, lock: bool, net: bool",
+          "line": 680
+        }
+      ]
+    },
+    "engine.py": {
+      "sha256": "66025d1b4176eb93f763c41c6022a6b9f866820979b26df418fc6e8129707f38",
+      "apis": [
+        {
+          "name": "send_order",
+          "arguments": "self, strategy: StrategyTemplate, vt_symbol: str, direction: Direction, offset: Offset, price: float, volume: float, lock: bool, net: bool",
+          "line": 159
+        }
+      ]
+    }
+  },
+  "references": [
+    {
+      "url": "https://www.vnpy.com/docs/cn/community/app/portfolio_strategy.html",
+      "sha256": "129c0e44e8aca3d7434f03817c60c138fb8cc715a720a21c5b5b7e7e6714cb21"
+    },
+    {
+      "url": "https://www.vnpy.com/docs/cn/community/app/data_manager.html",
+      "sha256": "e9a8fba36d9c4fed147c1407979cd06414d267850fbc244e73db41ae1a302ac5"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/vnpy/vnpy_ctp/main/README.md",
+      "sha256": "3db185bf07b129f698b5d9c129538e92512e65314f8b3e56517282e6024ac04a"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/vnpy/vnpy_portfoliostrategy/main/vnpy_portfoliostrategy/backtesting.py",
+      "sha256": "8110fb5fa0eb10615e68d07564cadc3ebc8886db64616f20d8b4352876d0e263"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/vnpy/vnpy_portfoliostrategy/main/vnpy_portfoliostrategy/template.py",
+      "sha256": "23eb0d860ee269b6cd6d21c24c71dc3b85cab8b00c40aa2709686feeb99b1468"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/vnpy/vnpy_portfoliostrategy/main/vnpy_portfoliostrategy/engine.py",
+      "sha256": "dfd18247354a34b37b2cb67ba91650fb9848c0ceaf1325ecb6e20da78f0d2d00"
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "status": "passed",
+  "before": {
+    "used_bytes": 5029760559,
+    "free_bytes": 11743977472,
+    "max_bytes": 5368709120,
+    "minimum_free_bytes": 4294967296
+  },
+  "files": [
+    {
+      "source": "/home/nishiki/vnpy-ctp/research_outputs/coverage_expansion_2026-10-05/optimization_review/combined/2026-09/run_0001_9e214f594453/result.json.gz",
+      "preserved_target": "/home/nishiki/vnpy-ctp/research_outputs/coverage_expansion_2026-10-05/opportunity_followup/control/2026-09/run_0001_ad4c69cc562b/result.json.gz",
+      "sha256": "d846d3cfb881e4b2a60d87314dbc22a7f3c4653606677c9d3d8e969faeab8e50",
+      "bytes_reclaimed": 2785224
+    },
+    {
+      "source": "/home/nishiki/vnpy-ctp/research_outputs/coverage_expansion_2026-10-05/optimization_review/combined/2026-07/run_0001_f591efd14e32/result.json.gz",
+      "preserved_target": "/home/nishiki/vnpy-ctp/research_outputs/coverage_expansion_2026-10-05/opportunity_followup/control/2026-07/run_0002_41360494e96a/result.json.gz",
+      "sha256": "95c41d2178cfc777eb2e10e3c6976485bf755ccfe10bb20f42bc98b68e29edc5",
+      "bytes_reclaimed": 8178594
+    },
+    {
+      "source": "/home/nishiki/vnpy-ctp/research_outputs/coverage_expansion_2026-10-05/optimization_review/combined/2026-08/run_0001_e1aedbffe713/result.json.gz",
+      "preserved_target": "/home/nishiki/vnpy-ctp/research_outputs/coverage_expansion_2026-10-05/opportunity_followup/control/2026-08/run_0001_546497fd25a8/result.json.gz",
+      "sha256": "1a486c6b81a5e14bdf7d764e2c167e46bd57ec48fa6fbd85606b8a31a83e8287",
+      "bytes_reclaimed": 7320824
+    },
+    {
+      "source": "/home/nishiki/vnpy-ctp/research_outputs/coverage_expansion_2026-10-05/opportunity_followup/control/2026-07/run_0002_41360494e96a/config_snapshot.json",
+      "preserved_target": "/home/nishiki/vnpy-ctp/research_outputs/coverage_expansion_2026-10-05/opportunity_followup/control/2026-07/run_0001_41360494e96a/config_snapshot.json",
+      "sha256": "97bbe79e9dff28f6a3adde7401cbe9ab67f65172f138e243a59ed779434e7c3f",
+      "bytes_reclaimed": 3810204
+    }
+  ],
+  "same_permissions_and_owner_required": true,
+  "original_paths_and_contents_retained": true,
+  "after": {
+    "used_bytes": 5010780224,
+    "free_bytes": 11762950144,
+    "max_bytes": 5368709120,
+    "minimum_free_bytes": 4294967296
+  }
+}

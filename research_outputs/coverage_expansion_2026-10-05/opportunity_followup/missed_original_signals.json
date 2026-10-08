@@ -1,0 +1,430 @@
+[
+  {
+    "contract": "PX609.CZCE",
+    "direction": "SHORT",
+    "original_entry": "2026-07-02T11:20:00+08:00",
+    "original_net_pnl": 133.266,
+    "market_rejections_at_original_signal": [
+      "pullback_after_armed"
+    ],
+    "state_allows": true,
+    "trigger": false,
+    "higher_context": {
+      "armed_at": "2026-07-02T11:20:00+08:00",
+      "efficiency": 0.7971014492753623,
+      "efficiency_min": 0.45,
+      "expires_at": "2026-07-02T11:25:00+08:00",
+      "filters": {
+        "current_session_15m": true,
+        "efficiency": true,
+        "slope_5m_maximum": true,
+        "slope_5m_minimum": true,
+        "slope_5m_ready": true,
+        "trend_15m": true,
+        "trend_5m": true,
+        "trend_activity": true,
+        "trend_displacement": true,
+        "warmup_higher": true
+      },
+      "period_open": "2026-07-02T10:30:00+08:00",
+      "quality_timeframe": "5m",
+      "removed_low_period_filters": {
+        "efficiency": true,
+        "slope_1m_maximum": true,
+        "slope_1m_minimum": true,
+        "slope_1m_ready": true,
+        "trend_activity": true,
+        "trend_displacement": true
+      },
+      "source_15m_end": "2026-07-02T11:15:00+08:00",
+      "source_5m_end": "2026-07-02T11:20:00+08:00",
+      "trend_quality": {
+        "nonzero_price_changes": 10,
+        "observations": 11,
+        "required_displacement": 28.260953092184295,
+        "signed_ma20_slope5_ticks": 8.650000000000091,
+        "signed_ma40_distance_ticks": 69.625,
+        "signed_move_atr": 3.8922961883554112,
+        "signed_move_ticks": 55.0,
+        "window_end": "2026-07-02T11:20:00+08:00",
+        "window_start": "2026-07-02T10:15:00+08:00"
+      }
+    },
+    "actual_pullback": null
+  },
+  {
+    "contract": "PL609.CZCE",
+    "direction": "LONG",
+    "original_entry": "2026-07-14T14:26:00+08:00",
+    "original_net_pnl": 119.0,
+    "market_rejections_at_original_signal": [
+      "higher_trend_quality",
+      "pullback_after_armed",
+      "trend_window_valid"
+    ],
+    "state_allows": true,
+    "trigger": false,
+    "higher_context": {
+      "armed_at": null,
+      "efficiency": 0.375,
+      "efficiency_min": 0.45,
+      "expires_at": null,
+      "filters": {
+        "current_session_15m": true,
+        "efficiency": false,
+        "slope_5m_maximum": true,
+        "slope_5m_minimum": true,
+        "slope_5m_ready": true,
+        "trend_15m": true,
+        "trend_5m": true,
+        "trend_activity": true,
+        "trend_displacement": true,
+        "warmup_higher": true
+      },
+      "period_open": "2026-07-14T13:30:00+08:00",
+      "quality_timeframe": "5m",
+      "removed_low_period_filters": {
+        "efficiency": true,
+        "slope_1m_maximum": true,
+        "slope_1m_minimum": true,
+        "slope_1m_ready": true,
+        "trend_activity": true,
+        "trend_displacement": true
+      },
+      "source_15m_end": "2026-07-14T14:15:00+08:00",
+      "source_5m_end": "2026-07-14T14:25:00+08:00",
+      "trend_quality": {
+        "nonzero_price_changes": 10,
+        "observations": 11,
+        "required_displacement": 25.986301584266187,
+        "signed_ma20_slope5_ticks": 4.0,
+        "signed_ma40_distance_ticks": 23.975000000000364,
+        "signed_move_atr": 1.3853452705942875,
+        "signed_move_ticks": 36.0,
+        "window_end": "2026-07-14T14:25:00+08:00",
+        "window_start": "2026-07-14T13:35:00+08:00"
+      }
+    },
+    "actual_pullback": null
+  },
+  {
+    "contract": "ni2609.SHFE",
+    "direction": "SHORT",
+    "original_entry": "2026-07-17T13:59:00+08:00",
+    "original_net_pnl": -1314.0,
+    "market_rejections_at_original_signal": [
+      "pullback_after_armed"
+    ],
+    "state_allows": true,
+    "trigger": false,
+    "higher_context": {
+      "armed_at": "2026-07-17T13:55:00+08:00",
+      "efficiency": 0.5471698113207547,
+      "efficiency_min": 0.45,
+      "expires_at": "2026-07-17T14:00:00+08:00",
+      "filters": {
+        "current_session_15m": true,
+        "efficiency": true,
+        "slope_5m_maximum": true,
+        "slope_5m_minimum": true,
+        "slope_5m_ready": true,
+        "trend_15m": true,
+        "trend_5m": true,
+        "trend_activity": true,
+        "trend_displacement": true,
+        "warmup_higher": true
+      },
+      "period_open": "2026-07-17T13:30:00+08:00",
+      "quality_timeframe": "5m",
+      "removed_low_period_filters": {
+        "efficiency": true,
+        "slope_1m_maximum": true,
+        "slope_1m_minimum": true,
+        "slope_1m_ready": true,
+        "trend_activity": true,
+        "trend_displacement": true
+      },
+      "source_15m_end": "2026-07-17T13:45:00+08:00",
+      "source_5m_end": "2026-07-17T13:55:00+08:00",
+      "trend_quality": {
+        "nonzero_price_changes": 10,
+        "observations": 11,
+        "required_displacement": 335.5230534392905,
+        "signed_ma20_slope5_ticks": 19.4,
+        "signed_ma40_distance_ticks": 158.8,
+        "signed_move_atr": 2.5929663880977336,
+        "signed_move_ticks": 87.0,
+        "window_end": "2026-07-17T13:55:00+08:00",
+        "window_start": "2026-07-17T11:05:00+08:00"
+      }
+    },
+    "actual_pullback": null
+  },
+  {
+    "contract": "lc2609.GFEX",
+    "direction": "LONG",
+    "original_entry": "2026-07-27T14:06:00+08:00",
+    "original_net_pnl": -1721.2800000000002,
+    "market_rejections_at_original_signal": [
+      "pullback_after_armed"
+    ],
+    "state_allows": true,
+    "trigger": false,
+    "higher_context": {
+      "armed_at": "2026-07-27T14:05:00+08:00",
+      "efficiency": 0.4567901234567901,
+      "efficiency_min": 0.45,
+      "expires_at": "2026-07-27T14:10:00+08:00",
+      "filters": {
+        "current_session_15m": true,
+        "efficiency": true,
+        "slope_5m_maximum": true,
+        "slope_5m_minimum": true,
+        "slope_5m_ready": true,
+        "trend_15m": true,
+        "trend_5m": true,
+        "trend_activity": true,
+        "trend_displacement": true,
+        "warmup_higher": true
+      },
+      "period_open": "2026-07-27T13:30:00+08:00",
+      "quality_timeframe": "5m",
+      "removed_low_period_filters": {
+        "efficiency": true,
+        "slope_1m_maximum": true,
+        "slope_1m_minimum": true,
+        "slope_1m_ready": true,
+        "trend_activity": true,
+        "trend_displacement": true
+      },
+      "source_15m_end": "2026-07-27T14:00:00+08:00",
+      "source_5m_end": "2026-07-27T14:05:00+08:00",
+      "trend_quality": {
+        "nonzero_price_changes": 10,
+        "observations": 11,
+        "required_displacement": 676.7984320672226,
+        "signed_ma20_slope5_ticks": 19.4,
+        "signed_ma40_distance_ticks": 65.0,
+        "signed_move_atr": 2.1867662953642895,
+        "signed_move_ticks": 74.0,
+        "window_end": "2026-07-27T14:05:00+08:00",
+        "window_start": "2026-07-27T11:15:00+08:00"
+      }
+    },
+    "actual_pullback": null
+  },
+  {
+    "contract": "lc2609.GFEX",
+    "direction": "LONG",
+    "original_entry": "2026-07-27T14:25:00+08:00",
+    "original_net_pnl": -1721.7792,
+    "market_rejections_at_original_signal": [
+      "pullback_after_armed"
+    ],
+    "state_allows": true,
+    "trigger": false,
+    "higher_context": {
+      "armed_at": "2026-07-27T14:25:00+08:00",
+      "efficiency": 0.5873015873015873,
+      "efficiency_min": 0.45,
+      "expires_at": "2026-07-27T14:30:00+08:00",
+      "filters": {
+        "current_session_15m": true,
+        "efficiency": true,
+        "slope_5m_maximum": true,
+        "slope_5m_minimum": true,
+        "slope_5m_ready": true,
+        "trend_15m": true,
+        "trend_5m": true,
+        "trend_activity": true,
+        "trend_displacement": true,
+        "warmup_higher": true
+      },
+      "period_open": "2026-07-27T13:30:00+08:00",
+      "quality_timeframe": "5m",
+      "removed_low_period_filters": {
+        "efficiency": true,
+        "slope_1m_maximum": true,
+        "slope_1m_minimum": true,
+        "slope_1m_ready": true,
+        "trend_activity": true,
+        "trend_displacement": true
+      },
+      "source_15m_end": "2026-07-27T14:15:00+08:00",
+      "source_5m_end": "2026-07-27T14:25:00+08:00",
+      "trend_quality": {
+        "nonzero_price_changes": 10,
+        "observations": 11,
+        "required_displacement": 664.8328826080785,
+        "signed_ma20_slope5_ticks": 19.6,
+        "signed_ma40_distance_ticks": 68.85,
+        "signed_move_atr": 3.3391850163775643,
+        "signed_move_ticks": 111.0,
+        "window_end": "2026-07-27T14:25:00+08:00",
+        "window_start": "2026-07-27T13:35:00+08:00"
+      }
+    },
+    "actual_pullback": null
+  },
+  {
+    "contract": "ag2610.SHFE",
+    "direction": "LONG",
+    "original_entry": "2026-07-30T09:25:00+08:00",
+    "original_net_pnl": 977.0616,
+    "market_rejections_at_original_signal": [
+      "pullback_after_armed"
+    ],
+    "state_allows": true,
+    "trigger": false,
+    "higher_context": {
+      "armed_at": "2026-07-30T09:25:00+08:00",
+      "efficiency": 0.544,
+      "efficiency_min": 0.45,
+      "expires_at": "2026-07-30T09:30:00+08:00",
+      "filters": {
+        "current_session_15m": true,
+        "efficiency": true,
+        "slope_5m_maximum": true,
+        "slope_5m_minimum": true,
+        "slope_5m_ready": true,
+        "trend_15m": true,
+        "trend_5m": true,
+        "trend_activity": true,
+        "trend_displacement": true,
+        "warmup_higher": true
+      },
+      "period_open": "2026-07-30T09:00:00+08:00",
+      "quality_timeframe": "5m",
+      "removed_low_period_filters": {
+        "efficiency": true,
+        "slope_1m_maximum": true,
+        "slope_1m_minimum": true,
+        "slope_1m_ready": true,
+        "trend_activity": true,
+        "trend_displacement": true
+      },
+      "source_15m_end": "2026-07-30T09:15:00+08:00",
+      "source_5m_end": "2026-07-30T09:25:00+08:00",
+      "trend_quality": {
+        "nonzero_price_changes": 10,
+        "observations": 11,
+        "required_displacement": 41.92090132873892,
+        "signed_ma20_slope5_ticks": 48.5,
+        "signed_ma40_distance_ticks": 171.57500000000073,
+        "signed_move_atr": 3.2442050549796995,
+        "signed_move_ticks": 136.0,
+        "window_end": "2026-07-30T09:25:00+08:00",
+        "window_start": "2026-07-29T14:35:00+08:00"
+      }
+    },
+    "actual_pullback": null
+  },
+  {
+    "contract": "lc2701.GFEX",
+    "direction": "SHORT",
+    "original_entry": "2026-09-16T09:31:00+08:00",
+    "original_net_pnl": 7198.9056,
+    "market_rejections_at_original_signal": [
+      "pullback_after_armed"
+    ],
+    "state_allows": true,
+    "trigger": false,
+    "higher_context": {
+      "armed_at": "2026-09-16T09:30:00+08:00",
+      "efficiency": 0.5,
+      "efficiency_min": 0.45,
+      "expires_at": "2026-09-16T09:35:00+08:00",
+      "filters": {
+        "current_session_15m": true,
+        "efficiency": true,
+        "slope_5m_maximum": true,
+        "slope_5m_minimum": true,
+        "slope_5m_ready": true,
+        "trend_15m": true,
+        "trend_5m": true,
+        "trend_activity": true,
+        "trend_displacement": true,
+        "warmup_higher": true
+      },
+      "period_open": "2026-09-16T09:00:00+08:00",
+      "quality_timeframe": "5m",
+      "removed_low_period_filters": {
+        "efficiency": true,
+        "slope_1m_maximum": true,
+        "slope_1m_minimum": true,
+        "slope_1m_ready": true,
+        "trend_activity": true,
+        "trend_displacement": true
+      },
+      "source_15m_end": "2026-09-16T09:30:00+08:00",
+      "source_5m_end": "2026-09-16T09:30:00+08:00",
+      "trend_quality": {
+        "nonzero_price_changes": 10,
+        "observations": 11,
+        "required_displacement": 1000.3865873013659,
+        "signed_ma20_slope5_ticks": 24.7,
+        "signed_ma40_distance_ticks": 126.65,
+        "signed_move_atr": 2.479041633984744,
+        "signed_move_ticks": 124.0,
+        "window_end": "2026-09-16T09:30:00+08:00",
+        "window_start": "2026-09-15T14:40:00+08:00"
+      }
+    },
+    "actual_pullback": null
+  },
+  {
+    "contract": "lc2701.GFEX",
+    "direction": "LONG",
+    "original_entry": "2026-09-17T11:27:00+08:00",
+    "original_net_pnl": 2147.0976,
+    "market_rejections_at_original_signal": [
+      "higher_trend_quality",
+      "pullback_after_armed",
+      "trend_window_valid"
+    ],
+    "state_allows": true,
+    "trigger": false,
+    "higher_context": {
+      "armed_at": null,
+      "efficiency": 0.3949579831932773,
+      "efficiency_min": 0.45,
+      "expires_at": null,
+      "filters": {
+        "current_session_15m": true,
+        "efficiency": false,
+        "slope_5m_maximum": true,
+        "slope_5m_minimum": true,
+        "slope_5m_ready": true,
+        "trend_15m": true,
+        "trend_5m": true,
+        "trend_activity": true,
+        "trend_displacement": true,
+        "warmup_higher": true
+      },
+      "period_open": "2026-09-17T10:30:00+08:00",
+      "quality_timeframe": "5m",
+      "removed_low_period_filters": {
+        "efficiency": true,
+        "slope_1m_maximum": true,
+        "slope_1m_minimum": true,
+        "slope_1m_ready": true,
+        "trend_activity": true,
+        "trend_displacement": true
+      },
+      "source_15m_end": "2026-09-17T11:15:00+08:00",
+      "source_5m_end": "2026-09-17T11:25:00+08:00",
+      "trend_quality": {
+        "nonzero_price_changes": 10,
+        "observations": 11,
+        "required_displacement": 826.8596215701141,
+        "signed_ma20_slope5_ticks": 27.95,
+        "signed_ma40_distance_ticks": 138.375,
+        "signed_move_atr": 2.273662845490133,
+        "signed_move_ticks": 94.0,
+        "window_end": "2026-09-17T11:25:00+08:00",
+        "window_start": "2026-09-17T10:35:00+08:00"
+      }
+    },
+    "actual_pullback": null
+  }
+]

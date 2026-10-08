@@ -1,0 +1,7 @@
+{
+  "assessment_sha256": "a7f544882b52e76aab657f5f95b64212c0dde78f11cdfe8b840b2cfce7d01696",
+  "plan_sha256": "2c54a8e02e558bd6571d718393fe9e0d596a7448b7c5ff86e1a55c56373091c7",
+  "builder_sha256": "d3e039793a24aaf5dc969d0cff0bcc8c9cf808632280b9e856f3a955ee26b9ac",
+  "report_builder_sha256": "4d3137cb268204875b7b7f62d98abccb1a6d89bceda2cb70d78a5e66cf533925",
+  "locked_test_read": false
+}

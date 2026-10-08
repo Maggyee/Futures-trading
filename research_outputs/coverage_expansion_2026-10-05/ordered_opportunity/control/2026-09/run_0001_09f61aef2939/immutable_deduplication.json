@@ -1,0 +1,65 @@
+{
+  "verified_links": [
+    {
+      "path": "/home/nishiki/vnpy-ctp/research_outputs/coverage_expansion_2026-10-05/ordered_opportunity/control/2026-09/run_0001_09f61aef2939/orders.csv.gz",
+      "source": "/home/nishiki/vnpy-ctp/research_outputs/coverage_expansion_2026-10-05/frequency_followup/stop_reentry/2026-09/run_0001_8ff870028efc/orders.csv.gz",
+      "sha256": "5305480dae1e9e610cdd85d0ad6f14006587cc7b2744bbcfa0ae9bbc02e166fb",
+      "released_bytes": 602
+    },
+    {
+      "path": "/home/nishiki/vnpy-ctp/research_outputs/coverage_expansion_2026-10-05/ordered_opportunity/control/2026-09/run_0001_09f61aef2939/trades.csv.gz",
+      "source": "/home/nishiki/vnpy-ctp/research_outputs/coverage_expansion_2026-10-05/frequency_followup/stop_reentry/2026-09/run_0001_8ff870028efc/trades.csv.gz",
+      "sha256": "d93b1cb2077497ff52bf65b8b61d5ebe0d043ff1de8fad7ad98a0e9c09985279",
+      "released_bytes": 3171
+    },
+    {
+      "path": "/home/nishiki/vnpy-ctp/research_outputs/coverage_expansion_2026-10-05/ordered_opportunity/control/2026-09/run_0001_09f61aef2939/events.csv.gz",
+      "source": "/home/nishiki/vnpy-ctp/research_outputs/coverage_expansion_2026-10-05/frequency_followup/stop_reentry/2026-09/run_0001_8ff870028efc/events.csv.gz",
+      "sha256": "0161cc8f17454d1bb71b28a4a48ed43e2e612c87fb7dc3125087efd7d2dbfb9c",
+      "released_bytes": 2219
+    },
+    {
+      "path": "/home/nishiki/vnpy-ctp/research_outputs/coverage_expansion_2026-10-05/ordered_opportunity/control/2026-09/run_0001_09f61aef2939/equity.csv.gz",
+      "source": "/home/nishiki/vnpy-ctp/research_outputs/coverage_expansion_2026-10-05/frequency_followup/stop_reentry/2026-09/run_0001_8ff870028efc/equity.csv.gz",
+      "sha256": "b02fc6eb99d1596151210774b2dfc57eb475921fdedcb9bc9bd94ce4cf6fdd76",
+      "released_bytes": 8517
+    },
+    {
+      "path": "/home/nishiki/vnpy-ctp/research_outputs/coverage_expansion_2026-10-05/ordered_opportunity/control/2026-09/run_0001_09f61aef2939/candidate_execution.csv.gz",
+      "source": "/home/nishiki/vnpy-ctp/research_outputs/coverage_expansion_2026-10-05/frequency_followup/stop_reentry/2026-09/run_0001_8ff870028efc/candidate_execution.csv.gz",
+      "sha256": "87318ff490205e462ca3819223a62631540687aacfde783e95a1df0741e7a791",
+      "released_bytes": 35739
+    },
+    {
+      "path": "/home/nishiki/vnpy-ctp/research_outputs/coverage_expansion_2026-10-05/ordered_opportunity/control/2026-09/run_0001_09f61aef2939/daily_pool.csv.gz",
+      "source": "/home/nishiki/vnpy-ctp/research_outputs/coverage_expansion_2026-10-05/frequency_followup/stop_reentry/2026-09/run_0001_8ff870028efc/daily_pool.csv.gz",
+      "sha256": "1ea21c42329f90e0b81787540f045ca186051c5bf3e3e0128c5b0d2cbd83579e",
+      "released_bytes": 10004
+    },
+    {
+      "path": "/home/nishiki/vnpy-ctp/research_outputs/coverage_expansion_2026-10-05/ordered_opportunity/control/2026-09/run_0001_09f61aef2939/pool_exclusions.csv.gz",
+      "source": "/home/nishiki/vnpy-ctp/research_outputs/coverage_expansion_2026-10-05/frequency_followup/stop_reentry/2026-09/run_0001_8ff870028efc/pool_exclusions.csv.gz",
+      "sha256": "63e0adb4cc780561f7fe5df035c98833d6a36daa143c6372101467e7e83576e4",
+      "released_bytes": 23224
+    },
+    {
+      "path": "/home/nishiki/vnpy-ctp/research_outputs/coverage_expansion_2026-10-05/ordered_opportunity/control/2026-09/run_0001_09f61aef2939/daily_candidates.csv.gz",
+      "source": "/home/nishiki/vnpy-ctp/research_outputs/coverage_expansion_2026-10-05/frequency_followup/stop_reentry/2026-09/run_0001_8ff870028efc/daily_candidates.csv.gz",
+      "sha256": "91ca585998080b05a1d732808c9dd8c073514c8c006ac5e253f5a26bdd6971e2",
+      "released_bytes": 18866
+    },
+    {
+      "path": "/home/nishiki/vnpy-ctp/research_outputs/coverage_expansion_2026-10-05/ordered_opportunity/control/2026-09/run_0001_09f61aef2939/signals.csv.gz",
+      "source": "/home/nishiki/vnpy-ctp/research_outputs/coverage_expansion_2026-10-05/frequency_followup/stop_reentry/2026-09/run_0001_8ff870028efc/signals.csv.gz",
+      "sha256": "fba717b10aa36394a2afb9b6dd1bd6ca8d14765e57bac9da7f4d9fdae0ea36e6",
+      "released_bytes": 2673419
+    },
+    {
+      "path": "/home/nishiki/vnpy-ctp/research_outputs/coverage_expansion_2026-10-05/ordered_opportunity/control/2026-09/run_0001_09f61aef2939/rank_contribution.csv.gz",
+      "source": "/home/nishiki/vnpy-ctp/research_outputs/coverage_expansion_2026-10-05/frequency_followup/stop_reentry/2026-09/run_0001_8ff870028efc/rank_contribution.csv.gz",
+      "sha256": "1c915d0e7986492101987947bc203da853dbf553985a3393ffb27772c2be34ec",
+      "released_bytes": 312
+    }
+  ],
+  "released_bytes": 2776073
+}

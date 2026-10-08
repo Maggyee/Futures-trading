@@ -1,0 +1,17 @@
+{
+  "source": "字段模板；数值须逐合约/生效日期核实，未核实的元数据禁止正式回测",
+  "contracts": [
+    {"symbol": "rb2701", "exchange": "SHFE", "product": "rb", "group": "commodity", "session_profile": "commodity", "time_profile": "commodity", "effective_from": "2026-01-01", "listed": null, "expiry": null, "tick_size": 1, "value_per_price": 10, "turnover_factor": 10, "margin_rate": null, "fees": [], "verified": false},
+    {"symbol": "m2701", "exchange": "DCE", "product": "m", "group": "commodity", "session_profile": "commodity", "time_profile": "commodity", "effective_from": "2026-01-01", "listed": null, "expiry": null, "tick_size": 1, "value_per_price": 10, "turnover_factor": 10, "margin_rate": null, "fees": [], "verified": false},
+    {"symbol": "cu2611", "exchange": "SHFE", "product": "cu", "group": "commodity", "session_profile": "commodity", "time_profile": "commodity", "effective_from": "2026-01-01", "listed": null, "expiry": null, "tick_size": 10, "value_per_price": 5, "turnover_factor": 5, "margin_rate": null, "fees": [], "verified": false},
+    {"symbol": "au2612", "exchange": "SHFE", "product": "au", "group": "commodity", "session_profile": "commodity", "time_profile": "commodity", "effective_from": "2026-01-01", "listed": null, "expiry": null, "tick_size": 0.02, "value_per_price": 1000, "turnover_factor": 1000, "margin_rate": null, "fees": [], "verified": false},
+    {"symbol": "sc2612", "exchange": "INE", "product": "sc", "group": "commodity", "session_profile": "commodity", "time_profile": "commodity", "effective_from": "2026-01-01", "listed": null, "expiry": null, "tick_size": 0.1, "value_per_price": 1000, "turnover_factor": 1000, "margin_rate": null, "fees": [], "verified": false}
+  ],
+  "fee_rule_example": {
+    "effective_from": "2026-01-01",
+    "open": {"mode": "fixed", "value": 0},
+    "close_today": {"mode": "rate", "value": 0},
+    "close_yesterday": {"mode": "fixed", "value": 0},
+    "note": "零值仅演示结构，不是实际手续费；每条规则放入对应合约 fees 数组"
+  }
+}

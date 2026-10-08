@@ -1,0 +1,241 @@
+{
+  "month": "2026-08",
+  "variant": "breakeven",
+  "directory": "/home/nishiki/vnpy-ctp/research_outputs/coverage_expansion_2026-10-05/optimization_review/breakeven/2026-08/run_0001_618dd899fd73",
+  "parent": "/home/nishiki/vnpy-ctp/research_outputs/coverage_expansion_2026-10-05/2026-08/k2/run_0001_e9d6cf49e140",
+  "window": {
+    "start": "2026-08-03",
+    "end": "2026-08-31"
+  },
+  "status": "completed",
+  "metrics": {
+    "net_profit": -3884.6300000000047,
+    "net_return": -0.003884630000000005,
+    "realized_trade_net": -3884.63,
+    "unrealized_and_open_fee_difference": -4.547473508864641e-12,
+    "max_drawdown": 5072.0,
+    "max_drawdown_fraction": 0.005065984801626094,
+    "return_drawdown_ratio": -0.7658970820189284,
+    "daily_return_volatility": 0.0004998431081823486,
+    "sharpe": null,
+    "sharpe_definition": "每日收市标记权益简单收益，样本标准差(ddof=1)，sqrt(240)年化；少于20日/20笔不显示",
+    "trade_count": 4,
+    "average_trade_net": -971.1575,
+    "win_rate": 0.25,
+    "payoff_ratio": 0.027910464128779875,
+    "profit_factor": 0.009303488042926626,
+    "average_holding_minutes": 5.25,
+    "fees": 1659.6299999999999,
+    "fee_share_of_abs_gross": 0.5067572519083969,
+    "slippage_cost_diagnostic": 500.0,
+    "slippage_already_in_prices": true,
+    "ambiguous_trades": 0,
+    "daily_count": 21,
+    "sample_warning": "证据不足：需要更多独立交易日和样本外交易",
+    "candidate_count": 158,
+    "risk_rejection_count": 1,
+    "execution_rejection_count": 0,
+    "candidate_execution_rejection_count": 32,
+    "mean_margin_utilization": 0.00016355331813576495,
+    "max_margin_utilization": 0.090492,
+    "unflattened_session_count": 0,
+    "unflattened_break_count": 0,
+    "daily": [
+      {
+        "date": "2026-08-03",
+        "equity": 1000036.48,
+        "net_pnl": 36.47999999998137,
+        "return": 3.6479999999981375e-05
+      },
+      {
+        "date": "2026-08-04",
+        "equity": 1000036.48,
+        "net_pnl": 0.0,
+        "return": 0.0
+      },
+      {
+        "date": "2026-08-05",
+        "equity": 1000036.48,
+        "net_pnl": 0.0,
+        "return": 0.0
+      },
+      {
+        "date": "2026-08-06",
+        "equity": 1000036.48,
+        "net_pnl": 0.0,
+        "return": 0.0
+      },
+      {
+        "date": "2026-08-07",
+        "equity": 1000036.48,
+        "net_pnl": 0.0,
+        "return": 0.0
+      },
+      {
+        "date": "2026-08-10",
+        "equity": 1000036.48,
+        "net_pnl": 0.0,
+        "return": 0.0
+      },
+      {
+        "date": "2026-08-11",
+        "equity": 1000036.48,
+        "net_pnl": 0.0,
+        "return": 0.0
+      },
+      {
+        "date": "2026-08-12",
+        "equity": 1000036.48,
+        "net_pnl": 0.0,
+        "return": 0.0
+      },
+      {
+        "date": "2026-08-13",
+        "equity": 1000036.48,
+        "net_pnl": 0.0,
+        "return": 0.0
+      },
+      {
+        "date": "2026-08-14",
+        "equity": 1000036.48,
+        "net_pnl": 0.0,
+        "return": 0.0
+      },
+      {
+        "date": "2026-08-17",
+        "equity": 998218.03,
+        "net_pnl": -1818.4499999999534,
+        "return": -0.001818383665363841
+      },
+      {
+        "date": "2026-08-18",
+        "equity": 998218.03,
+        "net_pnl": 0.0,
+        "return": 0.0
+      },
+      {
+        "date": "2026-08-19",
+        "equity": 998218.03,
+        "net_pnl": 0.0,
+        "return": 0.0
+      },
+      {
+        "date": "2026-08-20",
+        "equity": 998218.03,
+        "net_pnl": 0.0,
+        "return": 0.0
+      },
+      {
+        "date": "2026-08-21",
+        "equity": 997472.8200000001,
+        "net_pnl": -745.2099999999627,
+        "return": -0.0007465403124405223
+      },
+      {
+        "date": "2026-08-24",
+        "equity": 996115.37,
+        "net_pnl": -1357.4500000000698,
+        "return": -0.001360889211998849
+      },
+      {
+        "date": "2026-08-25",
+        "equity": 996115.37,
+        "net_pnl": 0.0,
+        "return": 0.0
+      },
+      {
+        "date": "2026-08-26",
+        "equity": 996115.37,
+        "net_pnl": 0.0,
+        "return": 0.0
+      },
+      {
+        "date": "2026-08-27",
+        "equity": 996115.37,
+        "net_pnl": 0.0,
+        "return": 0.0
+      },
+      {
+        "date": "2026-08-28",
+        "equity": 996115.37,
+        "net_pnl": 0.0,
+        "return": 0.0
+      },
+      {
+        "date": "2026-08-31",
+        "equity": 996115.37,
+        "net_pnl": 0.0,
+        "return": 0.0
+      }
+    ],
+    "monthly": {
+      "2026-08": -3884.6300000000047
+    },
+    "decomposition": {
+      "group": {
+        "commodity": {
+          "trade_count": 4,
+          "net_pnl": -3884.63,
+          "fees": 1659.6299999999999
+        }
+      },
+      "product": {
+        "ec": {
+          "trade_count": 4,
+          "net_pnl": -3884.63,
+          "fees": 1659.6299999999999
+        }
+      },
+      "direction": {
+        "LONG": {
+          "trade_count": 4,
+          "net_pnl": -3884.63,
+          "fees": 1659.6299999999999
+        }
+      },
+      "entry_mode": {
+        "direct": {
+          "trade_count": 4,
+          "net_pnl": -3884.63,
+          "fees": 1659.6299999999999
+        }
+      },
+      "exit_reason": {
+        "breakeven_stop": {
+          "trade_count": 1,
+          "net_pnl": 36.48000000000002,
+          "fees": 488.52
+        },
+        "fixed_stop": {
+          "trade_count": 2,
+          "net_pnl": -3175.8999999999996,
+          "fees": 825.8999999999999
+        },
+        "ma40_cross": {
+          "trade_count": 1,
+          "net_pnl": -745.21,
+          "fees": 345.21
+        }
+      },
+      "rank": {
+        "1": {
+          "trade_count": 3,
+          "net_pnl": -2527.1800000000003,
+          "fees": 1302.1799999999998
+        },
+        "2": {
+          "trade_count": 1,
+          "net_pnl": -1357.4499999999998,
+          "fees": 357.44999999999993
+        }
+      },
+      "month": {
+        "2026-08": {
+          "trade_count": 4,
+          "net_pnl": -3884.63
+        }
+      }
+    }
+  },
+  "locked_test_read": false
+}

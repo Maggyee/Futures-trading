@@ -1,0 +1,22 @@
+[Unit]
+Description=CTP Workbench SimNow trading worker
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=nishiki
+WorkingDirectory=/home/nishiki/vnpy-ctp
+EnvironmentFile=/home/nishiki/vnpy-ctp/deploy/workbench.env
+ExecStart=/home/nishiki/vnpy-ctp/.venv/bin/python -m backend.cli worker
+Restart=on-failure
+RestartSec=5
+TimeoutStopSec=20
+UMask=0077
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ReadWritePaths=/home/nishiki/vnpy-ctp/runtime
+
+[Install]
+WantedBy=multi-user.target

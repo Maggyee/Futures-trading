@@ -1,0 +1,319 @@
+{
+  "status": "passed",
+  "checks": [
+    {
+      "uid": "combined-2026-07-1",
+      "all_entry_filters": true,
+      "entry_and_exit_events": true,
+      "raw_candles": true,
+      "independent_MA_and_slopes": true,
+      "exit_rule_and_price": true,
+      "known_protection_only": true,
+      "net_pnl": 133.266
+    },
+    {
+      "uid": "combined-2026-07-2",
+      "all_entry_filters": true,
+      "entry_and_exit_events": true,
+      "raw_candles": true,
+      "independent_MA_and_slopes": true,
+      "exit_rule_and_price": true,
+      "known_protection_only": true,
+      "net_pnl": 119.0
+    },
+    {
+      "uid": "combined-2026-07-3",
+      "all_entry_filters": true,
+      "entry_and_exit_events": true,
+      "raw_candles": true,
+      "independent_MA_and_slopes": true,
+      "exit_rule_and_price": true,
+      "known_protection_only": true,
+      "net_pnl": -1314.0
+    },
+    {
+      "uid": "combined-2026-07-4",
+      "all_entry_filters": true,
+      "entry_and_exit_events": true,
+      "raw_candles": true,
+      "independent_MA_and_slopes": true,
+      "exit_rule_and_price": true,
+      "known_protection_only": true,
+      "net_pnl": -1721.2800000000002
+    },
+    {
+      "uid": "combined-2026-07-5",
+      "all_entry_filters": true,
+      "entry_and_exit_events": true,
+      "raw_candles": true,
+      "independent_MA_and_slopes": true,
+      "exit_rule_and_price": true,
+      "known_protection_only": true,
+      "net_pnl": -1721.7792
+    },
+    {
+      "uid": "combined-2026-07-6",
+      "all_entry_filters": true,
+      "entry_and_exit_events": true,
+      "raw_candles": true,
+      "independent_MA_and_slopes": true,
+      "exit_rule_and_price": true,
+      "known_protection_only": true,
+      "net_pnl": 977.0616
+    },
+    {
+      "uid": "combined-2026-09-1",
+      "all_entry_filters": true,
+      "entry_and_exit_events": true,
+      "raw_candles": true,
+      "independent_MA_and_slopes": true,
+      "exit_rule_and_price": true,
+      "known_protection_only": true,
+      "net_pnl": 7198.9056
+    },
+    {
+      "uid": "combined-2026-09-2",
+      "all_entry_filters": true,
+      "entry_and_exit_events": true,
+      "raw_candles": true,
+      "independent_MA_and_slopes": true,
+      "exit_rule_and_price": true,
+      "known_protection_only": true,
+      "net_pnl": 2147.0976
+    },
+    {
+      "uid": "control-2026-07-1",
+      "all_entry_filters": true,
+      "entry_and_exit_events": true,
+      "raw_candles": true,
+      "independent_MA_and_slopes": true,
+      "exit_rule_and_price": true,
+      "known_protection_only": true,
+      "net_pnl": -1966.734
+    },
+    {
+      "uid": "control-2026-07-2",
+      "all_entry_filters": true,
+      "entry_and_exit_events": true,
+      "raw_candles": true,
+      "independent_MA_and_slopes": true,
+      "exit_rule_and_price": true,
+      "known_protection_only": true,
+      "net_pnl": 399.0
+    },
+    {
+      "uid": "control-2026-07-3",
+      "all_entry_filters": true,
+      "entry_and_exit_events": true,
+      "raw_candles": true,
+      "independent_MA_and_slopes": true,
+      "exit_rule_and_price": true,
+      "known_protection_only": true,
+      "net_pnl": -1314.0
+    },
+    {
+      "uid": "control-2026-07-4",
+      "all_entry_filters": true,
+      "entry_and_exit_events": true,
+      "raw_candles": true,
+      "independent_MA_and_slopes": true,
+      "exit_rule_and_price": true,
+      "known_protection_only": true,
+      "net_pnl": -1721.2800000000002
+    },
+    {
+      "uid": "control-2026-07-5",
+      "all_entry_filters": true,
+      "entry_and_exit_events": true,
+      "raw_candles": true,
+      "independent_MA_and_slopes": true,
+      "exit_rule_and_price": true,
+      "known_protection_only": true,
+      "net_pnl": -1721.7792
+    },
+    {
+      "uid": "control-2026-07-6",
+      "all_entry_filters": true,
+      "entry_and_exit_events": true,
+      "raw_candles": true,
+      "independent_MA_and_slopes": true,
+      "exit_rule_and_price": true,
+      "known_protection_only": true,
+      "net_pnl": 977.0616
+    },
+    {
+      "uid": "control-2026-08-1",
+      "all_entry_filters": true,
+      "entry_and_exit_events": true,
+      "raw_candles": true,
+      "independent_MA_and_slopes": true,
+      "exit_rule_and_price": true,
+      "known_protection_only": true,
+      "net_pnl": -1236.99
+    },
+    {
+      "uid": "control-2026-08-2",
+      "all_entry_filters": true,
+      "entry_and_exit_events": true,
+      "raw_candles": true,
+      "independent_MA_and_slopes": true,
+      "exit_rule_and_price": true,
+      "known_protection_only": true,
+      "net_pnl": -1818.45
+    },
+    {
+      "uid": "control-2026-08-3",
+      "all_entry_filters": true,
+      "entry_and_exit_events": true,
+      "raw_candles": true,
+      "independent_MA_and_slopes": true,
+      "exit_rule_and_price": true,
+      "known_protection_only": true,
+      "net_pnl": -745.21
+    },
+    {
+      "uid": "control-2026-08-4",
+      "all_entry_filters": true,
+      "entry_and_exit_events": true,
+      "raw_candles": true,
+      "independent_MA_and_slopes": true,
+      "exit_rule_and_price": true,
+      "known_protection_only": true,
+      "net_pnl": -1357.4499999999998
+    },
+    {
+      "uid": "control-2026-09-1",
+      "all_entry_filters": true,
+      "entry_and_exit_events": true,
+      "raw_candles": true,
+      "independent_MA_and_slopes": true,
+      "exit_rule_and_price": true,
+      "known_protection_only": true,
+      "net_pnl": 7198.9056
+    },
+    {
+      "uid": "control-2026-09-2",
+      "all_entry_filters": true,
+      "entry_and_exit_events": true,
+      "raw_candles": true,
+      "independent_MA_and_slopes": true,
+      "exit_rule_and_price": true,
+      "known_protection_only": true,
+      "net_pnl": 2147.0976
+    }
+  ],
+  "sources": [
+    {
+      "month": "2026-07",
+      "variant": "combined",
+      "directory": "/home/nishiki/vnpy-ctp/research_outputs/coverage_expansion_2026-10-05/optimization_review/combined/2026-07/run_0001_f591efd14e32",
+      "hashes": {
+        "config_snapshot.json": "b5ba8ebb8f9af65a367e995627c3b533611ba5669c8d1e0bc8cbdb69a509ddcb",
+        "manifest.json": "76086db227ca419795eec7ae995fd7bfb74342b22b3f28f355b2f68ca8d37e2a",
+        "trades.csv.gz": "7a8fa1f69a930bdb54ecf454e0314e56101fd2b03e43571db76435333d0cfa48",
+        "summary.json": "81fb25ba84f89e6e4a0ba0b7585daa84a7af783779f6eaecb6d7e43b61865df8",
+        "independent_coverage_audit.json": "2a4b71df381bad8a6e4008281c7d61c0c26a9788e829f9b5824d7f64a7509b8c",
+        "source_snapshot.tar.gz": "493c4d8128fa8893d00c7f16bcfc6b33fec20abe28cf27942de9855ff202d2b8",
+        "signals.csv.gz": "b7c28485996c06199d29655f259509dde50cd47735537f0e19ad0b8a70a4d139",
+        "events.csv.gz": "d49b25ab678ed195f3e5175ab302afd40417b5ecab253f10e8faa4796dbdd168"
+      }
+    },
+    {
+      "month": "2026-08",
+      "variant": "combined",
+      "directory": "/home/nishiki/vnpy-ctp/research_outputs/coverage_expansion_2026-10-05/optimization_review/combined/2026-08/run_0001_e1aedbffe713",
+      "hashes": {
+        "config_snapshot.json": "a8b28dd7607d31074dd1473b54acb0d9ef385d29ab7f46ba57dd90b745b32e8d",
+        "manifest.json": "a13e5829d67f4fb856a4ea0c419aa91bd0fa350edeab7b0421983ab923d06307",
+        "trades.csv.gz": "0510818b525a8789fd01997a41c25f8984e4704f7764f0c52600e2458544bdd2",
+        "summary.json": "8fb8ec097b1d4485ee4c18fcdc2a4f3b8aa959e675d8d6336f41c4260f27d87d",
+        "independent_coverage_audit.json": "a8f5104e81088140b25c84b3c6a18b6e37c9d5d6caadada2a4dc926171b8ffbc",
+        "source_snapshot.tar.gz": "f394b6ea10cd669d6f3662ffc63feac813e6eeb042c595680c0b0744b90fec06",
+        "signals.csv.gz": "7997da3b628455e886f2dc836a5f8de21ef6c06539c45c3da18cde0e2ee3dd29",
+        "events.csv.gz": "0510818b525a8789fd01997a41c25f8984e4704f7764f0c52600e2458544bdd2"
+      }
+    },
+    {
+      "month": "2026-09",
+      "variant": "combined",
+      "directory": "/home/nishiki/vnpy-ctp/research_outputs/coverage_expansion_2026-10-05/optimization_review/combined/2026-09/run_0001_9e214f594453",
+      "hashes": {
+        "config_snapshot.json": "12b5460eca5d830065ae19f8aa780c7aff8d4b0df22c8c25a1706068880634f3",
+        "manifest.json": "6fa2248b40c862a3b83b4ccdbc6804b6987c4fef4f05644f35c46dce18050071",
+        "trades.csv.gz": "d93b1cb2077497ff52bf65b8b61d5ebe0d043ff1de8fad7ad98a0e9c09985279",
+        "summary.json": "dc5859005b0bfe764363a3f03c60d60b6a6027ddfb02d4499b43633afd96d428",
+        "independent_coverage_audit.json": "5280738812d4fbc6b583d0db8017cbc671d745cc7e7e388fc1a1c06012b24f57",
+        "source_snapshot.tar.gz": "77e9891beb1a35cac9e7e95eb858157e0f9b2c299731941a28e1a9b6af9b98b7",
+        "signals.csv.gz": "0ca6e807b203c3f0d220b2a6b7d86bc5df53954b8c28b24da2e3711c6c59f9a1",
+        "events.csv.gz": "0161cc8f17454d1bb71b28a4a48ed43e2e612c87fb7dc3125087efd7d2dbfb9c"
+      }
+    },
+    {
+      "month": "2026-07",
+      "variant": "control",
+      "directory": "/home/nishiki/vnpy-ctp/research_outputs/coverage_expansion_2026-10-05/optimization_review/control/2026-07/run_0001_a2b6ba79344f",
+      "hashes": {
+        "config_snapshot.json": "27a89f967fb3c6b5a02968a55e0908bb3c3cb663c3ba1a23c3ac90ab90bcf6f9",
+        "manifest.json": "b6c74fe0761bab0f9275c897b610785100d6fbc98c4fa0738b4a95029a56e5ce",
+        "trades.csv.gz": "519b4e9b64b5a233b5375061a1538671747fd87c9b5bc335f4d82a83d2c38399",
+        "summary.json": "953c2030b0b45b43b4ce7897a0c00aeffff4a912e2387dc56df33f99f3deb65e",
+        "independent_coverage_audit.json": "e87b05c6fa86e638e1e5f6aa0d700dc5aa995a7fb1bdaf7bedd6668a58f9cfc3",
+        "source_snapshot.tar.gz": "9e4991f2b64e1f1d0446ab605befd68b8f208f6490b454d8412175d9c36251f0",
+        "signals.csv.gz": "5424da70c354d7fa44ddd6e3292794ac8b910ae30945501cd589c08e74419052",
+        "events.csv.gz": "dcf79aa8cad86d2e16b009c30dd6a6530bd495c59b4d7860e4d5c5bdfc759680"
+      }
+    },
+    {
+      "month": "2026-08",
+      "variant": "control",
+      "directory": "/home/nishiki/vnpy-ctp/research_outputs/coverage_expansion_2026-10-05/optimization_review/control/2026-08/run_0001_9a19dd588ed0",
+      "hashes": {
+        "config_snapshot.json": "1d98c7812e877a98b72d47a11c05d2ff1321907ae26343e03fbecafb01456bfd",
+        "manifest.json": "3974f6b02cdb85fb6feb311a7f296cc364ee7851ea8e176159b534c78d9c0144",
+        "trades.csv.gz": "f88b69dabbe2c5859f207bb4a3b6225398401ba0a5aeca915a6aa279ba97ee90",
+        "summary.json": "bd984369a764c6211323a6f73e110fc1c65ce939fb7be23a8956e88ebfb7ff02",
+        "independent_coverage_audit.json": "06c222e203b4c6591b51ab5f3dffbe236b87fe68b8d94f8f2f0fd8835eff786d",
+        "source_snapshot.tar.gz": "53a374cf267a19f6f35ad6465c6a6e87bfba590650d880bed7a269024a3348a7",
+        "signals.csv.gz": "4654d8fd9179c79e4679ed8d223372b6e4b0546b2645324adcf88eba6a559356",
+        "events.csv.gz": "7e5141488b6ba43ea524f52fd219eee63b8a9dcfdffa6a2f805b3fc07c8ea346"
+      }
+    },
+    {
+      "month": "2026-09",
+      "variant": "control",
+      "directory": "/home/nishiki/vnpy-ctp/research_outputs/coverage_expansion_2026-10-05/optimization_review/control/2026-09/run_0001_78b5e07632ea",
+      "hashes": {
+        "config_snapshot.json": "26c6a3b7f84598e44d040df5586280ea5e09eb7896cc69a83f8f6cb638160f9f",
+        "manifest.json": "cf1f5697c5419bea6ccdd3c82414bef88f3ea23f63ae7704986c6122ecfa7b2b",
+        "trades.csv.gz": "d2722408e0913ff938ab6b5c70e0b3cebd4a70fb00ca89ef4933b96ff4a2ee16",
+        "summary.json": "f947c22463e7e3afd316832d40954470c2e321aee525b90bdc0eafdf603f4c6d",
+        "independent_coverage_audit.json": "8bb69903bfa466f7bc15e82c101499ec907ad250d92dd27ff7683e59ff602e34",
+        "source_snapshot.tar.gz": "23d1f4979d53218c0f251c596637eb776504e8256f7b836685edf6bcdc4d2365",
+        "signals.csv.gz": "a0f5eadd6deda2d7b74f4304a10e62c660f788563cc910e7b75cd9de9f12784e",
+        "events.csv.gz": "002bea2d122cc29655f8fed1f9f970a360db6872addd200bacc343014b91f5bc"
+      }
+    }
+  ],
+  "cache_sources": {
+    "2026-07": {
+      "cache": "/home/nishiki/vnpy-ctp/research_outputs/coverage_expansion_2026-10-05/2026-07/indicator_cache/09566f853de4c1d10bcfd6cf7593f72ede83f769d0b1f8253bb71287bfd92089.jsonl.gz",
+      "cache_sha256": "78dab67445f453dc0049d7922f73d8a70b8161fe6c5bd38d17c8abf41cb5a9e3",
+      "market": "/home/nishiki/vnpy-ctp/research_inputs/coverage_expansion_2026-10-05/datasets/92bfcc72dc2e774d86985ab2e9141e70b6885bbfa9157bad88a31f66fbe82cb9.jsonl.gz",
+      "market_sha256": "6dec3690f3a9e161b7c109f8bb65a60fae40b5e3d6be97d3547273a05bcfd4b1"
+    },
+    "2026-08": {
+      "cache": "/home/nishiki/vnpy-ctp/research_outputs/coverage_expansion_2026-10-05/2026-08/indicator_cache/27a098817b9a513dfaca2488546a627fc3070ea86cd462417b6cb6c2fca0fbcb.jsonl.gz",
+      "cache_sha256": "45e1745212c293c67181bc5772a45043d0c04d8c90efccaca6360ce60cb24379",
+      "market": "/home/nishiki/vnpy-ctp/research_inputs/coverage_expansion_2026-10-05/datasets/28d7af29a927b406dc4e53d72b96d8c726199f283352dff97a814977fa0c695c.jsonl.gz",
+      "market_sha256": "47ea450717035a3d6fd74032ea29d2e7fb955ea73912306229e5663026692106"
+    },
+    "2026-09": {
+      "cache": "/home/nishiki/vnpy-ctp/research_outputs/2026-09/diagnostic_baseline/indicator_cache/a5673ad579092e90a1ac7626deaa1820b67f903af9923aca2364ae1ae68b0d95.jsonl.gz",
+      "cache_sha256": "d1aacf4be0d4c457d9aea42b2c2af27cd1a5658078ed77eed8e37df4f3df4073",
+      "market": "/home/nishiki/vnpy-ctp/research_inputs/coverage_expansion_2026-10-05/datasets/6cafc278d9329f5134582c629ada17361d2b517ec1bb3217642a4e4c34e19625.jsonl.gz",
+      "market_sha256": "71b55a867d6ca125c1016f51d5ae2ff4db05ef7617524878982ccde87bda5cee"
+    }
+  },
+  "locked_test_read": false,
+  "strategy_changed": false
+}

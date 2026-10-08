@@ -1,0 +1,80 @@
+{
+  "schema": 1,
+  "kind": "sequential_optimization_diagnostic",
+  "created_utc": "2026-10-05T11:37:50.114884+00:00",
+  "coverage_plan": "/home/nishiki/vnpy-ctp/research_inputs/coverage_expansion_2026-10-05/plan.json",
+  "coverage_plan_sha256": "ab0ad0737cea39ee387577549dda7706fd38ee3489876d320590102cb32a2813",
+  "baselines": {
+    "2026-07": {
+      "directory": "/home/nishiki/vnpy-ctp/research_outputs/coverage_expansion_2026-10-05/2026-07/k2/run_0001_ec113214672c",
+      "config_sha256": "05f7fe7807e843ad4380fa4208b9a5cdbd96e88fde8b0ff83ffd851d7c4897fb",
+      "trades_sha256": "519b4e9b64b5a233b5375061a1538671747fd87c9b5bc335f4d82a83d2c38399",
+      "manifest_sha256": "4a343b94854163dc7cfb6ef08475860ea71d03a6ff1e484594a00947d4d90721"
+    },
+    "2026-08": {
+      "directory": "/home/nishiki/vnpy-ctp/research_outputs/coverage_expansion_2026-10-05/2026-08/k2/run_0001_e9d6cf49e140",
+      "config_sha256": "1054cf192ba605c09cf336f3ef4f281ec9511cbe31dc3e5d6f379e6f818838b7",
+      "trades_sha256": "f88b69dabbe2c5859f207bb4a3b6225398401ba0a5aeca915a6aa279ba97ee90",
+      "manifest_sha256": "8b3173901746b2ca49974ccb597f1bf8b718fbf2f1124e25acd07390166fd933"
+    },
+    "2026-09": {
+      "directory": "/home/nishiki/vnpy-ctp/research_outputs/coverage_expansion_2026-10-05/2026-09/k2/run_0001_c2f692cfb45e",
+      "config_sha256": "c7ce2b6c026d2901ccb516be04c68bd3979b2925186892d5f7e3f0fe38dba6a5",
+      "trades_sha256": "d2722408e0913ff938ab6b5c70e0b3cebd4a70fb00ca89ef4933b96ff4a2ee16",
+      "manifest_sha256": "130622d2395e3b58c47efbafbdca59879ff82fc0a573e27721e3c8c55de977bf"
+    }
+  },
+  "order": [
+    "control",
+    "cost",
+    "breakeven",
+    "pullback",
+    "afternoon"
+  ],
+  "variants": {
+    "control": {},
+    "cost": {
+      "entry_cost_filter": {
+        "max_cost_atr": 0.5
+      }
+    },
+    "breakeven": {
+      "breakeven": {
+        "activation_r": 1.0,
+        "include_costs": true
+      }
+    },
+    "pullback": {
+      "entry_mode": "pullback_ma10"
+    },
+    "afternoon": {
+      "afternoon_rerank": {
+        "opening_minutes": 8,
+        "rank_by": "afternoon_return",
+        "replace": true
+      }
+    }
+  },
+  "conditional_combination": "cost_and_breakeven_only_if_each_passes_promotion",
+  "promotion": {
+    "total_net_improves": true,
+    "each_window_net_not_worse": true,
+    "each_window_drawdown_not_worse": true,
+    "without_best_trade_net_not_worse": true,
+    "minimum_trade_count": 8
+  },
+  "budget": {
+    "roots": [
+      "/home/nishiki/vnpy-ctp/research_inputs/coverage_expansion_2026-10-05",
+      "/home/nishiki/vnpy-ctp/research_outputs/coverage_expansion_2026-10-05"
+    ],
+    "max_bytes": 5368709120,
+    "min_free_bytes": 4294967296
+  },
+  "output": "/home/nishiki/vnpy-ctp/research_outputs/coverage_expansion_2026-10-05/optimization_review",
+  "k": 2,
+  "parameter_search": false,
+  "locked_test_read": false,
+  "sample_status": "retrospective_diagnostic_on_already_inspected_windows",
+  "new_holdout_results_claimed": false
+}

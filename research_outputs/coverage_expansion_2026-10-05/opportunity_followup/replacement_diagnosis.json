@@ -1,0 +1,144 @@
+{
+  "checks": {
+    "skip_zero_capacity": 31798,
+    "zero_single_trade_risk": 25876,
+    "zero_group_margin": 31694,
+    "select": 23044,
+    "zero_group_risk": 664,
+    "zero_margin": 9
+  },
+  "unknown_retained": {
+    "execution_inputs_unavailable": 2355
+  },
+  "promoted_contract_day_directions": 76,
+  "promoted_fills": [],
+  "lower_rank_observations": {
+    "observations": 16794,
+    "execution_available": 15149,
+    "all_market_pass": 0,
+    "rejected_cost": 14714,
+    "rejected_current_session_15m": 517,
+    "rejected_extension": 2438,
+    "rejected_oi": 10788,
+    "rejected_slope_1m_maximum": 1383,
+    "rejected_trend_1m": 9688,
+    "rejected_vwap": 8285,
+    "rejected_efficiency": 14772,
+    "rejected_trend_displacement": 12445,
+    "rejected_slope_1m_minimum": 13117,
+    "rejected_slope_5m_maximum": 1545,
+    "rejected_no_exit_condition": 9350,
+    "rejected_shock": 2052,
+    "rejected_trend_5m": 9485,
+    "rejected_trend_activity": 981,
+    "rejected_slope_5m_minimum": 12130,
+    "rejected_entry_time": 1467,
+    "rejected_trend_15m": 9297,
+    "rejected_warmup_1m": 89
+  },
+  "zero_capacity_examples": [
+    {
+      "product": "IM",
+      "contract": "IM2609.CFFEX",
+      "time": "2026-07-01T09:38:00+08:00",
+      "group": "financial",
+      "minimum_open_lots": 1,
+      "minimum_planned_risk": 2832.36688,
+      "minimum_margin": 205075.19999999995,
+      "equity": 1000000.0,
+      "reasons": [
+        "single_trade_risk",
+        "group_margin"
+      ],
+      "capital_for_minimum_size_without_other_positions": 1416183.44
+    },
+    {
+      "product": "IC",
+      "contract": "IC2609.CFFEX",
+      "time": "2026-07-01T09:38:00+08:00",
+      "group": "financial",
+      "minimum_open_lots": 1,
+      "minimum_planned_risk": 3564.94604,
+      "minimum_margin": 211041.6,
+      "equity": 1000000.0,
+      "reasons": [
+        "single_trade_risk",
+        "group_margin"
+      ],
+      "capital_for_minimum_size_without_other_positions": 1782473.0199999998
+    },
+    {
+      "product": "IF",
+      "contract": "IF2609.CFFEX",
+      "time": "2026-07-01T09:38:00+08:00",
+      "group": "financial",
+      "minimum_open_lots": 1,
+      "minimum_planned_risk": 2168.13018,
+      "minimum_margin": 174607.19999999998,
+      "equity": 1000000.0,
+      "reasons": [
+        "single_trade_risk",
+        "group_margin"
+      ],
+      "capital_for_minimum_size_without_other_positions": 1164048.0
+    },
+    {
+      "product": "IH",
+      "contract": "IH2609.CFFEX",
+      "time": "2026-07-02T09:48:00+08:00",
+      "group": "financial",
+      "minimum_open_lots": 1,
+      "minimum_planned_risk": 2020.82346,
+      "minimum_margin": 104738.4,
+      "equity": 1000000.0,
+      "reasons": [
+        "single_trade_risk"
+      ],
+      "capital_for_minimum_size_without_other_positions": 1010411.73
+    },
+    {
+      "product": "ec",
+      "contract": "ec2608.INE",
+      "time": "2026-07-17T14:00:00+08:00",
+      "group": "commodity",
+      "minimum_open_lots": 1,
+      "minimum_planned_risk": 860.8,
+      "minimum_margin": 28820.0,
+      "equity": 999775.266,
+      "reasons": [
+        "group_margin"
+      ],
+      "capital_for_minimum_size_without_other_positions": 430399.99999999994
+    },
+    {
+      "product": "lc",
+      "contract": "lc2609.GFEX",
+      "time": "2026-07-17T14:00:00+08:00",
+      "group": "commodity",
+      "minimum_open_lots": 1,
+      "minimum_planned_risk": 552.0864,
+      "minimum_margin": 22527.0,
+      "equity": 999775.266,
+      "reasons": [
+        "group_margin"
+      ],
+      "capital_for_minimum_size_without_other_positions": 276043.2
+    },
+    {
+      "product": "sc",
+      "contract": "sc2609.INE",
+      "time": "2026-07-24T09:08:00+08:00",
+      "group": "commodity",
+      "minimum_open_lots": 1,
+      "minimum_planned_risk": 2420.0,
+      "minimum_margin": 94752.0,
+      "equity": 998938.266,
+      "reasons": [
+        "single_trade_risk"
+      ],
+      "capital_for_minimum_size_without_other_positions": 1210000.0
+    }
+  ],
+  "capital_estimates_are_capacity_only_not_profit_or_funding_recommendations": true,
+  "counts_include_repeated_minutes": true
+}

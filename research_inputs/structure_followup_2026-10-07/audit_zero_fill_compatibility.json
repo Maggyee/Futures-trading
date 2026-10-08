@@ -1,0 +1,30 @@
+{
+  "created": "2026-10-07T02:04:56.046144+08:00",
+  "kind": "audit_reader_compatibility_fix",
+  "reason": "With no admitted orders the exported signal journal omits protection_plan. Budget-rejected triggers still need their causal structure verified; admitted triggers must always contain the plan.",
+  "modified_file": "research/structure_audit.py",
+  "auditor_after_sha256": "e6ff34fe818de7fcad91ba57cd53f021a49f83f8821bbd4ad26c1c756c4e981f",
+  "plan_sha256": "2c54a8e02e558bd6571d718393fe9e0d596a7448b7c5ff86e1a55c56373091c7",
+  "frozen_strategy_and_runner_unchanged": {
+    "research/structure_rules.py": true,
+    "research/structure_followup.py": true,
+    "research/execution.py": true,
+    "research/config.py": true
+  },
+  "replay_unchanged_hashes": {
+    "manifest.json": "b8bc671bb53aa052630943077d28d198fcfd759e8ab58a0e70602fbe6b28352c",
+    "signals.csv.gz": "8f3a645fa6d04f0ab6fd4e8376e5969008d8e9d2945789a7029cac772c7b1a8d",
+    "events.csv.gz": "0510818b525a8789fd01997a41c25f8984e4704f7764f0c52600e2458544bdd2",
+    "trades.csv.gz": "0510818b525a8789fd01997a41c25f8984e4704f7764f0c52600e2458544bdd2",
+    "summary.json": "0098bbd875c9ad3dc7b6c6bfe057f2bde254c354517a677b1a261e7b9f5b8de2",
+    "source_snapshot.tar.gz": "1432400a1412a5a4feccc3679cf17c310d75921dcb60df0ce4faa52411a77824"
+  },
+  "backtest_rerun": false,
+  "strategy_changed": false,
+  "parameter_search": false,
+  "locked_test_read": false,
+  "auditor_before_sha256": "da00d8c1715c8eb91d0c9dd73292510f8ed975050824ddf5bd153ec67e03f33c",
+  "audit_status": "passed",
+  "audit_sha256": "e2abce851a8d97b7d2fbf370936f474e9689c1e82b70b8b103d1a6b09be908ae",
+  "replay_files_verified_unchanged_after_audit": true
+}

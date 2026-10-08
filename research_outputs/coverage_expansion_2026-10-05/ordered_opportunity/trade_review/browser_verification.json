@@ -1,0 +1,506 @@
+{
+  "status": "passed",
+  "html_sha256": "5d5926731164a487831c98c508c2ac4e87f9d64a4ec73324dc61287e5e2d9ad6",
+  "checked_views": [
+    {
+      "uid": "control-2026-07-1",
+      "scope": "local",
+      "candles": 48,
+      "markers": true,
+      "protection": true
+    },
+    {
+      "uid": "control-2026-07-1",
+      "scope": "day",
+      "candles": 225,
+      "markers": true,
+      "protection": true
+    },
+    {
+      "uid": "control-2026-07-2",
+      "scope": "local",
+      "candles": 45,
+      "markers": true,
+      "protection": true
+    },
+    {
+      "uid": "control-2026-07-2",
+      "scope": "day",
+      "candles": 225,
+      "markers": true,
+      "protection": true
+    },
+    {
+      "uid": "control-2026-07-3",
+      "scope": "local",
+      "candles": 44,
+      "markers": true,
+      "protection": true
+    },
+    {
+      "uid": "control-2026-07-3",
+      "scope": "day",
+      "candles": 225,
+      "markers": true,
+      "protection": true
+    },
+    {
+      "uid": "control-2026-07-4",
+      "scope": "local",
+      "candles": 49,
+      "markers": true,
+      "protection": true
+    },
+    {
+      "uid": "control-2026-07-4",
+      "scope": "day",
+      "candles": 225,
+      "markers": true,
+      "protection": true
+    },
+    {
+      "uid": "control-2026-07-5",
+      "scope": "local",
+      "candles": 52,
+      "markers": true,
+      "protection": true
+    },
+    {
+      "uid": "control-2026-07-5",
+      "scope": "day",
+      "candles": 225,
+      "markers": true,
+      "protection": true
+    },
+    {
+      "uid": "control-2026-09-1",
+      "scope": "local",
+      "candles": 79,
+      "markers": true,
+      "protection": true
+    },
+    {
+      "uid": "control-2026-09-1",
+      "scope": "day",
+      "candles": 225,
+      "markers": true,
+      "protection": true
+    },
+    {
+      "uid": "control-2026-09-2",
+      "scope": "local",
+      "candles": 44,
+      "markers": true,
+      "protection": true
+    },
+    {
+      "uid": "control-2026-09-2",
+      "scope": "day",
+      "candles": 225,
+      "markers": true,
+      "protection": true
+    },
+    {
+      "uid": "dual-2026-07-1",
+      "scope": "local",
+      "candles": 45,
+      "markers": true,
+      "protection": true
+    },
+    {
+      "uid": "dual-2026-07-1",
+      "scope": "day",
+      "candles": 225,
+      "markers": true,
+      "protection": true
+    },
+    {
+      "uid": "dual-2026-07-2",
+      "scope": "local",
+      "candles": 48,
+      "markers": true,
+      "protection": true
+    },
+    {
+      "uid": "dual-2026-07-2",
+      "scope": "day",
+      "candles": 225,
+      "markers": true,
+      "protection": true
+    },
+    {
+      "uid": "dual-2026-07-3",
+      "scope": "local",
+      "candles": 43,
+      "markers": true,
+      "protection": true
+    },
+    {
+      "uid": "dual-2026-07-3",
+      "scope": "day",
+      "candles": 225,
+      "markers": true,
+      "protection": true
+    },
+    {
+      "uid": "dual-2026-07-4",
+      "scope": "local",
+      "candles": 45,
+      "markers": true,
+      "protection": true
+    },
+    {
+      "uid": "dual-2026-07-4",
+      "scope": "day",
+      "candles": 225,
+      "markers": true,
+      "protection": true
+    },
+    {
+      "uid": "dual-2026-07-5",
+      "scope": "local",
+      "candles": 44,
+      "markers": true,
+      "protection": true
+    },
+    {
+      "uid": "dual-2026-07-5",
+      "scope": "day",
+      "candles": 225,
+      "markers": true,
+      "protection": true
+    },
+    {
+      "uid": "dual-2026-07-6",
+      "scope": "local",
+      "candles": 49,
+      "markers": true,
+      "protection": true
+    },
+    {
+      "uid": "dual-2026-07-6",
+      "scope": "day",
+      "candles": 225,
+      "markers": true,
+      "protection": true
+    },
+    {
+      "uid": "dual-2026-07-7",
+      "scope": "local",
+      "candles": 52,
+      "markers": true,
+      "protection": true
+    },
+    {
+      "uid": "dual-2026-07-7",
+      "scope": "day",
+      "candles": 225,
+      "markers": true,
+      "protection": true
+    },
+    {
+      "uid": "pool-2026-07-1",
+      "scope": "local",
+      "candles": 48,
+      "markers": true,
+      "protection": true
+    },
+    {
+      "uid": "pool-2026-07-1",
+      "scope": "day",
+      "candles": 225,
+      "markers": true,
+      "protection": true
+    },
+    {
+      "uid": "pool-2026-07-2",
+      "scope": "local",
+      "candles": 46,
+      "markers": true,
+      "protection": true
+    },
+    {
+      "uid": "pool-2026-07-2",
+      "scope": "day",
+      "candles": 225,
+      "markers": true,
+      "protection": true
+    },
+    {
+      "uid": "pool-2026-07-3",
+      "scope": "local",
+      "candles": 51,
+      "markers": true,
+      "protection": true
+    },
+    {
+      "uid": "pool-2026-07-3",
+      "scope": "day",
+      "candles": 225,
+      "markers": true,
+      "protection": true
+    },
+    {
+      "uid": "pool-2026-07-4",
+      "scope": "local",
+      "candles": 50,
+      "markers": true,
+      "protection": true
+    },
+    {
+      "uid": "pool-2026-07-4",
+      "scope": "day",
+      "candles": 225,
+      "markers": true,
+      "protection": true
+    },
+    {
+      "uid": "pool-2026-07-5",
+      "scope": "local",
+      "candles": 45,
+      "markers": true,
+      "protection": true
+    },
+    {
+      "uid": "pool-2026-07-5",
+      "scope": "day",
+      "candles": 225,
+      "markers": true,
+      "protection": true
+    },
+    {
+      "uid": "pool-2026-07-6",
+      "scope": "local",
+      "candles": 46,
+      "markers": true,
+      "protection": true
+    },
+    {
+      "uid": "pool-2026-07-6",
+      "scope": "day",
+      "candles": 225,
+      "markers": true,
+      "protection": true
+    },
+    {
+      "uid": "pool-2026-07-7",
+      "scope": "local",
+      "candles": 60,
+      "markers": true,
+      "protection": true
+    },
+    {
+      "uid": "pool-2026-07-7",
+      "scope": "day",
+      "candles": 225,
+      "markers": true,
+      "protection": true
+    },
+    {
+      "uid": "pool-2026-07-8",
+      "scope": "local",
+      "candles": 44,
+      "markers": true,
+      "protection": true
+    },
+    {
+      "uid": "pool-2026-07-8",
+      "scope": "day",
+      "candles": 225,
+      "markers": true,
+      "protection": true
+    },
+    {
+      "uid": "pool-2026-07-9",
+      "scope": "local",
+      "candles": 43,
+      "markers": true,
+      "protection": true
+    },
+    {
+      "uid": "pool-2026-07-9",
+      "scope": "day",
+      "candles": 225,
+      "markers": true,
+      "protection": true
+    },
+    {
+      "uid": "pool-2026-07-10",
+      "scope": "local",
+      "candles": 49,
+      "markers": true,
+      "protection": true
+    },
+    {
+      "uid": "pool-2026-07-10",
+      "scope": "day",
+      "candles": 225,
+      "markers": true,
+      "protection": true
+    },
+    {
+      "uid": "pool-2026-07-11",
+      "scope": "local",
+      "candles": 41,
+      "markers": true,
+      "protection": true
+    },
+    {
+      "uid": "pool-2026-07-11",
+      "scope": "day",
+      "candles": 225,
+      "markers": true,
+      "protection": true
+    },
+    {
+      "uid": "pool-2026-07-12",
+      "scope": "local",
+      "candles": 52,
+      "markers": true,
+      "protection": true
+    },
+    {
+      "uid": "pool-2026-07-12",
+      "scope": "day",
+      "candles": 225,
+      "markers": true,
+      "protection": true
+    },
+    {
+      "uid": "pool-2026-08-1",
+      "scope": "local",
+      "candles": 42,
+      "markers": true,
+      "protection": true
+    },
+    {
+      "uid": "pool-2026-08-1",
+      "scope": "day",
+      "candles": 225,
+      "markers": true,
+      "protection": true
+    },
+    {
+      "uid": "pool-2026-08-2",
+      "scope": "local",
+      "candles": 43,
+      "markers": true,
+      "protection": true
+    },
+    {
+      "uid": "pool-2026-08-2",
+      "scope": "day",
+      "candles": 225,
+      "markers": true,
+      "protection": true
+    },
+    {
+      "uid": "pool-2026-08-3",
+      "scope": "local",
+      "candles": 43,
+      "markers": true,
+      "protection": true
+    },
+    {
+      "uid": "pool-2026-08-3",
+      "scope": "day",
+      "candles": 225,
+      "markers": true,
+      "protection": true
+    },
+    {
+      "uid": "pool-2026-08-4",
+      "scope": "local",
+      "candles": 42,
+      "markers": true,
+      "protection": true
+    },
+    {
+      "uid": "pool-2026-08-4",
+      "scope": "day",
+      "candles": 225,
+      "markers": true,
+      "protection": true
+    },
+    {
+      "uid": "dual-2026-09-1",
+      "scope": "local",
+      "candles": 79,
+      "markers": true,
+      "protection": true
+    },
+    {
+      "uid": "dual-2026-09-1",
+      "scope": "day",
+      "candles": 225,
+      "markers": true,
+      "protection": true
+    },
+    {
+      "uid": "dual-2026-09-2",
+      "scope": "local",
+      "candles": 44,
+      "markers": true,
+      "protection": true
+    },
+    {
+      "uid": "dual-2026-09-2",
+      "scope": "day",
+      "candles": 225,
+      "markers": true,
+      "protection": true
+    },
+    {
+      "uid": "pool-2026-09-1",
+      "scope": "local",
+      "candles": 79,
+      "markers": true,
+      "protection": true
+    },
+    {
+      "uid": "pool-2026-09-1",
+      "scope": "day",
+      "candles": 225,
+      "markers": true,
+      "protection": true
+    },
+    {
+      "uid": "pool-2026-09-2",
+      "scope": "local",
+      "candles": 44,
+      "markers": true,
+      "protection": true
+    },
+    {
+      "uid": "pool-2026-09-2",
+      "scope": "day",
+      "candles": 225,
+      "markers": true,
+      "protection": true
+    },
+    {
+      "uid": "pool-2026-09-3",
+      "scope": "local",
+      "candles": 45,
+      "markers": true,
+      "protection": true
+    },
+    {
+      "uid": "pool-2026-09-3",
+      "scope": "day",
+      "candles": 225,
+      "markers": true,
+      "protection": true
+    }
+  ],
+  "higher_timeframes": 35,
+  "screenshot_trades": 35,
+  "mobile_widths": [
+    390,
+    320
+  ],
+  "empty_august": true,
+  "latest_csv_rows": 7,
+  "offline": true,
+  "browser_errors": []
+}

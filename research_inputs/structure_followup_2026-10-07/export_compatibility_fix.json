@@ -1,0 +1,19 @@
+{
+  "status": "passed",
+  "failure": "Old funnel assumed trend_window_valid/pullback_after_armed for every higher_trend_quality channel. New confirmation channel uses confirmation_window/price_pattern_confirmed.",
+  "failed_run": "/home/nishiki/vnpy-ctp/research_outputs/structure_followup_2026-10-07/confirmation/2026-07/run_0001_d0cf6cf51a4f",
+  "fix_scope": "reporting compatibility only; no matching, thresholds, ranking, risk or strategy rule changed",
+  "protected_implementation_hashes_unchanged": true,
+  "reporting_sha256": "b9add08c1d448e39b9589baf9774bfc38ca105c5808c5f55b5b2242dfd8f656d",
+  "tests_sha256": "88e2a397d04409d4d550f5cfeda4a0061499ff08bc3c96fd07e4c6639e6897a1",
+  "verification": {
+    "passed_tests": 42,
+    "test_files": [
+      "tests/test_research_structure.py",
+      "tests/test_research_opportunity_followup.py",
+      "tests/test_research_signal_journal.py"
+    ]
+  },
+  "locked_test_read": false,
+  "retuned_parameters": false
+}

@@ -1,0 +1,185 @@
+{
+  "month": "2026-08",
+  "variant": "dual",
+  "directory": "/home/nishiki/vnpy-ctp/research_outputs/coverage_expansion_2026-10-05/ordered_opportunity/dual/2026-08/run_0001_2285f3b68c8c",
+  "parent": "/home/nishiki/vnpy-ctp/research_outputs/coverage_expansion_2026-10-05/frequency_followup/stop_reentry/2026-08/run_0001_5360c3422042",
+  "window": {
+    "start": "2026-08-03",
+    "end": "2026-08-31"
+  },
+  "status": "completed",
+  "metrics": {
+    "net_profit": 0.0,
+    "net_return": 0.0,
+    "realized_trade_net": 0,
+    "unrealized_and_open_fee_difference": 0.0,
+    "max_drawdown": -0.0,
+    "max_drawdown_fraction": -0.0,
+    "return_drawdown_ratio": null,
+    "daily_return_volatility": 0.0,
+    "sharpe": null,
+    "sharpe_definition": "每日收市标记权益简单收益，样本标准差(ddof=1)，sqrt(240)年化；少于20日/20笔不显示",
+    "trade_count": 0,
+    "average_trade_net": null,
+    "win_rate": null,
+    "payoff_ratio": null,
+    "profit_factor": null,
+    "average_holding_minutes": null,
+    "fees": 0,
+    "fee_share_of_abs_gross": null,
+    "slippage_cost_diagnostic": 0,
+    "slippage_already_in_prices": true,
+    "ambiguous_trades": 0,
+    "daily_count": 21,
+    "sample_warning": "证据不足：需要更多独立交易日和样本外交易",
+    "candidate_count": 158,
+    "risk_rejection_count": 1,
+    "execution_rejection_count": 0,
+    "candidate_execution_rejection_count": 32,
+    "mean_margin_utilization": 1.5741033434650458e-05,
+    "max_margin_utilization": 0.12429120000000002,
+    "unflattened_session_count": 0,
+    "unflattened_break_count": 0,
+    "daily": [
+      {
+        "date": "2026-08-03",
+        "equity": 1000000,
+        "net_pnl": 0.0,
+        "return": 0.0
+      },
+      {
+        "date": "2026-08-04",
+        "equity": 1000000,
+        "net_pnl": 0.0,
+        "return": 0.0
+      },
+      {
+        "date": "2026-08-05",
+        "equity": 1000000,
+        "net_pnl": 0.0,
+        "return": 0.0
+      },
+      {
+        "date": "2026-08-06",
+        "equity": 1000000,
+        "net_pnl": 0.0,
+        "return": 0.0
+      },
+      {
+        "date": "2026-08-07",
+        "equity": 1000000,
+        "net_pnl": 0.0,
+        "return": 0.0
+      },
+      {
+        "date": "2026-08-10",
+        "equity": 1000000,
+        "net_pnl": 0.0,
+        "return": 0.0
+      },
+      {
+        "date": "2026-08-11",
+        "equity": 1000000,
+        "net_pnl": 0.0,
+        "return": 0.0
+      },
+      {
+        "date": "2026-08-12",
+        "equity": 1000000,
+        "net_pnl": 0.0,
+        "return": 0.0
+      },
+      {
+        "date": "2026-08-13",
+        "equity": 1000000,
+        "net_pnl": 0.0,
+        "return": 0.0
+      },
+      {
+        "date": "2026-08-14",
+        "equity": 1000000,
+        "net_pnl": 0.0,
+        "return": 0.0
+      },
+      {
+        "date": "2026-08-17",
+        "equity": 1000000,
+        "net_pnl": 0.0,
+        "return": 0.0
+      },
+      {
+        "date": "2026-08-18",
+        "equity": 1000000,
+        "net_pnl": 0.0,
+        "return": 0.0
+      },
+      {
+        "date": "2026-08-19",
+        "equity": 1000000,
+        "net_pnl": 0.0,
+        "return": 0.0
+      },
+      {
+        "date": "2026-08-20",
+        "equity": 1000000,
+        "net_pnl": 0.0,
+        "return": 0.0
+      },
+      {
+        "date": "2026-08-21",
+        "equity": 1000000,
+        "net_pnl": 0.0,
+        "return": 0.0
+      },
+      {
+        "date": "2026-08-24",
+        "equity": 1000000,
+        "net_pnl": 0.0,
+        "return": 0.0
+      },
+      {
+        "date": "2026-08-25",
+        "equity": 1000000,
+        "net_pnl": 0.0,
+        "return": 0.0
+      },
+      {
+        "date": "2026-08-26",
+        "equity": 1000000,
+        "net_pnl": 0.0,
+        "return": 0.0
+      },
+      {
+        "date": "2026-08-27",
+        "equity": 1000000,
+        "net_pnl": 0.0,
+        "return": 0.0
+      },
+      {
+        "date": "2026-08-28",
+        "equity": 1000000,
+        "net_pnl": 0.0,
+        "return": 0.0
+      },
+      {
+        "date": "2026-08-31",
+        "equity": 1000000,
+        "net_pnl": 0.0,
+        "return": 0.0
+      }
+    ],
+    "monthly": {
+      "2026-08": 0.0
+    },
+    "decomposition": {
+      "group": {},
+      "product": {},
+      "direction": {},
+      "entry_mode": {},
+      "exit_reason": {},
+      "rank": {},
+      "month": {}
+    }
+  },
+  "locked_test_read": false
+}

@@ -1,0 +1,7 @@
+# Preserve the bytes recorded by the research audits on every platform.
+research_inputs/** -text
+research_outputs/** -text
+*.gz binary
+*.zip binary
+*.png binary
+*.woff2 binary

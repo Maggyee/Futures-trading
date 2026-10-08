@@ -1,0 +1,7 @@
+{
+  "status": "passed",
+  "reference_run": "/home/nishiki/vnpy-ctp/research_outputs/coverage_expansion_2026-10-05/2026-07/k2/run_0001_ec113214672c",
+  "funnel_exactly_equal": true,
+  "rank_contribution_exactly_equal": true,
+  "selected_observations": 39244
+}

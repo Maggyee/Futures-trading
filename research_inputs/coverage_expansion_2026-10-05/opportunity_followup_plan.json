@@ -1,0 +1,216 @@
+{
+  "schema": 1,
+  "kind": "sequential_optimization_diagnostic",
+  "created_utc": "2026-10-06T09:14:48.561034+00:00",
+  "baselines": {
+    "2026-07": {
+      "directory": "/home/nishiki/vnpy-ctp/research_outputs/coverage_expansion_2026-10-05/optimization_review/combined/2026-07/run_0001_f591efd14e32",
+      "config_sha256": "b5ba8ebb8f9af65a367e995627c3b533611ba5669c8d1e0bc8cbdb69a509ddcb",
+      "trades_sha256": "7a8fa1f69a930bdb54ecf454e0314e56101fd2b03e43571db76435333d0cfa48",
+      "manifest_sha256": "76086db227ca419795eec7ae995fd7bfb74342b22b3f28f355b2f68ca8d37e2a"
+    },
+    "2026-08": {
+      "directory": "/home/nishiki/vnpy-ctp/research_outputs/coverage_expansion_2026-10-05/optimization_review/combined/2026-08/run_0001_e1aedbffe713",
+      "config_sha256": "a8b28dd7607d31074dd1473b54acb0d9ef385d29ab7f46ba57dd90b745b32e8d",
+      "trades_sha256": "0510818b525a8789fd01997a41c25f8984e4704f7764f0c52600e2458544bdd2",
+      "manifest_sha256": "a13e5829d67f4fb856a4ea0c419aa91bd0fa350edeab7b0421983ab923d06307"
+    },
+    "2026-09": {
+      "directory": "/home/nishiki/vnpy-ctp/research_outputs/coverage_expansion_2026-10-05/optimization_review/combined/2026-09/run_0001_9e214f594453",
+      "config_sha256": "12b5460eca5d830065ae19f8aa780c7aff8d4b0df22c8c25a1706068880634f3",
+      "trades_sha256": "d93b1cb2077497ff52bf65b8b61d5ebe0d043ff1de8fad7ad98a0e9c09985279",
+      "manifest_sha256": "6fa2248b40c862a3b83b4ccdbc6804b6987c4fef4f05644f35c46dce18050071"
+    }
+  },
+  "order": [
+    "control",
+    "replacement",
+    "trend",
+    "breakeven15",
+    "ma40confirm"
+  ],
+  "variants": {
+    "control": {},
+    "replacement": {
+      "candidate_replacement": {
+        "policy": "skip_known_zero_capacity",
+        "preserve_original_rank": true,
+        "refresh": "completed_minute",
+        "preserve_held_and_pending_slots": true
+      }
+    },
+    "trend": {
+      "entry_mode": "pullback_ma10",
+      "trend_entry": {
+        "quality_minutes": 5,
+        "valid_minutes": 5,
+        "require_touch_after_armed": true,
+        "cancel_on_invalid_higher_trend": true,
+        "efficiency_min": 0.45,
+        "remove_low_period_slope_gate": true
+      }
+    },
+    "breakeven15": {
+      "breakeven": {
+        "activation_r": 1.5,
+        "include_costs": true
+      }
+    },
+    "ma40confirm": {
+      "ma40_exit_confirmation_bars": 2
+    },
+    "replacement_trend": {
+      "candidate_replacement": {
+        "policy": "skip_known_zero_capacity",
+        "preserve_original_rank": true,
+        "refresh": "completed_minute",
+        "preserve_held_and_pending_slots": true
+      },
+      "entry_mode": "pullback_ma10",
+      "trend_entry": {
+        "quality_minutes": 5,
+        "valid_minutes": 5,
+        "require_touch_after_armed": true,
+        "cancel_on_invalid_higher_trend": true,
+        "efficiency_min": 0.45,
+        "remove_low_period_slope_gate": true
+      }
+    },
+    "replacement_breakeven15": {
+      "candidate_replacement": {
+        "policy": "skip_known_zero_capacity",
+        "preserve_original_rank": true,
+        "refresh": "completed_minute",
+        "preserve_held_and_pending_slots": true
+      },
+      "breakeven": {
+        "activation_r": 1.5,
+        "include_costs": true
+      }
+    },
+    "replacement_ma40confirm": {
+      "candidate_replacement": {
+        "policy": "skip_known_zero_capacity",
+        "preserve_original_rank": true,
+        "refresh": "completed_minute",
+        "preserve_held_and_pending_slots": true
+      },
+      "ma40_exit_confirmation_bars": 2
+    },
+    "trend_breakeven15": {
+      "entry_mode": "pullback_ma10",
+      "trend_entry": {
+        "quality_minutes": 5,
+        "valid_minutes": 5,
+        "require_touch_after_armed": true,
+        "cancel_on_invalid_higher_trend": true,
+        "efficiency_min": 0.45,
+        "remove_low_period_slope_gate": true
+      },
+      "breakeven": {
+        "activation_r": 1.5,
+        "include_costs": true
+      }
+    },
+    "trend_ma40confirm": {
+      "entry_mode": "pullback_ma10",
+      "trend_entry": {
+        "quality_minutes": 5,
+        "valid_minutes": 5,
+        "require_touch_after_armed": true,
+        "cancel_on_invalid_higher_trend": true,
+        "efficiency_min": 0.45,
+        "remove_low_period_slope_gate": true
+      },
+      "ma40_exit_confirmation_bars": 2
+    },
+    "replacement_trend_breakeven15": {
+      "candidate_replacement": {
+        "policy": "skip_known_zero_capacity",
+        "preserve_original_rank": true,
+        "refresh": "completed_minute",
+        "preserve_held_and_pending_slots": true
+      },
+      "entry_mode": "pullback_ma10",
+      "trend_entry": {
+        "quality_minutes": 5,
+        "valid_minutes": 5,
+        "require_touch_after_armed": true,
+        "cancel_on_invalid_higher_trend": true,
+        "efficiency_min": 0.45,
+        "remove_low_period_slope_gate": true
+      },
+      "breakeven": {
+        "activation_r": 1.5,
+        "include_costs": true
+      }
+    },
+    "replacement_trend_ma40confirm": {
+      "candidate_replacement": {
+        "policy": "skip_known_zero_capacity",
+        "preserve_original_rank": true,
+        "refresh": "completed_minute",
+        "preserve_held_and_pending_slots": true
+      },
+      "entry_mode": "pullback_ma10",
+      "trend_entry": {
+        "quality_minutes": 5,
+        "valid_minutes": 5,
+        "require_touch_after_armed": true,
+        "cancel_on_invalid_higher_trend": true,
+        "efficiency_min": 0.45,
+        "remove_low_period_slope_gate": true
+      },
+      "ma40_exit_confirmation_bars": 2
+    }
+  },
+  "labels": {
+    "control": "原方案",
+    "replacement": "资金可成交候选补位",
+    "trend": "高周期趋势＋1分钟回踩",
+    "breakeven15": "保本启动延后至1.5R",
+    "ma40confirm": "MA40离场连续两分钟确认"
+  },
+  "output": "/home/nishiki/vnpy-ctp/research_outputs/coverage_expansion_2026-10-05/opportunity_followup",
+  "budget": {
+    "roots": [
+      "/home/nishiki/vnpy-ctp/research_inputs/coverage_expansion_2026-10-05",
+      "/home/nishiki/vnpy-ctp/research_outputs/coverage_expansion_2026-10-05"
+    ],
+    "max_bytes": 5368709120,
+    "min_free_bytes": 4294967296
+  },
+  "k": 2,
+  "maximum_runs": 21,
+  "promotion": {
+    "total_net_improves": true,
+    "each_window_net_not_worse": true,
+    "each_window_drawdown_not_worse": true,
+    "without_best_trade_net_not_worse": true,
+    "entry_variant_trade_count_must_increase": true,
+    "stop_variant_may_reduce_trade_count": true
+  },
+  "selection": {
+    "entry_priority": [
+      "replacement",
+      "trend"
+    ],
+    "both_entry_pass": "run replacement_trend; retain only if it passes against control and both individual variants",
+    "exit_priority": [
+      "breakeven15",
+      "ma40confirm"
+    ],
+    "entry_exit_combination": "only if each independently passes; retain only if combination passes against control and selected entry",
+    "no_entry_pass": "report frequency issue unresolved; never retune these recipes from their PnL"
+  },
+  "replacement_scope": "Same pool, R8 direction and original ranking; skip only assessed zero minimum-lot capacity; unknown execution/ATR retains its original rank slot; never skip a candidate merely for failing market filters",
+  "trend_scope": "Efficiency and 11-close activity/displacement move to completed 5m bars; keep original 5m slope range and 5/15m trend rules; remove 1m slope gate; retain 1m price/VWAP/OI/shock/extension/cost and next-open execution",
+  "trend_window": "Rearm only on a new completed 5m candle, valid for five wall-clock minutes in the same session; MA10 touch must be completed at or after arming; confirmation closes beyond previous high/low; each touch consumed once",
+  "exit_scope": "Initial hard stop, time/session exits, costs, slippage, allocation and original target-triggered 2ATR trail remain; only declared break-even R or consecutive MA40 confirmation changes",
+  "sample_status": "retrospective_diagnostic_on_already_inspected_windows",
+  "locked_test_read": false,
+  "live_trading_changed": false,
+  "parameter_search": false,
+  "retune_after_result": false,
+  "new_holdout_results_claimed": false
+}

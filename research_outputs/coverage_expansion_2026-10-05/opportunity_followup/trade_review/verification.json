@@ -1,0 +1,646 @@
+{
+  "status": "passed",
+  "checks": [
+    {
+      "uid": "control-2026-07-1",
+      "all_entry_filters": true,
+      "entry_and_exit_events": true,
+      "raw_candles": true,
+      "independent_MA_and_slopes": true,
+      "exit_rule_and_price": true,
+      "known_protection_only": true,
+      "missing_selection_minutes_restored_from_causal_sources": true,
+      "net_pnl": 133.266
+    },
+    {
+      "uid": "control-2026-07-2",
+      "all_entry_filters": true,
+      "entry_and_exit_events": true,
+      "raw_candles": true,
+      "independent_MA_and_slopes": true,
+      "exit_rule_and_price": true,
+      "known_protection_only": true,
+      "missing_selection_minutes_restored_from_causal_sources": true,
+      "net_pnl": 119.0
+    },
+    {
+      "uid": "control-2026-07-3",
+      "all_entry_filters": true,
+      "entry_and_exit_events": true,
+      "raw_candles": true,
+      "independent_MA_and_slopes": true,
+      "exit_rule_and_price": true,
+      "known_protection_only": true,
+      "missing_selection_minutes_restored_from_causal_sources": true,
+      "net_pnl": -1314.0
+    },
+    {
+      "uid": "control-2026-07-4",
+      "all_entry_filters": true,
+      "entry_and_exit_events": true,
+      "raw_candles": true,
+      "independent_MA_and_slopes": true,
+      "exit_rule_and_price": true,
+      "known_protection_only": true,
+      "missing_selection_minutes_restored_from_causal_sources": true,
+      "net_pnl": -1721.2800000000002
+    },
+    {
+      "uid": "control-2026-07-5",
+      "all_entry_filters": true,
+      "entry_and_exit_events": true,
+      "raw_candles": true,
+      "independent_MA_and_slopes": true,
+      "exit_rule_and_price": true,
+      "known_protection_only": true,
+      "missing_selection_minutes_restored_from_causal_sources": true,
+      "net_pnl": -1721.7792
+    },
+    {
+      "uid": "control-2026-07-6",
+      "all_entry_filters": true,
+      "entry_and_exit_events": true,
+      "raw_candles": true,
+      "independent_MA_and_slopes": true,
+      "exit_rule_and_price": true,
+      "known_protection_only": true,
+      "missing_selection_minutes_restored_from_causal_sources": true,
+      "net_pnl": 977.0616
+    },
+    {
+      "uid": "control-2026-09-1",
+      "all_entry_filters": true,
+      "entry_and_exit_events": true,
+      "raw_candles": true,
+      "independent_MA_and_slopes": true,
+      "exit_rule_and_price": true,
+      "known_protection_only": true,
+      "missing_selection_minutes_restored_from_causal_sources": true,
+      "net_pnl": 7198.9056
+    },
+    {
+      "uid": "control-2026-09-2",
+      "all_entry_filters": true,
+      "entry_and_exit_events": true,
+      "raw_candles": true,
+      "independent_MA_and_slopes": true,
+      "exit_rule_and_price": true,
+      "known_protection_only": true,
+      "missing_selection_minutes_restored_from_causal_sources": true,
+      "net_pnl": 2147.0976
+    },
+    {
+      "uid": "breakeven15-2026-07-1",
+      "all_entry_filters": true,
+      "entry_and_exit_events": true,
+      "raw_candles": true,
+      "independent_MA_and_slopes": true,
+      "exit_rule_and_price": true,
+      "known_protection_only": true,
+      "missing_selection_minutes_restored_from_causal_sources": true,
+      "net_pnl": -1966.734
+    },
+    {
+      "uid": "breakeven15-2026-07-2",
+      "all_entry_filters": true,
+      "entry_and_exit_events": true,
+      "raw_candles": true,
+      "independent_MA_and_slopes": true,
+      "exit_rule_and_price": true,
+      "known_protection_only": true,
+      "missing_selection_minutes_restored_from_causal_sources": true,
+      "net_pnl": 119.0
+    },
+    {
+      "uid": "breakeven15-2026-07-3",
+      "all_entry_filters": true,
+      "entry_and_exit_events": true,
+      "raw_candles": true,
+      "independent_MA_and_slopes": true,
+      "exit_rule_and_price": true,
+      "known_protection_only": true,
+      "missing_selection_minutes_restored_from_causal_sources": true,
+      "net_pnl": -1314.0
+    },
+    {
+      "uid": "breakeven15-2026-07-4",
+      "all_entry_filters": true,
+      "entry_and_exit_events": true,
+      "raw_candles": true,
+      "independent_MA_and_slopes": true,
+      "exit_rule_and_price": true,
+      "known_protection_only": true,
+      "missing_selection_minutes_restored_from_causal_sources": true,
+      "net_pnl": -1721.2800000000002
+    },
+    {
+      "uid": "breakeven15-2026-07-5",
+      "all_entry_filters": true,
+      "entry_and_exit_events": true,
+      "raw_candles": true,
+      "independent_MA_and_slopes": true,
+      "exit_rule_and_price": true,
+      "known_protection_only": true,
+      "missing_selection_minutes_restored_from_causal_sources": true,
+      "net_pnl": -1721.7792
+    },
+    {
+      "uid": "breakeven15-2026-07-6",
+      "all_entry_filters": true,
+      "entry_and_exit_events": true,
+      "raw_candles": true,
+      "independent_MA_and_slopes": true,
+      "exit_rule_and_price": true,
+      "known_protection_only": true,
+      "missing_selection_minutes_restored_from_causal_sources": true,
+      "net_pnl": 977.0616
+    },
+    {
+      "uid": "ma40confirm-2026-07-1",
+      "all_entry_filters": true,
+      "entry_and_exit_events": true,
+      "raw_candles": true,
+      "independent_MA_and_slopes": true,
+      "exit_rule_and_price": true,
+      "known_protection_only": true,
+      "missing_selection_minutes_restored_from_causal_sources": true,
+      "net_pnl": 133.266
+    },
+    {
+      "uid": "ma40confirm-2026-07-2",
+      "all_entry_filters": true,
+      "entry_and_exit_events": true,
+      "raw_candles": true,
+      "independent_MA_and_slopes": true,
+      "exit_rule_and_price": true,
+      "known_protection_only": true,
+      "missing_selection_minutes_restored_from_causal_sources": true,
+      "net_pnl": 119.0
+    },
+    {
+      "uid": "ma40confirm-2026-07-3",
+      "all_entry_filters": true,
+      "entry_and_exit_events": true,
+      "raw_candles": true,
+      "independent_MA_and_slopes": true,
+      "exit_rule_and_price": true,
+      "known_protection_only": true,
+      "missing_selection_minutes_restored_from_causal_sources": true,
+      "net_pnl": -1314.0
+    },
+    {
+      "uid": "ma40confirm-2026-07-4",
+      "all_entry_filters": true,
+      "entry_and_exit_events": true,
+      "raw_candles": true,
+      "independent_MA_and_slopes": true,
+      "exit_rule_and_price": true,
+      "known_protection_only": true,
+      "missing_selection_minutes_restored_from_causal_sources": true,
+      "net_pnl": -1721.2800000000002
+    },
+    {
+      "uid": "ma40confirm-2026-07-5",
+      "all_entry_filters": true,
+      "entry_and_exit_events": true,
+      "raw_candles": true,
+      "independent_MA_and_slopes": true,
+      "exit_rule_and_price": true,
+      "known_protection_only": true,
+      "missing_selection_minutes_restored_from_causal_sources": true,
+      "net_pnl": -1721.7792
+    },
+    {
+      "uid": "ma40confirm-2026-07-6",
+      "all_entry_filters": true,
+      "entry_and_exit_events": true,
+      "raw_candles": true,
+      "independent_MA_and_slopes": true,
+      "exit_rule_and_price": true,
+      "known_protection_only": true,
+      "missing_selection_minutes_restored_from_causal_sources": true,
+      "net_pnl": 977.0616
+    },
+    {
+      "uid": "replacement-2026-07-1",
+      "all_entry_filters": true,
+      "entry_and_exit_events": true,
+      "raw_candles": true,
+      "independent_MA_and_slopes": true,
+      "exit_rule_and_price": true,
+      "known_protection_only": true,
+      "missing_selection_minutes_restored_from_causal_sources": true,
+      "net_pnl": 133.266
+    },
+    {
+      "uid": "replacement-2026-07-2",
+      "all_entry_filters": true,
+      "entry_and_exit_events": true,
+      "raw_candles": true,
+      "independent_MA_and_slopes": true,
+      "exit_rule_and_price": true,
+      "known_protection_only": true,
+      "missing_selection_minutes_restored_from_causal_sources": true,
+      "net_pnl": 119.0
+    },
+    {
+      "uid": "replacement-2026-07-3",
+      "all_entry_filters": true,
+      "entry_and_exit_events": true,
+      "raw_candles": true,
+      "independent_MA_and_slopes": true,
+      "exit_rule_and_price": true,
+      "known_protection_only": true,
+      "missing_selection_minutes_restored_from_causal_sources": true,
+      "net_pnl": -1314.0
+    },
+    {
+      "uid": "replacement-2026-07-4",
+      "all_entry_filters": true,
+      "entry_and_exit_events": true,
+      "raw_candles": true,
+      "independent_MA_and_slopes": true,
+      "exit_rule_and_price": true,
+      "known_protection_only": true,
+      "missing_selection_minutes_restored_from_causal_sources": true,
+      "net_pnl": -1721.2800000000002
+    },
+    {
+      "uid": "replacement-2026-07-5",
+      "all_entry_filters": true,
+      "entry_and_exit_events": true,
+      "raw_candles": true,
+      "independent_MA_and_slopes": true,
+      "exit_rule_and_price": true,
+      "known_protection_only": true,
+      "missing_selection_minutes_restored_from_causal_sources": true,
+      "net_pnl": -1721.7792
+    },
+    {
+      "uid": "replacement-2026-07-6",
+      "all_entry_filters": true,
+      "entry_and_exit_events": true,
+      "raw_candles": true,
+      "independent_MA_and_slopes": true,
+      "exit_rule_and_price": true,
+      "known_protection_only": true,
+      "missing_selection_minutes_restored_from_causal_sources": true,
+      "net_pnl": 977.0616
+    },
+    {
+      "uid": "trend-2026-07-1",
+      "all_entry_filters": true,
+      "entry_and_exit_events": true,
+      "raw_candles": true,
+      "independent_MA_and_slopes": true,
+      "exit_rule_and_price": true,
+      "known_protection_only": true,
+      "missing_selection_minutes_restored_from_causal_sources": true,
+      "net_pnl": -1718.76
+    },
+    {
+      "uid": "trend-2026-07-2",
+      "all_entry_filters": true,
+      "entry_and_exit_events": true,
+      "raw_candles": true,
+      "independent_MA_and_slopes": true,
+      "exit_rule_and_price": true,
+      "known_protection_only": true,
+      "missing_selection_minutes_restored_from_causal_sources": true,
+      "net_pnl": 133.41299999999998
+    },
+    {
+      "uid": "trend-2026-07-3",
+      "all_entry_filters": true,
+      "entry_and_exit_events": true,
+      "raw_candles": true,
+      "independent_MA_and_slopes": true,
+      "exit_rule_and_price": true,
+      "known_protection_only": true,
+      "missing_selection_minutes_restored_from_causal_sources": true,
+      "net_pnl": -1134.0
+    },
+    {
+      "uid": "breakeven15-2026-09-1",
+      "all_entry_filters": true,
+      "entry_and_exit_events": true,
+      "raw_candles": true,
+      "independent_MA_and_slopes": true,
+      "exit_rule_and_price": true,
+      "known_protection_only": true,
+      "missing_selection_minutes_restored_from_causal_sources": true,
+      "net_pnl": 7198.9056
+    },
+    {
+      "uid": "breakeven15-2026-09-2",
+      "all_entry_filters": true,
+      "entry_and_exit_events": true,
+      "raw_candles": true,
+      "independent_MA_and_slopes": true,
+      "exit_rule_and_price": true,
+      "known_protection_only": true,
+      "missing_selection_minutes_restored_from_causal_sources": true,
+      "net_pnl": 2147.0976
+    },
+    {
+      "uid": "ma40confirm-2026-09-1",
+      "all_entry_filters": true,
+      "entry_and_exit_events": true,
+      "raw_candles": true,
+      "independent_MA_and_slopes": true,
+      "exit_rule_and_price": true,
+      "known_protection_only": true,
+      "missing_selection_minutes_restored_from_causal_sources": true,
+      "net_pnl": 7198.9056
+    },
+    {
+      "uid": "ma40confirm-2026-09-2",
+      "all_entry_filters": true,
+      "entry_and_exit_events": true,
+      "raw_candles": true,
+      "independent_MA_and_slopes": true,
+      "exit_rule_and_price": true,
+      "known_protection_only": true,
+      "missing_selection_minutes_restored_from_causal_sources": true,
+      "net_pnl": 2147.0976
+    },
+    {
+      "uid": "replacement-2026-09-1",
+      "all_entry_filters": true,
+      "entry_and_exit_events": true,
+      "raw_candles": true,
+      "independent_MA_and_slopes": true,
+      "exit_rule_and_price": true,
+      "known_protection_only": true,
+      "missing_selection_minutes_restored_from_causal_sources": true,
+      "net_pnl": 7198.9056
+    },
+    {
+      "uid": "replacement-2026-09-2",
+      "all_entry_filters": true,
+      "entry_and_exit_events": true,
+      "raw_candles": true,
+      "independent_MA_and_slopes": true,
+      "exit_rule_and_price": true,
+      "known_protection_only": true,
+      "missing_selection_minutes_restored_from_causal_sources": true,
+      "net_pnl": 2147.0976
+    }
+  ],
+  "sources": [
+    {
+      "month": "2026-07",
+      "variant": "control",
+      "directory": "/home/nishiki/vnpy-ctp/research_outputs/coverage_expansion_2026-10-05/opportunity_followup/control/2026-07/run_0002_41360494e96a",
+      "hashes": {
+        "config_snapshot.json": "97bbe79e9dff28f6a3adde7401cbe9ab67f65172f138e243a59ed779434e7c3f",
+        "manifest.json": "f10d588a0b1c953cc98cafcf6c06dc21828cd6971df72936831423a63ad2bfad",
+        "trades.csv.gz": "7a8fa1f69a930bdb54ecf454e0314e56101fd2b03e43571db76435333d0cfa48",
+        "summary.json": "81fb25ba84f89e6e4a0ba0b7585daa84a7af783779f6eaecb6d7e43b61865df8",
+        "independent_coverage_audit.json": "68b52fc580a60ed61865f0439a2d3a5f18b28e60ec7e87f0208641635670f3b6",
+        "source_snapshot.tar.gz": "5d789f0732fc8b905577f9fc6e8957d56ee86a4c48fd3e865410ccd4f3e65144",
+        "signals.csv.gz": "b7c28485996c06199d29655f259509dde50cd47735537f0e19ad0b8a70a4d139",
+        "events.csv.gz": "d49b25ab678ed195f3e5175ab302afd40417b5ecab253f10e8faa4796dbdd168"
+      }
+    },
+    {
+      "month": "2026-08",
+      "variant": "control",
+      "directory": "/home/nishiki/vnpy-ctp/research_outputs/coverage_expansion_2026-10-05/opportunity_followup/control/2026-08/run_0001_546497fd25a8",
+      "hashes": {
+        "config_snapshot.json": "4d79307c2aa9b149d998b3a8cb96636eece2ee509abe5020188a7a4bc99f8bb2",
+        "manifest.json": "894531a383497c61440ae412889b5562fcc01407aad62f679b075f610863c6a7",
+        "trades.csv.gz": "0510818b525a8789fd01997a41c25f8984e4704f7764f0c52600e2458544bdd2",
+        "summary.json": "8fb8ec097b1d4485ee4c18fcdc2a4f3b8aa959e675d8d6336f41c4260f27d87d",
+        "independent_coverage_audit.json": "0e04c9b221aaeaa7b22b528db41e6c6462ded9b4be6c0c822d899e5f9ea1b0a9",
+        "source_snapshot.tar.gz": "5aba802e23f4f1ba9a187d12b0b0c839adb2dbd6f5e0373d569b2b6ec123b1ab",
+        "signals.csv.gz": "7997da3b628455e886f2dc836a5f8de21ef6c06539c45c3da18cde0e2ee3dd29",
+        "events.csv.gz": "0510818b525a8789fd01997a41c25f8984e4704f7764f0c52600e2458544bdd2"
+      }
+    },
+    {
+      "month": "2026-09",
+      "variant": "control",
+      "directory": "/home/nishiki/vnpy-ctp/research_outputs/coverage_expansion_2026-10-05/opportunity_followup/control/2026-09/run_0001_ad4c69cc562b",
+      "hashes": {
+        "config_snapshot.json": "fc3a663b0eb53cf4e6554479824a90d2b2fdcf6bc3f4909b99d9ff6e7958cba5",
+        "manifest.json": "7a38be9c5162e9644566f6d67df91d6de0bedf0e50740e9c01b6f8ec0ace9b31",
+        "trades.csv.gz": "d93b1cb2077497ff52bf65b8b61d5ebe0d043ff1de8fad7ad98a0e9c09985279",
+        "summary.json": "dc5859005b0bfe764363a3f03c60d60b6a6027ddfb02d4499b43633afd96d428",
+        "independent_coverage_audit.json": "e28d9f8e9cc99210ae88cee2030b84d10e7b7bd0fdde4345a80cc10b214233d7",
+        "source_snapshot.tar.gz": "a981aa96063983f4b04946ec11329c3b40053075f732fa85af56b33d562d0ae1",
+        "signals.csv.gz": "0ca6e807b203c3f0d220b2a6b7d86bc5df53954b8c28b24da2e3711c6c59f9a1",
+        "events.csv.gz": "0161cc8f17454d1bb71b28a4a48ed43e2e612c87fb7dc3125087efd7d2dbfb9c"
+      }
+    },
+    {
+      "month": "2026-07",
+      "variant": "breakeven15",
+      "directory": "/home/nishiki/vnpy-ctp/research_outputs/coverage_expansion_2026-10-05/opportunity_followup/breakeven15/2026-07/run_0001_2875299fa03a",
+      "hashes": {
+        "config_snapshot.json": "fd255ed9f69c8726bdf5f502793291bc728e4d80b226aa3441b39e44ce140df9",
+        "manifest.json": "d620a735a7d88225933a010adc0920cc04092cb49fb1a5505131b0de3a03b908",
+        "trades.csv.gz": "2bb805c2ab3607c5630af63ef21e87b5184ce8de313053cd9a93c8b89019d6b1",
+        "summary.json": "1cb88d668444aeb459ea371273eef94d8deb71723983dc22e362d35bc4ed8b81",
+        "independent_coverage_audit.json": "1bceb800f9defdd801043097b4e2fe7ef71bf0a66a96b4a62b62bc5e54961820",
+        "source_snapshot.tar.gz": "30afeaf9c5654228dfa4633ef5b01420b234f23e126daea637f7970b71552583",
+        "signals.csv.gz": "835904aa644aabaf7e3c1418ccfab61c190861f5675758c76b4570a578c248b0",
+        "events.csv.gz": "e749ed85af6300409bb91a82bcaa18222a5a4f8dc1417017788d4cfd9543de33"
+      }
+    },
+    {
+      "month": "2026-07",
+      "variant": "ma40confirm",
+      "directory": "/home/nishiki/vnpy-ctp/research_outputs/coverage_expansion_2026-10-05/opportunity_followup/ma40confirm/2026-07/run_0001_3bafcb535142",
+      "hashes": {
+        "config_snapshot.json": "c5d6f0f6c2ffc967ac835bfe8d920c6892ca64974d03ce8de4febf148a641937",
+        "manifest.json": "124d2b34f3ce89a50662d41f6bdec5b42247164a9109f44c87c5c3b61480fafd",
+        "trades.csv.gz": "7a8fa1f69a930bdb54ecf454e0314e56101fd2b03e43571db76435333d0cfa48",
+        "summary.json": "81fb25ba84f89e6e4a0ba0b7585daa84a7af783779f6eaecb6d7e43b61865df8",
+        "independent_coverage_audit.json": "5e3ab61a35c2ec61908c4ac7758550b11aaf893c78838e157543a34c23168187",
+        "source_snapshot.tar.gz": "1244cd2fd1b613d9b74db3afd89c4097bfa77486093df5bb75fa2b583aee8020",
+        "signals.csv.gz": "b7c28485996c06199d29655f259509dde50cd47735537f0e19ad0b8a70a4d139",
+        "events.csv.gz": "d49b25ab678ed195f3e5175ab302afd40417b5ecab253f10e8faa4796dbdd168"
+      }
+    },
+    {
+      "month": "2026-07",
+      "variant": "replacement",
+      "directory": "/home/nishiki/vnpy-ctp/research_outputs/coverage_expansion_2026-10-05/opportunity_followup/replacement/2026-07/run_0001_347c77583d3d",
+      "hashes": {
+        "config_snapshot.json": "6e084d172a348d33b5aecdb31bd39389c682a85588b9c3cdaeaf4358e77dcfb8",
+        "manifest.json": "84e9327890f52d11d7cf218d3a156a5ffa4eca9009e863b471399d68b2bfd2ce",
+        "trades.csv.gz": "7a8fa1f69a930bdb54ecf454e0314e56101fd2b03e43571db76435333d0cfa48",
+        "summary.json": "cfc9dedf1425428425b4ca9a5d77d80edce67245cc64e1e6f42cb55aa4c4fee6",
+        "independent_coverage_audit.json": "4151e7ac1a3a56230445e1ff06fc6cc61b48bdf4f82f1c5e3c3bb05a0ee26ca6",
+        "source_snapshot.tar.gz": "6acc778ac826f35b340fa3ae7861855a626471903c5833f2bd6c82cd68694c83",
+        "signals.csv.gz": "334d7b319edb9e554557cd458afa7e090e8c3e06356f2f65e133cd2519f7b974",
+        "events.csv.gz": "d49b25ab678ed195f3e5175ab302afd40417b5ecab253f10e8faa4796dbdd168"
+      }
+    },
+    {
+      "month": "2026-07",
+      "variant": "trend",
+      "directory": "/home/nishiki/vnpy-ctp/research_outputs/coverage_expansion_2026-10-05/opportunity_followup/trend/2026-07/run_0001_171385f50130",
+      "hashes": {
+        "config_snapshot.json": "70aed1110c2706764094ec509ba79e30be0154bc75448d2c1b5f62a8fe0d1f03",
+        "manifest.json": "5ce8bde5b7c1097d73fc9958950ad70b6f9d80b3489b791de5b0ad55c150bd7c",
+        "trades.csv.gz": "19e76787981bd9658d02b282996016aeb741afb8bebacc3ed9dd561c401708f7",
+        "summary.json": "17206245573ef5cad2e1474ce838a015e2d736dd072fc471d798940f658b0f11",
+        "independent_coverage_audit.json": "bb9da8758e29c7b436e31cf50e4f76091ea7212b8b49ce2a3748e6a5c8bc8527",
+        "source_snapshot.tar.gz": "1625bb6d5fd9e2b6b6c01eda1cdfeb3894a5a4834952bfc847750d174fa3d54f",
+        "signals.csv.gz": "cc25723cdf4e171e9f87291806db72e8218c14991d9761abaebf362ae82ccc21",
+        "events.csv.gz": "317231ebdb7c58b34580624af7951c8a0203362151dbecfdc53f3aac1a827ebb"
+      }
+    },
+    {
+      "month": "2026-08",
+      "variant": "breakeven15",
+      "directory": "/home/nishiki/vnpy-ctp/research_outputs/coverage_expansion_2026-10-05/opportunity_followup/breakeven15/2026-08/run_0001_64f2a1133587",
+      "hashes": {
+        "config_snapshot.json": "28957290e37c97b7756100a40f3f107687b08e7c41fe1d3aa11b46469ddf7fcd",
+        "manifest.json": "1419437d8462904a0fbb4de223e30af5145df3e2db9e0aa8f8e6e6118fbcaff7",
+        "trades.csv.gz": "0510818b525a8789fd01997a41c25f8984e4704f7764f0c52600e2458544bdd2",
+        "summary.json": "8fb8ec097b1d4485ee4c18fcdc2a4f3b8aa959e675d8d6336f41c4260f27d87d",
+        "independent_coverage_audit.json": "9cb5e954660fecaa557d7747bc835323c321ab073e3754cca48fcc8d463b1279",
+        "source_snapshot.tar.gz": "2ce681bea95a1799de97e9148fcde323508c585f82b5bdd1587ac4afeef964ce",
+        "signals.csv.gz": "7997da3b628455e886f2dc836a5f8de21ef6c06539c45c3da18cde0e2ee3dd29",
+        "events.csv.gz": "0510818b525a8789fd01997a41c25f8984e4704f7764f0c52600e2458544bdd2"
+      }
+    },
+    {
+      "month": "2026-08",
+      "variant": "ma40confirm",
+      "directory": "/home/nishiki/vnpy-ctp/research_outputs/coverage_expansion_2026-10-05/opportunity_followup/ma40confirm/2026-08/run_0001_4911c093015f",
+      "hashes": {
+        "config_snapshot.json": "7b1b56462474b3ad925e0ea2e2de82146a60d9b2d0417422cc156140cae42e3d",
+        "manifest.json": "4044d2ac6b22053e526faa9ba3373ce9d14ed3a61e158ba3c9c7b7530b5eb546",
+        "trades.csv.gz": "0510818b525a8789fd01997a41c25f8984e4704f7764f0c52600e2458544bdd2",
+        "summary.json": "8fb8ec097b1d4485ee4c18fcdc2a4f3b8aa959e675d8d6336f41c4260f27d87d",
+        "independent_coverage_audit.json": "f7c506202f64d52469be0302ea284f36f508278fc44c626513c25731f0c6ee56",
+        "source_snapshot.tar.gz": "90c9a30b9ca6e71a35ed68a1c1e514d28603a87214cb7660dbd0f69d4335fd25",
+        "signals.csv.gz": "7997da3b628455e886f2dc836a5f8de21ef6c06539c45c3da18cde0e2ee3dd29",
+        "events.csv.gz": "0510818b525a8789fd01997a41c25f8984e4704f7764f0c52600e2458544bdd2"
+      }
+    },
+    {
+      "month": "2026-08",
+      "variant": "replacement",
+      "directory": "/home/nishiki/vnpy-ctp/research_outputs/coverage_expansion_2026-10-05/opportunity_followup/replacement/2026-08/run_0001_eddcfd1bd796",
+      "hashes": {
+        "config_snapshot.json": "f1c7e68bd2de367672427c73613fe673c5f9ab5fa6c622b40f2cabe4b3fcba9e",
+        "manifest.json": "7264774cf871495d3125a7b8b973aa4db549e06831060a62880c189b7570a4dc",
+        "trades.csv.gz": "0510818b525a8789fd01997a41c25f8984e4704f7764f0c52600e2458544bdd2",
+        "summary.json": "68b26da5f1bf65634565534cd0ffa5ce025831120e7df490a61eaa9e4719ac67",
+        "independent_coverage_audit.json": "0a0699f83dc3ddf55fa92277f4ef4280cee4708a6d98210408d61d455a8b7f96",
+        "source_snapshot.tar.gz": "a61eccf93ebf171f89b058c20f24317d2392eabdea328d3e8ba70f4aa2c7aa24",
+        "signals.csv.gz": "4948adccd70d8704f19e7cd2b411bd5c63b4a1e1baaa9a69d34d295919383ce9",
+        "events.csv.gz": "0510818b525a8789fd01997a41c25f8984e4704f7764f0c52600e2458544bdd2"
+      }
+    },
+    {
+      "month": "2026-08",
+      "variant": "trend",
+      "directory": "/home/nishiki/vnpy-ctp/research_outputs/coverage_expansion_2026-10-05/opportunity_followup/trend/2026-08/run_0001_90b2618c2908",
+      "hashes": {
+        "config_snapshot.json": "3f3e704d012b24b0a33bf1d7bfbec1cf4eaa87ac0fbee9a099ce98bee474c6f4",
+        "manifest.json": "7787de0fa6a01a7bb05d32e6bc43e87151aa63911cf9603f89ec73404877b85c",
+        "trades.csv.gz": "0510818b525a8789fd01997a41c25f8984e4704f7764f0c52600e2458544bdd2",
+        "summary.json": "7ed99520b11fe8936b54ea61bd2020a29e485fc58066424cc8f0c28e9c9f9c8b",
+        "independent_coverage_audit.json": "8f5999a3315c6aa201d3025550678ddba5f44497bd8aa9e62e36d52a648b5930",
+        "source_snapshot.tar.gz": "f1cc04c078e7998c27d75c7b335c05df8fc4cdfac4f49afce4e00fc5976d1da5",
+        "signals.csv.gz": "ebdd77f2e44746be839144bb56bc4525d7d9dc1b53b3b4d56b293a842ed83bc0",
+        "events.csv.gz": "9a0cf74694349fd3a5a86ce0b17d88e8f0790ee93d93fbb94d36891ec6a6e7fe"
+      }
+    },
+    {
+      "month": "2026-09",
+      "variant": "breakeven15",
+      "directory": "/home/nishiki/vnpy-ctp/research_outputs/coverage_expansion_2026-10-05/opportunity_followup/breakeven15/2026-09/run_0001_d9c9f94408b4",
+      "hashes": {
+        "config_snapshot.json": "837f2e290e7f7d43f555596d91c1111c2f7361d06dc11f7459c2ed5d4e1be871",
+        "manifest.json": "5f8e0226d0743403a3e98e60ef70b8613c48ae96ae272afa79f604083894a884",
+        "trades.csv.gz": "449955da958f917f7c8e59a1afffc84435261472cd751958a6899e2a45fd555c",
+        "summary.json": "dc5859005b0bfe764363a3f03c60d60b6a6027ddfb02d4499b43633afd96d428",
+        "independent_coverage_audit.json": "95a4b050a5d88b4c9ab43b813900727d4307cd5fb190088e516829a091696274",
+        "source_snapshot.tar.gz": "c25655a770196bcbd9bf29363825c7f79d88610059e650ba82ead20b9940f335",
+        "signals.csv.gz": "0ca6e807b203c3f0d220b2a6b7d86bc5df53954b8c28b24da2e3711c6c59f9a1",
+        "events.csv.gz": "0bdcfd195f8f874d5621e71785c7608b7dfc07fe1909178f67851b6c2750d928"
+      }
+    },
+    {
+      "month": "2026-09",
+      "variant": "ma40confirm",
+      "directory": "/home/nishiki/vnpy-ctp/research_outputs/coverage_expansion_2026-10-05/opportunity_followup/ma40confirm/2026-09/run_0001_4f0b76598a89",
+      "hashes": {
+        "config_snapshot.json": "662526220ff68bc384ee228d15f5daaaa609c1ece370193ca0f0f17b6633c7ee",
+        "manifest.json": "46ffc48e7ce76accdc199f38ef6dfc8fed6a3929dd222a8e60172322a35c61ab",
+        "trades.csv.gz": "d93b1cb2077497ff52bf65b8b61d5ebe0d043ff1de8fad7ad98a0e9c09985279",
+        "summary.json": "dc5859005b0bfe764363a3f03c60d60b6a6027ddfb02d4499b43633afd96d428",
+        "independent_coverage_audit.json": "7d89e819a36afa53e6ce3cbd1a74521a95e2aaf0ea764e248eb323347aada41b",
+        "source_snapshot.tar.gz": "318f109b66840bb0f8080ff975f34a09d1ae0965bc4238c5ce7d5394400fdcc7",
+        "signals.csv.gz": "0ca6e807b203c3f0d220b2a6b7d86bc5df53954b8c28b24da2e3711c6c59f9a1",
+        "events.csv.gz": "0161cc8f17454d1bb71b28a4a48ed43e2e612c87fb7dc3125087efd7d2dbfb9c"
+      }
+    },
+    {
+      "month": "2026-09",
+      "variant": "replacement",
+      "directory": "/home/nishiki/vnpy-ctp/research_outputs/coverage_expansion_2026-10-05/opportunity_followup/replacement/2026-09/run_0001_903dfd97d6d2",
+      "hashes": {
+        "config_snapshot.json": "8e58e7f8c59408f5611f2428f5e55ee0ad6f85e9cdad9241ac681bdb8bbc76c5",
+        "manifest.json": "9a2c5e202aef2fb021fd6e12d139eb794a55f029cb6d18ad8ce2ae9d42e2b0e8",
+        "trades.csv.gz": "d93b1cb2077497ff52bf65b8b61d5ebe0d043ff1de8fad7ad98a0e9c09985279",
+        "summary.json": "e5c37b7f897f8546e5b7eabf94a14e3346bf4068d2cb300dd133fdda833bc364",
+        "independent_coverage_audit.json": "cf3698fa85fa894760e30d85fa49bf4d7d1b16accaa9aaf96a5dce6d60c41fb5",
+        "source_snapshot.tar.gz": "38da03489acafde6d7237e12181bb873180834ee71baedab7e4a37019140be81",
+        "signals.csv.gz": "9e2c70ea032f89715944ed9ad9544f9e321c0371b35d4dc4319c25aebaa6e867",
+        "events.csv.gz": "0161cc8f17454d1bb71b28a4a48ed43e2e612c87fb7dc3125087efd7d2dbfb9c"
+      }
+    },
+    {
+      "month": "2026-09",
+      "variant": "trend",
+      "directory": "/home/nishiki/vnpy-ctp/research_outputs/coverage_expansion_2026-10-05/opportunity_followup/trend/2026-09/run_0001_395267b25817",
+      "hashes": {
+        "config_snapshot.json": "58bef8854cdf5070584a7414cb17197708e54ab42bb9fc86490d407a99a23bd5",
+        "manifest.json": "0832cabd4507927f0068c63989c7847aefb8155c49ced71ec84910e621a8307e",
+        "trades.csv.gz": "0510818b525a8789fd01997a41c25f8984e4704f7764f0c52600e2458544bdd2",
+        "summary.json": "bb8b367752908aa5713925843a9b662a67aff41a340ba5d7559127b32aaa88a9",
+        "independent_coverage_audit.json": "72400c197fb48060048ced5fd11d05613f6ab8f1dbcd3cdd3065d32ebe3fb03c",
+        "source_snapshot.tar.gz": "25e57a96d3ef4f17a725379f6340813a2bcfc9b9c37f27ac85123883273e50e0",
+        "signals.csv.gz": "fc084ca9b308a9bd6eaa76143b0347a4880dd433bb4e3ef0ca7b5f773734ed6e",
+        "events.csv.gz": "0510818b525a8789fd01997a41c25f8984e4704f7764f0c52600e2458544bdd2"
+      }
+    }
+  ],
+  "cache_sources": {
+    "2026-07": {
+      "cache": "/home/nishiki/vnpy-ctp/research_outputs/coverage_expansion_2026-10-05/2026-07/indicator_cache/09566f853de4c1d10bcfd6cf7593f72ede83f769d0b1f8253bb71287bfd92089.jsonl.gz",
+      "cache_sha256": "78dab67445f453dc0049d7922f73d8a70b8161fe6c5bd38d17c8abf41cb5a9e3",
+      "market": "/home/nishiki/vnpy-ctp/research_inputs/coverage_expansion_2026-10-05/datasets/92bfcc72dc2e774d86985ab2e9141e70b6885bbfa9157bad88a31f66fbe82cb9.jsonl.gz",
+      "market_sha256": "6dec3690f3a9e161b7c109f8bb65a60fae40b5e3d6be97d3547273a05bcfd4b1"
+    },
+    "2026-08": {
+      "cache": "/home/nishiki/vnpy-ctp/research_outputs/coverage_expansion_2026-10-05/2026-08/indicator_cache/27a098817b9a513dfaca2488546a627fc3070ea86cd462417b6cb6c2fca0fbcb.jsonl.gz",
+      "cache_sha256": "45e1745212c293c67181bc5772a45043d0c04d8c90efccaca6360ce60cb24379",
+      "market": "/home/nishiki/vnpy-ctp/research_inputs/coverage_expansion_2026-10-05/datasets/28d7af29a927b406dc4e53d72b96d8c726199f283352dff97a814977fa0c695c.jsonl.gz",
+      "market_sha256": "47ea450717035a3d6fd74032ea29d2e7fb955ea73912306229e5663026692106"
+    },
+    "2026-09": {
+      "cache": "/home/nishiki/vnpy-ctp/research_outputs/2026-09/diagnostic_baseline/indicator_cache/a5673ad579092e90a1ac7626deaa1820b67f903af9923aca2364ae1ae68b0d95.jsonl.gz",
+      "cache_sha256": "d1aacf4be0d4c457d9aea42b2c2af27cd1a5658078ed77eed8e37df4f3df4073",
+      "market": "/home/nishiki/vnpy-ctp/research_inputs/coverage_expansion_2026-10-05/datasets/6cafc278d9329f5134582c629ada17361d2b517ec1bb3217642a4e4c34e19625.jsonl.gz",
+      "market_sha256": "71b55a867d6ca125c1016f51d5ae2ff4db05ef7617524878982ccde87bda5cee"
+    }
+  },
+  "locked_test_read": false,
+  "research_variants_compared": [
+    "control",
+    "replacement",
+    "trend",
+    "breakeven15",
+    "ma40confirm"
+  ],
+  "production_strategy_changed": false
+}

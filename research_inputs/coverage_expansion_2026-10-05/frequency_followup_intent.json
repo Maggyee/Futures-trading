@@ -1,0 +1,21 @@
+{
+  "created_utc": "2026-10-05T15:13:46.626213+00:00",
+  "order": [
+    "control",
+    "efficiency",
+    "slope5",
+    "oi",
+    "stop_reentry"
+  ],
+  "efficiency_min": 0.35,
+  "slope5_quantiles": [
+    0.1,
+    0.9
+  ],
+  "slope5_training": "same original September 1-11 population; linear quantiles; keep 1m and one-tick floors unchanged",
+  "oi": "disable only oi gate; preserve original observed OI",
+  "stop_reentry": "after actual losing fixed-stop fill, block same contract and direction for remaining trading day",
+  "combination": "first passing entry variant in efficiency/slope5/oi order, combined with stop_reentry only if it independently passes",
+  "retune_after_result": false,
+  "locked_test_read": false
+}

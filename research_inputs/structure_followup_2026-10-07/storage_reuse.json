@@ -1,0 +1,475 @@
+{
+  "status": "passed",
+  "records": [
+    {
+      "original": "/home/nishiki/vnpy-ctp/research_inputs/coverage_expansion_2026-10-05/datasets/28d7af29a927b406dc4e53d72b96d8c726199f283352dff97a814977fa0c695c.jsonl.gz",
+      "archive": "/home/nishiki/vnpy-ctp/research_inputs/coverage_expansion_2026-10-05/cloud_state/objects/47/47ea450717035a3d6fd74032ea29d2e7fb955ea73912306229e5663026692106",
+      "sha256": "47ea450717035a3d6fd74032ea29d2e7fb955ea73912306229e5663026692106",
+      "released_bytes": 17616637,
+      "original_permissions_preserved": true
+    },
+    {
+      "original": "/home/nishiki/vnpy-ctp/research_inputs/coverage_expansion_2026-10-05/datasets/6cafc278d9329f5134582c629ada17361d2b517ec1bb3217642a4e4c34e19625.jsonl.gz",
+      "archive": "/home/nishiki/vnpy-ctp/research_inputs/coverage_expansion_2026-10-05/cloud_state/objects/71/71b55a867d6ca125c1016f51d5ae2ff4db05ef7617524878982ccde87bda5cee",
+      "sha256": "71b55a867d6ca125c1016f51d5ae2ff4db05ef7617524878982ccde87bda5cee",
+      "released_bytes": 5553721,
+      "original_permissions_preserved": true
+    },
+    {
+      "original": "/home/nishiki/vnpy-ctp/research_inputs/coverage_expansion_2026-10-05/datasets/92bfcc72dc2e774d86985ab2e9141e70b6885bbfa9157bad88a31f66fbe82cb9.jsonl.gz",
+      "archive": "/home/nishiki/vnpy-ctp/research_inputs/coverage_expansion_2026-10-05/cloud_state/objects/6d/6dec3690f3a9e161b7c109f8bb65a60fae40b5e3d6be97d3547273a05bcfd4b1",
+      "sha256": "6dec3690f3a9e161b7c109f8bb65a60fae40b5e3d6be97d3547273a05bcfd4b1",
+      "released_bytes": 16950030,
+      "original_permissions_preserved": true
+    },
+    {
+      "original": "/home/nishiki/vnpy-ctp/research_inputs/coverage_expansion_2026-10-05/2026-07/raw/minute/CZCE.CF609.csv",
+      "archive": "/home/nishiki/vnpy-ctp/research_inputs/coverage_expansion_2026-10-05/cloud_state/objects/34/348f1fc8eebc3685e87262868ff4cb50658ef7a9ea59d77ca78a56ca661c3e86",
+      "sha256": "348f1fc8eebc3685e87262868ff4cb50658ef7a9ea59d77ca78a56ca661c3e86",
+      "released_bytes": 603443,
+      "original_permissions_preserved": true
+    },
+    {
+      "original": "/home/nishiki/vnpy-ctp/research_inputs/coverage_expansion_2026-10-05/2026-07/raw/minute/CZCE.CY609.csv",
+      "archive": "/home/nishiki/vnpy-ctp/research_inputs/coverage_expansion_2026-10-05/cloud_state/objects/dc/dc2f2fce130db006bf02c319868f2c672a734717ff1a4831f5610a23f96787f9",
+      "sha256": "dc2f2fce130db006bf02c319868f2c672a734717ff1a4831f5610a23f96787f9",
+      "released_bytes": 568537,
+      "original_permissions_preserved": true
+    },
+    {
+      "original": "/home/nishiki/vnpy-ctp/research_inputs/coverage_expansion_2026-10-05/2026-07/raw/minute/CZCE.FG609.csv",
+      "archive": "/home/nishiki/vnpy-ctp/research_inputs/coverage_expansion_2026-10-05/cloud_state/objects/6b/6bbfae11e1242629f45e57a30d77a3054edf1821f92e6f4aeb0a79c6e89d8690",
+      "sha256": "6bbfae11e1242629f45e57a30d77a3054edf1821f92e6f4aeb0a79c6e89d8690",
+      "released_bytes": 550904,
+      "original_permissions_preserved": true
+    },
+    {
+      "original": "/home/nishiki/vnpy-ctp/research_inputs/coverage_expansion_2026-10-05/2026-07/raw/minute/CZCE.MA609.csv",
+      "archive": "/home/nishiki/vnpy-ctp/research_inputs/coverage_expansion_2026-10-05/cloud_state/objects/61/61d3d0dff0f5005bb0b3dbc46148f75027e1b5b546b85dc4b8fdbaec6d5f70d9",
+      "sha256": "61d3d0dff0f5005bb0b3dbc46148f75027e1b5b546b85dc4b8fdbaec6d5f70d9",
+      "released_bytes": 571925,
+      "original_permissions_preserved": true
+    },
+    {
+      "original": "/home/nishiki/vnpy-ctp/research_inputs/coverage_expansion_2026-10-05/2026-07/raw/minute/CZCE.OI609.csv",
+      "archive": "/home/nishiki/vnpy-ctp/research_inputs/coverage_expansion_2026-10-05/cloud_state/objects/cf/cfae5404f065f23d1301ff19638d1785545fc5db75034736112833e3c9b17204",
+      "sha256": "cfae5404f065f23d1301ff19638d1785545fc5db75034736112833e3c9b17204",
+      "released_bytes": 572510,
+      "original_permissions_preserved": true
+    },
+    {
+      "original": "/home/nishiki/vnpy-ctp/research_inputs/coverage_expansion_2026-10-05/2026-07/raw/minute/CZCE.PL609.csv",
+      "archive": "/home/nishiki/vnpy-ctp/research_inputs/coverage_expansion_2026-10-05/cloud_state/objects/69/69f14147fb36c2259a1716c719fb99bc185ae98588781c234f2645152715f046",
+      "sha256": "69f14147fb36c2259a1716c719fb99bc185ae98588781c234f2645152715f046",
+      "released_bytes": 537908,
+      "original_permissions_preserved": true
+    },
+    {
+      "original": "/home/nishiki/vnpy-ctp/research_inputs/coverage_expansion_2026-10-05/2026-07/raw/minute/CZCE.PR609.csv",
+      "archive": "/home/nishiki/vnpy-ctp/research_inputs/coverage_expansion_2026-10-05/cloud_state/objects/3e/3ed2c77fe9e668c2ac3d59c66a0c581c1b69b93312844f9fb7f23109a1f31020",
+      "sha256": "3ed2c77fe9e668c2ac3d59c66a0c581c1b69b93312844f9fb7f23109a1f31020",
+      "released_bytes": 540198,
+      "original_permissions_preserved": true
+    },
+    {
+      "original": "/home/nishiki/vnpy-ctp/research_inputs/coverage_expansion_2026-10-05/2026-07/raw/minute/CZCE.PX609.csv",
+      "archive": "/home/nishiki/vnpy-ctp/research_inputs/coverage_expansion_2026-10-05/cloud_state/objects/2e/2e3f3470469f1375c595d6fbca647708257e74a1dd4866b13ac2f91a96ff5792",
+      "sha256": "2e3f3470469f1375c595d6fbca647708257e74a1dd4866b13ac2f91a96ff5792",
+      "released_bytes": 564136,
+      "original_permissions_preserved": true
+    },
+    {
+      "original": "/home/nishiki/vnpy-ctp/research_inputs/coverage_expansion_2026-10-05/2026-07/raw/minute/CZCE.RM609.csv",
+      "archive": "/home/nishiki/vnpy-ctp/research_inputs/coverage_expansion_2026-10-05/cloud_state/objects/09/092286b329f38fb9f06786e970d991535b553d8c0b54bba1b460e56540c12aa1",
+      "sha256": "092286b329f38fb9f06786e970d991535b553d8c0b54bba1b460e56540c12aa1",
+      "released_bytes": 569975,
+      "original_permissions_preserved": true
+    },
+    {
+      "original": "/home/nishiki/vnpy-ctp/research_inputs/coverage_expansion_2026-10-05/2026-07/raw/minute/CZCE.SA609.csv",
+      "archive": "/home/nishiki/vnpy-ctp/research_inputs/coverage_expansion_2026-10-05/cloud_state/objects/54/54fdabde50f1543b9060f52b8026ceb29c7992ec690ad52f8cb680e76ca8ecba",
+      "sha256": "54fdabde50f1543b9060f52b8026ceb29c7992ec690ad52f8cb680e76ca8ecba",
+      "released_bytes": 580564,
+      "original_permissions_preserved": true
+    },
+    {
+      "original": "/home/nishiki/vnpy-ctp/research_inputs/coverage_expansion_2026-10-05/2026-07/raw/minute/CZCE.SH609.csv",
+      "archive": "/home/nishiki/vnpy-ctp/research_inputs/coverage_expansion_2026-10-05/cloud_state/objects/16/163540c6726516dabd26ef4694cf369b40b4c3e2fafe3955d98e8e429ecc689b",
+      "sha256": "163540c6726516dabd26ef4694cf369b40b4c3e2fafe3955d98e8e429ecc689b",
+      "released_bytes": 565930,
+      "original_permissions_preserved": true
+    },
+    {
+      "original": "/home/nishiki/vnpy-ctp/research_inputs/coverage_expansion_2026-10-05/2026-07/raw/minute/CZCE.SR609.csv",
+      "archive": "/home/nishiki/vnpy-ctp/research_inputs/coverage_expansion_2026-10-05/cloud_state/objects/72/72e04277a5462cb424faa75c1fd4a9c11aaca47c1c3ca749667d63ccac897d14",
+      "sha256": "72e04277a5462cb424faa75c1fd4a9c11aaca47c1c3ca749667d63ccac897d14",
+      "released_bytes": 566150,
+      "original_permissions_preserved": true
+    },
+    {
+      "original": "/home/nishiki/vnpy-ctp/research_inputs/coverage_expansion_2026-10-05/2026-07/raw/minute/CZCE.TA609.csv",
+      "archive": "/home/nishiki/vnpy-ctp/research_inputs/coverage_expansion_2026-10-05/cloud_state/objects/74/747295970d60cbba796f18c3a8319398756b68484e1ac042502e37f87fb1ced4",
+      "sha256": "747295970d60cbba796f18c3a8319398756b68484e1ac042502e37f87fb1ced4",
+      "released_bytes": 573460,
+      "original_permissions_preserved": true
+    },
+    {
+      "original": "/home/nishiki/vnpy-ctp/research_inputs/coverage_expansion_2026-10-05/2026-07/raw/minute/DCE.a2609.csv",
+      "archive": "/home/nishiki/vnpy-ctp/research_inputs/coverage_expansion_2026-10-05/cloud_state/objects/51/51c458f392cdbf0c606f1d48b4409f034e4d534b0bb7e5e4ffab30bd68f1961f",
+      "sha256": "51c458f392cdbf0c606f1d48b4409f034e4d534b0bb7e5e4ffab30bd68f1961f",
+      "released_bytes": 563041,
+      "original_permissions_preserved": true
+    },
+    {
+      "original": "/home/nishiki/vnpy-ctp/research_inputs/coverage_expansion_2026-10-05/2026-07/raw/minute/DCE.b2609.csv",
+      "archive": "/home/nishiki/vnpy-ctp/research_inputs/coverage_expansion_2026-10-05/cloud_state/objects/61/61b5fbf5ae8a5763f3a1af795e2c64240028e3fc932915dddb5026a72b193455",
+      "sha256": "61b5fbf5ae8a5763f3a1af795e2c64240028e3fc932915dddb5026a72b193455",
+      "released_bytes": 562717,
+      "original_permissions_preserved": true
+    },
+    {
+      "original": "/home/nishiki/vnpy-ctp/research_inputs/coverage_expansion_2026-10-05/2026-07/raw/minute/DCE.c2609.csv",
+      "archive": "/home/nishiki/vnpy-ctp/research_inputs/coverage_expansion_2026-10-05/cloud_state/objects/c7/c74e600d461bba443c4869390729ae239093d4db8b37e8fd8beb7895cae6aebd",
+      "sha256": "c74e600d461bba443c4869390729ae239093d4db8b37e8fd8beb7895cae6aebd",
+      "released_bytes": 571529,
+      "original_permissions_preserved": true
+    },
+    {
+      "original": "/home/nishiki/vnpy-ctp/research_inputs/coverage_expansion_2026-10-05/2026-07/raw/minute/DCE.cs2609.csv",
+      "archive": "/home/nishiki/vnpy-ctp/research_inputs/coverage_expansion_2026-10-05/cloud_state/objects/4a/4a3c90a59799437279badfd7a3502ccf0adc1d6e2db55d68ce0081b0e0971ac9",
+      "sha256": "4a3c90a59799437279badfd7a3502ccf0adc1d6e2db55d68ce0081b0e0971ac9",
+      "released_bytes": 561146,
+      "original_permissions_preserved": true
+    },
+    {
+      "original": "/home/nishiki/vnpy-ctp/research_inputs/coverage_expansion_2026-10-05/2026-07/raw/minute/DCE.eg2609.csv",
+      "archive": "/home/nishiki/vnpy-ctp/research_inputs/coverage_expansion_2026-10-05/cloud_state/objects/6f/6f60fff4fc0bfc7c1e9ae5529ea2042a72acbdc7449bb3f2da09bdb21ab61a2b",
+      "sha256": "6f60fff4fc0bfc7c1e9ae5529ea2042a72acbdc7449bb3f2da09bdb21ab61a2b",
+      "released_bytes": 567111,
+      "original_permissions_preserved": true
+    },
+    {
+      "original": "/home/nishiki/vnpy-ctp/research_inputs/coverage_expansion_2026-10-05/2026-07/raw/minute/DCE.i2609.csv",
+      "archive": "/home/nishiki/vnpy-ctp/research_inputs/coverage_expansion_2026-10-05/cloud_state/objects/76/769680229ab31284269230bf464b204f93cf9c7456becbd7eab145ccf363d265",
+      "sha256": "769680229ab31284269230bf464b204f93cf9c7456becbd7eab145ccf363d265",
+      "released_bytes": 601313,
+      "original_permissions_preserved": true
+    },
+    {
+      "original": "/home/nishiki/vnpy-ctp/research_inputs/coverage_expansion_2026-10-05/2026-07/raw/minute/DCE.j2609.csv",
+      "archive": "/home/nishiki/vnpy-ctp/research_inputs/coverage_expansion_2026-10-05/cloud_state/objects/dd/dd1157821161e35a09ea59080f05d7e27fee2167c296eec742d25c3db2d2a622",
+      "sha256": "dd1157821161e35a09ea59080f05d7e27fee2167c296eec742d25c3db2d2a622",
+      "released_bytes": 614088,
+      "original_permissions_preserved": true
+    },
+    {
+      "original": "/home/nishiki/vnpy-ctp/research_inputs/coverage_expansion_2026-10-05/2026-07/raw/minute/DCE.jm2609.csv",
+      "archive": "/home/nishiki/vnpy-ctp/research_inputs/coverage_expansion_2026-10-05/cloud_state/objects/7a/7a8d4dfc7c911e5a7869e462ab5dfb10604ff65987c5fd14a002c924b91c579c",
+      "sha256": "7a8d4dfc7c911e5a7869e462ab5dfb10604ff65987c5fd14a002c924b91c579c",
+      "released_bytes": 644883,
+      "original_permissions_preserved": true
+    },
+    {
+      "original": "/home/nishiki/vnpy-ctp/research_inputs/coverage_expansion_2026-10-05/2026-07/raw/minute/DCE.l2609.csv",
+      "archive": "/home/nishiki/vnpy-ctp/research_inputs/coverage_expansion_2026-10-05/cloud_state/objects/c6/c67ee2bed9a92f6a1b63c34f471d88f8b40d1f91355754926888e62956415aaf",
+      "sha256": "c67ee2bed9a92f6a1b63c34f471d88f8b40d1f91355754926888e62956415aaf",
+      "released_bytes": 568787,
+      "original_permissions_preserved": true
+    },
+    {
+      "original": "/home/nishiki/vnpy-ctp/research_inputs/coverage_expansion_2026-10-05/2026-07/raw/minute/DCE.m2609.csv",
+      "archive": "/home/nishiki/vnpy-ctp/research_inputs/coverage_expansion_2026-10-05/cloud_state/objects/5f/5f3ea6acac59b96fcc1b7025ac45b4d0e7f23ea5e28aae422952c18e03d19f5c",
+      "sha256": "5f3ea6acac59b96fcc1b7025ac45b4d0e7f23ea5e28aae422952c18e03d19f5c",
+      "released_bytes": 590077,
+      "original_permissions_preserved": true
+    },
+    {
+      "original": "/home/nishiki/vnpy-ctp/research_inputs/coverage_expansion_2026-10-05/2026-07/raw/minute/DCE.p2609.csv",
+      "archive": "/home/nishiki/vnpy-ctp/research_inputs/coverage_expansion_2026-10-05/cloud_state/objects/96/96a924485a72c5fdd23693c44da0f37b87210fef0542d494414dab34bc46b5e2",
+      "sha256": "96a924485a72c5fdd23693c44da0f37b87210fef0542d494414dab34bc46b5e2",
+      "released_bytes": 568248,
+      "original_permissions_preserved": true
+    },
+    {
+      "original": "/home/nishiki/vnpy-ctp/research_inputs/coverage_expansion_2026-10-05/2026-07/raw/minute/DCE.pp2609.csv",
+      "archive": "/home/nishiki/vnpy-ctp/research_inputs/coverage_expansion_2026-10-05/cloud_state/objects/74/745806c8da521a37118f5a024be9af1e1af50d8e39c36ae4a1ae73f891e45e7d",
+      "sha256": "745806c8da521a37118f5a024be9af1e1af50d8e39c36ae4a1ae73f891e45e7d",
+      "released_bytes": 570815,
+      "original_permissions_preserved": true
+    },
+    {
+      "original": "/home/nishiki/vnpy-ctp/research_inputs/coverage_expansion_2026-10-05/2026-07/raw/minute/DCE.v2609.csv",
+      "archive": "/home/nishiki/vnpy-ctp/research_inputs/coverage_expansion_2026-10-05/cloud_state/objects/91/9168ae9dfa15c6d259e4f8a46ef6c3c72706c1214c9f2b58864a7358358fe8c3",
+      "sha256": "9168ae9dfa15c6d259e4f8a46ef6c3c72706c1214c9f2b58864a7358358fe8c3",
+      "released_bytes": 587213,
+      "original_permissions_preserved": true
+    },
+    {
+      "original": "/home/nishiki/vnpy-ctp/research_inputs/coverage_expansion_2026-10-05/2026-07/raw/minute/DCE.y2609.csv",
+      "archive": "/home/nishiki/vnpy-ctp/research_inputs/coverage_expansion_2026-10-05/cloud_state/objects/db/db3aa61c38c3adec888141842c1a1e93399da18f7878046178b2d5849590f2f8",
+      "sha256": "db3aa61c38c3adec888141842c1a1e93399da18f7878046178b2d5849590f2f8",
+      "released_bytes": 544245,
+      "original_permissions_preserved": true
+    },
+    {
+      "original": "/home/nishiki/vnpy-ctp/research_inputs/coverage_expansion_2026-10-05/2026-07/raw/minute/INE.bc2608.csv",
+      "archive": "/home/nishiki/vnpy-ctp/research_inputs/coverage_expansion_2026-10-05/cloud_state/objects/12/12c46d47e9ea2ff85914f1660c6a765bce6c1bc5ec1ccae1cad0744fb47d5dcc",
+      "sha256": "12c46d47e9ea2ff85914f1660c6a765bce6c1bc5ec1ccae1cad0744fb47d5dcc",
+      "released_bytes": 617344,
+      "original_permissions_preserved": true
+    },
+    {
+      "original": "/home/nishiki/vnpy-ctp/research_inputs/coverage_expansion_2026-10-05/2026-07/raw/minute/INE.nr2609.csv",
+      "archive": "/home/nishiki/vnpy-ctp/research_inputs/coverage_expansion_2026-10-05/cloud_state/objects/3e/3e162fc5e5a41f58789ff370220abf9dbfe96755db947951cd5e498a1bdcaf4e",
+      "sha256": "3e162fc5e5a41f58789ff370220abf9dbfe96755db947951cd5e498a1bdcaf4e",
+      "released_bytes": 578615,
+      "original_permissions_preserved": true
+    },
+    {
+      "original": "/home/nishiki/vnpy-ctp/research_inputs/coverage_expansion_2026-10-05/2026-07/raw/minute/INE.sc2609.csv",
+      "archive": "/home/nishiki/vnpy-ctp/research_inputs/coverage_expansion_2026-10-05/cloud_state/objects/d7/d729473a606f0b84d63d735781aab2d40944edb0f53ab9a5ff28fe28cf2a0c27",
+      "sha256": "d729473a606f0b84d63d735781aab2d40944edb0f53ab9a5ff28fe28cf2a0c27",
+      "released_bytes": 686551,
+      "original_permissions_preserved": true
+    },
+    {
+      "original": "/home/nishiki/vnpy-ctp/research_inputs/coverage_expansion_2026-10-05/2026-07/raw/minute/SHFE.ad2609.csv",
+      "archive": "/home/nishiki/vnpy-ctp/research_inputs/coverage_expansion_2026-10-05/cloud_state/objects/cf/cf7a57bf2afa92d561f058cea86c16caf02cb1f159a9b57218ab2d248b9c32af",
+      "sha256": "cf7a57bf2afa92d561f058cea86c16caf02cb1f159a9b57218ab2d248b9c32af",
+      "released_bytes": 728519,
+      "original_permissions_preserved": true
+    },
+    {
+      "original": "/home/nishiki/vnpy-ctp/research_inputs/coverage_expansion_2026-10-05/2026-07/raw/minute/SHFE.ag2608.csv",
+      "archive": "/home/nishiki/vnpy-ctp/research_inputs/coverage_expansion_2026-10-05/cloud_state/objects/ef/efddc08a6429f3c8c0d4474b90a38a0a5ea12bca259506814ea4b80f87729e7e",
+      "sha256": "efddc08a6429f3c8c0d4474b90a38a0a5ea12bca259506814ea4b80f87729e7e",
+      "released_bytes": 542181,
+      "original_permissions_preserved": true
+    },
+    {
+      "original": "/home/nishiki/vnpy-ctp/research_inputs/coverage_expansion_2026-10-05/2026-07/raw/minute/SHFE.ag2610.csv",
+      "archive": "/home/nishiki/vnpy-ctp/research_inputs/coverage_expansion_2026-10-05/cloud_state/objects/16/16066cc5e0087de2731cfcd13c1d8daf3f8165fa07ac313722bb64d7dab61ce8",
+      "sha256": "16066cc5e0087de2731cfcd13c1d8daf3f8165fa07ac313722bb64d7dab61ce8",
+      "released_bytes": 577523,
+      "original_permissions_preserved": true
+    },
+    {
+      "original": "/home/nishiki/vnpy-ctp/research_inputs/coverage_expansion_2026-10-05/2026-07/raw/minute/SHFE.al2609.csv",
+      "archive": "/home/nishiki/vnpy-ctp/research_inputs/coverage_expansion_2026-10-05/cloud_state/objects/11/111e7e685e8e9b0e19f6f46ad579cbd180c1474d0d428e5c0b7a6b426fab3d4f",
+      "sha256": "111e7e685e8e9b0e19f6f46ad579cbd180c1474d0d428e5c0b7a6b426fab3d4f",
+      "released_bytes": 538713,
+      "original_permissions_preserved": true
+    },
+    {
+      "original": "/home/nishiki/vnpy-ctp/research_inputs/coverage_expansion_2026-10-05/2026-07/raw/minute/SHFE.ao2609.csv",
+      "archive": "/home/nishiki/vnpy-ctp/research_inputs/coverage_expansion_2026-10-05/cloud_state/objects/06/06b75a57d5dcafeffd0ce0e50ed69b6dc11292baa6038f1d1b6ad969d415acb3",
+      "sha256": "06b75a57d5dcafeffd0ce0e50ed69b6dc11292baa6038f1d1b6ad969d415acb3",
+      "released_bytes": 752809,
+      "original_permissions_preserved": true
+    },
+    {
+      "original": "/home/nishiki/vnpy-ctp/research_inputs/coverage_expansion_2026-10-05/2026-07/raw/minute/SHFE.au2608.csv",
+      "archive": "/home/nishiki/vnpy-ctp/research_inputs/coverage_expansion_2026-10-05/cloud_state/objects/dd/ddc342b119f4099a52fa43c2131ae95a9ee355713907e3e13203be307d4ca129",
+      "sha256": "ddc342b119f4099a52fa43c2131ae95a9ee355713907e3e13203be307d4ca129",
+      "released_bytes": 601034,
+      "original_permissions_preserved": true
+    },
+    {
+      "original": "/home/nishiki/vnpy-ctp/research_inputs/coverage_expansion_2026-10-05/2026-07/raw/minute/SHFE.au2610.csv",
+      "archive": "/home/nishiki/vnpy-ctp/research_inputs/coverage_expansion_2026-10-05/cloud_state/objects/67/6776e4016fd4ec5a32a83d70a6175cf28096d0441a2863813ccdd0d4bb186902",
+      "sha256": "6776e4016fd4ec5a32a83d70a6175cf28096d0441a2863813ccdd0d4bb186902",
+      "released_bytes": 560299,
+      "original_permissions_preserved": true
+    },
+    {
+      "original": "/home/nishiki/vnpy-ctp/research_inputs/coverage_expansion_2026-10-05/2026-07/raw/minute/SHFE.br2609.csv",
+      "archive": "/home/nishiki/vnpy-ctp/research_inputs/coverage_expansion_2026-10-05/cloud_state/objects/8d/8d0df61faed802259bccc3a54a52b736db30f1e2c6694a5e93f1032f9d555b2c",
+      "sha256": "8d0df61faed802259bccc3a54a52b736db30f1e2c6694a5e93f1032f9d555b2c",
+      "released_bytes": 583003,
+      "original_permissions_preserved": true
+    },
+    {
+      "original": "/home/nishiki/vnpy-ctp/research_inputs/coverage_expansion_2026-10-05/2026-07/raw/minute/SHFE.bu2609.csv",
+      "archive": "/home/nishiki/vnpy-ctp/research_inputs/coverage_expansion_2026-10-05/cloud_state/objects/8c/8c8ce63719f8697b6005856e1f5367e034a2a82d8ab8dfedfe899785a538dc13",
+      "sha256": "8c8ce63719f8697b6005856e1f5367e034a2a82d8ab8dfedfe899785a538dc13",
+      "released_bytes": 568466,
+      "original_permissions_preserved": true
+    },
+    {
+      "original": "/home/nishiki/vnpy-ctp/research_inputs/coverage_expansion_2026-10-05/2026-07/raw/minute/SHFE.cu2609.csv",
+      "archive": "/home/nishiki/vnpy-ctp/research_inputs/coverage_expansion_2026-10-05/cloud_state/objects/89/897d30575551df343aac3bbf852f36242d78f141153fb1df7b8ea1629d64f8d4",
+      "sha256": "897d30575551df343aac3bbf852f36242d78f141153fb1df7b8ea1629d64f8d4",
+      "released_bytes": 602349,
+      "original_permissions_preserved": true
+    },
+    {
+      "original": "/home/nishiki/vnpy-ctp/research_inputs/coverage_expansion_2026-10-05/2026-07/raw/minute/SHFE.fu2609.csv",
+      "archive": "/home/nishiki/vnpy-ctp/research_inputs/coverage_expansion_2026-10-05/cloud_state/objects/a7/a758bc8fcbfd1a0d631d32122870d1ab3c8674b34bf51d7e1ea44ed1dc40fa2b",
+      "sha256": "a758bc8fcbfd1a0d631d32122870d1ab3c8674b34bf51d7e1ea44ed1dc40fa2b",
+      "released_bytes": 569330,
+      "original_permissions_preserved": true
+    },
+    {
+      "original": "/home/nishiki/vnpy-ctp/research_inputs/coverage_expansion_2026-10-05/2026-07/raw/minute/SHFE.hc2610.csv",
+      "archive": "/home/nishiki/vnpy-ctp/research_inputs/coverage_expansion_2026-10-05/cloud_state/objects/c9/c91e1b858f560bd7e23764a5a07115180c145b073f39683091d713dc20d2c329",
+      "sha256": "c91e1b858f560bd7e23764a5a07115180c145b073f39683091d713dc20d2c329",
+      "released_bytes": 584936,
+      "original_permissions_preserved": true
+    },
+    {
+      "original": "/home/nishiki/vnpy-ctp/research_inputs/coverage_expansion_2026-10-05/2026-07/raw/minute/SHFE.ni2609.csv",
+      "archive": "/home/nishiki/vnpy-ctp/research_inputs/coverage_expansion_2026-10-05/cloud_state/objects/c5/c535213b061efaa9116e9530398d287e631e28e532806ec1d70655856c1e91ad",
+      "sha256": "c535213b061efaa9116e9530398d287e631e28e532806ec1d70655856c1e91ad",
+      "released_bytes": 856789,
+      "original_permissions_preserved": true
+    },
+    {
+      "original": "/home/nishiki/vnpy-ctp/research_inputs/coverage_expansion_2026-10-05/2026-07/raw/minute/SHFE.pb2609.csv",
+      "archive": "/home/nishiki/vnpy-ctp/research_inputs/coverage_expansion_2026-10-05/cloud_state/objects/31/31ec5122b87d73058c9b5adf6e992609224667a366fac571e81acb3d83b03f0d",
+      "sha256": "31ec5122b87d73058c9b5adf6e992609224667a366fac571e81acb3d83b03f0d",
+      "released_bytes": 526344,
+      "original_permissions_preserved": true
+    },
+    {
+      "original": "/home/nishiki/vnpy-ctp/research_inputs/coverage_expansion_2026-10-05/2026-07/raw/minute/SHFE.rb2610.csv",
+      "archive": "/home/nishiki/vnpy-ctp/research_inputs/coverage_expansion_2026-10-05/cloud_state/objects/ea/ea57bcd3ffb67b0430de74a8af2d6018637ca81ea7e7fa542c226ce97f0bc364",
+      "sha256": "ea57bcd3ffb67b0430de74a8af2d6018637ca81ea7e7fa542c226ce97f0bc364",
+      "released_bytes": 587700,
+      "original_permissions_preserved": true
+    },
+    {
+      "original": "/home/nishiki/vnpy-ctp/research_inputs/coverage_expansion_2026-10-05/2026-07/raw/minute/SHFE.ru2609.csv",
+      "archive": "/home/nishiki/vnpy-ctp/research_inputs/coverage_expansion_2026-10-05/cloud_state/objects/d6/d629a519cdba7f0d58eb65b9eb2b3001e0a5588ea8390c869dd9533080ba1ffc",
+      "sha256": "d629a519cdba7f0d58eb65b9eb2b3001e0a5588ea8390c869dd9533080ba1ffc",
+      "released_bytes": 601972,
+      "original_permissions_preserved": true
+    },
+    {
+      "original": "/home/nishiki/vnpy-ctp/research_inputs/coverage_expansion_2026-10-05/2026-07/raw/minute/SHFE.sn2608.csv",
+      "archive": "/home/nishiki/vnpy-ctp/research_inputs/coverage_expansion_2026-10-05/cloud_state/objects/ea/ea9e65c793f285046957cfe3a0005c44d5af0272ec018fa8ae8d74ca3b7deac2",
+      "sha256": "ea9e65c793f285046957cfe3a0005c44d5af0272ec018fa8ae8d74ca3b7deac2",
+      "released_bytes": 559426,
+      "original_permissions_preserved": true
+    },
+    {
+      "original": "/home/nishiki/vnpy-ctp/research_inputs/coverage_expansion_2026-10-05/2026-07/raw/minute/SHFE.sp2609.csv",
+      "archive": "/home/nishiki/vnpy-ctp/research_inputs/coverage_expansion_2026-10-05/cloud_state/objects/be/be812997c8889d4e39075e0b6ef9de8797b1db8a96353388a246bdbf8d8d8095",
+      "sha256": "be812997c8889d4e39075e0b6ef9de8797b1db8a96353388a246bdbf8d8d8095",
+      "released_bytes": 564330,
+      "original_permissions_preserved": true
+    },
+    {
+      "original": "/home/nishiki/vnpy-ctp/research_inputs/coverage_expansion_2026-10-05/2026-07/raw/minute/SHFE.zn2609.csv",
+      "archive": "/home/nishiki/vnpy-ctp/research_inputs/coverage_expansion_2026-10-05/cloud_state/objects/67/67ec0569b8a87b7b8c9cd09e05bbd55c65d42b62cb708074677098d98e995261",
+      "sha256": "67ec0569b8a87b7b8c9cd09e05bbd55c65d42b62cb708074677098d98e995261",
+      "released_bytes": 526610,
+      "original_permissions_preserved": true
+    },
+    {
+      "original": "/home/nishiki/vnpy-ctp/research_inputs/coverage_expansion_2026-10-05/2026-08/raw/minute/DCE.m2701.csv",
+      "archive": "/home/nishiki/vnpy-ctp/research_inputs/coverage_expansion_2026-10-05/cloud_state/objects/05/05fab8cf1a26038a150597af8ea3c36b51f973de898690052a321bbb7a44e105",
+      "sha256": "05fab8cf1a26038a150597af8ea3c36b51f973de898690052a321bbb7a44e105",
+      "released_bytes": 525148,
+      "original_permissions_preserved": true
+    },
+    {
+      "original": "/home/nishiki/vnpy-ctp/research_inputs/coverage_expansion_2026-10-05/2026-08/raw/minute/INE.bc2609.csv",
+      "archive": "/home/nishiki/vnpy-ctp/research_inputs/coverage_expansion_2026-10-05/cloud_state/objects/85/858ba6b11ccaaaea95bda870e146f8f44d128e9c6b6ac76bc7d7eb1d12a027e5",
+      "sha256": "858ba6b11ccaaaea95bda870e146f8f44d128e9c6b6ac76bc7d7eb1d12a027e5",
+      "released_bytes": 593997,
+      "original_permissions_preserved": true
+    },
+    {
+      "original": "/home/nishiki/vnpy-ctp/research_inputs/coverage_expansion_2026-10-05/2026-08/raw/minute/INE.sc2610.csv",
+      "archive": "/home/nishiki/vnpy-ctp/research_inputs/coverage_expansion_2026-10-05/cloud_state/objects/d0/d08fe383fcaca8f27ea10f5b4f0c6d9194fff71fa720e465d757ab4d9eecbe3a",
+      "sha256": "d08fe383fcaca8f27ea10f5b4f0c6d9194fff71fa720e465d757ab4d9eecbe3a",
+      "released_bytes": 585276,
+      "original_permissions_preserved": true
+    },
+    {
+      "original": "/home/nishiki/vnpy-ctp/research_inputs/coverage_expansion_2026-10-05/2026-08/raw/minute/SHFE.ad2610.csv",
+      "archive": "/home/nishiki/vnpy-ctp/research_inputs/coverage_expansion_2026-10-05/cloud_state/objects/1b/1b0760d6d69086cf3ac2b7e25e9149953622d79e7f6276845f0618d6486ccbc3",
+      "sha256": "1b0760d6d69086cf3ac2b7e25e9149953622d79e7f6276845f0618d6486ccbc3",
+      "released_bytes": 701600,
+      "original_permissions_preserved": true
+    },
+    {
+      "original": "/home/nishiki/vnpy-ctp/research_inputs/coverage_expansion_2026-10-05/2026-08/raw/minute/SHFE.ag2610.csv",
+      "archive": "/home/nishiki/vnpy-ctp/research_inputs/coverage_expansion_2026-10-05/cloud_state/objects/c6/c6a8b2b8d628ab76b56d2e797bf29918fb65934cfa6b7cb4cf6048b2b353667c",
+      "sha256": "c6a8b2b8d628ab76b56d2e797bf29918fb65934cfa6b7cb4cf6048b2b353667c",
+      "released_bytes": 895443,
+      "original_permissions_preserved": true
+    },
+    {
+      "original": "/home/nishiki/vnpy-ctp/research_inputs/coverage_expansion_2026-10-05/2026-08/raw/minute/SHFE.ao2610.csv",
+      "archive": "/home/nishiki/vnpy-ctp/research_inputs/coverage_expansion_2026-10-05/cloud_state/objects/73/73cc787cc54f1b6ee5c7b9d4bbd9ded683d4e338e65fe29c8fd9e2c8a6e0c921",
+      "sha256": "73cc787cc54f1b6ee5c7b9d4bbd9ded683d4e338e65fe29c8fd9e2c8a6e0c921",
+      "released_bytes": 586041,
+      "original_permissions_preserved": true
+    },
+    {
+      "original": "/home/nishiki/vnpy-ctp/research_inputs/coverage_expansion_2026-10-05/2026-08/raw/minute/SHFE.au2610.csv",
+      "archive": "/home/nishiki/vnpy-ctp/research_inputs/coverage_expansion_2026-10-05/cloud_state/objects/40/4030e73c80b282eb26ab1673887634ba6a81c9c814a4299c6383d46feca29c50",
+      "sha256": "4030e73c80b282eb26ab1673887634ba6a81c9c814a4299c6383d46feca29c50",
+      "released_bytes": 938749,
+      "original_permissions_preserved": true
+    },
+    {
+      "original": "/home/nishiki/vnpy-ctp/research_inputs/coverage_expansion_2026-10-05/2026-08/raw/minute/SHFE.cu2609.csv",
+      "archive": "/home/nishiki/vnpy-ctp/research_inputs/coverage_expansion_2026-10-05/cloud_state/objects/9f/9f524dadc30aed2f2c29b24269d25b4e96b623287c52deb3f6ef91945d3c41cc",
+      "sha256": "9f524dadc30aed2f2c29b24269d25b4e96b623287c52deb3f6ef91945d3c41cc",
+      "released_bytes": 572710,
+      "original_permissions_preserved": true
+    },
+    {
+      "original": "/home/nishiki/vnpy-ctp/research_inputs/coverage_expansion_2026-10-05/2026-08/raw/minute/SHFE.ni2609.csv",
+      "archive": "/home/nishiki/vnpy-ctp/research_inputs/coverage_expansion_2026-10-05/cloud_state/objects/f0/f0f8c8fc4944e6375dd4ae4b9550033ad034b1934845fda729760abd678ae73e",
+      "sha256": "f0f8c8fc4944e6375dd4ae4b9550033ad034b1934845fda729760abd678ae73e",
+      "released_bytes": 544606,
+      "original_permissions_preserved": true
+    },
+    {
+      "original": "/home/nishiki/vnpy-ctp/research_inputs/coverage_expansion_2026-10-05/2026-08/raw/minute/SHFE.pb2610.csv",
+      "archive": "/home/nishiki/vnpy-ctp/research_inputs/coverage_expansion_2026-10-05/cloud_state/objects/1f/1fc4e5143ff4b11a2079a43261c8c5aadfe12f5abc803356800a216c9d67b974",
+      "sha256": "1fc4e5143ff4b11a2079a43261c8c5aadfe12f5abc803356800a216c9d67b974",
+      "released_bytes": 545341,
+      "original_permissions_preserved": true
+    },
+    {
+      "original": "/home/nishiki/vnpy-ctp/research_inputs/coverage_expansion_2026-10-05/2026-08/raw/minute/SHFE.rb2610.csv",
+      "archive": "/home/nishiki/vnpy-ctp/research_inputs/coverage_expansion_2026-10-05/cloud_state/objects/f1/f1c1072d194ef0a334bc060490da0b910ce6c36af5da64b2c03f343a4c0ba91b",
+      "sha256": "f1c1072d194ef0a334bc060490da0b910ce6c36af5da64b2c03f343a4c0ba91b",
+      "released_bytes": 524735,
+      "original_permissions_preserved": true
+    },
+    {
+      "original": "/home/nishiki/vnpy-ctp/research_inputs/coverage_expansion_2026-10-05/2026-08/raw/minute/SHFE.sn2609.csv",
+      "archive": "/home/nishiki/vnpy-ctp/research_inputs/coverage_expansion_2026-10-05/cloud_state/objects/2b/2b7e7d1caf1c2d676efda816ede50d78722327c4ce2686678559b76aada20d70",
+      "sha256": "2b7e7d1caf1c2d676efda816ede50d78722327c4ce2686678559b76aada20d70",
+      "released_bytes": 558487,
+      "original_permissions_preserved": true
+    },
+    {
+      "original": "/home/nishiki/vnpy-ctp/research_inputs/coverage_expansion_2026-10-05/2026-08/raw/minute/SHFE.ss2610.csv",
+      "archive": "/home/nishiki/vnpy-ctp/research_inputs/coverage_expansion_2026-10-05/cloud_state/objects/6b/6b134db00e78481ebd6190a06962fac6837025f6b0ccbd7aa08972565569598c",
+      "sha256": "6b134db00e78481ebd6190a06962fac6837025f6b0ccbd7aa08972565569598c",
+      "released_bytes": 617687,
+      "original_permissions_preserved": true
+    },
+    {
+      "original": "/home/nishiki/vnpy-ctp/research_outputs/coverage_expansion_2026-10-05/2026-07/indicator_cache/09566f853de4c1d10bcfd6cf7593f72ede83f769d0b1f8253bb71287bfd92089.jsonl.gz",
+      "archive": "/home/nishiki/vnpy-ctp/research_inputs/coverage_expansion_2026-10-05/cloud_state/objects/78/78dab67445f453dc0049d7922f73d8a70b8161fe6c5bd38d17c8abf41cb5a9e3",
+      "sha256": "78dab67445f453dc0049d7922f73d8a70b8161fe6c5bd38d17c8abf41cb5a9e3",
+      "released_bytes": 46149328,
+      "original_permissions_preserved": true
+    },
+    {
+      "original": "/home/nishiki/vnpy-ctp/research_outputs/coverage_expansion_2026-10-05/2026-08/indicator_cache/27a098817b9a513dfaca2488546a627fc3070ea86cd462417b6cb6c2fca0fbcb.jsonl.gz",
+      "archive": "/home/nishiki/vnpy-ctp/research_inputs/coverage_expansion_2026-10-05/cloud_state/objects/45/45e1745212c293c67181bc5772a45043d0c04d8c90efccaca6360ce60cb24379",
+      "sha256": "45e1745212c293c67181bc5772a45043d0c04d8c90efccaca6360ce60cb24379",
+      "released_bytes": 46574924,
+      "original_permissions_preserved": true
+    }
+  ],
+  "released_bytes": 169830156
+}

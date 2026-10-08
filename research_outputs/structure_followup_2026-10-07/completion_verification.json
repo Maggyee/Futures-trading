@@ -1,0 +1,69 @@
+{
+  "status": "passed",
+  "created": "2026-10-07T02:19:00.806427+08:00",
+  "completed_order": [
+    "control",
+    "confirmation",
+    "structure"
+  ],
+  "selected": "control",
+  "combination": "not_eligible",
+  "plan_sha256": "2c54a8e02e558bd6571d718393fe9e0d596a7448b7c5ff86e1a55c56373091c7",
+  "assessment_sha256": "a7f544882b52e76aab657f5f95b64212c0dde78f11cdfe8b840b2cfce7d01696",
+  "research_candidate_sha256": "e5d67c3509912f462f2211e73fe6d844aba39cce9743a06512a42961be4371b1",
+  "result_summary_sha256": "c1b7b73c9080d360bc51e40c2f61b31d58199f2a68712a291f67091cd45d81b8",
+  "delivery_verification_sha256": "f50db1a0792c32d08960db905f71951db49b3ba16d19aba852cac76d5cb01420",
+  "valid_audited_runs": {
+    "control/2026-07/run_0001_1d3a1de3618f": "c14e1f90bf4fbcd967eebff2614cb7fe7df5e14a228b7a4343c01b6fb3df80cf",
+    "control/2026-08/run_0002_2ad9ec2e7f71": "9a04c012bfbe6a841705adf35d39fd7e91887bd9c89af9e56a84f9ae99db6171",
+    "control/2026-09/run_0001_2b381d921a51": "b63f17b20d13396aebbbcc9f9633c7daefe4080ea722cac6586b6ad91e031fcb",
+    "confirmation/2026-07/run_0002_d0cf6cf51a4f": "47b0eb1d7d84b42956ba56610cdf518d0bd5bdbb850018f392998cdbf021a04e",
+    "confirmation/2026-08/run_0001_c6dc2b37bb73": "0691f53477542a87232411081c4f25704c431f3f0db339a24607f9532d589001",
+    "confirmation/2026-09/run_0001_22973703c441": "74fab38ce57100a8eede794a96ac4318b154657a314603369f38b0cbe3177e26",
+    "structure/2026-07/run_0001_329c34feecba": "5724626889b7bd66c09fa789fd79c9f5e93dd2b2498671c89c8199b2a158a614",
+    "structure/2026-08/run_0001_e0cf53b9b5de": "e2abce851a8d97b7d2fbf370936f474e9689c1e82b70b8b103d1a6b09be908ae",
+    "structure/2026-09/run_0001_eedb03e3f401": "d13bd4054772bc954a8dd987d90607eb3871b80869ccfd460aca2ec7245b4e8b"
+  },
+  "physical_run_count": 11,
+  "preserved_failed_runs": [
+    "confirmation/2026-07/run_0001_d0cf6cf51a4f",
+    "control/2026-08/run_0001_2ad9ec2e7f71"
+  ],
+  "frozen_strategy_and_runner_unchanged": {
+    "research/structure_rules.py": true,
+    "research/structure_followup.py": true,
+    "research/execution.py": true,
+    "research/config.py": true
+  },
+  "formed_patterns": 38,
+  "confirmed_patterns": 3,
+  "supplemental_fills": 0,
+  "tests_receipts": [
+    {
+      "file": "/home/nishiki/vnpy-ctp/research_inputs/structure_followup_2026-10-07/implementation_freeze.json",
+      "passed_tests": 139
+    },
+    {
+      "file": "/home/nishiki/vnpy-ctp/research_inputs/structure_followup_2026-10-07/export_compatibility_fix.json",
+      "passed_tests": 42
+    }
+  ],
+  "test_receipts_overlap": true,
+  "compatibility_receipts": {
+    "export_compatibility_fix.json": "7549a904bdf395c0e56f4681766ebeb9fd5476745247f8dbb4e9f5183e7ae8c1",
+    "audit_zero_fill_compatibility.json": "5ff92482e97720b437a8a4b030c502cebd1a32c1efd354408169053978469708"
+  },
+  "research_days": 52,
+  "sample_status": "retrospective_diagnostic_on_already_inspected_windows",
+  "locked_test_read": false,
+  "parameter_search": false,
+  "retune_after_result": false,
+  "live_trading_changed": false,
+  "new_holdout_results_claimed": false,
+  "storage": {
+    "used_bytes": 4770319887,
+    "free_bytes": 11916259328,
+    "max_bytes": 5368709120,
+    "minimum_free_bytes": 4294967296
+  }
+}

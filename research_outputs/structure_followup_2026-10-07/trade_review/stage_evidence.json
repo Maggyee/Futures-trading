@@ -1,0 +1,332 @@
+[
+  {
+    "month": "2026-07",
+    "variant": "control",
+    "audit_status": "passed",
+    "pattern_counts": {
+      "legacy_fills": 5
+    },
+    "checks": {
+      "status": "passed",
+      "unchanged_measurements": 39244,
+      "cost_checks": 31614,
+      "observations": 39244,
+      "blocked_stop_reentries": 104,
+      "future_measurements_used": false
+    },
+    "diagnostics": {
+      "selected_observations": 39244,
+      "actual_fill": 5,
+      "market_eligible_observations": 20,
+      "entry_trigger": 15,
+      "risk_rejected_triggers": 10,
+      "market_eligible_blocked_after_stop": 3,
+      "market_eligible_contract_day_directions": 10,
+      "risk_rejected_contract_day_directions": 5,
+      "risk_rejections": {
+        "single_trade_risk": 7,
+        "group_margin": 10
+      },
+      "fill_cancellation_count": 0,
+      "fill_cancellations": [],
+      "qualified_without_new_trigger": []
+    }
+  },
+  {
+    "month": "2026-08",
+    "variant": "control",
+    "audit_status": "passed",
+    "pattern_counts": {},
+    "checks": {
+      "status": "passed",
+      "unchanged_measurements": 35884,
+      "cost_checks": 28908,
+      "observations": 35884,
+      "future_measurements_used": false
+    },
+    "diagnostics": {
+      "selected_observations": 35884,
+      "actual_fill": 0,
+      "market_eligible_observations": 1,
+      "entry_trigger": 1,
+      "risk_rejected_triggers": 1,
+      "market_eligible_contract_day_directions": 1,
+      "risk_rejected_contract_day_directions": 1,
+      "risk_rejections": {
+        "single_trade_risk": 1,
+        "group_margin": 1
+      },
+      "fill_cancellation_count": 0,
+      "fill_cancellations": [],
+      "qualified_without_new_trigger": []
+    }
+  },
+  {
+    "month": "2026-09",
+    "variant": "control",
+    "audit_status": "passed",
+    "pattern_counts": {
+      "legacy_fills": 2
+    },
+    "checks": {
+      "status": "passed",
+      "unchanged_measurements": 14146,
+      "cost_checks": 7396,
+      "observations": 14146,
+      "future_measurements_used": false
+    },
+    "diagnostics": {
+      "selected_observations": 14146,
+      "actual_fill": 2,
+      "market_eligible_observations": 3,
+      "entry_trigger": 3,
+      "risk_rejected_triggers": 1,
+      "market_eligible_contract_day_directions": 3,
+      "risk_rejected_contract_day_directions": 1,
+      "risk_rejections": {
+        "single_trade_risk": 1,
+        "group_margin": 1
+      },
+      "fill_cancellation_count": 0,
+      "fill_cancellations": [],
+      "qualified_without_new_trigger": []
+    }
+  },
+  {
+    "month": "2026-07",
+    "variant": "confirmation",
+    "audit_status": "passed",
+    "pattern_counts": {
+      "confirmed_breakout_setups": 19,
+      "confirmed_pullback_setups": 5,
+      "confirmed_pullback_confirmed": 1,
+      "confirmed_breakout_confirmed": 1,
+      "legacy_fills": 5
+    },
+    "checks": {
+      "status": "passed",
+      "cost_checks": 31614,
+      "legacy_fills": 5,
+      "observations": 39244,
+      "setup_decisions": 43,
+      "confirmed_patterns": 2,
+      "channel_decisions": 17,
+      "confirmed_pullback_fills": 0,
+      "confirmed_breakout_fills": 0,
+      "all_pattern_decisions_reconstructed": true,
+      "raw_completed_higher_bars_and_wilder_atr_checked": 67104,
+      "source_data_sha256": "6dec3690f3a9e161b7c109f8bb65a60fae40b5e3d6be97d3547273a05bcfd4b1",
+      "future_measurements_used": false
+    },
+    "diagnostics": {
+      "selected_observations": 39244,
+      "actual_fill": 5,
+      "market_eligible_observations": 22,
+      "entry_trigger": 17,
+      "risk_rejected_triggers": 11,
+      "market_eligible_blocked_after_stop": 3,
+      "market_eligible_contract_day_directions": 11,
+      "risk_rejected_contract_day_directions": 5,
+      "risk_rejections": {
+        "single_trade_risk": 8,
+        "group_margin": 11
+      },
+      "fill_cancellation_count": 1,
+      "fill_cancellations": [
+        {
+          "time": "2026-07-02T09:53:00+08:00",
+          "contract": "PR609.CZCE",
+          "reason": "fill_price_recheck",
+          "signal_time": "2026-07-02T09:53:00+08:00",
+          "modeled_price": "6458",
+          "modeled_price_limit": "6460.0"
+        }
+      ],
+      "qualified_without_new_trigger": []
+    }
+  },
+  {
+    "month": "2026-08",
+    "variant": "confirmation",
+    "audit_status": "passed",
+    "pattern_counts": {
+      "confirmed_breakout_setups": 9,
+      "confirmed_breakout_confirmed": 1,
+      "confirmed_pullback_setups": 1
+    },
+    "checks": {
+      "status": "passed",
+      "cost_checks": 28908,
+      "legacy_fills": 0,
+      "observations": 35884,
+      "setup_decisions": 17,
+      "confirmed_patterns": 1,
+      "channel_decisions": 1,
+      "all_pattern_decisions_reconstructed": true,
+      "raw_completed_higher_bars_and_wilder_atr_checked": 57988,
+      "source_data_sha256": "47ea450717035a3d6fd74032ea29d2e7fb955ea73912306229e5663026692106",
+      "future_measurements_used": false
+    },
+    "diagnostics": {
+      "selected_observations": 35884,
+      "actual_fill": 0,
+      "market_eligible_observations": 1,
+      "entry_trigger": 1,
+      "risk_rejected_triggers": 1,
+      "market_eligible_contract_day_directions": 1,
+      "risk_rejected_contract_day_directions": 1,
+      "risk_rejections": {
+        "single_trade_risk": 1,
+        "group_margin": 1
+      },
+      "fill_cancellation_count": 0,
+      "fill_cancellations": [],
+      "qualified_without_new_trigger": []
+    }
+  },
+  {
+    "month": "2026-09",
+    "variant": "confirmation",
+    "audit_status": "passed",
+    "pattern_counts": {
+      "confirmed_breakout_setups": 4,
+      "legacy_fills": 2
+    },
+    "checks": {
+      "status": "passed",
+      "cost_checks": 7396,
+      "legacy_fills": 2,
+      "observations": 14146,
+      "channel_decisions": 3,
+      "setup_decisions": 8,
+      "confirmed_patterns": 0,
+      "all_pattern_decisions_reconstructed": true,
+      "raw_completed_higher_bars_and_wilder_atr_checked": 36904,
+      "source_data_sha256": "b187c677b02989247eb4fa408fbc45e877bf0330e06503c8320eaff224250b3b",
+      "future_measurements_used": false
+    },
+    "diagnostics": {
+      "selected_observations": 14146,
+      "actual_fill": 2,
+      "market_eligible_observations": 3,
+      "entry_trigger": 3,
+      "risk_rejected_triggers": 1,
+      "market_eligible_contract_day_directions": 3,
+      "risk_rejected_contract_day_directions": 1,
+      "risk_rejections": {
+        "single_trade_risk": 1,
+        "group_margin": 1
+      },
+      "fill_cancellation_count": 0,
+      "fill_cancellations": [],
+      "qualified_without_new_trigger": []
+    }
+  },
+  {
+    "month": "2026-07",
+    "variant": "structure",
+    "audit_status": "passed",
+    "pattern_counts": {
+      "legacy_fills": 5
+    },
+    "checks": {
+      "status": "passed",
+      "cost_checks": 31614,
+      "structural_snapshots": 39244,
+      "observations": 39244,
+      "structural_admissions": 15,
+      "all_pattern_decisions_reconstructed": false,
+      "raw_completed_higher_bars_and_wilder_atr_checked": 67104,
+      "source_data_sha256": "6dec3690f3a9e161b7c109f8bb65a60fae40b5e3d6be97d3547273a05bcfd4b1",
+      "future_measurements_used": false
+    },
+    "diagnostics": {
+      "selected_observations": 39244,
+      "actual_fill": 5,
+      "market_eligible_observations": 20,
+      "entry_trigger": 15,
+      "risk_rejected_triggers": 10,
+      "market_eligible_contract_day_directions": 10,
+      "risk_rejected_contract_day_directions": 5,
+      "risk_rejections": {
+        "single_trade_risk": 10,
+        "group_risk": 10,
+        "group_margin": 10,
+        "portfolio_risk": 3
+      },
+      "fill_cancellation_count": 0,
+      "fill_cancellations": [],
+      "qualified_without_new_trigger": []
+    }
+  },
+  {
+    "month": "2026-08",
+    "variant": "structure",
+    "audit_status": "passed",
+    "pattern_counts": {},
+    "checks": {
+      "status": "passed",
+      "cost_checks": 28908,
+      "structural_snapshots": 35884,
+      "observations": 35884,
+      "structural_admissions": 1,
+      "all_pattern_decisions_reconstructed": false,
+      "raw_completed_higher_bars_and_wilder_atr_checked": 57988,
+      "source_data_sha256": "47ea450717035a3d6fd74032ea29d2e7fb955ea73912306229e5663026692106",
+      "future_measurements_used": false
+    },
+    "diagnostics": {
+      "selected_observations": 35884,
+      "actual_fill": 0,
+      "market_eligible_observations": 1,
+      "entry_trigger": 1,
+      "risk_rejected_triggers": 1,
+      "market_eligible_contract_day_directions": 1,
+      "risk_rejected_contract_day_directions": 1,
+      "risk_rejections": {
+        "single_trade_risk": 1,
+        "group_risk": 1,
+        "group_margin": 1
+      },
+      "fill_cancellation_count": 0,
+      "fill_cancellations": [],
+      "qualified_without_new_trigger": []
+    }
+  },
+  {
+    "month": "2026-09",
+    "variant": "structure",
+    "audit_status": "passed",
+    "pattern_counts": {
+      "legacy_fills": 2
+    },
+    "checks": {
+      "status": "passed",
+      "cost_checks": 7396,
+      "structural_snapshots": 14146,
+      "observations": 14146,
+      "structural_admissions": 3,
+      "all_pattern_decisions_reconstructed": false,
+      "raw_completed_higher_bars_and_wilder_atr_checked": 36904,
+      "source_data_sha256": "b187c677b02989247eb4fa408fbc45e877bf0330e06503c8320eaff224250b3b",
+      "future_measurements_used": false
+    },
+    "diagnostics": {
+      "selected_observations": 14146,
+      "actual_fill": 2,
+      "market_eligible_observations": 3,
+      "entry_trigger": 3,
+      "risk_rejected_triggers": 1,
+      "market_eligible_contract_day_directions": 3,
+      "risk_rejected_contract_day_directions": 1,
+      "risk_rejections": {
+        "single_trade_risk": 1,
+        "group_risk": 1,
+        "group_margin": 1
+      },
+      "fill_cancellation_count": 0,
+      "fill_cancellations": [],
+      "qualified_without_new_trigger": []
+    }
+  }
+]

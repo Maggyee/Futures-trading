@@ -1,0 +1,30 @@
+{
+  "intent_sha256": "5eb13486709418d2f41db1c492186c0bba4d626fa32ac35e8e12788a56a2c3d7",
+  "original_calibration": "/home/nishiki/vnpy-ctp/research_outputs/2026-09/slope_band_review/training_calibration.json",
+  "original_calibration_sha256": "87d692087251f140b1c79000ccb35dff9bd9043393b7147acaf891ed3fb442da",
+  "source_cache_sha256": "d1aacf4be0d4c457d9aea42b2c2af27cd1a5658078ed77eed8e37df4f3df4073",
+  "population_count": 32231,
+  "population_sha256": "95b1850ad3408cca633f84c149c309ec3eda508aec7d7e29c8f350fdfde88cee",
+  "quantiles": {
+    "0.1": 0.02008138914047402,
+    "0.9": 0.28399603946052243
+  },
+  "slope_band": {
+    "min_move_ticks": 1.0,
+    "timeframes": {
+      "1m": {
+        "lookback_bars": 5,
+        "min_atr_per_bar": 0.035684521754350294,
+        "max_atr_per_bar": 0.18062552197464085
+      },
+      "5m": {
+        "lookback_bars": 3,
+        "min_atr_per_bar": 0.02008138914047402,
+        "max_atr_per_bar": 0.28399603946052243
+      }
+    }
+  },
+  "training_cutoff": "2026-09-11",
+  "pnl_used": false,
+  "locked_test_read": false
+}

@@ -1,0 +1,126 @@
+{
+  "schema": 1,
+  "kind": "sequential_optimization_diagnostic",
+  "created_utc": "2026-10-06T16:43:05.339776+00:00",
+  "baselines": {
+    "2026-07": {
+      "directory": "/home/nishiki/vnpy-ctp/research_outputs/coverage_expansion_2026-10-05/ordered_opportunity/control/2026-07/run_0001_1aba36425311",
+      "config_sha256": "7c3160732fe0b137d2f2864b17e75b7fe1ad2df5298c066ae2b983af2215a705",
+      "trades_sha256": "618566cd26d98cfde9ca31214d15413a61269eeb0b840b217cd8a443bdb591d2",
+      "manifest_sha256": "3d7cef7a807ba26f70d3f7e15866dda28531cae124b756853dccd57e42d75ac8",
+      "audit_sha256": "f222e65c0d750c8cb5733f2f7039f476d9e72b56282c00dd3376853816ae2cc7"
+    },
+    "2026-08": {
+      "directory": "/home/nishiki/vnpy-ctp/research_outputs/coverage_expansion_2026-10-05/ordered_opportunity/control/2026-08/run_0001_3dad7c4c9503",
+      "config_sha256": "36f0ba1c6cdc93d9a7ecac64272a73ee2260829706fb50bd7b639d4d3ec18865",
+      "trades_sha256": "0510818b525a8789fd01997a41c25f8984e4704f7764f0c52600e2458544bdd2",
+      "manifest_sha256": "1ac98780ce202014331438cc29bc9ad8b206c69d26706c2391b46ea250ab5cdd",
+      "audit_sha256": "70a0f0a3dba17fe18fc6f866e14f59000921e43604b0f7e1dea5c6d6c9ab21eb"
+    },
+    "2026-09": {
+      "directory": "/home/nishiki/vnpy-ctp/research_outputs/coverage_expansion_2026-10-05/ordered_opportunity/control/2026-09/run_0001_09f61aef2939",
+      "config_sha256": "95377cca13d35e88176de652e1c1128181ac05d7a4ec2b519acc24ea495710d7",
+      "trades_sha256": "d93b1cb2077497ff52bf65b8b61d5ebe0d043ff1de8fad7ad98a0e9c09985279",
+      "manifest_sha256": "ef37cd27ae297271909b58a2e6a69947efc3125a176e602868103a5ee8dde544",
+      "audit_sha256": "9488b851048ef222af8b43fae4fe9e1aecb80d74938e4f01937e64cd8327009d"
+    }
+  },
+  "order": [
+    "control",
+    "confirmation",
+    "structure"
+  ],
+  "variants": {
+    "control": {},
+    "confirmation": {
+      "entry_confirmation": {
+        "quality_minutes": 5,
+        "valid_minutes": 5,
+        "breakout_lookback_bars": 2,
+        "confirmation_bars": 2,
+        "confirmation": "close_beyond_setup_extreme",
+        "pullback_reference": "ma10",
+        "preserve_original_channel": true,
+        "higher_efficiency_min": 0.45,
+        "require_touch_start_after_armed": true
+      }
+    },
+    "structure": {
+      "structure_protection": {
+        "timeframe_minutes": 5,
+        "lookback_bars": 3,
+        "buffer_ticks": 1,
+        "max_stop_atr": 2.0,
+        "same_session_only": true,
+        "retain_original_distance_floors": true,
+        "frozen_after_fill": true
+      }
+    },
+    "confirmation_structure": {
+      "entry_confirmation": {
+        "quality_minutes": 5,
+        "valid_minutes": 5,
+        "breakout_lookback_bars": 2,
+        "confirmation_bars": 2,
+        "confirmation": "close_beyond_setup_extreme",
+        "pullback_reference": "ma10",
+        "preserve_original_channel": true,
+        "higher_efficiency_min": 0.45,
+        "require_touch_start_after_armed": true
+      },
+      "structure_protection": {
+        "timeframe_minutes": 5,
+        "lookback_bars": 3,
+        "buffer_ticks": 1,
+        "max_stop_atr": 2.0,
+        "same_session_only": true,
+        "retain_original_distance_floors": true,
+        "frozen_after_fill": true
+      }
+    }
+  },
+  "labels": {
+    "control": "当前7笔研究版",
+    "confirmation": "原通道＋突破／回踩延续确认",
+    "structure": "仅5分钟结构止损",
+    "confirmation_structure": "确认入场＋结构止损"
+  },
+  "output": "/home/nishiki/vnpy-ctp/research_outputs/structure_followup_2026-10-07",
+  "audit_filename": "independent_structure_audit.json",
+  "budget": {
+    "roots": [
+      "/home/nishiki/vnpy-ctp/research_inputs/coverage_expansion_2026-10-05",
+      "/home/nishiki/vnpy-ctp/research_outputs/coverage_expansion_2026-10-05",
+      "/home/nishiki/vnpy-ctp/research_inputs/structure_followup_2026-10-07",
+      "/home/nishiki/vnpy-ctp/research_outputs/structure_followup_2026-10-07"
+    ],
+    "max_bytes": 5368709120,
+    "min_free_bytes": 4294967296
+  },
+  "k": 2,
+  "maximum_runs": 12,
+  "promotion": {
+    "total_net_improves": true,
+    "each_window_net_not_worse": true,
+    "each_window_drawdown_not_worse": true,
+    "without_best_trade_net_not_worse": true,
+    "entry_variant_trade_count_must_increase": true,
+    "stop_variant_may_reduce_trade_count": true
+  },
+  "entry_minimum_new_contract_day_directions": 1,
+  "entry_active_days_not_worse": true,
+  "selection": {
+    "combination": "only if both independently pass; compare against control and both individuals",
+    "failure": "retain current seven-trade research recipe; preserve all failures; do not retune"
+  },
+  "entry_scope": "Preserve original direct edge and fixed candidates. A separate channel qualifies using the original completed 5m/15m trend, 5m slope band and 5m efficiency/activity/displacement. Replace only its 1m efficiency/activity/displacement/slope gates. Within a five-minute window, a completed candle closes beyond the previous two highs/lows (breakout), or confirms a post-qualification completed MA10 touch (pullback); the immediately adjacent next candle must close beyond the setup candle high/low. Reject stale, nonadjacent or cross-session confirmation. Original channel has priority; share capital, price/cost checks, cooldown and stop-reentry. Consume a submitted setup once.",
+  "protection_scope": "Use the last three completed 5m candles of the current continuous session: minimum low for long / maximum high for short, plus one adverse tick. At signal and fill, stop distance is max(original training floor, existing 1m ATR and cost floors, distance to the frozen structure, signal reservation floor). Require positive geometry and distance <=2 times the signal-time known 5m ATR; cancel otherwise. Reallocate quantity within original 0.2% single-trade and all other caps. Structure is never updated after fill; hard protection never waits for confirmation. Preserve 1R cost-covered break-even and 2ATR target-activated trail.",
+  "threshold_basis": "Finite initial research recipe fixed before replay, not fitted on this round's PnL. Reuses original frozen slope/quality thresholds; no new quantile calculation or parameter search.",
+  "sample_status": "retrospective_diagnostic_on_already_inspected_windows",
+  "locked_test_read": false,
+  "live_trading_changed": false,
+  "parameter_search": false,
+  "retune_after_result": false,
+  "new_holdout_results_claimed": false,
+  "prior_review_sha256": "0a54f2f7d8b19f719bd240b4a9e4697a1b3ce20fe4eaa37c47b405eefce3d4b4"
+}

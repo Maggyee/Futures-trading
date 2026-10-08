@@ -1,0 +1,2 @@
+{"id": "run_0001_d0cf6cf51a4f", "config_hash": "0d7189223f7dc06fa1900d9631a1a161d49cbed4791dde95e8501c9d8000edf4", "window": {"start": "2026-07-01", "end": "2026-07-31"}, "scope": "shared", "status": "failed", "error": "'trend_window_valid'"}
+{"id": "run_0002_d0cf6cf51a4f", "config_hash": "0d7189223f7dc06fa1900d9631a1a161d49cbed4791dde95e8501c9d8000edf4", "window": {"start": "2026-07-01", "end": "2026-07-31"}, "scope": "shared", "status": "completed", "error": null}

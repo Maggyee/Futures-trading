@@ -1,0 +1,1879 @@
+{
+  "status": "passed",
+  "verified_utc": "2026-10-05T14:10:45.859165+00:00",
+  "manifest_id": "f90f6f768df514795c3668906ee0eef2b4d6e881e800dd024aa7903edf402e5e",
+  "report_sha256": "04e17c3d3455ed705ee7119b86929717283a23b9fe685ffa9753afa8b303d12f",
+  "cloud_report_path": "gdrive:quant_backup/vnpy-ctp/research-v1/reports/2026-10-05/optimization_review.html",
+  "cloud_report_readback_equal": true,
+  "bounded_reader_sha256_equal": true,
+  "critical_file_hashes_verified": 461,
+  "complete_runs_backed_up": 18,
+  "files": [
+    {
+      "logical_path": "expanded_inputs/cloud_policy.json",
+      "sha256": "71814c5d4c5dfbf26062331fef0fc47930b1275dffed6df8206a0e4b5c2d158e"
+    },
+    {
+      "logical_path": "expanded_inputs/datasets/28d7af29a927b406dc4e53d72b96d8c726199f283352dff97a814977fa0c695c.jsonl.gz",
+      "sha256": "47ea450717035a3d6fd74032ea29d2e7fb955ea73912306229e5663026692106"
+    },
+    {
+      "logical_path": "expanded_inputs/datasets/6cafc278d9329f5134582c629ada17361d2b517ec1bb3217642a4e4c34e19625.jsonl.gz",
+      "sha256": "71b55a867d6ca125c1016f51d5ae2ff4db05ef7617524878982ccde87bda5cee"
+    },
+    {
+      "logical_path": "expanded_inputs/datasets/92bfcc72dc2e774d86985ab2e9141e70b6885bbfa9157bad88a31f66fbe82cb9.jsonl.gz",
+      "sha256": "6dec3690f3a9e161b7c109f8bb65a60fae40b5e3d6be97d3547273a05bcfd4b1"
+    },
+    {
+      "logical_path": "expanded_inputs/optimization_plan.json",
+      "sha256": "1d6a211e49227525ee3d013fa7aaacc4d347e33a179c4af4bad01b01fae59944"
+    },
+    {
+      "logical_path": "expanded_inputs/plan.json",
+      "sha256": "ab0ad0737cea39ee387577549dda7706fd38ee3489876d320590102cb32a2813"
+    },
+    {
+      "logical_path": "expanded_inputs/reproducibility/a4bceb7e51f286b191dfd50daf22ad3d53002e0c99d66cf4c3f31cd9c5b67e87/deploy/systemd/quant-research-acquire.service",
+      "sha256": "59bc989b18ae86fbc4fea18cc289b2108f4aa2a9e10baee67e262adca2b0ab59"
+    },
+    {
+      "logical_path": "expanded_inputs/reproducibility/a4bceb7e51f286b191dfd50daf22ad3d53002e0c99d66cf4c3f31cd9c5b67e87/deploy/systemd/quant-research-acquire.timer",
+      "sha256": "5ec2a192256aa350ab8351fd1874b5cc09da44cc6a49fec2117a56e4677de865"
+    },
+    {
+      "logical_path": "expanded_inputs/reproducibility/a4bceb7e51f286b191dfd50daf22ad3d53002e0c99d66cf4c3f31cd9c5b67e87/deploy/systemd/quant-research-archive.service",
+      "sha256": "44a1d51a3775ca0bb5950da69b53d3adcd5ed21c2f145464da7c962037b2048d"
+    },
+    {
+      "logical_path": "expanded_inputs/reproducibility/a4bceb7e51f286b191dfd50daf22ad3d53002e0c99d66cf4c3f31cd9c5b67e87/deploy/systemd/quant-research-archive.timer",
+      "sha256": "5eced63cdb28e15dc82cc8aaab16164fe490f5c89ec798fc2ab00ada9d6ae655"
+    },
+    {
+      "logical_path": "expanded_inputs/reproducibility/a4bceb7e51f286b191dfd50daf22ad3d53002e0c99d66cf4c3f31cd9c5b67e87/deploy/systemd/rclone-googledrive-quant-config.conf",
+      "sha256": "a62d105473fe358787be1d4bf26e443259f56aade57efb9b18c8f583a507f39d"
+    },
+    {
+      "logical_path": "expanded_inputs/reproducibility/a4bceb7e51f286b191dfd50daf22ad3d53002e0c99d66cf4c3f31cd9c5b67e87/manifest.json",
+      "sha256": "3edff98ea0715e6bab251a8d511819833772607812d81001b4acab08a0fd6982"
+    },
+    {
+      "logical_path": "expanded_inputs/reproducibility/a4bceb7e51f286b191dfd50daf22ad3d53002e0c99d66cf4c3f31cd9c5b67e87/requirements.lock",
+      "sha256": "fe6e1ed0d8456f0f057328ba247ee7882752b16da3b2749d67ebfb9ba0fb5576"
+    },
+    {
+      "logical_path": "expanded_inputs/reproducibility/a4bceb7e51f286b191dfd50daf22ad3d53002e0c99d66cf4c3f31cd9c5b67e87/research/__init__.py",
+      "sha256": "f73abe0283b0b2f574e5b5810efe63f460965954095a1aa3e4ee983baa519526"
+    },
+    {
+      "logical_path": "expanded_inputs/reproducibility/a4bceb7e51f286b191dfd50daf22ad3d53002e0c99d66cf4c3f31cd9c5b67e87/research/__main__.py",
+      "sha256": "49579003819a08df6c1234ae9ef3442d0dc955d6786cbbc1c2ed663489675a3e"
+    },
+    {
+      "logical_path": "expanded_inputs/reproducibility/a4bceb7e51f286b191dfd50daf22ad3d53002e0c99d66cf4c3f31cd9c5b67e87/research/acquisition.py",
+      "sha256": "aa7c33c58aab518c2c84ead47e7b512998610bc264fdeb3825c55e501c52fc92"
+    },
+    {
+      "logical_path": "expanded_inputs/reproducibility/a4bceb7e51f286b191dfd50daf22ad3d53002e0c99d66cf4c3f31cd9c5b67e87/research/calendar.py",
+      "sha256": "f576a6a481865c35683dd68cfcbd982dd0a482f2017e84fb44819928a4e1de4a"
+    },
+    {
+      "logical_path": "expanded_inputs/reproducibility/a4bceb7e51f286b191dfd50daf22ad3d53002e0c99d66cf4c3f31cd9c5b67e87/research/cloud_archive.py",
+      "sha256": "fce12e0138d9288d156ce39bbf7b872f4ce702f5f21cf599ce922419659d5617"
+    },
+    {
+      "logical_path": "expanded_inputs/reproducibility/a4bceb7e51f286b191dfd50daf22ad3d53002e0c99d66cf4c3f31cd9c5b67e87/research/config.py",
+      "sha256": "3f1aa1e6cc8c3e2334c340542fa1a2157f404cb8c1b5f1d94a80bd817337345c"
+    },
+    {
+      "logical_path": "expanded_inputs/reproducibility/a4bceb7e51f286b191dfd50daf22ad3d53002e0c99d66cf4c3f31cd9c5b67e87/research/cost_review.py",
+      "sha256": "a43858ee9330dde1107604ea9de90d506d80b3be958854a36a0fdb14dfa7071f"
+    },
+    {
+      "logical_path": "expanded_inputs/reproducibility/a4bceb7e51f286b191dfd50daf22ad3d53002e0c99d66cf4c3f31cd9c5b67e87/research/coverage_audit.py",
+      "sha256": "6531cd0f9cec8361019517a4bc20156e3ea44ce96fac4dc211d7f6b86d989e70"
+    },
+    {
+      "logical_path": "expanded_inputs/reproducibility/a4bceb7e51f286b191dfd50daf22ad3d53002e0c99d66cf4c3f31cd9c5b67e87/research/coverage_bundle.py",
+      "sha256": "b9b5db084f09c03d177b8d2aa110f51c83e6b3d89e8375ae3e448876d3b017f1"
+    },
+    {
+      "logical_path": "expanded_inputs/reproducibility/a4bceb7e51f286b191dfd50daf22ad3d53002e0c99d66cf4c3f31cd9c5b67e87/research/coverage_cloud.py",
+      "sha256": "43571b4681062e69fa4d33b3e2632aa38ab0fbfb0a210acd9ed98fe8355b1c40"
+    },
+    {
+      "logical_path": "expanded_inputs/reproducibility/a4bceb7e51f286b191dfd50daf22ad3d53002e0c99d66cf4c3f31cd9c5b67e87/research/coverage_expansion.py",
+      "sha256": "33212c45d774cd5a3ed6e26e956ad7b965cadab7a2881c169b37176d1d040d89"
+    },
+    {
+      "logical_path": "expanded_inputs/reproducibility/a4bceb7e51f286b191dfd50daf22ad3d53002e0c99d66cf4c3f31cd9c5b67e87/research/coverage_report.py",
+      "sha256": "7c41f50ef41145eebd56b021fc13a1121927e0c168eb7b82455e0acc2a5c9148"
+    },
+    {
+      "logical_path": "expanded_inputs/reproducibility/a4bceb7e51f286b191dfd50daf22ad3d53002e0c99d66cf4c3f31cd9c5b67e87/research/data.py",
+      "sha256": "9ab2f54fd874645e4afdaf5bd2f02f68e5ecb276d7ae3c92cca96af1592e5fa3"
+    },
+    {
+      "logical_path": "expanded_inputs/reproducibility/a4bceb7e51f286b191dfd50daf22ad3d53002e0c99d66cf4c3f31cd9c5b67e87/research/diagnostic.py",
+      "sha256": "e2176cac03bd136a97e84382853564969315d6d7ac984a9a06627e27ddb6b6bb"
+    },
+    {
+      "logical_path": "expanded_inputs/reproducibility/a4bceb7e51f286b191dfd50daf22ad3d53002e0c99d66cf4c3f31cd9c5b67e87/research/exchange_diagnostic.py",
+      "sha256": "e0b9f8403efcb6bb969b2d7f46b47ad3aad471509b759cef85a4506eae84e580"
+    },
+    {
+      "logical_path": "expanded_inputs/reproducibility/a4bceb7e51f286b191dfd50daf22ad3d53002e0c99d66cf4c3f31cd9c5b67e87/research/execution.py",
+      "sha256": "857976a1acb6db0d956e22f10f7f54571047e91e437e46428af683dc61cd9330"
+    },
+    {
+      "logical_path": "expanded_inputs/reproducibility/a4bceb7e51f286b191dfd50daf22ad3d53002e0c99d66cf4c3f31cd9c5b67e87/research/execution_parameters.py",
+      "sha256": "7a548295416e7b768eaaff7cb5a945a9957e839a14f9e972bb69d4873504a0d3"
+    },
+    {
+      "logical_path": "expanded_inputs/reproducibility/a4bceb7e51f286b191dfd50daf22ad3d53002e0c99d66cf4c3f31cd9c5b67e87/research/experiments.py",
+      "sha256": "c14df600cd96cd8ac6d340d750db4adf17f1f1ed14c7e1cb4dc383ef829a6800"
+    },
+    {
+      "logical_path": "expanded_inputs/reproducibility/a4bceb7e51f286b191dfd50daf22ad3d53002e0c99d66cf4c3f31cd9c5b67e87/research/feature_cache.py",
+      "sha256": "ece0baf0e81ab24dabd8f5fe7047a85759cac3e75df8b34121d50c4af2b035ed"
+    },
+    {
+      "logical_path": "expanded_inputs/reproducibility/a4bceb7e51f286b191dfd50daf22ad3d53002e0c99d66cf4c3f31cd9c5b67e87/research/fixtures.py",
+      "sha256": "08f74448183f2bd5e5a2eebe9c899667e521958c36eefcd6b68c89934fdd9e27"
+    },
+    {
+      "logical_path": "expanded_inputs/reproducibility/a4bceb7e51f286b191dfd50daf22ad3d53002e0c99d66cf4c3f31cd9c5b67e87/research/historical_coverage.py",
+      "sha256": "1268966cc6caa77703981b2a2305e68fa2d37ab18c67ea27e315cd787e1ae873"
+    },
+    {
+      "logical_path": "expanded_inputs/reproducibility/a4bceb7e51f286b191dfd50daf22ad3d53002e0c99d66cf4c3f31cd9c5b67e87/research/optimization_assessment.py",
+      "sha256": "f8f51c1e0e83cf5eb17355cd851e0a47c9f0dc2aaf079c3db33ea173467fcde7"
+    },
+    {
+      "logical_path": "expanded_inputs/reproducibility/a4bceb7e51f286b191dfd50daf22ad3d53002e0c99d66cf4c3f31cd9c5b67e87/research/optimization_audit.py",
+      "sha256": "69ba38c0ac144e922370bb7b8bc216541f312d7a39e0e37b61229d4860e607f7"
+    },
+    {
+      "logical_path": "expanded_inputs/reproducibility/a4bceb7e51f286b191dfd50daf22ad3d53002e0c99d66cf4c3f31cd9c5b67e87/research/optimization_declaration.py",
+      "sha256": "3bac359c3be1dbe943a0ca153b621453bdac7aae38da13812f1338da21893bf5"
+    },
+    {
+      "logical_path": "expanded_inputs/reproducibility/a4bceb7e51f286b191dfd50daf22ad3d53002e0c99d66cf4c3f31cd9c5b67e87/research/optimization_delivery.py",
+      "sha256": "dc2923b6cee9dc94c9fce73b18e1061212d55145fdf0a6dd150e4de1dd8a430b"
+    },
+    {
+      "logical_path": "expanded_inputs/reproducibility/a4bceb7e51f286b191dfd50daf22ad3d53002e0c99d66cf4c3f31cd9c5b67e87/research/optimization_report.py",
+      "sha256": "f27cb5cf161d9f11386e901718a48248a284bfdd630bc9cd3bc8fed7ada6c960"
+    },
+    {
+      "logical_path": "expanded_inputs/reproducibility/a4bceb7e51f286b191dfd50daf22ad3d53002e0c99d66cf4c3f31cd9c5b67e87/research/optimization_review.py",
+      "sha256": "64a0c255dd6e5d803d8fb43bec4ced27d0d1c4173b9955bdaf2c375b61ab3e81"
+    },
+    {
+      "logical_path": "expanded_inputs/reproducibility/a4bceb7e51f286b191dfd50daf22ad3d53002e0c99d66cf4c3f31cd9c5b67e87/research/optimization_rules.py",
+      "sha256": "cab91c9d5c4aa697b9273368280847f3be6c8d0c7e5ba1bc7f169fda7fdcb8c4"
+    },
+    {
+      "logical_path": "expanded_inputs/reproducibility/a4bceb7e51f286b191dfd50daf22ad3d53002e0c99d66cf4c3f31cd9c5b67e87/research/prepared_entries.py",
+      "sha256": "b0ddc5020a8bd0b3ff15b4bfb4f97614d55bb32f6a11808cb2e7a90dcf025b83"
+    },
+    {
+      "logical_path": "expanded_inputs/reproducibility/a4bceb7e51f286b191dfd50daf22ad3d53002e0c99d66cf4c3f31cd9c5b67e87/research/prepared_review.py",
+      "sha256": "d0a68397d339c043197c24931c68f2e556a0b8e8acbcc81a697ac7f237b0c97f"
+    },
+    {
+      "logical_path": "expanded_inputs/reproducibility/a4bceb7e51f286b191dfd50daf22ad3d53002e0c99d66cf4c3f31cd9c5b67e87/research/price_replay.py",
+      "sha256": "1ee3a3d683ccf3d4406538305b5c87d6493a06749de92b1c3518c699a6319d18"
+    },
+    {
+      "logical_path": "expanded_inputs/reproducibility/a4bceb7e51f286b191dfd50daf22ad3d53002e0c99d66cf4c3f31cd9c5b67e87/research/readiness.py",
+      "sha256": "cf02c99f29568b6496c9aef3844ee29b6f6a1989881e31512cc2a14156cedc2b"
+    },
+    {
+      "logical_path": "expanded_inputs/reproducibility/a4bceb7e51f286b191dfd50daf22ad3d53002e0c99d66cf4c3f31cd9c5b67e87/research/refinements.py",
+      "sha256": "522ad9726e922841da92a3ad30c1a273773670bd4bd987d4b9a653cfca6d21e1"
+    },
+    {
+      "logical_path": "expanded_inputs/reproducibility/a4bceb7e51f286b191dfd50daf22ad3d53002e0c99d66cf4c3f31cd9c5b67e87/research/reporting.py",
+      "sha256": "fedfca727149e6cb06626a26146f04c51564f7c59cabc518227b74f0c101d779"
+    },
+    {
+      "logical_path": "expanded_inputs/reproducibility/a4bceb7e51f286b191dfd50daf22ad3d53002e0c99d66cf4c3f31cd9c5b67e87/research/signal_journal.py",
+      "sha256": "b96f555731218cb12a7790f9089185f9ef6b063edb5067b3b3cc5f3a6be33357"
+    },
+    {
+      "logical_path": "expanded_inputs/reproducibility/a4bceb7e51f286b191dfd50daf22ad3d53002e0c99d66cf4c3f31cd9c5b67e87/research/signals.py",
+      "sha256": "0dcba3055c3be38287f1f8c01af41e9659475595a56c4d7ca2d5af5a682353cb"
+    },
+    {
+      "logical_path": "expanded_inputs/reproducibility/a4bceb7e51f286b191dfd50daf22ad3d53002e0c99d66cf4c3f31cd9c5b67e87/research/storage.py",
+      "sha256": "8c7eca59177dc0e383ba735000f567a0e95937c09b0be8ecf05daae00579466c"
+    },
+    {
+      "logical_path": "expanded_inputs/reproducibility/a4bceb7e51f286b191dfd50daf22ad3d53002e0c99d66cf4c3f31cd9c5b67e87/research/trailing.py",
+      "sha256": "146ba3cb4fefca871a289a8592291c97e6757c575e653c4ad93804ef3d46a9af"
+    },
+    {
+      "logical_path": "expanded_inputs/reproducibility/a4bceb7e51f286b191dfd50daf22ad3d53002e0c99d66cf4c3f31cd9c5b67e87/research/vnpy_adapter.py",
+      "sha256": "0e4d244809a86d893bc833ca70aa0048fe4457454383c326d09451c118c7bcf5"
+    },
+    {
+      "logical_path": "expanded_inputs/reproducibility/a4bceb7e51f286b191dfd50daf22ad3d53002e0c99d66cf4c3f31cd9c5b67e87/research_inputs/2026-09/audit_slope_band.py",
+      "sha256": "912c8c223f85639c7d3d97a7954a00fd2834fe7326cd1ba8b62098c62e3d68d7"
+    },
+    {
+      "logical_path": "expanded_inputs/reproducibility/a4bceb7e51f286b191dfd50daf22ad3d53002e0c99d66cf4c3f31cd9c5b67e87/research_inputs/2026-09/audit_trailing_exit.py",
+      "sha256": "1a64f3fb944888cddd6213b510fbccc9e1004a71194998dfd2063f6bb99e3d1e"
+    },
+    {
+      "logical_path": "expanded_inputs/reproducibility/a4bceb7e51f286b191dfd50daf22ad3d53002e0c99d66cf4c3f31cd9c5b67e87/research_inputs/2026-09/source_docs/diagnostic/ContractDailyTradeArgument20260914.json",
+      "sha256": "2b56e3579672a2b655ada9fcee7eeefef217b71c59d11bc12dba38487ff172d8"
+    },
+    {
+      "logical_path": "expanded_inputs/reproducibility/a4bceb7e51f286b191dfd50daf22ad3d53002e0c99d66cf4c3f31cd9c5b67e87/research_inputs/2026-09/source_docs/diagnostic/ContractDailyTradeArgument20260915.json",
+      "sha256": "0bb7fd3fbb9b6102e8175eb2e5792fdc2a37d525f064c350ed1cd06e71143868"
+    },
+    {
+      "logical_path": "expanded_inputs/reproducibility/a4bceb7e51f286b191dfd50daf22ad3d53002e0c99d66cf4c3f31cd9c5b67e87/research_inputs/2026-09/source_docs/diagnostic/ContractDailyTradeArgument20260916.json",
+      "sha256": "af8a7ae47315b602db969297c664ce3c7b83bcb656b59b7b9a494ce92e1f41c7"
+    },
+    {
+      "logical_path": "expanded_inputs/reproducibility/a4bceb7e51f286b191dfd50daf22ad3d53002e0c99d66cf4c3f31cd9c5b67e87/research_inputs/2026-09/source_docs/diagnostic/ContractDailyTradeArgument20260917.json",
+      "sha256": "c216085e62469d54ca8af72aa218e63200360a79115ae29c075d2431c4b77db4"
+    },
+    {
+      "logical_path": "expanded_inputs/reproducibility/a4bceb7e51f286b191dfd50daf22ad3d53002e0c99d66cf4c3f31cd9c5b67e87/research_inputs/2026-09/source_docs/diagnostic/ContractDailyTradeArgument20260918.json",
+      "sha256": "8272d0a834ff8ac9b4cf7ea2c3b58850acc929e64e22b6f31481c8336c883f2f"
+    },
+    {
+      "logical_path": "expanded_inputs/reproducibility/a4bceb7e51f286b191dfd50daf22ad3d53002e0c99d66cf4c3f31cd9c5b67e87/research_inputs/2026-09/source_docs/diagnostic/ContractDailyTradeArgument20260921.json",
+      "sha256": "a2d83072e8a905569825314fb14e67798fc5f2150f08f433993ed238f65088e7"
+    },
+    {
+      "logical_path": "expanded_inputs/reproducibility/a4bceb7e51f286b191dfd50daf22ad3d53002e0c99d66cf4c3f31cd9c5b67e87/research_inputs/2026-09/source_docs/diagnostic/ContractDailyTradeArgument20260922.json",
+      "sha256": "31104a95d470e17671039839573040a7bf1e48effa07d62e144c46a4e78da3dd"
+    },
+    {
+      "logical_path": "expanded_inputs/reproducibility/a4bceb7e51f286b191dfd50daf22ad3d53002e0c99d66cf4c3f31cd9c5b67e87/research_inputs/2026-09/source_docs/diagnostic/ContractDailyTradeArgument20260923.json",
+      "sha256": "d7ffe045c4e8b8ac778b0cddda204e78c0ae47299ae1f4e891d465ef391b885a"
+    },
+    {
+      "logical_path": "expanded_inputs/reproducibility/a4bceb7e51f286b191dfd50daf22ad3d53002e0c99d66cf4c3f31cd9c5b67e87/research_inputs/2026-09/source_docs/diagnostic/ad_spec.html",
+      "sha256": "024a6c9667aa7d6724aae5feb28179b15c92d66c8062c631db910d945e7d6458"
+    },
+    {
+      "logical_path": "expanded_inputs/reproducibility/a4bceb7e51f286b191dfd50daf22ad3d53002e0c99d66cf4c3f31cd9c5b67e87/research_inputs/2026-09/source_docs/diagnostic/ag_spec.html",
+      "sha256": "917a6137af22b4b5253054a3f6f9b28639b0d234e22c838531bc61017928dc71"
+    },
+    {
+      "logical_path": "expanded_inputs/reproducibility/a4bceb7e51f286b191dfd50daf22ad3d53002e0c99d66cf4c3f31cd9c5b67e87/research_inputs/2026-09/source_docs/diagnostic/al_spec.html",
+      "sha256": "f00d4ac046bd773e2f28b489b3214c41d4d7fd612fe3f8dfbc30f6257754342b"
+    },
+    {
+      "logical_path": "expanded_inputs/reproducibility/a4bceb7e51f286b191dfd50daf22ad3d53002e0c99d66cf4c3f31cd9c5b67e87/research_inputs/2026-09/source_docs/diagnostic/ao_spec.html",
+      "sha256": "ed4f8970e7fbce5e08c8815dd0d7fa9212c0caf752dc47836c4b289f989a97d0"
+    },
+    {
+      "logical_path": "expanded_inputs/reproducibility/a4bceb7e51f286b191dfd50daf22ad3d53002e0c99d66cf4c3f31cd9c5b67e87/research_inputs/2026-09/source_docs/diagnostic/au_spec.html",
+      "sha256": "b1f0637bdf8e0bb92cd6cd87776f2eb74735f5764ec6057cc666d2a59950422a"
+    },
+    {
+      "logical_path": "expanded_inputs/reproducibility/a4bceb7e51f286b191dfd50daf22ad3d53002e0c99d66cf4c3f31cd9c5b67e87/research_inputs/2026-09/source_docs/diagnostic/bc_spec.html",
+      "sha256": "7f8299163dc7de1a3a2f70962c718bad5ea0a4e2add48f2e2a42efb792e9f899"
+    },
+    {
+      "logical_path": "expanded_inputs/reproducibility/a4bceb7e51f286b191dfd50daf22ad3d53002e0c99d66cf4c3f31cd9c5b67e87/research_inputs/2026-09/source_docs/diagnostic/br_spec.html",
+      "sha256": "c49d900251f42f98866c22377689789d218f92eef022303cc4400fb4b9c656c7"
+    },
+    {
+      "logical_path": "expanded_inputs/reproducibility/a4bceb7e51f286b191dfd50daf22ad3d53002e0c99d66cf4c3f31cd9c5b67e87/research_inputs/2026-09/source_docs/diagnostic/bu_spec.html",
+      "sha256": "93e65835370115caf07ebc169bb84ee87f4e0d435757417744206b2722737951"
+    },
+    {
+      "logical_path": "expanded_inputs/reproducibility/a4bceb7e51f286b191dfd50daf22ad3d53002e0c99d66cf4c3f31cd9c5b67e87/research_inputs/2026-09/source_docs/diagnostic/cu_spec.html",
+      "sha256": "9d9578fcac7a794f4ef59afdf6560be407049967803817ee9c65f604af721572"
+    },
+    {
+      "logical_path": "expanded_inputs/reproducibility/a4bceb7e51f286b191dfd50daf22ad3d53002e0c99d66cf4c3f31cd9c5b67e87/research_inputs/2026-09/source_docs/diagnostic/ec_spec.html",
+      "sha256": "3ba4a95de04fbcbbc139a6c96a44873c06f94ae43961febbce3c4fa575277e5f"
+    },
+    {
+      "logical_path": "expanded_inputs/reproducibility/a4bceb7e51f286b191dfd50daf22ad3d53002e0c99d66cf4c3f31cd9c5b67e87/research_inputs/2026-09/source_docs/diagnostic/fu_spec.html",
+      "sha256": "9285059b2384c7229d4474684ef0ae3de095a2430552df2aab3d016413e96081"
+    },
+    {
+      "logical_path": "expanded_inputs/reproducibility/a4bceb7e51f286b191dfd50daf22ad3d53002e0c99d66cf4c3f31cd9c5b67e87/research_inputs/2026-09/source_docs/diagnostic/hc_spec.html",
+      "sha256": "ccb09042c8dad3546aeab517bd19898a46703bea86142c3963a0ede641c9838c"
+    },
+    {
+      "logical_path": "expanded_inputs/reproducibility/a4bceb7e51f286b191dfd50daf22ad3d53002e0c99d66cf4c3f31cd9c5b67e87/research_inputs/2026-09/source_docs/diagnostic/lu_spec.html",
+      "sha256": "e224bec8e5a88393355a6499a1d100feefbf563835c7ead01cb5274d574d3c02"
+    },
+    {
+      "logical_path": "expanded_inputs/reproducibility/a4bceb7e51f286b191dfd50daf22ad3d53002e0c99d66cf4c3f31cd9c5b67e87/research_inputs/2026-09/source_docs/diagnostic/ni_spec.html",
+      "sha256": "bedb5bbd16639c4589400c3592e6c4c25fcefa91782a731681a6fc4a10f0b338"
+    },
+    {
+      "logical_path": "expanded_inputs/reproducibility/a4bceb7e51f286b191dfd50daf22ad3d53002e0c99d66cf4c3f31cd9c5b67e87/research_inputs/2026-09/source_docs/diagnostic/nr_spec.html",
+      "sha256": "98e5b6c4f7d6f57fe110865e088cf96646428a5e30ca0ba406f9d7c21195e51d"
+    },
+    {
+      "logical_path": "expanded_inputs/reproducibility/a4bceb7e51f286b191dfd50daf22ad3d53002e0c99d66cf4c3f31cd9c5b67e87/research_inputs/2026-09/source_docs/diagnostic/op_spec.html",
+      "sha256": "fe96fbe533a43b230ecaee7a6634f53252a43e8d7a38661a1d8c811a9b417623"
+    },
+    {
+      "logical_path": "expanded_inputs/reproducibility/a4bceb7e51f286b191dfd50daf22ad3d53002e0c99d66cf4c3f31cd9c5b67e87/research_inputs/2026-09/source_docs/diagnostic/pb_spec.html",
+      "sha256": "fc2f90d088aed91cea7f5b62d56d6a11e16e05e781c025a039bf1c0701d0f8b1"
+    },
+    {
+      "logical_path": "expanded_inputs/reproducibility/a4bceb7e51f286b191dfd50daf22ad3d53002e0c99d66cf4c3f31cd9c5b67e87/research_inputs/2026-09/source_docs/diagnostic/rb_spec.html",
+      "sha256": "928e17898727a21468abc6d7d612aa64a9e6b2e1ff97effab90d09c59d984337"
+    },
+    {
+      "logical_path": "expanded_inputs/reproducibility/a4bceb7e51f286b191dfd50daf22ad3d53002e0c99d66cf4c3f31cd9c5b67e87/research_inputs/2026-09/source_docs/diagnostic/ru_spec.html",
+      "sha256": "6e9b8efcf3ac7a7c86a032ea9898e97dbeaa2a2111b0ed6e3fb43ef3757580c0"
+    },
+    {
+      "logical_path": "expanded_inputs/reproducibility/a4bceb7e51f286b191dfd50daf22ad3d53002e0c99d66cf4c3f31cd9c5b67e87/research_inputs/2026-09/source_docs/diagnostic/sn_spec.html",
+      "sha256": "1bb98260a7eb86b24a4296a05d0e02cedf44e6c0dc9d11226e698da65915f563"
+    },
+    {
+      "logical_path": "expanded_inputs/reproducibility/a4bceb7e51f286b191dfd50daf22ad3d53002e0c99d66cf4c3f31cd9c5b67e87/research_inputs/2026-09/source_docs/diagnostic/sp_spec.html",
+      "sha256": "dfe244141a0820bd1e0aadeb586afa49327f93c4b8e821ff924a56c26cb9c2bd"
+    },
+    {
+      "logical_path": "expanded_inputs/reproducibility/a4bceb7e51f286b191dfd50daf22ad3d53002e0c99d66cf4c3f31cd9c5b67e87/research_inputs/2026-09/source_docs/diagnostic/ss_spec.html",
+      "sha256": "f43c23f147b41d7ab6592c7fe5679d2a5c730972530dcae7c3231967bcd2a250"
+    },
+    {
+      "logical_path": "expanded_inputs/reproducibility/a4bceb7e51f286b191dfd50daf22ad3d53002e0c99d66cf4c3f31cd9c5b67e87/research_inputs/2026-09/source_docs/diagnostic/wr_spec.html",
+      "sha256": "ef0674f12732b6fb7390e4db7660fe68be6f80519214907571d5bac0a0831f0d"
+    },
+    {
+      "logical_path": "expanded_inputs/reproducibility/a4bceb7e51f286b191dfd50daf22ad3d53002e0c99d66cf4c3f31cd9c5b67e87/research_inputs/2026-09/source_docs/diagnostic/zn_spec.html",
+      "sha256": "c8081e45d5da750b21e49eefdedf5522af5c37345b79c94a725a9951bc9b3a86"
+    },
+    {
+      "logical_path": "expanded_inputs/reproducibility/a4bceb7e51f286b191dfd50daf22ad3d53002e0c99d66cf4c3f31cd9c5b67e87/research_inputs/2026-09/source_docs/shfe_parameters/ContractBaseInfo20260911.json",
+      "sha256": "9a06d7af541a255221e43a0444d538a7296687563353e5096c16bdff43d20f00"
+    },
+    {
+      "logical_path": "expanded_inputs/reproducibility/a4bceb7e51f286b191dfd50daf22ad3d53002e0c99d66cf4c3f31cd9c5b67e87/research_inputs/2026-09/source_docs/shfe_parameters/ContractBaseInfo20260914.json",
+      "sha256": "03a6ac8bbd5c93620d26a52a09e3363ffcdd5ddf010b874ea7f4e982e7d9b1d4"
+    },
+    {
+      "logical_path": "expanded_inputs/reproducibility/a4bceb7e51f286b191dfd50daf22ad3d53002e0c99d66cf4c3f31cd9c5b67e87/research_inputs/2026-09/source_docs/shfe_parameters/ContractBaseInfo20260915.json",
+      "sha256": "faf81db340447980000743cc113d7aa1434910dff9acdbd65195246ad55a59cf"
+    },
+    {
+      "logical_path": "expanded_inputs/reproducibility/a4bceb7e51f286b191dfd50daf22ad3d53002e0c99d66cf4c3f31cd9c5b67e87/research_inputs/2026-09/source_docs/shfe_parameters/ContractBaseInfo20260916.json",
+      "sha256": "12f6425c74f1abe903362906af9330382ab56807022a63bb912b7b4fe8723375"
+    },
+    {
+      "logical_path": "expanded_inputs/reproducibility/a4bceb7e51f286b191dfd50daf22ad3d53002e0c99d66cf4c3f31cd9c5b67e87/research_inputs/2026-09/source_docs/shfe_parameters/ContractBaseInfo20260917.json",
+      "sha256": "8e1c04a29335af2c944f27b1553c1deffc729c1ce066d6781126eb7d993422c6"
+    },
+    {
+      "logical_path": "expanded_inputs/reproducibility/a4bceb7e51f286b191dfd50daf22ad3d53002e0c99d66cf4c3f31cd9c5b67e87/research_inputs/2026-09/source_docs/shfe_parameters/ContractBaseInfo20260918.json",
+      "sha256": "473e690442b7b7545c4208a1c446756bfe467c59eb54abf4083699cc965a2d52"
+    },
+    {
+      "logical_path": "expanded_inputs/reproducibility/a4bceb7e51f286b191dfd50daf22ad3d53002e0c99d66cf4c3f31cd9c5b67e87/research_inputs/2026-09/source_docs/shfe_parameters/ContractBaseInfo20260921.json",
+      "sha256": "c4651a1274abd568e3e2a52c8dcd44f9049a732a675fc581dc4e438720bb0b09"
+    },
+    {
+      "logical_path": "expanded_inputs/reproducibility/a4bceb7e51f286b191dfd50daf22ad3d53002e0c99d66cf4c3f31cd9c5b67e87/research_inputs/2026-09/source_docs/shfe_parameters/ContractBaseInfo20260922.json",
+      "sha256": "81a87d9f57981050a10e6856785d943ce286865eb2f2fd5f09487168773a58c5"
+    },
+    {
+      "logical_path": "expanded_inputs/reproducibility/a4bceb7e51f286b191dfd50daf22ad3d53002e0c99d66cf4c3f31cd9c5b67e87/research_inputs/2026-09/source_docs/shfe_parameters/Settlement20260911.json",
+      "sha256": "7ede577d6a0c804418466890e2f32e8528b927073a5d1a1c93d6af0c04d6ec46"
+    },
+    {
+      "logical_path": "expanded_inputs/reproducibility/a4bceb7e51f286b191dfd50daf22ad3d53002e0c99d66cf4c3f31cd9c5b67e87/research_inputs/2026-09/source_docs/shfe_parameters/Settlement20260914.json",
+      "sha256": "27d5d8c38924b0bfe57971892eba5458f2a64f52d1ba608901c5717156a3879c"
+    },
+    {
+      "logical_path": "expanded_inputs/reproducibility/a4bceb7e51f286b191dfd50daf22ad3d53002e0c99d66cf4c3f31cd9c5b67e87/research_inputs/2026-09/source_docs/shfe_parameters/Settlement20260915.json",
+      "sha256": "e9933a9a8feba50f64bdab4a09443fef46b61cfa36c4a5e1893154687d884fc6"
+    },
+    {
+      "logical_path": "expanded_inputs/reproducibility/a4bceb7e51f286b191dfd50daf22ad3d53002e0c99d66cf4c3f31cd9c5b67e87/research_inputs/2026-09/source_docs/shfe_parameters/Settlement20260916.json",
+      "sha256": "5a82e730f80e3d2979eb1ee8d19e63626594f18946a4ccf417aa74eae3bf93a0"
+    },
+    {
+      "logical_path": "expanded_inputs/reproducibility/a4bceb7e51f286b191dfd50daf22ad3d53002e0c99d66cf4c3f31cd9c5b67e87/research_inputs/2026-09/source_docs/shfe_parameters/Settlement20260917.json",
+      "sha256": "7996d83484db04bef4661852a85d04e896ac2607f0e847788e704dc646d15720"
+    },
+    {
+      "logical_path": "expanded_inputs/reproducibility/a4bceb7e51f286b191dfd50daf22ad3d53002e0c99d66cf4c3f31cd9c5b67e87/research_inputs/2026-09/source_docs/shfe_parameters/Settlement20260918.json",
+      "sha256": "3b76e67c2c127ef2c2966af4bcdc04b152854eeb6e99f6b6c41ba60f1ce5771f"
+    },
+    {
+      "logical_path": "expanded_inputs/reproducibility/a4bceb7e51f286b191dfd50daf22ad3d53002e0c99d66cf4c3f31cd9c5b67e87/research_inputs/2026-09/source_docs/shfe_parameters/Settlement20260921.json",
+      "sha256": "bd7da5efbdb5db5815ba473a9aebd3c2bc20263871d9b23d9262654756fd726b"
+    },
+    {
+      "logical_path": "expanded_inputs/reproducibility/a4bceb7e51f286b191dfd50daf22ad3d53002e0c99d66cf4c3f31cd9c5b67e87/research_inputs/2026-09/source_docs/shfe_parameters/Settlement20260922.json",
+      "sha256": "b7b080a7039edb39c1e85ec79476b20b59d89deba4b2b939d52570c864d5f312"
+    },
+    {
+      "logical_path": "expanded_inputs/reproducibility/a4bceb7e51f286b191dfd50daf22ad3d53002e0c99d66cf4c3f31cd9c5b67e87/research_inputs/2026-09/source_docs/triggered_contracts/cffex_ic_dated_rules.html",
+      "sha256": "00aae5b87b859da4ea452682fd74cbb88d83816ea76cf74b245c9ba71f07ba77"
+    },
+    {
+      "logical_path": "expanded_inputs/reproducibility/a4bceb7e51f286b191dfd50daf22ad3d53002e0c99d66cf4c3f31cd9c5b67e87/research_inputs/2026-09/source_docs/triggered_contracts/cffex_im_dated_rules.html",
+      "sha256": "afdd395dc29b044a9c3fe98085a7c559e4851e47d7fb7698688e3285d6682d71"
+    },
+    {
+      "logical_path": "expanded_inputs/reproducibility/a4bceb7e51f286b191dfd50daf22ad3d53002e0c99d66cf4c3f31cd9c5b67e87/research_inputs/2026-09/source_docs/triggered_contracts/cffex_settlement_20260828.csv",
+      "sha256": "e3c04ab42e48293ba395c033a53823d07ad32755ec1c693b63d756cbbb0095bf"
+    },
+    {
+      "logical_path": "expanded_inputs/reproducibility/a4bceb7e51f286b191dfd50daf22ad3d53002e0c99d66cf4c3f31cd9c5b67e87/research_inputs/2026-09/source_docs/triggered_contracts/cffex_settlement_20260914.csv",
+      "sha256": "30ded919cd5e1fa7efd37e3a6805306a927909840872fb3989bfaaa9cf3452d4"
+    },
+    {
+      "logical_path": "expanded_inputs/reproducibility/a4bceb7e51f286b191dfd50daf22ad3d53002e0c99d66cf4c3f31cd9c5b67e87/research_inputs/2026-09/source_docs/triggered_contracts/cffex_settlement_20260921.csv",
+      "sha256": "b2f9e24c4da9ccf3e09f64ff0c9da945f5834e806c2943d475cc1de9ebffd8a0"
+    },
+    {
+      "logical_path": "expanded_inputs/reproducibility/a4bceb7e51f286b191dfd50daf22ad3d53002e0c99d66cf4c3f31cd9c5b67e87/research_inputs/2026-09/source_docs/triggered_contracts/cffex_tf_dated_rules.html",
+      "sha256": "4b742838b53d1fede59643fc680366a6e6867ef486d4cdaf4e03dd3ce73da5ce"
+    },
+    {
+      "logical_path": "expanded_inputs/reproducibility/a4bceb7e51f286b191dfd50daf22ad3d53002e0c99d66cf4c3f31cd9c5b67e87/research_inputs/2026-09/source_docs/triggered_contracts/cffex_tl_dated_rules.html",
+      "sha256": "bbbf520da99b9a0f93d5272bac6a9c2698874dcea3ec04f662d78f759299a51e"
+    },
+    {
+      "logical_path": "expanded_inputs/reproducibility/a4bceb7e51f286b191dfd50daf22ad3d53002e0c99d66cf4c3f31cd9c5b67e87/research_inputs/2026-09/source_docs/triggered_contracts/czce_clear_20260914.txt",
+      "sha256": "5f7191a56e904d642accd92726b437f5111ae24fffea86879f5c86879afff979"
+    },
+    {
+      "logical_path": "expanded_inputs/reproducibility/a4bceb7e51f286b191dfd50daf22ad3d53002e0c99d66cf4c3f31cd9c5b67e87/research_inputs/2026-09/source_docs/triggered_contracts/czce_clear_20260915.txt",
+      "sha256": "88df3bc77813d3d3e9260ad2c968df4e2973029f60aa39da8623903a3f1901d8"
+    },
+    {
+      "logical_path": "expanded_inputs/reproducibility/a4bceb7e51f286b191dfd50daf22ad3d53002e0c99d66cf4c3f31cd9c5b67e87/research_inputs/2026-09/source_docs/triggered_contracts/czce_clear_20260916.txt",
+      "sha256": "5f45d6c1cb37eb4c583ee65fb709c13e022a8490ceabf62a76ea02924f0acc1a"
+    },
+    {
+      "logical_path": "expanded_inputs/reproducibility/a4bceb7e51f286b191dfd50daf22ad3d53002e0c99d66cf4c3f31cd9c5b67e87/research_inputs/2026-09/source_docs/triggered_contracts/czce_clear_20260917.txt",
+      "sha256": "17b0ba946c557ce3bf623aa03c9d7280402da778167bc560b24840e3399c8851"
+    },
+    {
+      "logical_path": "expanded_inputs/reproducibility/a4bceb7e51f286b191dfd50daf22ad3d53002e0c99d66cf4c3f31cd9c5b67e87/research_inputs/2026-09/source_docs/triggered_contracts/czce_clear_20260918.txt",
+      "sha256": "0a55c80749e94acdc735f9ef8ad38622889716dad58cf0a1820dbf0e630c126b"
+    },
+    {
+      "logical_path": "expanded_inputs/reproducibility/a4bceb7e51f286b191dfd50daf22ad3d53002e0c99d66cf4c3f31cd9c5b67e87/research_inputs/2026-09/source_docs/triggered_contracts/czce_clear_20260921.txt",
+      "sha256": "726d88a0a544da53edcd186e97f702145f48f3a192391dd68801a31ad8d8d87e"
+    },
+    {
+      "logical_path": "expanded_inputs/reproducibility/a4bceb7e51f286b191dfd50daf22ad3d53002e0c99d66cf4c3f31cd9c5b67e87/research_inputs/2026-09/source_docs/triggered_contracts/czce_clear_20260922.txt",
+      "sha256": "793a570b08c1708a00892b2abecf4965a2dd2ea13838530f7bfd2ff016040bd2"
+    },
+    {
+      "logical_path": "expanded_inputs/reproducibility/a4bceb7e51f286b191dfd50daf22ad3d53002e0c99d66cf4c3f31cd9c5b67e87/research_inputs/2026-09/source_docs/triggered_contracts/czce_static_clear_20260911_retry.txt",
+      "sha256": "e01cd5f66245e136c4b43909527eafce8eb6f204e5b1cd7ea152b2058e48e997"
+    },
+    {
+      "logical_path": "expanded_inputs/reproducibility/a4bceb7e51f286b191dfd50daf22ad3d53002e0c99d66cf4c3f31cd9c5b67e87/research_inputs/2026-09/source_docs/triggered_contracts/gfex_lc_business_rules_202412_retry.docx",
+      "sha256": "a3a1d2fbd828b49432fd4ab39fa6508fd9421f96e3cdddb4e4fb5445545eee20"
+    },
+    {
+      "logical_path": "expanded_inputs/reproducibility/a4bceb7e51f286b191dfd50daf22ad3d53002e0c99d66cf4c3f31cd9c5b67e87/research_inputs/2026-09/source_docs/triggered_contracts/gfex_lc_contract_202412.docx",
+      "sha256": "10bccf173fb5ec1b9c716eff4168d7d0da642407a7efc6afaa9edc5134ca6901"
+    },
+    {
+      "logical_path": "expanded_inputs/reproducibility/a4bceb7e51f286b191dfd50daf22ad3d53002e0c99d66cf4c3f31cd9c5b67e87/research_inputs/2026-09/source_docs/triggered_contracts/gfex_lc_opening_limit_202311_notice.html",
+      "sha256": "5fa66865cf266ba0b8d6f883c4ef6c0c1859456164b74acfe9c3f38fae4e6e55"
+    },
+    {
+      "logical_path": "expanded_inputs/reproducibility/a4bceb7e51f286b191dfd50daf22ad3d53002e0c99d66cf4c3f31cd9c5b67e87/research_inputs/2026-09/source_docs/triggered_contracts/gfex_lc_rules_revision_202412_notice.html",
+      "sha256": "1b567350b508f218ba62e1f064e3459bd7269eff1d449c8e695cd46a1ff5aea0"
+    },
+    {
+      "logical_path": "expanded_inputs/reproducibility/a4bceb7e51f286b191dfd50daf22ad3d53002e0c99d66cf4c3f31cd9c5b67e87/research_inputs/2026-09/source_docs/triggered_contracts/gfex_lc_september_fee_order_notice.html",
+      "sha256": "338433629099d5a4ef63383e1b5b16df8ef88a3a2a4e2574499e6b505333c398"
+    },
+    {
+      "logical_path": "expanded_inputs/reproducibility/a4bceb7e51f286b191dfd50daf22ad3d53002e0c99d66cf4c3f31cd9c5b67e87/research_inputs/2026-09/source_docs/triggered_contracts/gfex_lc_settlement_20260911.json",
+      "sha256": "f3a4b25d7901ffda8a2b27cfcfb68043acc2ccef0c4188c429232a4ce64a2648"
+    },
+    {
+      "logical_path": "expanded_inputs/reproducibility/a4bceb7e51f286b191dfd50daf22ad3d53002e0c99d66cf4c3f31cd9c5b67e87/research_inputs/2026-09/source_docs/triggered_contracts/gfex_lc_settlement_20260914.json",
+      "sha256": "9e35fd0be8ea6585b70c89fe3bfb6aa9a6e7ffb4f7fd3627eb28b403f735533a"
+    },
+    {
+      "logical_path": "expanded_inputs/reproducibility/a4bceb7e51f286b191dfd50daf22ad3d53002e0c99d66cf4c3f31cd9c5b67e87/research_inputs/2026-09/source_docs/triggered_contracts/gfex_lc_settlement_20260915.json",
+      "sha256": "d2c4088c00d3703fc45997a3e34cc9f8827bb233c4f1e299da189177fdfdb46c"
+    },
+    {
+      "logical_path": "expanded_inputs/reproducibility/a4bceb7e51f286b191dfd50daf22ad3d53002e0c99d66cf4c3f31cd9c5b67e87/research_inputs/2026-09/source_docs/triggered_contracts/gfex_lc_settlement_20260916.json",
+      "sha256": "95a79398f4b691d192fe0dd552c202d87d351feb18b5c94bbd542645b3e5ab64"
+    },
+    {
+      "logical_path": "expanded_inputs/reproducibility/a4bceb7e51f286b191dfd50daf22ad3d53002e0c99d66cf4c3f31cd9c5b67e87/research_inputs/2026-09/source_docs/triggered_contracts/gfex_lc_settlement_20260917_retry.json",
+      "sha256": "86ea1eec502df3522feac4bfcf14f84846b786c3b6206f95c03b0c3b2b9c38da"
+    },
+    {
+      "logical_path": "expanded_inputs/reproducibility/a4bceb7e51f286b191dfd50daf22ad3d53002e0c99d66cf4c3f31cd9c5b67e87/research_inputs/2026-09/source_docs/triggered_contracts/gfex_lc_settlement_20260918.json",
+      "sha256": "f1915c23aa40274fb9f474fad5535030eae804933372ea29be31547f6b4d51c6"
+    },
+    {
+      "logical_path": "expanded_inputs/reproducibility/a4bceb7e51f286b191dfd50daf22ad3d53002e0c99d66cf4c3f31cd9c5b67e87/research_inputs/2026-09/source_docs/triggered_contracts/gfex_lc_settlement_20260921.json",
+      "sha256": "cd3043d06d44545cf0e4b10b851263d14ddfd0cb86c4d66e2c612f55e30a37af"
+    },
+    {
+      "logical_path": "expanded_inputs/reproducibility/a4bceb7e51f286b191dfd50daf22ad3d53002e0c99d66cf4c3f31cd9c5b67e87/research_inputs/2026-09/source_docs/triggered_contracts/gfex_lc_settlement_20260922.json",
+      "sha256": "d7dba87cb8d937890f2354ae9738062ed1cdd3a31c5792a54cf965e33df43af4"
+    },
+    {
+      "logical_path": "expanded_inputs/reproducibility/a4bceb7e51f286b191dfd50daf22ad3d53002e0c99d66cf4c3f31cd9c5b67e87/tests/conftest.py",
+      "sha256": "8430a464cddea39ccd253e9c67ce2c88b69015977955df4428904bbe70d919ea"
+    },
+    {
+      "logical_path": "expanded_inputs/reproducibility/a4bceb7e51f286b191dfd50daf22ad3d53002e0c99d66cf4c3f31cd9c5b67e87/tests/fixtures/exchange_execution_reference.json",
+      "sha256": "b695b15415812ce5b2d03ff7b6e35aa0a0ce84f51193d01eed52a57f89c2d3b2"
+    },
+    {
+      "logical_path": "expanded_inputs/reproducibility/a4bceb7e51f286b191dfd50daf22ad3d53002e0c99d66cf4c3f31cd9c5b67e87/tests/fixtures/shfe_execution_reference.json",
+      "sha256": "c399f4503a16d303bb4108b86dea3d9c90f5c887b03e25fbcaf15806cfc84fdc"
+    },
+    {
+      "logical_path": "expanded_inputs/reproducibility/a4bceb7e51f286b191dfd50daf22ad3d53002e0c99d66cf4c3f31cd9c5b67e87/tests/test_research.py",
+      "sha256": "070bab67f18edc1d4ec9a3176c5732e5f82e93f10988e48bd8d0a03e621d8dcf"
+    },
+    {
+      "logical_path": "expanded_inputs/reproducibility/a4bceb7e51f286b191dfd50daf22ad3d53002e0c99d66cf4c3f31cd9c5b67e87/tests/test_research_cloud_archive.py",
+      "sha256": "d88b922861b4081a80e2a7e079fccc95489dc877826680b98ed2c69fb89b60c4"
+    },
+    {
+      "logical_path": "expanded_inputs/reproducibility/a4bceb7e51f286b191dfd50daf22ad3d53002e0c99d66cf4c3f31cd9c5b67e87/tests/test_research_cost_review.py",
+      "sha256": "9252a5d740cef239c734304c11a8e750df2821bd4bed2c0a10511870484e3d0c"
+    },
+    {
+      "logical_path": "expanded_inputs/reproducibility/a4bceb7e51f286b191dfd50daf22ad3d53002e0c99d66cf4c3f31cd9c5b67e87/tests/test_research_diagnostic.py",
+      "sha256": "f7f69d93887e5b782dbc99a4bd10820846c96a9b450c1d296e394bd6eec5be52"
+    },
+    {
+      "logical_path": "expanded_inputs/reproducibility/a4bceb7e51f286b191dfd50daf22ad3d53002e0c99d66cf4c3f31cd9c5b67e87/tests/test_research_exchange.py",
+      "sha256": "d4d6ee6540524b057562be2a9b04d134859b1abfa28bfd5d0cb8876dc875d2a6"
+    },
+    {
+      "logical_path": "expanded_inputs/reproducibility/a4bceb7e51f286b191dfd50daf22ad3d53002e0c99d66cf4c3f31cd9c5b67e87/tests/test_research_historical_coverage.py",
+      "sha256": "91b6c33c2df82aecaa71c8e9b5db30176451a190d88707286d1f7110b6b91504"
+    },
+    {
+      "logical_path": "expanded_inputs/reproducibility/a4bceb7e51f286b191dfd50daf22ad3d53002e0c99d66cf4c3f31cd9c5b67e87/tests/test_research_integration.py",
+      "sha256": "ff413d1c4eede87b886aee120d4d6025ea18ab405f453547e9f9d44338870729"
+    },
+    {
+      "logical_path": "expanded_inputs/reproducibility/a4bceb7e51f286b191dfd50daf22ad3d53002e0c99d66cf4c3f31cd9c5b67e87/tests/test_research_monthly.py",
+      "sha256": "65f26ce85fa3e17ea3b66253db6a91214f6d43bc6e1946f49e7e2c1ac5b41f13"
+    },
+    {
+      "logical_path": "expanded_inputs/reproducibility/a4bceb7e51f286b191dfd50daf22ad3d53002e0c99d66cf4c3f31cd9c5b67e87/tests/test_research_optimization.py",
+      "sha256": "85bcab144686fd2ecab86ad686917309765732102a1b495e4a2a18cb26aff267"
+    },
+    {
+      "logical_path": "expanded_inputs/reproducibility/a4bceb7e51f286b191dfd50daf22ad3d53002e0c99d66cf4c3f31cd9c5b67e87/tests/test_research_optimization_assessment.py",
+      "sha256": "41accf3daefc7de788095aa27b2696fc05b66914915cd5d7932edc0c457a1a91"
+    },
+    {
+      "logical_path": "expanded_inputs/reproducibility/a4bceb7e51f286b191dfd50daf22ad3d53002e0c99d66cf4c3f31cd9c5b67e87/tests/test_research_optimization_audit.py",
+      "sha256": "37ad5049503f5d70e66e240ca35b918783833acbc2bf2369912e509c84fecfb5"
+    },
+    {
+      "logical_path": "expanded_inputs/reproducibility/a4bceb7e51f286b191dfd50daf22ad3d53002e0c99d66cf4c3f31cd9c5b67e87/tests/test_research_prepared_entries.py",
+      "sha256": "a05ca019fb59f5779bdf5aaaaf484a73e1c26fbf2408333c7d9931f52e863984"
+    },
+    {
+      "logical_path": "expanded_inputs/reproducibility/a4bceb7e51f286b191dfd50daf22ad3d53002e0c99d66cf4c3f31cd9c5b67e87/tests/test_research_price_replay.py",
+      "sha256": "8646ff1af6c87883101263f225999fd5819d8ea7f0f55be0767e1dd2541c31fb"
+    },
+    {
+      "logical_path": "expanded_inputs/reproducibility/a4bceb7e51f286b191dfd50daf22ad3d53002e0c99d66cf4c3f31cd9c5b67e87/tests/test_research_readiness.py",
+      "sha256": "31d6722dba0fe779c67cc3116429ddc39f66b0b3e09f3d7c8eeccb86107443a1"
+    },
+    {
+      "logical_path": "expanded_inputs/reproducibility/a4bceb7e51f286b191dfd50daf22ad3d53002e0c99d66cf4c3f31cd9c5b67e87/tests/test_research_refinements.py",
+      "sha256": "e5acb13ae0e092022ad89473d45a13aa682296a2859b63ee2c2ec62b7bd63553"
+    },
+    {
+      "logical_path": "expanded_inputs/reproducibility/a4bceb7e51f286b191dfd50daf22ad3d53002e0c99d66cf4c3f31cd9c5b67e87/tests/test_research_signal_journal.py",
+      "sha256": "329c46d3fc7107babd8ffc509894eeb090f8d785d65571c3c2ef55b363b1e74d"
+    },
+    {
+      "logical_path": "expanded_inputs/reproducibility/a4bceb7e51f286b191dfd50daf22ad3d53002e0c99d66cf4c3f31cd9c5b67e87/tests/test_research_slope.py",
+      "sha256": "fc721ff58bc40d19ec5306ebdc7f345978bd45397332c5fabc946b1d6e662d69"
+    },
+    {
+      "logical_path": "expanded_inputs/reproducibility/a4bceb7e51f286b191dfd50daf22ad3d53002e0c99d66cf4c3f31cd9c5b67e87/tests/test_research_trailing.py",
+      "sha256": "48b6a8228e55b59e296ff8995e5dbf4d2c2b5ab48837e0201288d3bc9a8237d2"
+    },
+    {
+      "logical_path": "expanded_inputs/reproducibility_latest.json",
+      "sha256": "b351d8596a68b194dc5416bdaad292477c82b69c536bccfd2d5a0b1694dd5ca2"
+    },
+    {
+      "logical_path": "original_indicators/a5673ad579092e90a1ac7626deaa1820b67f903af9923aca2364ae1ae68b0d95.jsonl.gz",
+      "sha256": "d1aacf4be0d4c457d9aea42b2c2af27cd1a5658078ed77eed8e37df4f3df4073"
+    },
+    {
+      "logical_path": "expanded_outputs/2026-07/indicator_cache/09566f853de4c1d10bcfd6cf7593f72ede83f769d0b1f8253bb71287bfd92089.jsonl.gz",
+      "sha256": "78dab67445f453dc0049d7922f73d8a70b8161fe6c5bd38d17c8abf41cb5a9e3"
+    },
+    {
+      "logical_path": "expanded_outputs/2026-08/indicator_cache/27a098817b9a513dfaca2488546a627fc3070ea86cd462417b6cb6c2fca0fbcb.jsonl.gz",
+      "sha256": "45e1745212c293c67181bc5772a45043d0c04d8c90efccaca6360ce60cb24379"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_browser_verification.json",
+      "sha256": "ddde0d06979df878f547ccfc71cc3596c384368be37681213ccf8b231327c27f"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_report_data.json",
+      "sha256": "25e7aeeb3930acce6d8efba7d0c4072ecce6962eeff2353d7d1480c38cff48a3"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/2026-07_afternoon_latest.json",
+      "sha256": "eb486143d024f9b9880b02fed1ffd5dacf689960d3fc31443a34b7e34cab0be6"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/2026-07_breakeven_latest.json",
+      "sha256": "721ae24744dbde6e51d8ebc875669c23112b6dc171dc6feac728bc3174d4c2c7"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/2026-07_combined_latest.json",
+      "sha256": "8de91e16d56472b43b47f52051be4c7ef714316dd866afc577d0e5e7134b0784"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/2026-07_control_latest.json",
+      "sha256": "4be9b15a07a6db4d3efe9270e4348ac4ad1770e5c99403bcb88aee25c76a963c"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/2026-07_cost_latest.json",
+      "sha256": "5b2350319e0494698c9dd22cf386ad555b8e1a688cd5d876f7c2f965b387ba29"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/2026-07_pullback_latest.json",
+      "sha256": "bba4d0e3df5242456b4084a6ffd695d70bc9fe2be44f9d95139c2567c411a440"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/2026-08_afternoon_latest.json",
+      "sha256": "d6d3282bcdb5295a0d87d33a4e13566bf1a577fe4bc936d9a23a76d6240dc0db"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/2026-08_breakeven_latest.json",
+      "sha256": "2f6e21918854d5f3fbc85dd83eef332d4df3ed65bda2dbe0ba13fab144409d1e"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/2026-08_combined_latest.json",
+      "sha256": "aa3b445919afaff6626abcc569b3d4765469d70763ca994d85d50374910ccc18"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/2026-08_control_latest.json",
+      "sha256": "24cc8d88d4efe90f82da5a91cf5e33957b11bcf6fd663fee3123309bc0cb5a99"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/2026-08_cost_latest.json",
+      "sha256": "9b6055580a7a5e09a0b3c4537c6edf1d17814b14b814f77b3d6226650ed1156f"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/2026-08_pullback_latest.json",
+      "sha256": "47725a24c968f7f8044fc9c6075c1bb8b412b1ccfcb61c2e681d76f9143dbadb"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/2026-09_afternoon_latest.json",
+      "sha256": "5b3c2b1ad234080ed1268d440767d85c8f632cdb066637393524a5ceef77fac3"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/2026-09_breakeven_latest.json",
+      "sha256": "23f7b4487ac6b22390505f55379a1c707c2b6c940e08979a4f7ee98fb32e3f2d"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/2026-09_combined_latest.json",
+      "sha256": "63ac0b438056577792a6b203bb36cf87172a1730b4bb670da8c196c00e44565e"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/2026-09_control_latest.json",
+      "sha256": "fe3fd59e9f1d33cbc714ec3d19c2c7e9b37682814b1a1e9d8374a0ba71408e17"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/2026-09_cost_latest.json",
+      "sha256": "ea66dda1f984bc0ba112b4f7b104ab62c8da902d453b0d9e2246ad3b23316bdf"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/2026-09_pullback_latest.json",
+      "sha256": "a2d6cdfc3a52f0962b2f8f3739e78d8bce3862d677275d8531f37d9dacb9202e"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/afternoon/2026-07/run_0001_a65a54a01919/candidate_execution.csv.gz",
+      "sha256": "d7b8928cb4ef11969fb5b9c89e483ccf394494661adeea89a5c56bf0278eeb50"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/afternoon/2026-07/run_0001_a65a54a01919/config_snapshot.json",
+      "sha256": "a62496b0e3b099c03c92c845f492a5565bbf418279725d5286ed7156e39c67ce"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/afternoon/2026-07/run_0001_a65a54a01919/daily_candidates.csv.gz",
+      "sha256": "706af47f2e7fd133933e8082480d40965ab91ecca397b08265c03c09e4b40c29"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/afternoon/2026-07/run_0001_a65a54a01919/daily_pool.csv.gz",
+      "sha256": "8982646d5ab157d4feae008910878b5cb7d16928762aa55a4d342b669354a371"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/afternoon/2026-07/run_0001_a65a54a01919/data_reference.json",
+      "sha256": "db6a9610b527d2d5841b06df033cc53c0edeb7bc18536023e48ac270c934ec33"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/afternoon/2026-07/run_0001_a65a54a01919/equity.csv.gz",
+      "sha256": "d98a248e1bd9f21d0d7a4b95222908c6fc01649322f26c68d0ad9ab2aac46fa4"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/afternoon/2026-07/run_0001_a65a54a01919/events.csv.gz",
+      "sha256": "93161894e3d4aeacc0d9f65a81f10365509964834944829eb2084ca8823cb845"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/afternoon/2026-07/run_0001_a65a54a01919/independent_coverage_audit.json",
+      "sha256": "bc019a5059b7de6a900120f5211a15e5d4046ae43b9efe55af86f22687e75d22"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/afternoon/2026-07/run_0001_a65a54a01919/manifest.json",
+      "sha256": "bfed1fb853fe054a9470ff19ae612b78778da74ec1ef0acb03c3f079039ad74c"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/afternoon/2026-07/run_0001_a65a54a01919/orders.csv.gz",
+      "sha256": "1f0857425136ce401853f03ff33c095c4dcbb15d109b5146781a255e1fa7d485"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/afternoon/2026-07/run_0001_a65a54a01919/prepared_source_review.json",
+      "sha256": "a70995c0d0d7d62e8ff7dd0f13402c15274bd6f4a3cbe9879b3f4f7cf54cd7d9"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/afternoon/2026-07/run_0001_a65a54a01919/signals.csv.gz",
+      "sha256": "4edee6267a5423786dbac5bd926d0e3020efc8a5350387c22afccdd00c8a4503"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/afternoon/2026-07/run_0001_a65a54a01919/source_snapshot.tar.gz",
+      "sha256": "9aea3f6c5f6d8ec28b45a7618a4e6e1b3b778d2cb90a7bc97e90c01d973668f9"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/afternoon/2026-07/run_0001_a65a54a01919/summary.json",
+      "sha256": "055ec4e6426d1c1e52028d0d22d65b9aebbc672de564bd761859a167091af07a"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/afternoon/2026-07/run_0001_a65a54a01919/trades.csv.gz",
+      "sha256": "83753146ef1eab34a2a7559939d25d8471b64653d474f009f172a28946aed90f"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/afternoon/2026-08/run_0001_e9c5796f63e9/candidate_execution.csv.gz",
+      "sha256": "a5cf8d7373535c0d9ae1936a842d4c472666f5d996fe4a2b932b653f7010330d"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/afternoon/2026-08/run_0001_e9c5796f63e9/config_snapshot.json",
+      "sha256": "c665d764259bf5353bdac1306f68e0cd5fa11df36324c6174fae39230d2bd7fc"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/afternoon/2026-08/run_0001_e9c5796f63e9/daily_candidates.csv.gz",
+      "sha256": "aed25947fb7eb3803eec21cb0e1dfe52cbdf6bc80d9da65d944c80757524d5f7"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/afternoon/2026-08/run_0001_e9c5796f63e9/daily_pool.csv.gz",
+      "sha256": "73a215fa1fecbde3c2a0be4c820f1bbdbcdf14456655e0d4643cff0f934b045c"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/afternoon/2026-08/run_0001_e9c5796f63e9/data_reference.json",
+      "sha256": "5f3d5585f8d166be7a32457cf0434f4c0674978b9236fc3fea0b4cfb2bbd3a11"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/afternoon/2026-08/run_0001_e9c5796f63e9/equity.csv.gz",
+      "sha256": "c3d597ca28f0043322ee7d4178bb43b9844447128ef4137b1b4291995bce5e6e"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/afternoon/2026-08/run_0001_e9c5796f63e9/events.csv.gz",
+      "sha256": "26a31f582b128e60d940fb24b2ee02027a3c39dabdbf2b5bbea976cfc29df220"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/afternoon/2026-08/run_0001_e9c5796f63e9/independent_coverage_audit.json",
+      "sha256": "58cd4f422b909d7833bda9b46b2e8c37977e4d12ede799544c5d753f01199410"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/afternoon/2026-08/run_0001_e9c5796f63e9/manifest.json",
+      "sha256": "ad684ff00a94974d9d3729d7292057f03f5ee4099d47790276e515ab04125f00"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/afternoon/2026-08/run_0001_e9c5796f63e9/orders.csv.gz",
+      "sha256": "8136add06f5360334764097d71c68c12cce8b469c0dbe9f862bc1e943f8ebebf"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/afternoon/2026-08/run_0001_e9c5796f63e9/prepared_source_review.json",
+      "sha256": "1f24352ca179f6f41b06f3bc6325920036e6726c9141e307118ceb457830d0e8"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/afternoon/2026-08/run_0001_e9c5796f63e9/signals.csv.gz",
+      "sha256": "ded5adc089ac8d152ec4229e66086873801e4832fec6820116b07a6e6e8cc0e3"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/afternoon/2026-08/run_0001_e9c5796f63e9/source_snapshot.tar.gz",
+      "sha256": "fd6e1d4fd1184f7ebca461e1ef0c213bac24bff618f205017de93e21cc629378"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/afternoon/2026-08/run_0001_e9c5796f63e9/summary.json",
+      "sha256": "ea4ff0696bec5d895d0de332b13a4a8019e840beb8fe871617b249549765c7e6"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/afternoon/2026-08/run_0001_e9c5796f63e9/trades.csv.gz",
+      "sha256": "739059277918f3bf7b428ac18bd62eb25934342e0cda1666e89ceff1768385ae"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/afternoon/2026-09/run_0001_c16356f009b3/candidate_execution.csv.gz",
+      "sha256": "ef8bdbcaa92d3a891ba908a3b9b53f50011e7b15ddc88d55089bdf8c577fc300"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/afternoon/2026-09/run_0001_c16356f009b3/config_snapshot.json",
+      "sha256": "8c53afbecb36a670c9079981b5b1d32170476230f3a0469a34fadd6070fdcbec"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/afternoon/2026-09/run_0001_c16356f009b3/daily_candidates.csv.gz",
+      "sha256": "450925823a5ba1ccfcbc66e61db0cb57f7c3555b9a315968c979b40dcab20e32"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/afternoon/2026-09/run_0001_c16356f009b3/daily_pool.csv.gz",
+      "sha256": "1ea21c42329f90e0b81787540f045ca186051c5bf3e3e0128c5b0d2cbd83579e"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/afternoon/2026-09/run_0001_c16356f009b3/data_reference.json",
+      "sha256": "9a841ffc44f9dfda9ee61d95a4afe52de2ef3e99d982d01a2c1e88c1b733119c"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/afternoon/2026-09/run_0001_c16356f009b3/equity.csv.gz",
+      "sha256": "b02fc6eb99d1596151210774b2dfc57eb475921fdedcb9bc9bd94ce4cf6fdd76"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/afternoon/2026-09/run_0001_c16356f009b3/events.csv.gz",
+      "sha256": "7efc762a598f84aa5f710b19e4f869113da82ad687ea87db9c83d27133f8f8c4"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/afternoon/2026-09/run_0001_c16356f009b3/independent_coverage_audit.json",
+      "sha256": "29fbc580e5abf96a443d6f4e901ea7226208bc46ae393de42a188556843930d6"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/afternoon/2026-09/run_0001_c16356f009b3/manifest.json",
+      "sha256": "3c7b073c1f8364a69451155586d80d03cd4572f7f8960d3bff75bee5efd0628c"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/afternoon/2026-09/run_0001_c16356f009b3/orders.csv.gz",
+      "sha256": "5305480dae1e9e610cdd85d0ad6f14006587cc7b2744bbcfa0ae9bbc02e166fb"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/afternoon/2026-09/run_0001_c16356f009b3/prepared_source_review.json",
+      "sha256": "2c105192448ad4db1992a8ab8784493b8d04f063ec0a7c55bdf6fbc038a07707"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/afternoon/2026-09/run_0001_c16356f009b3/signals.csv.gz",
+      "sha256": "e2058aa01424492e5c30b71be70b63950ade042ad3c2930fd3a27fa3135d3e4f"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/afternoon/2026-09/run_0001_c16356f009b3/source_snapshot.tar.gz",
+      "sha256": "3e57159b108be9cc6a756623a6719eee33375558cee6d53790e73f4c6ea72882"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/afternoon/2026-09/run_0001_c16356f009b3/summary.json",
+      "sha256": "e4dc9f390fe73e18ba8642348b9292f7b90682dfa83b4b19e4910650a67167df"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/afternoon/2026-09/run_0001_c16356f009b3/trades.csv.gz",
+      "sha256": "d2722408e0913ff938ab6b5c70e0b3cebd4a70fb00ca89ef4933b96ff4a2ee16"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/assessment.json",
+      "sha256": "12f8e6b71c53bc8695f90035d81b0f8391d0c587db5a888613638b1da4fdf86d"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/breakeven/2026-07/run_0001_d3c5c55692b4/candidate_execution.csv.gz",
+      "sha256": "4a7d6260e5b556d248fe4c2da9dfe3c674a74442bb9a2772dba8251752f170da"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/breakeven/2026-07/run_0001_d3c5c55692b4/config_snapshot.json",
+      "sha256": "f64d1bfb75194bdd731cc08729eeaa675a85587a602702e27bae1ac5daae5536"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/breakeven/2026-07/run_0001_d3c5c55692b4/daily_candidates.csv.gz",
+      "sha256": "ba439cee27eca8bf66b415bc99e085c3e4af5850bbe80f132983dad64d228d6b"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/breakeven/2026-07/run_0001_d3c5c55692b4/daily_pool.csv.gz",
+      "sha256": "8982646d5ab157d4feae008910878b5cb7d16928762aa55a4d342b669354a371"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/breakeven/2026-07/run_0001_d3c5c55692b4/data_reference.json",
+      "sha256": "db6a9610b527d2d5841b06df033cc53c0edeb7bc18536023e48ac270c934ec33"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/breakeven/2026-07/run_0001_d3c5c55692b4/equity.csv.gz",
+      "sha256": "b2d5adec916111e9acab5e65b3823561840dbd0bf437bd8426ebc7e56305326f"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/breakeven/2026-07/run_0001_d3c5c55692b4/events.csv.gz",
+      "sha256": "b21b277ad7a149bd4d8dcdcc1c3235b191fa90d0585aae94ab9a5d25cd251e60"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/breakeven/2026-07/run_0001_d3c5c55692b4/independent_coverage_audit.json",
+      "sha256": "29aac0b862536069b6c323b8f91601d6157f2fd83ec1cd62c2b1975157965deb"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/breakeven/2026-07/run_0001_d3c5c55692b4/manifest.json",
+      "sha256": "93a7eb9942ce6bb587929d8ffc9b485d9d5c751013ff1a9f9eb196b91b48d4fc"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/breakeven/2026-07/run_0001_d3c5c55692b4/orders.csv.gz",
+      "sha256": "a892beb2976ca7169017bdfc38f4207cb16f09e490af4b3764527d9f30b60f55"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/breakeven/2026-07/run_0001_d3c5c55692b4/prepared_entries_review.json",
+      "sha256": "533e49a5ab7d00694faf2055a33eff44b235ae43b49c9be15ae605700e8fadd0"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/breakeven/2026-07/run_0001_d3c5c55692b4/prepared_source_review.json",
+      "sha256": "a70995c0d0d7d62e8ff7dd0f13402c15274bd6f4a3cbe9879b3f4f7cf54cd7d9"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/breakeven/2026-07/run_0001_d3c5c55692b4/signals.csv.gz",
+      "sha256": "b30feb7a66b00818e36a479ec86fb2702351ddaf138738956dfc71c959fcac36"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/breakeven/2026-07/run_0001_d3c5c55692b4/source_snapshot.tar.gz",
+      "sha256": "a24b1721eaf4a27e9ff17611e5574d8aac79424a25e27cb299af03d3426159c0"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/breakeven/2026-07/run_0001_d3c5c55692b4/summary.json",
+      "sha256": "d11388e4e8c3875a525bfac62780b5a8531d577ebd85b2323743256ee7c405d8"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/breakeven/2026-07/run_0001_d3c5c55692b4/trades.csv.gz",
+      "sha256": "477f25d936c17a5b9a1cace16a0c1abe0cab176358c3585ba96302202942ae82"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/breakeven/2026-08/run_0001_618dd899fd73/candidate_execution.csv.gz",
+      "sha256": "b2ac751cbbad3a24b49ec3fe3758c2cefada4866fb6e1604a7115a7d4887a4e6"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/breakeven/2026-08/run_0001_618dd899fd73/config_snapshot.json",
+      "sha256": "78b040b85f14cea1173a098772719bb8a43a0aaca0dc7ae048dd35e3c9d1decc"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/breakeven/2026-08/run_0001_618dd899fd73/daily_candidates.csv.gz",
+      "sha256": "910de77ae6af7f93b29899c4ab2dee2fdcd7abff8ad81c0da75e13153b05f530"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/breakeven/2026-08/run_0001_618dd899fd73/daily_pool.csv.gz",
+      "sha256": "73a215fa1fecbde3c2a0be4c820f1bbdbcdf14456655e0d4643cff0f934b045c"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/breakeven/2026-08/run_0001_618dd899fd73/data_reference.json",
+      "sha256": "5f3d5585f8d166be7a32457cf0434f4c0674978b9236fc3fea0b4cfb2bbd3a11"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/breakeven/2026-08/run_0001_618dd899fd73/equity.csv.gz",
+      "sha256": "4f76a1f7ef44ac1a8d85afb3aa8919e23e67d8228c7576a1621524f882c10211"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/breakeven/2026-08/run_0001_618dd899fd73/events.csv.gz",
+      "sha256": "6fb43bd6a95a4fd779115e490d03d0a1ea1382828066c57de6b267c81e8bdc8f"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/breakeven/2026-08/run_0001_618dd899fd73/independent_coverage_audit.json",
+      "sha256": "c7e9d4fd33b9f4d0605dabe23a40c2c9a9b82730ddc64d3a9df1cdacd04d0804"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/breakeven/2026-08/run_0001_618dd899fd73/manifest.json",
+      "sha256": "775466b21264e9f109a8d6ec6c28431161e80643784fd05d798bba01bba78a25"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/breakeven/2026-08/run_0001_618dd899fd73/orders.csv.gz",
+      "sha256": "524d1aaba3f6fa6dd514c6988c61f90aafd9e1f473be00fb86fb378f9c40868c"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/breakeven/2026-08/run_0001_618dd899fd73/prepared_entries_review.json",
+      "sha256": "ee93ca357b0f0ca8b48497d3dbd58dfe84769c4b853fe4d9ee01d96369ba8b8a"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/breakeven/2026-08/run_0001_618dd899fd73/prepared_source_review.json",
+      "sha256": "1f24352ca179f6f41b06f3bc6325920036e6726c9141e307118ceb457830d0e8"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/breakeven/2026-08/run_0001_618dd899fd73/signals.csv.gz",
+      "sha256": "6ee5b41f9925adab131ec6752050efd5648ad15a6b689ed0d16388b7ffcd3611"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/breakeven/2026-08/run_0001_618dd899fd73/source_snapshot.tar.gz",
+      "sha256": "4838419cc315f853faf75ade9291056defbc21966fb45aa6e232635cfeed1450"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/breakeven/2026-08/run_0001_618dd899fd73/summary.json",
+      "sha256": "6f003c7230bd2adfc4f079f22fbdacf1170fcd34e9353ed8a7e480e8f8bca0ee"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/breakeven/2026-08/run_0001_618dd899fd73/trades.csv.gz",
+      "sha256": "1ed947086958b2509e053acef678bc3565671e51e5d5d01327b32fea6dc0c215"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/breakeven/2026-09/run_0001_8257cf42a375/candidate_execution.csv.gz",
+      "sha256": "87318ff490205e462ca3819223a62631540687aacfde783e95a1df0741e7a791"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/breakeven/2026-09/run_0001_8257cf42a375/config_snapshot.json",
+      "sha256": "6b1c1649b4185ed4e88ecdb6dbec231e3b42bbe3943810825aa367355f364358"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/breakeven/2026-09/run_0001_8257cf42a375/daily_candidates.csv.gz",
+      "sha256": "91ca585998080b05a1d732808c9dd8c073514c8c006ac5e253f5a26bdd6971e2"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/breakeven/2026-09/run_0001_8257cf42a375/daily_pool.csv.gz",
+      "sha256": "1ea21c42329f90e0b81787540f045ca186051c5bf3e3e0128c5b0d2cbd83579e"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/breakeven/2026-09/run_0001_8257cf42a375/data_reference.json",
+      "sha256": "9a841ffc44f9dfda9ee61d95a4afe52de2ef3e99d982d01a2c1e88c1b733119c"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/breakeven/2026-09/run_0001_8257cf42a375/equity.csv.gz",
+      "sha256": "b02fc6eb99d1596151210774b2dfc57eb475921fdedcb9bc9bd94ce4cf6fdd76"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/breakeven/2026-09/run_0001_8257cf42a375/events.csv.gz",
+      "sha256": "0161cc8f17454d1bb71b28a4a48ed43e2e612c87fb7dc3125087efd7d2dbfb9c"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/breakeven/2026-09/run_0001_8257cf42a375/independent_coverage_audit.json",
+      "sha256": "5d6104bb545aa58c5749c0374f6f3151c8cd463ddc847924a06efcf24ce212f3"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/breakeven/2026-09/run_0001_8257cf42a375/manifest.json",
+      "sha256": "93b6bb88139d153e6238c85a1601bf976ea8167c69e8b86c47a6a6254e3036d4"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/breakeven/2026-09/run_0001_8257cf42a375/orders.csv.gz",
+      "sha256": "5305480dae1e9e610cdd85d0ad6f14006587cc7b2744bbcfa0ae9bbc02e166fb"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/breakeven/2026-09/run_0001_8257cf42a375/prepared_entries_review.json",
+      "sha256": "f04405088ce809f0e8c0654e1b2996a0cd40b4065c58d007b587b9dd276a6da0"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/breakeven/2026-09/run_0001_8257cf42a375/prepared_source_review.json",
+      "sha256": "2c105192448ad4db1992a8ab8784493b8d04f063ec0a7c55bdf6fbc038a07707"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/breakeven/2026-09/run_0001_8257cf42a375/signals.csv.gz",
+      "sha256": "c1e3ae55ad68dedc63f52c0e2909458edbc1e36b879556f310506a39b2297b8a"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/breakeven/2026-09/run_0001_8257cf42a375/source_snapshot.tar.gz",
+      "sha256": "956886cfcc5439823f4ac0e736a88cb590cb225e0675569b34d5bf94f449bdf4"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/breakeven/2026-09/run_0001_8257cf42a375/summary.json",
+      "sha256": "ad502bdd278a27b99d1d00d15e2d558d7fa357ce77826d7eeb8a5f7538a4e431"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/breakeven/2026-09/run_0001_8257cf42a375/trades.csv.gz",
+      "sha256": "06fd10ee0669a08a4cda9cdae8bc3ff376ba1b9e90131d58d60669c7ccacc73a"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/combined/2026-07/run_0001_f591efd14e32/candidate_execution.csv.gz",
+      "sha256": "4a7d6260e5b556d248fe4c2da9dfe3c674a74442bb9a2772dba8251752f170da"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/combined/2026-07/run_0001_f591efd14e32/config_snapshot.json",
+      "sha256": "b5ba8ebb8f9af65a367e995627c3b533611ba5669c8d1e0bc8cbdb69a509ddcb"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/combined/2026-07/run_0001_f591efd14e32/daily_candidates.csv.gz",
+      "sha256": "ba439cee27eca8bf66b415bc99e085c3e4af5850bbe80f132983dad64d228d6b"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/combined/2026-07/run_0001_f591efd14e32/daily_pool.csv.gz",
+      "sha256": "8982646d5ab157d4feae008910878b5cb7d16928762aa55a4d342b669354a371"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/combined/2026-07/run_0001_f591efd14e32/data_reference.json",
+      "sha256": "db6a9610b527d2d5841b06df033cc53c0edeb7bc18536023e48ac270c934ec33"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/combined/2026-07/run_0001_f591efd14e32/equity.csv.gz",
+      "sha256": "b53939db9d2a1f2a38acd0e50c60913bdb63777b6383a05037b0cc9f18a4d117"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/combined/2026-07/run_0001_f591efd14e32/events.csv.gz",
+      "sha256": "d49b25ab678ed195f3e5175ab302afd40417b5ecab253f10e8faa4796dbdd168"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/combined/2026-07/run_0001_f591efd14e32/independent_coverage_audit.json",
+      "sha256": "2a4b71df381bad8a6e4008281c7d61c0c26a9788e829f9b5824d7f64a7509b8c"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/combined/2026-07/run_0001_f591efd14e32/manifest.json",
+      "sha256": "76086db227ca419795eec7ae995fd7bfb74342b22b3f28f355b2f68ca8d37e2a"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/combined/2026-07/run_0001_f591efd14e32/orders.csv.gz",
+      "sha256": "63b2dd47df716226c0b0a2f942696fdc3f68186c290c47fb4796d29f776e1e76"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/combined/2026-07/run_0001_f591efd14e32/prepared_entries_review.json",
+      "sha256": "533e49a5ab7d00694faf2055a33eff44b235ae43b49c9be15ae605700e8fadd0"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/combined/2026-07/run_0001_f591efd14e32/prepared_source_review.json",
+      "sha256": "a70995c0d0d7d62e8ff7dd0f13402c15274bd6f4a3cbe9879b3f4f7cf54cd7d9"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/combined/2026-07/run_0001_f591efd14e32/signals.csv.gz",
+      "sha256": "b7c28485996c06199d29655f259509dde50cd47735537f0e19ad0b8a70a4d139"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/combined/2026-07/run_0001_f591efd14e32/source_snapshot.tar.gz",
+      "sha256": "493c4d8128fa8893d00c7f16bcfc6b33fec20abe28cf27942de9855ff202d2b8"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/combined/2026-07/run_0001_f591efd14e32/summary.json",
+      "sha256": "81fb25ba84f89e6e4a0ba0b7585daa84a7af783779f6eaecb6d7e43b61865df8"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/combined/2026-07/run_0001_f591efd14e32/trades.csv.gz",
+      "sha256": "7a8fa1f69a930bdb54ecf454e0314e56101fd2b03e43571db76435333d0cfa48"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/combined/2026-08/run_0001_e1aedbffe713/candidate_execution.csv.gz",
+      "sha256": "b2ac751cbbad3a24b49ec3fe3758c2cefada4866fb6e1604a7115a7d4887a4e6"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/combined/2026-08/run_0001_e1aedbffe713/config_snapshot.json",
+      "sha256": "a8b28dd7607d31074dd1473b54acb0d9ef385d29ab7f46ba57dd90b745b32e8d"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/combined/2026-08/run_0001_e1aedbffe713/daily_candidates.csv.gz",
+      "sha256": "910de77ae6af7f93b29899c4ab2dee2fdcd7abff8ad81c0da75e13153b05f530"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/combined/2026-08/run_0001_e1aedbffe713/daily_pool.csv.gz",
+      "sha256": "73a215fa1fecbde3c2a0be4c820f1bbdbcdf14456655e0d4643cff0f934b045c"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/combined/2026-08/run_0001_e1aedbffe713/data_reference.json",
+      "sha256": "5f3d5585f8d166be7a32457cf0434f4c0674978b9236fc3fea0b4cfb2bbd3a11"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/combined/2026-08/run_0001_e1aedbffe713/equity.csv.gz",
+      "sha256": "ee4d519ecfda1d9c3c9e28abbd73815dcb385668867fcfc0fb651d17dfdf9b53"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/combined/2026-08/run_0001_e1aedbffe713/events.csv.gz",
+      "sha256": "0510818b525a8789fd01997a41c25f8984e4704f7764f0c52600e2458544bdd2"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/combined/2026-08/run_0001_e1aedbffe713/independent_coverage_audit.json",
+      "sha256": "a8f5104e81088140b25c84b3c6a18b6e37c9d5d6caadada2a4dc926171b8ffbc"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/combined/2026-08/run_0001_e1aedbffe713/manifest.json",
+      "sha256": "a13e5829d67f4fb856a4ea0c419aa91bd0fa350edeab7b0421983ab923d06307"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/combined/2026-08/run_0001_e1aedbffe713/orders.csv.gz",
+      "sha256": "0510818b525a8789fd01997a41c25f8984e4704f7764f0c52600e2458544bdd2"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/combined/2026-08/run_0001_e1aedbffe713/prepared_entries_review.json",
+      "sha256": "ee93ca357b0f0ca8b48497d3dbd58dfe84769c4b853fe4d9ee01d96369ba8b8a"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/combined/2026-08/run_0001_e1aedbffe713/prepared_source_review.json",
+      "sha256": "1f24352ca179f6f41b06f3bc6325920036e6726c9141e307118ceb457830d0e8"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/combined/2026-08/run_0001_e1aedbffe713/signals.csv.gz",
+      "sha256": "7997da3b628455e886f2dc836a5f8de21ef6c06539c45c3da18cde0e2ee3dd29"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/combined/2026-08/run_0001_e1aedbffe713/source_snapshot.tar.gz",
+      "sha256": "f394b6ea10cd669d6f3662ffc63feac813e6eeb042c595680c0b0744b90fec06"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/combined/2026-08/run_0001_e1aedbffe713/summary.json",
+      "sha256": "8fb8ec097b1d4485ee4c18fcdc2a4f3b8aa959e675d8d6336f41c4260f27d87d"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/combined/2026-08/run_0001_e1aedbffe713/trades.csv.gz",
+      "sha256": "0510818b525a8789fd01997a41c25f8984e4704f7764f0c52600e2458544bdd2"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/combined/2026-09/run_0001_9e214f594453/candidate_execution.csv.gz",
+      "sha256": "87318ff490205e462ca3819223a62631540687aacfde783e95a1df0741e7a791"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/combined/2026-09/run_0001_9e214f594453/config_snapshot.json",
+      "sha256": "12b5460eca5d830065ae19f8aa780c7aff8d4b0df22c8c25a1706068880634f3"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/combined/2026-09/run_0001_9e214f594453/daily_candidates.csv.gz",
+      "sha256": "91ca585998080b05a1d732808c9dd8c073514c8c006ac5e253f5a26bdd6971e2"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/combined/2026-09/run_0001_9e214f594453/daily_pool.csv.gz",
+      "sha256": "1ea21c42329f90e0b81787540f045ca186051c5bf3e3e0128c5b0d2cbd83579e"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/combined/2026-09/run_0001_9e214f594453/data_reference.json",
+      "sha256": "9a841ffc44f9dfda9ee61d95a4afe52de2ef3e99d982d01a2c1e88c1b733119c"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/combined/2026-09/run_0001_9e214f594453/equity.csv.gz",
+      "sha256": "b02fc6eb99d1596151210774b2dfc57eb475921fdedcb9bc9bd94ce4cf6fdd76"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/combined/2026-09/run_0001_9e214f594453/events.csv.gz",
+      "sha256": "0161cc8f17454d1bb71b28a4a48ed43e2e612c87fb7dc3125087efd7d2dbfb9c"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/combined/2026-09/run_0001_9e214f594453/independent_coverage_audit.json",
+      "sha256": "5280738812d4fbc6b583d0db8017cbc671d745cc7e7e388fc1a1c06012b24f57"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/combined/2026-09/run_0001_9e214f594453/manifest.json",
+      "sha256": "6fa2248b40c862a3b83b4ccdbc6804b6987c4fef4f05644f35c46dce18050071"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/combined/2026-09/run_0001_9e214f594453/orders.csv.gz",
+      "sha256": "5305480dae1e9e610cdd85d0ad6f14006587cc7b2744bbcfa0ae9bbc02e166fb"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/combined/2026-09/run_0001_9e214f594453/prepared_entries_review.json",
+      "sha256": "f04405088ce809f0e8c0654e1b2996a0cd40b4065c58d007b587b9dd276a6da0"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/combined/2026-09/run_0001_9e214f594453/prepared_source_review.json",
+      "sha256": "2c105192448ad4db1992a8ab8784493b8d04f063ec0a7c55bdf6fbc038a07707"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/combined/2026-09/run_0001_9e214f594453/signals.csv.gz",
+      "sha256": "0ca6e807b203c3f0d220b2a6b7d86bc5df53954b8c28b24da2e3711c6c59f9a1"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/combined/2026-09/run_0001_9e214f594453/source_snapshot.tar.gz",
+      "sha256": "77e9891beb1a35cac9e7e95eb858157e0f9b2c299731941a28e1a9b6af9b98b7"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/combined/2026-09/run_0001_9e214f594453/summary.json",
+      "sha256": "dc5859005b0bfe764363a3f03c60d60b6a6027ddfb02d4499b43633afd96d428"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/combined/2026-09/run_0001_9e214f594453/trades.csv.gz",
+      "sha256": "d93b1cb2077497ff52bf65b8b61d5ebe0d043ff1de8fad7ad98a0e9c09985279"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/control/2026-07/run_0001_a2b6ba79344f/candidate_execution.csv.gz",
+      "sha256": "4a7d6260e5b556d248fe4c2da9dfe3c674a74442bb9a2772dba8251752f170da"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/control/2026-07/run_0001_a2b6ba79344f/config_snapshot.json",
+      "sha256": "27a89f967fb3c6b5a02968a55e0908bb3c3cb663c3ba1a23c3ac90ab90bcf6f9"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/control/2026-07/run_0001_a2b6ba79344f/daily_candidates.csv.gz",
+      "sha256": "ba439cee27eca8bf66b415bc99e085c3e4af5850bbe80f132983dad64d228d6b"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/control/2026-07/run_0001_a2b6ba79344f/daily_pool.csv.gz",
+      "sha256": "8982646d5ab157d4feae008910878b5cb7d16928762aa55a4d342b669354a371"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/control/2026-07/run_0001_a2b6ba79344f/data_reference.json",
+      "sha256": "db6a9610b527d2d5841b06df033cc53c0edeb7bc18536023e48ac270c934ec33"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/control/2026-07/run_0001_a2b6ba79344f/equity.csv.gz",
+      "sha256": "7239f59b5a3ac19523725cbe775cafa629bca11da8a368b445463691ca33752e"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/control/2026-07/run_0001_a2b6ba79344f/events.csv.gz",
+      "sha256": "dcf79aa8cad86d2e16b009c30dd6a6530bd495c59b4d7860e4d5c5bdfc759680"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/control/2026-07/run_0001_a2b6ba79344f/independent_coverage_audit.json",
+      "sha256": "e87b05c6fa86e638e1e5f6aa0d700dc5aa995a7fb1bdaf7bedd6668a58f9cfc3"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/control/2026-07/run_0001_a2b6ba79344f/manifest.json",
+      "sha256": "b6c74fe0761bab0f9275c897b610785100d6fbc98c4fa0738b4a95029a56e5ce"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/control/2026-07/run_0001_a2b6ba79344f/orders.csv.gz",
+      "sha256": "a892beb2976ca7169017bdfc38f4207cb16f09e490af4b3764527d9f30b60f55"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/control/2026-07/run_0001_a2b6ba79344f/prepared_entries_review.json",
+      "sha256": "533e49a5ab7d00694faf2055a33eff44b235ae43b49c9be15ae605700e8fadd0"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/control/2026-07/run_0001_a2b6ba79344f/prepared_source_review.json",
+      "sha256": "a70995c0d0d7d62e8ff7dd0f13402c15274bd6f4a3cbe9879b3f4f7cf54cd7d9"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/control/2026-07/run_0001_a2b6ba79344f/signals.csv.gz",
+      "sha256": "5424da70c354d7fa44ddd6e3292794ac8b910ae30945501cd589c08e74419052"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/control/2026-07/run_0001_a2b6ba79344f/source_snapshot.tar.gz",
+      "sha256": "9e4991f2b64e1f1d0446ab605befd68b8f208f6490b454d8412175d9c36251f0"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/control/2026-07/run_0001_a2b6ba79344f/summary.json",
+      "sha256": "953c2030b0b45b43b4ce7897a0c00aeffff4a912e2387dc56df33f99f3deb65e"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/control/2026-07/run_0001_a2b6ba79344f/trades.csv.gz",
+      "sha256": "519b4e9b64b5a233b5375061a1538671747fd87c9b5bc335f4d82a83d2c38399"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/control/2026-08/run_0001_9a19dd588ed0/candidate_execution.csv.gz",
+      "sha256": "b2ac751cbbad3a24b49ec3fe3758c2cefada4866fb6e1604a7115a7d4887a4e6"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/control/2026-08/run_0001_9a19dd588ed0/config_snapshot.json",
+      "sha256": "1d98c7812e877a98b72d47a11c05d2ff1321907ae26343e03fbecafb01456bfd"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/control/2026-08/run_0001_9a19dd588ed0/daily_candidates.csv.gz",
+      "sha256": "910de77ae6af7f93b29899c4ab2dee2fdcd7abff8ad81c0da75e13153b05f530"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/control/2026-08/run_0001_9a19dd588ed0/daily_pool.csv.gz",
+      "sha256": "73a215fa1fecbde3c2a0be4c820f1bbdbcdf14456655e0d4643cff0f934b045c"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/control/2026-08/run_0001_9a19dd588ed0/data_reference.json",
+      "sha256": "5f3d5585f8d166be7a32457cf0434f4c0674978b9236fc3fea0b4cfb2bbd3a11"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/control/2026-08/run_0001_9a19dd588ed0/equity.csv.gz",
+      "sha256": "3253d561cc1e9cadc29b1974cf815591bb4b87092b4d6089c318ae74b80ed506"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/control/2026-08/run_0001_9a19dd588ed0/events.csv.gz",
+      "sha256": "7e5141488b6ba43ea524f52fd219eee63b8a9dcfdffa6a2f805b3fc07c8ea346"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/control/2026-08/run_0001_9a19dd588ed0/independent_coverage_audit.json",
+      "sha256": "06c222e203b4c6591b51ab5f3dffbe236b87fe68b8d94f8f2f0fd8835eff786d"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/control/2026-08/run_0001_9a19dd588ed0/manifest.json",
+      "sha256": "3974f6b02cdb85fb6feb311a7f296cc364ee7851ea8e176159b534c78d9c0144"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/control/2026-08/run_0001_9a19dd588ed0/orders.csv.gz",
+      "sha256": "524d1aaba3f6fa6dd514c6988c61f90aafd9e1f473be00fb86fb378f9c40868c"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/control/2026-08/run_0001_9a19dd588ed0/prepared_entries_review.json",
+      "sha256": "ee93ca357b0f0ca8b48497d3dbd58dfe84769c4b853fe4d9ee01d96369ba8b8a"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/control/2026-08/run_0001_9a19dd588ed0/prepared_source_review.json",
+      "sha256": "1f24352ca179f6f41b06f3bc6325920036e6726c9141e307118ceb457830d0e8"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/control/2026-08/run_0001_9a19dd588ed0/signals.csv.gz",
+      "sha256": "4654d8fd9179c79e4679ed8d223372b6e4b0546b2645324adcf88eba6a559356"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/control/2026-08/run_0001_9a19dd588ed0/source_snapshot.tar.gz",
+      "sha256": "53a374cf267a19f6f35ad6465c6a6e87bfba590650d880bed7a269024a3348a7"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/control/2026-08/run_0001_9a19dd588ed0/summary.json",
+      "sha256": "bd984369a764c6211323a6f73e110fc1c65ce939fb7be23a8956e88ebfb7ff02"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/control/2026-08/run_0001_9a19dd588ed0/trades.csv.gz",
+      "sha256": "f88b69dabbe2c5859f207bb4a3b6225398401ba0a5aeca915a6aa279ba97ee90"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/control/2026-09/run_0001_78b5e07632ea/candidate_execution.csv.gz",
+      "sha256": "87318ff490205e462ca3819223a62631540687aacfde783e95a1df0741e7a791"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/control/2026-09/run_0001_78b5e07632ea/config_snapshot.json",
+      "sha256": "26c6a3b7f84598e44d040df5586280ea5e09eb7896cc69a83f8f6cb638160f9f"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/control/2026-09/run_0001_78b5e07632ea/daily_candidates.csv.gz",
+      "sha256": "91ca585998080b05a1d732808c9dd8c073514c8c006ac5e253f5a26bdd6971e2"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/control/2026-09/run_0001_78b5e07632ea/daily_pool.csv.gz",
+      "sha256": "1ea21c42329f90e0b81787540f045ca186051c5bf3e3e0128c5b0d2cbd83579e"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/control/2026-09/run_0001_78b5e07632ea/data_reference.json",
+      "sha256": "9a841ffc44f9dfda9ee61d95a4afe52de2ef3e99d982d01a2c1e88c1b733119c"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/control/2026-09/run_0001_78b5e07632ea/equity.csv.gz",
+      "sha256": "b02fc6eb99d1596151210774b2dfc57eb475921fdedcb9bc9bd94ce4cf6fdd76"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/control/2026-09/run_0001_78b5e07632ea/events.csv.gz",
+      "sha256": "002bea2d122cc29655f8fed1f9f970a360db6872addd200bacc343014b91f5bc"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/control/2026-09/run_0001_78b5e07632ea/independent_coverage_audit.json",
+      "sha256": "8bb69903bfa466f7bc15e82c101499ec907ad250d92dd27ff7683e59ff602e34"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/control/2026-09/run_0001_78b5e07632ea/manifest.json",
+      "sha256": "cf1f5697c5419bea6ccdd3c82414bef88f3ea23f63ae7704986c6122ecfa7b2b"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/control/2026-09/run_0001_78b5e07632ea/orders.csv.gz",
+      "sha256": "5305480dae1e9e610cdd85d0ad6f14006587cc7b2744bbcfa0ae9bbc02e166fb"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/control/2026-09/run_0001_78b5e07632ea/prepared_entries_review.json",
+      "sha256": "4ccf8baf9a9ced2321d745018b3b90482bcf1db0ae6026f12843cbb1170ca4c8"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/control/2026-09/run_0001_78b5e07632ea/prepared_source_review.json",
+      "sha256": "2c105192448ad4db1992a8ab8784493b8d04f063ec0a7c55bdf6fbc038a07707"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/control/2026-09/run_0001_78b5e07632ea/signals.csv.gz",
+      "sha256": "a0f5eadd6deda2d7b74f4304a10e62c660f788563cc910e7b75cd9de9f12784e"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/control/2026-09/run_0001_78b5e07632ea/source_snapshot.tar.gz",
+      "sha256": "23d1f4979d53218c0f251c596637eb776504e8256f7b836685edf6bcdc4d2365"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/control/2026-09/run_0001_78b5e07632ea/summary.json",
+      "sha256": "f947c22463e7e3afd316832d40954470c2e321aee525b90bdc0eafdf603f4c6d"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/control/2026-09/run_0001_78b5e07632ea/trades.csv.gz",
+      "sha256": "d2722408e0913ff938ab6b5c70e0b3cebd4a70fb00ca89ef4933b96ff4a2ee16"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/cost/2026-07/run_0001_d4ae05e48171/candidate_execution.csv.gz",
+      "sha256": "4a7d6260e5b556d248fe4c2da9dfe3c674a74442bb9a2772dba8251752f170da"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/cost/2026-07/run_0001_d4ae05e48171/config_snapshot.json",
+      "sha256": "4ab1813d511274c35f32d37fdff5f4546d3f14e02f6153ce17c87da64c03b6ee"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/cost/2026-07/run_0001_d4ae05e48171/daily_candidates.csv.gz",
+      "sha256": "ba439cee27eca8bf66b415bc99e085c3e4af5850bbe80f132983dad64d228d6b"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/cost/2026-07/run_0001_d4ae05e48171/daily_pool.csv.gz",
+      "sha256": "8982646d5ab157d4feae008910878b5cb7d16928762aa55a4d342b669354a371"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/cost/2026-07/run_0001_d4ae05e48171/data_reference.json",
+      "sha256": "db6a9610b527d2d5841b06df033cc53c0edeb7bc18536023e48ac270c934ec33"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/cost/2026-07/run_0001_d4ae05e48171/equity.csv.gz",
+      "sha256": "5e6c72b9021815265865c714b695397d2ea27f5704501437c3da5ecee3dfcd66"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/cost/2026-07/run_0001_d4ae05e48171/events.csv.gz",
+      "sha256": "c9999b87bb9f95e277384808a3800d0e1ba0aa6278c3978cc96b1350f8ca49c8"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/cost/2026-07/run_0001_d4ae05e48171/independent_coverage_audit.json",
+      "sha256": "c82bfd009f4e6b33c6fccb615f67337f8ab20a058270ea924935725606be088a"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/cost/2026-07/run_0001_d4ae05e48171/manifest.json",
+      "sha256": "3cee723ea62d96f49bdb5c9e5ca504f7137b912c1a6359d9d796ec3889c3a12a"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/cost/2026-07/run_0001_d4ae05e48171/orders.csv.gz",
+      "sha256": "63b2dd47df716226c0b0a2f942696fdc3f68186c290c47fb4796d29f776e1e76"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/cost/2026-07/run_0001_d4ae05e48171/prepared_entries_review.json",
+      "sha256": "533e49a5ab7d00694faf2055a33eff44b235ae43b49c9be15ae605700e8fadd0"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/cost/2026-07/run_0001_d4ae05e48171/prepared_source_review.json",
+      "sha256": "a70995c0d0d7d62e8ff7dd0f13402c15274bd6f4a3cbe9879b3f4f7cf54cd7d9"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/cost/2026-07/run_0001_d4ae05e48171/signals.csv.gz",
+      "sha256": "c2431741ce1b8f3bead01be64fa824e45795debb80ce1e5d57aa12917292bac8"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/cost/2026-07/run_0001_d4ae05e48171/source_snapshot.tar.gz",
+      "sha256": "d82b31e8624188c8b5a4980865b51e71f2165e42338ca5d148447e7f5681e960"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/cost/2026-07/run_0001_d4ae05e48171/summary.json",
+      "sha256": "bd30f9943bb1d75e88cadfff00831ac69de4f68307b34565dc477cce48004cf8"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/cost/2026-07/run_0001_d4ae05e48171/trades.csv.gz",
+      "sha256": "4d7f5818fcea17348f622f2d1677d249ade98b35116a45330eef81975e1dae85"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/cost/2026-08/run_0001_63c125ef2ef7/candidate_execution.csv.gz",
+      "sha256": "b2ac751cbbad3a24b49ec3fe3758c2cefada4866fb6e1604a7115a7d4887a4e6"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/cost/2026-08/run_0001_63c125ef2ef7/config_snapshot.json",
+      "sha256": "f38e53c1b5830d93496733e4d59951ae4502b7bbb9c16722b454a26fbeb30fa5"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/cost/2026-08/run_0001_63c125ef2ef7/daily_candidates.csv.gz",
+      "sha256": "910de77ae6af7f93b29899c4ab2dee2fdcd7abff8ad81c0da75e13153b05f530"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/cost/2026-08/run_0001_63c125ef2ef7/daily_pool.csv.gz",
+      "sha256": "73a215fa1fecbde3c2a0be4c820f1bbdbcdf14456655e0d4643cff0f934b045c"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/cost/2026-08/run_0001_63c125ef2ef7/data_reference.json",
+      "sha256": "5f3d5585f8d166be7a32457cf0434f4c0674978b9236fc3fea0b4cfb2bbd3a11"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/cost/2026-08/run_0001_63c125ef2ef7/equity.csv.gz",
+      "sha256": "ee4d519ecfda1d9c3c9e28abbd73815dcb385668867fcfc0fb651d17dfdf9b53"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/cost/2026-08/run_0001_63c125ef2ef7/events.csv.gz",
+      "sha256": "0510818b525a8789fd01997a41c25f8984e4704f7764f0c52600e2458544bdd2"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/cost/2026-08/run_0001_63c125ef2ef7/independent_coverage_audit.json",
+      "sha256": "f068f333780ff8fe5ac5a6c7fb8d1153dfbfb334e44ebf0c5ea40a54d823a331"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/cost/2026-08/run_0001_63c125ef2ef7/manifest.json",
+      "sha256": "b821294c12ce9d5a38d1cd5c94c01ff55452050d06153f4a9266a593df600a12"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/cost/2026-08/run_0001_63c125ef2ef7/orders.csv.gz",
+      "sha256": "0510818b525a8789fd01997a41c25f8984e4704f7764f0c52600e2458544bdd2"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/cost/2026-08/run_0001_63c125ef2ef7/prepared_entries_review.json",
+      "sha256": "ee93ca357b0f0ca8b48497d3dbd58dfe84769c4b853fe4d9ee01d96369ba8b8a"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/cost/2026-08/run_0001_63c125ef2ef7/prepared_source_review.json",
+      "sha256": "1f24352ca179f6f41b06f3bc6325920036e6726c9141e307118ceb457830d0e8"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/cost/2026-08/run_0001_63c125ef2ef7/signals.csv.gz",
+      "sha256": "7997da3b628455e886f2dc836a5f8de21ef6c06539c45c3da18cde0e2ee3dd29"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/cost/2026-08/run_0001_63c125ef2ef7/source_archive_recovery.json",
+      "sha256": "957a888ccffdd70cf8449d7ef98735a328675a6d4eaaed3a31c8d100e8d2ed84"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/cost/2026-08/run_0001_63c125ef2ef7/source_snapshot.tar.gz",
+      "sha256": "2814bfd5aff98da261c672f00ea507d9ca83b71297fc3a30e68744fac9fb3072"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/cost/2026-08/run_0001_63c125ef2ef7/summary.json",
+      "sha256": "8fb8ec097b1d4485ee4c18fcdc2a4f3b8aa959e675d8d6336f41c4260f27d87d"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/cost/2026-08/run_0001_63c125ef2ef7/trades.csv.gz",
+      "sha256": "0510818b525a8789fd01997a41c25f8984e4704f7764f0c52600e2458544bdd2"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/cost/2026-09/run_0001_4beb24ac0dce/candidate_execution.csv.gz",
+      "sha256": "87318ff490205e462ca3819223a62631540687aacfde783e95a1df0741e7a791"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/cost/2026-09/run_0001_4beb24ac0dce/config_snapshot.json",
+      "sha256": "6b8a4717288afc11f4a7257b8badbd77ccc04bdf61293e87c23731d0c6af3ab7"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/cost/2026-09/run_0001_4beb24ac0dce/daily_candidates.csv.gz",
+      "sha256": "91ca585998080b05a1d732808c9dd8c073514c8c006ac5e253f5a26bdd6971e2"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/cost/2026-09/run_0001_4beb24ac0dce/daily_pool.csv.gz",
+      "sha256": "1ea21c42329f90e0b81787540f045ca186051c5bf3e3e0128c5b0d2cbd83579e"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/cost/2026-09/run_0001_4beb24ac0dce/data_reference.json",
+      "sha256": "9a841ffc44f9dfda9ee61d95a4afe52de2ef3e99d982d01a2c1e88c1b733119c"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/cost/2026-09/run_0001_4beb24ac0dce/equity.csv.gz",
+      "sha256": "b02fc6eb99d1596151210774b2dfc57eb475921fdedcb9bc9bd94ce4cf6fdd76"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/cost/2026-09/run_0001_4beb24ac0dce/events.csv.gz",
+      "sha256": "002bea2d122cc29655f8fed1f9f970a360db6872addd200bacc343014b91f5bc"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/cost/2026-09/run_0001_4beb24ac0dce/independent_coverage_audit.json",
+      "sha256": "5cfef027ff9428b08a1bc441db98e6c94e46c86e251486b8e855e9dcc00e1199"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/cost/2026-09/run_0001_4beb24ac0dce/manifest.json",
+      "sha256": "3d13a5edba77bdc08e41d6baa7a026dcf07b96c44eea8727b7553dcf7f722893"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/cost/2026-09/run_0001_4beb24ac0dce/orders.csv.gz",
+      "sha256": "5305480dae1e9e610cdd85d0ad6f14006587cc7b2744bbcfa0ae9bbc02e166fb"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/cost/2026-09/run_0001_4beb24ac0dce/prepared_entries_review.json",
+      "sha256": "f04405088ce809f0e8c0654e1b2996a0cd40b4065c58d007b587b9dd276a6da0"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/cost/2026-09/run_0001_4beb24ac0dce/prepared_source_review.json",
+      "sha256": "2c105192448ad4db1992a8ab8784493b8d04f063ec0a7c55bdf6fbc038a07707"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/cost/2026-09/run_0001_4beb24ac0dce/signals.csv.gz",
+      "sha256": "0ca6e807b203c3f0d220b2a6b7d86bc5df53954b8c28b24da2e3711c6c59f9a1"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/cost/2026-09/run_0001_4beb24ac0dce/source_snapshot.tar.gz",
+      "sha256": "2e92f34cf126beaa740f9313a6655d46f2dc7df816bc10393502cc4c9a13c348"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/cost/2026-09/run_0001_4beb24ac0dce/summary.json",
+      "sha256": "dc5859005b0bfe764363a3f03c60d60b6a6027ddfb02d4499b43633afd96d428"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/cost/2026-09/run_0001_4beb24ac0dce/trades.csv.gz",
+      "sha256": "20b14010758eb1675f74405ebb5dc05f8ec57634ad821eb2c3d41e9c61456e92"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/final_assessment.json",
+      "sha256": "9bb18b09388ff1f31a5f5e302efe401e4c4334d97737c9ddf404f8bbda8cb830"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/pullback/2026-07/run_0001_991227fc2b80/candidate_execution.csv.gz",
+      "sha256": "4a7d6260e5b556d248fe4c2da9dfe3c674a74442bb9a2772dba8251752f170da"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/pullback/2026-07/run_0001_991227fc2b80/config_snapshot.json",
+      "sha256": "ad4d59a7e03efd77b5b7e1168ec2e1c454bdb2f431dc1190e40b8701a1b602b3"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/pullback/2026-07/run_0001_991227fc2b80/daily_candidates.csv.gz",
+      "sha256": "ba439cee27eca8bf66b415bc99e085c3e4af5850bbe80f132983dad64d228d6b"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/pullback/2026-07/run_0001_991227fc2b80/daily_pool.csv.gz",
+      "sha256": "8982646d5ab157d4feae008910878b5cb7d16928762aa55a4d342b669354a371"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/pullback/2026-07/run_0001_991227fc2b80/data_reference.json",
+      "sha256": "db6a9610b527d2d5841b06df033cc53c0edeb7bc18536023e48ac270c934ec33"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/pullback/2026-07/run_0001_991227fc2b80/equity.csv.gz",
+      "sha256": "e20762c9400dc75e3f2fccf4f5f522865ce3ce57d06c44cf90ae25812f4cc6b7"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/pullback/2026-07/run_0001_991227fc2b80/events.csv.gz",
+      "sha256": "0510818b525a8789fd01997a41c25f8984e4704f7764f0c52600e2458544bdd2"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/pullback/2026-07/run_0001_991227fc2b80/independent_coverage_audit.json",
+      "sha256": "6cb0dbf7b7aea2cbec8016f31b4ebea8d2312958a1cf9bc51566c698b33065e9"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/pullback/2026-07/run_0001_991227fc2b80/manifest.json",
+      "sha256": "a43e740a21450267a94f1f8ec3a24601046283d63418e086b1bb0d6903043604"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/pullback/2026-07/run_0001_991227fc2b80/orders.csv.gz",
+      "sha256": "0510818b525a8789fd01997a41c25f8984e4704f7764f0c52600e2458544bdd2"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/pullback/2026-07/run_0001_991227fc2b80/prepared_source_review.json",
+      "sha256": "a70995c0d0d7d62e8ff7dd0f13402c15274bd6f4a3cbe9879b3f4f7cf54cd7d9"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/pullback/2026-07/run_0001_991227fc2b80/signals.csv.gz",
+      "sha256": "7629d5e76dc09fefbe23d23ac8bae2c783c24492ac3750fafc8f2e999573900c"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/pullback/2026-07/run_0001_991227fc2b80/source_snapshot.tar.gz",
+      "sha256": "d4ff492df6b85cade534a15143701c15fcd99b7cead9ad1de576ba42d4480b93"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/pullback/2026-07/run_0001_991227fc2b80/summary.json",
+      "sha256": "e7034e1ae5a71a51732764035efc1c218b41064c39dec9ed56c93ba15388ec16"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/pullback/2026-07/run_0001_991227fc2b80/trades.csv.gz",
+      "sha256": "0510818b525a8789fd01997a41c25f8984e4704f7764f0c52600e2458544bdd2"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/pullback/2026-08/run_0001_6db94c7f0687/candidate_execution.csv.gz",
+      "sha256": "b2ac751cbbad3a24b49ec3fe3758c2cefada4866fb6e1604a7115a7d4887a4e6"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/pullback/2026-08/run_0001_6db94c7f0687/config_snapshot.json",
+      "sha256": "6419d206bdbb0b361557c7bfdf158dfc43d49aa332600b3813b22a5a7f9fd9ab"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/pullback/2026-08/run_0001_6db94c7f0687/daily_candidates.csv.gz",
+      "sha256": "910de77ae6af7f93b29899c4ab2dee2fdcd7abff8ad81c0da75e13153b05f530"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/pullback/2026-08/run_0001_6db94c7f0687/daily_pool.csv.gz",
+      "sha256": "73a215fa1fecbde3c2a0be4c820f1bbdbcdf14456655e0d4643cff0f934b045c"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/pullback/2026-08/run_0001_6db94c7f0687/data_reference.json",
+      "sha256": "5f3d5585f8d166be7a32457cf0434f4c0674978b9236fc3fea0b4cfb2bbd3a11"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/pullback/2026-08/run_0001_6db94c7f0687/equity.csv.gz",
+      "sha256": "ee4d519ecfda1d9c3c9e28abbd73815dcb385668867fcfc0fb651d17dfdf9b53"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/pullback/2026-08/run_0001_6db94c7f0687/events.csv.gz",
+      "sha256": "0510818b525a8789fd01997a41c25f8984e4704f7764f0c52600e2458544bdd2"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/pullback/2026-08/run_0001_6db94c7f0687/independent_coverage_audit.json",
+      "sha256": "2639798b4f311e5a423ff444287740e155bd7da9fa14df5a51376c446882d8db"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/pullback/2026-08/run_0001_6db94c7f0687/manifest.json",
+      "sha256": "c44404847f1d69fd7465ff06992f18b0d1c0946ab0cb857b915f0bfd41761266"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/pullback/2026-08/run_0001_6db94c7f0687/orders.csv.gz",
+      "sha256": "0510818b525a8789fd01997a41c25f8984e4704f7764f0c52600e2458544bdd2"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/pullback/2026-08/run_0001_6db94c7f0687/prepared_source_review.json",
+      "sha256": "1f24352ca179f6f41b06f3bc6325920036e6726c9141e307118ceb457830d0e8"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/pullback/2026-08/run_0001_6db94c7f0687/signals.csv.gz",
+      "sha256": "98665d445822afa43b84c33ad3d9595da55ac0306633df15f2cf8146013ec227"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/pullback/2026-08/run_0001_6db94c7f0687/source_snapshot.tar.gz",
+      "sha256": "7cd6e5b661900be610b83f14e811ea2a9013b81117983ba0febfe6e1731261d8"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/pullback/2026-08/run_0001_6db94c7f0687/summary.json",
+      "sha256": "eceb459fa9a8d8a500eb1952fb483cb04a08ac713819c02d8965fddc37bd635d"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/pullback/2026-08/run_0001_6db94c7f0687/trades.csv.gz",
+      "sha256": "0510818b525a8789fd01997a41c25f8984e4704f7764f0c52600e2458544bdd2"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/pullback/2026-09/run_0001_c5f54f5f22a8/candidate_execution.csv.gz",
+      "sha256": "87318ff490205e462ca3819223a62631540687aacfde783e95a1df0741e7a791"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/pullback/2026-09/run_0001_c5f54f5f22a8/config_snapshot.json",
+      "sha256": "4814812f27534d430c8d7cb23ff4453167dca9696e2700e0056726f196e1cb53"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/pullback/2026-09/run_0001_c5f54f5f22a8/daily_candidates.csv.gz",
+      "sha256": "91ca585998080b05a1d732808c9dd8c073514c8c006ac5e253f5a26bdd6971e2"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/pullback/2026-09/run_0001_c5f54f5f22a8/daily_pool.csv.gz",
+      "sha256": "1ea21c42329f90e0b81787540f045ca186051c5bf3e3e0128c5b0d2cbd83579e"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/pullback/2026-09/run_0001_c5f54f5f22a8/data_reference.json",
+      "sha256": "9a841ffc44f9dfda9ee61d95a4afe52de2ef3e99d982d01a2c1e88c1b733119c"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/pullback/2026-09/run_0001_c5f54f5f22a8/equity.csv.gz",
+      "sha256": "a049bd791beaab066f6060506f6a7510dffe6b35f16062b619733c88ff49c3ef"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/pullback/2026-09/run_0001_c5f54f5f22a8/events.csv.gz",
+      "sha256": "0510818b525a8789fd01997a41c25f8984e4704f7764f0c52600e2458544bdd2"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/pullback/2026-09/run_0001_c5f54f5f22a8/independent_coverage_audit.json",
+      "sha256": "ddf86d6614a9fb64c2ba58175e89550ecd5f56af24788280f0d73d1d8e7147d8"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/pullback/2026-09/run_0001_c5f54f5f22a8/manifest.json",
+      "sha256": "693d9437a1d60b9d2d2d6b080ebf07dc32edcbd920148279c0163aedab0de0e3"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/pullback/2026-09/run_0001_c5f54f5f22a8/orders.csv.gz",
+      "sha256": "0510818b525a8789fd01997a41c25f8984e4704f7764f0c52600e2458544bdd2"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/pullback/2026-09/run_0001_c5f54f5f22a8/prepared_source_review.json",
+      "sha256": "2c105192448ad4db1992a8ab8784493b8d04f063ec0a7c55bdf6fbc038a07707"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/pullback/2026-09/run_0001_c5f54f5f22a8/signals.csv.gz",
+      "sha256": "2b24ed1c0dea76bba3c7a38fdb3b85e99f58c52bf8889b3745671cb4ac4727dc"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/pullback/2026-09/run_0001_c5f54f5f22a8/source_snapshot.tar.gz",
+      "sha256": "62941d9a93648051b87e8faede71886f3575df430614e4e058d85000b0b96938"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/pullback/2026-09/run_0001_c5f54f5f22a8/summary.json",
+      "sha256": "d1b27d9c4c9a6f7003523530c57a90950eafc551beaf3ca6c0fdee950c573f3c"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review/pullback/2026-09/run_0001_c5f54f5f22a8/trades.csv.gz",
+      "sha256": "0510818b525a8789fd01997a41c25f8984e4704f7764f0c52600e2458544bdd2"
+    },
+    {
+      "logical_path": "expanded_outputs/optimization_review.html",
+      "sha256": "04e17c3d3455ed705ee7119b86929717283a23b9fe685ffa9753afa8b303d12f"
+    }
+  ],
+  "reproducibility_snapshot": "a4bceb7e51f286b191dfd50daf22ad3d53002e0c99d66cf4c3f31cd9c5b67e87",
+  "services": {
+    "rclone-googledrive.service": {
+      "enabled": "enabled",
+      "active": "active"
+    },
+    "quant-research-acquire.timer": {
+      "enabled": "enabled",
+      "active": "active"
+    },
+    "quant-research-archive.timer": {
+      "enabled": "enabled",
+      "active": "active"
+    }
+  },
+  "local_bytes": 4214278193,
+  "cache_bytes": 56844443,
+  "transfer_reserved_bytes_by_day": {
+    "2026-10-05": 1463163568
+  },
+  "locked_test_read": false,
+  "live_trading_changed": false
+}

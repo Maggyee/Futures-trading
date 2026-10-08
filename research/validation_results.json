@@ -1,0 +1,435 @@
+{
+  "generated_utc": "2026-10-02T17:12:23.326734+00:00",
+  "workspace": "/home/nishiki/vnpy-ctp",
+  "code_identity": {
+    "code_hash": "4a46e096b247f8f232926753376d11a5f6630f780c5a2282ebc55bcee5d0fc20",
+    "source_hashes": {
+      "research/__init__.py": "f73abe0283b0b2f574e5b5810efe63f460965954095a1aa3e4ee983baa519526",
+      "research/__main__.py": "5f41c3c36f87fae1bd2c777cbfb07ef35adb9fe2f021d68492b94ce814bb60de",
+      "research/calendar.py": "f576a6a481865c35683dd68cfcbd982dd0a482f2017e84fb44819928a4e1de4a",
+      "research/config.py": "0cd83d96dc46f4d64d1d019b703887608383474c123e2d9db689a1cdf99a4384",
+      "research/data.py": "8e793b7bc99f66eb0a07ceae0966e5014b11ce16c3479ad105e241d7a2b3f06d",
+      "research/execution.py": "95eb8f1fa262b075cc747d18bdf2a4c3e5403f13457c611307eddecbeca020e5",
+      "research/experiments.py": "90bed79986571ee2cf2199bbb377fd24a61f25e6449866b62d1bf50db4013072",
+      "research/fixtures.py": "08f74448183f2bd5e5a2eebe9c899667e521958c36eefcd6b68c89934fdd9e27",
+      "research/reporting.py": "6e9985407107761d3c218cf0cc99b90fcfe051c642d09f6453e7403cd789048e",
+      "research/signals.py": "9f22cd3cfd46f69beb5a43028c264a7924a844f67cadfe0263aac45d5cef750e",
+      "research/vnpy_adapter.py": "cadbfe3163b01ce1539f26abd985f0e203485076f190dabdb53016be46335e15"
+    },
+    "git_commit": null
+  },
+  "files": [
+    {
+      "path": "research/ENVIRONMENT.json",
+      "action": "created",
+      "sha256": "81fbfd49a45ef87960e687de31f313a9cd6cff1a97046d55fd4eb69b29c5b974"
+    },
+    {
+      "path": "research/README.md",
+      "action": "created",
+      "sha256": "a8dcde9ed32d7db0c825100d0033e8aba1106c4f434b4cea7869e1f9f9c7765a"
+    },
+    {
+      "path": "research/__init__.py",
+      "action": "created",
+      "sha256": "f73abe0283b0b2f574e5b5810efe63f460965954095a1aa3e4ee983baa519526"
+    },
+    {
+      "path": "research/__main__.py",
+      "action": "created",
+      "sha256": "5f41c3c36f87fae1bd2c777cbfb07ef35adb9fe2f021d68492b94ce814bb60de"
+    },
+    {
+      "path": "research/calendar.py",
+      "action": "created",
+      "sha256": "f576a6a481865c35683dd68cfcbd982dd0a482f2017e84fb44819928a4e1de4a"
+    },
+    {
+      "path": "research/config.py",
+      "action": "created",
+      "sha256": "0cd83d96dc46f4d64d1d019b703887608383474c123e2d9db689a1cdf99a4384"
+    },
+    {
+      "path": "research/data.py",
+      "action": "created",
+      "sha256": "8e793b7bc99f66eb0a07ceae0966e5014b11ce16c3479ad105e241d7a2b3f06d"
+    },
+    {
+      "path": "research/examples/calendar.json",
+      "action": "created",
+      "sha256": "c01db5396af53114d743143dde45e1b1e14c99ef262f4c50c30acffd682ca81f"
+    },
+    {
+      "path": "research/examples/config.json",
+      "action": "created",
+      "sha256": "845786f49b1f9ebe79a2cb3605f4f16676e91fe5af6cf08b7c467df1d1456f40"
+    },
+    {
+      "path": "research/examples/data_template.csv",
+      "action": "created",
+      "sha256": "8e7be017e8ce7991d62e0e374ba8f745df7c8e647e71e7a723781bad98365f55"
+    },
+    {
+      "path": "research/examples/metadata.json",
+      "action": "created",
+      "sha256": "ae3cd484c9a54e42f4e321fbdc0029f68d49b3b341b82286ab6ae1edd76a880c"
+    },
+    {
+      "path": "research/execution.py",
+      "action": "created",
+      "sha256": "95eb8f1fa262b075cc747d18bdf2a4c3e5403f13457c611307eddecbeca020e5"
+    },
+    {
+      "path": "research/experiments.py",
+      "action": "created",
+      "sha256": "90bed79986571ee2cf2199bbb377fd24a61f25e6449866b62d1bf50db4013072"
+    },
+    {
+      "path": "research/fixtures.py",
+      "action": "created",
+      "sha256": "08f74448183f2bd5e5a2eebe9c899667e521958c36eefcd6b68c89934fdd9e27"
+    },
+    {
+      "path": "research/reporting.py",
+      "action": "created",
+      "sha256": "6e9985407107761d3c218cf0cc99b90fcfe051c642d09f6453e7403cd789048e"
+    },
+    {
+      "path": "research/requirements.research.lock",
+      "action": "created",
+      "sha256": "735d069fb092f8ff8f98fc4356d2a985a943fe318a61feae36cbed6d59af60ad"
+    },
+    {
+      "path": "research/signals.py",
+      "action": "created",
+      "sha256": "9f22cd3cfd46f69beb5a43028c264a7924a844f67cadfe0263aac45d5cef750e"
+    },
+    {
+      "path": "research/source_audit.json",
+      "action": "created",
+      "sha256": "557590bcab3ce4d32ed69cb638ccfa0ffba09684042b49a09703ab11578150f9"
+    },
+    {
+      "path": "research/validation_report.md",
+      "action": "created",
+      "sha256": "43c5917de3547e2699368957d57d49e5af7cbcb91e7314f8567575c5e5cc9c7b"
+    },
+    {
+      "path": "research/vnpy_adapter.py",
+      "action": "created",
+      "sha256": "cadbfe3163b01ce1539f26abd985f0e203485076f190dabdb53016be46335e15"
+    },
+    {
+      "path": "research/vnpy_engine_review.md",
+      "action": "created",
+      "sha256": "7aec1f804e69cbf9567c15d04f31ec80148895dd4f1bd0a941d1cd40e236854f"
+    },
+    {
+      "path": "assumptions.md",
+      "action": "created",
+      "sha256": "324c0b48ca4ab96d8b1a061cc3c9e1a3ff4270d6a559d3dc69f22cce31ca9562"
+    },
+    {
+      "path": "known_limitations.md",
+      "action": "created",
+      "sha256": "e6e92168c3efb826132833b1320a64953cab772cc3c14dbc8f7c5fb2e2e57861"
+    },
+    {
+      "path": "backend/research_results.py",
+      "action": "created",
+      "sha256": "ea6c42114e223ab49339147a3b0d4bc911694b416d4c191e238639805a607210"
+    },
+    {
+      "path": "frontend/src/ResearchView.tsx",
+      "action": "created",
+      "sha256": "6680ff7326d86ff062a4e5dc6aa18572243347257fc54370f5398b14ce30305e"
+    },
+    {
+      "path": "frontend/e2e/research.spec.ts",
+      "action": "created",
+      "sha256": "a9aa09d1744cc6d926891fd6d0690d097a50e69b7043ca23e591240594ecaf51"
+    },
+    {
+      "path": "tests/test_research.py",
+      "action": "created",
+      "sha256": "0d1f262dbc967742ff7db3705ac682b3c593ebe10fa6336ae2e2ade5d46f50e1"
+    },
+    {
+      "path": "tests/test_research_integration.py",
+      "action": "created",
+      "sha256": "ff413d1c4eede87b886aee120d4d6025ea18ab405f453547e9f9d44338870729"
+    },
+    {
+      "path": "README.md",
+      "action": "modified",
+      "sha256": "5b754a09a95bbf9ff3d740e38219801362270dc8fcfcf1e699eea920c9607122"
+    },
+    {
+      "path": "pyproject.toml",
+      "action": "modified",
+      "sha256": "7481832f1cb0b19bab23b09e5b33b0a604bbdcfbb76a20c2cd77770a6f42e786"
+    },
+    {
+      "path": ".gitignore",
+      "action": "modified",
+      "sha256": "f031defec716d6b6bfa504e1fcff116199c554c2656915f3018b7f20fc96a0e3"
+    },
+    {
+      "path": "backend/api.py",
+      "action": "modified",
+      "sha256": "36c43332bea1fa5aadec0e1749d9ccf92dd31938358f0f774dc7d3f25b3335dc"
+    },
+    {
+      "path": "frontend/src/main.tsx",
+      "action": "modified",
+      "sha256": "d9ef5d92e6999976144d15f1732d026e955b6d04a4d962d7571ae5052847bd29"
+    },
+    {
+      "path": "frontend/src/style.css",
+      "action": "modified",
+      "sha256": "2dd97a485a375af9df74b41a01e9244bc1d5a1cb8ec312c996bdff4b06db9425"
+    },
+    {
+      "path": "research/validation_results.json",
+      "action": "created",
+      "sha256": null,
+      "note": "Inventory excludes its own recursive hash"
+    }
+  ],
+  "commands": [
+    {
+      "command": ".venv/bin/python -m pytest tests -q --junitxml=research_outputs/validation_python.xml",
+      "exit_code": 0,
+      "tests": 104,
+      "code_hash": "e8db93c83e9197aaf73d0898c5580de4e3ff2468df994a46bec36dc39dcb1201"
+    },
+    {
+      "command": ".venv/bin/python -m pytest tests/test_research.py tests/test_research_integration.py -q --junitxml=research_outputs/validation_research_final.xml",
+      "exit_code": 0,
+      "tests": 46,
+      "code_hash": "4a46e096b247f8f232926753376d11a5f6630f780c5a2282ebc55bcee5d0fc20"
+    },
+    {
+      "command": ".venv/bin/ruff check backend research tests",
+      "exit_code": 0
+    },
+    {
+      "command": ".venv/bin/python -m research backtest --config research_outputs/acceptance_fixture/config.json --synthetic --output research_outputs/final_baseline",
+      "exit_code": 0,
+      "artifact": "research_outputs/final_baseline/run_0003_eb6308332b00"
+    },
+    {
+      "command": ".venv/bin/python -m research sweep-topk --config research_outputs/acceptance_fixture/config.json --synthetic --budget 24 --output research_outputs/acceptance_topk",
+      "exit_code": 0,
+      "completed": 24
+    },
+    {
+      "command": ".venv/bin/python -m research compare-entry --config research_outputs/acceptance_fixture/config.json --synthetic --budget 4 --output research_outputs/acceptance_entry",
+      "exit_code": 0,
+      "completed": 4
+    },
+    {
+      "command": ".venv/bin/python -m research walk-forward --config research_outputs/acceptance_fixture/config.json --synthetic --budget 8 --output research_outputs/acceptance_walk",
+      "exit_code": 0,
+      "folds": 1,
+      "completed": 8,
+      "eligible_for_selection": 0
+    },
+    {
+      "command": ".venv/bin/python -m research calibrate-ticks --config research_outputs/acceptance_fixture/config.json --synthetic --output research_outputs/acceptance_calibration",
+      "exit_code": 0
+    },
+    {
+      "command": ".venv/bin/python -m research freeze --run research_outputs/final_baseline/run_0003_eb6308332b00 --frozen research_outputs/acceptance_frozen_final.json",
+      "exit_code": 0
+    },
+    {
+      "command": ".venv/bin/python -m research backtest --config research_outputs/final_baseline/run_0003_eb6308332b00/config_snapshot.json --frozen research_outputs/acceptance_frozen_final.json --split test --scope shared --synthetic --output research_outputs/acceptance_final_test",
+      "exit_code": 0,
+      "artifact": "research_outputs/acceptance_final_test/run_0002_ed767290d3fd"
+    },
+    {
+      "command": ".venv/bin/python -m research report --run research_outputs/acceptance_final_test/run_0002_ed767290d3fd",
+      "exit_code": 0
+    },
+    {
+      "command": ".venv/bin/python -m research validate-data --config research/examples/config.json --output research_outputs/real_data_audit",
+      "exit_code": 0,
+      "retained_day_bars": 2829,
+      "configuration_gap_count": 31
+    },
+    {
+      "command": ".venv/bin/python -m research backtest --config research/examples/config.json --output research_outputs/real_baseline",
+      "exit_code": 1,
+      "expected_failure": true,
+      "artifact": "research_outputs/real_baseline/run_0003_7db88319b180"
+    }
+  ],
+  "tests": {
+    "full_run_before_report_eligibility_fix": {
+      "artifact": "research_outputs/validation_python.xml",
+      "tests": 104,
+      "failures": 0,
+      "errors": 0,
+      "seconds": 81.396
+    },
+    "final_research_regression": {
+      "artifact": "research_outputs/validation_research_final.xml",
+      "tests": 46,
+      "failures": 0,
+      "errors": 0,
+      "seconds": 40.872
+    },
+    "distinct_passed_cases": 105,
+    "unchanged_original_cases": 59,
+    "final_research_cases": 46,
+    "warning": "Starlette TestClient httpx deprecation"
+  },
+  "frontend": {
+    "build": "passed (TypeScript + Vite)",
+    "format": "Prettier passed",
+    "browser_cases_passed": 7,
+    "browser_execution": "Initial 6 passed; original full-flow timeout under concurrent load; sequential retest passed",
+    "existing_service_restarted": false
+  },
+  "real_data": {
+    "raw_rows": 5115,
+    "retained_day_bars": 2829,
+    "coverage": [
+      {
+        "contract": "au2612.SHFE",
+        "product": "au",
+        "rows": 363,
+        "start": "2026-09-28T14:53:00+08:00",
+        "end": "2026-09-30T11:30:00+08:00",
+        "trading_days": [
+          "2026-09-28",
+          "2026-09-29",
+          "2026-09-30"
+        ]
+      },
+      {
+        "contract": "cu2611.SHFE",
+        "product": "cu",
+        "rows": 543,
+        "start": "2026-09-28T09:38:00+08:00",
+        "end": "2026-09-30T11:30:00+08:00",
+        "trading_days": [
+          "2026-09-28",
+          "2026-09-29",
+          "2026-09-30"
+        ]
+      },
+      {
+        "contract": "m2701.DCE",
+        "product": "m",
+        "rows": 777,
+        "start": "2026-09-24T09:00:00+08:00",
+        "end": "2026-09-30T11:30:00+08:00",
+        "trading_days": [
+          "2026-09-24",
+          "2026-09-28",
+          "2026-09-29",
+          "2026-09-30"
+        ]
+      },
+      {
+        "contract": "rb2701.SHFE",
+        "product": "rb",
+        "rows": 783,
+        "start": "2026-09-24T09:21:00+08:00",
+        "end": "2026-09-30T11:30:00+08:00",
+        "trading_days": [
+          "2026-09-24",
+          "2026-09-28",
+          "2026-09-29",
+          "2026-09-30"
+        ]
+      },
+      {
+        "contract": "sc2612.INE",
+        "product": "sc",
+        "rows": 363,
+        "start": "2026-09-28T14:53:00+08:00",
+        "end": "2026-09-30T11:30:00+08:00",
+        "trading_days": [
+          "2026-09-28",
+          "2026-09-29",
+          "2026-09-30"
+        ]
+      }
+    ],
+    "configuration_gaps": [
+      "au2612.SHFE: 缺少 expiry",
+      "au2612.SHFE: 缺少 listed",
+      "au2612.SHFE: 缺少 margin_rate",
+      "au2612: 合约元数据未核实",
+      "au2612: 缺少分开仓/平今/平昨的历史手续费",
+      "au: 缺少正整数固定止损/止盈跳数",
+      "cu2611.SHFE: 缺少 expiry",
+      "cu2611.SHFE: 缺少 listed",
+      "cu2611.SHFE: 缺少 margin_rate",
+      "cu2611: 合约元数据未核实",
+      "cu2611: 缺少分开仓/平今/平昨的历史手续费",
+      "cu: 缺少正整数固定止损/止盈跳数",
+      "m2701.DCE: 缺少 expiry",
+      "m2701.DCE: 缺少 listed",
+      "m2701.DCE: 缺少 margin_rate",
+      "m2701: 合约元数据未核实",
+      "m2701: 缺少分开仓/平今/平昨的历史手续费",
+      "m: 缺少正整数固定止损/止盈跳数",
+      "rb2701.SHFE: 缺少 expiry",
+      "rb2701.SHFE: 缺少 listed",
+      "rb2701.SHFE: 缺少 margin_rate",
+      "rb2701: 合约元数据未核实",
+      "rb2701: 缺少分开仓/平今/平昨的历史手续费",
+      "rb: 缺少正整数固定止损/止盈跳数",
+      "sc2612.INE: 缺少 expiry",
+      "sc2612.INE: 缺少 listed",
+      "sc2612.INE: 缺少 margin_rate",
+      "sc2612: 合约元数据未核实",
+      "sc2612: 缺少分开仓/平今/平昨的历史手续费",
+      "sc: 缺少正整数固定止损/止盈跳数",
+      "历史交易日历未核实：calendar.verified"
+    ],
+    "audit_data_fingerprint": "4d371ea83a8d1aab9d470e5450620abba17a5d6dbc9bd950d1387a1ba30d4eeb",
+    "scope": "Five specific commodity contracts; no financial data or full contract universe",
+    "backtest_status": "blocked_missing_configuration",
+    "return_validation": false,
+    "audit_artifact": "research_outputs/real_data_audit/report.md"
+  },
+  "engineering_samples": {
+    "label": "SYNTHETIC_TEST_ONLY",
+    "baseline": "research_outputs/final_baseline/run_0003_eb6308332b00",
+    "locked_test": "research_outputs/acceptance_final_test/run_0002_ed767290d3fd",
+    "top_k_completed": 24,
+    "entry_completed": 4,
+    "entry_trade_counts": {
+      "direct": 12,
+      "pullback_ma10": 0,
+      "pullback_ma20": 0,
+      "pullback_either": 0
+    },
+    "walk_forward_folds": 1,
+    "walk_forward_completed": 8,
+    "eligible_for_parameter_selection": 0,
+    "strategy_evidence": false
+  },
+  "limitations": [
+    "Minute OHLC fills and full execution approximations",
+    "Night selection interface reserved, not enabled",
+    "No tick, simulated account or real trading validation",
+    "No full-market Top-K conclusion",
+    "No unlimited-capital counterfactual or day-block bootstrap",
+    "Proportional nominal margin only",
+    "Read-only research frontend; reload API through existing deployment workflow"
+  ],
+  "reproducibility": {
+    "seed": 20261002,
+    "dependencies": "research/ENVIRONMENT.json",
+    "direct_pins": "research/requirements.research.lock",
+    "git_repository": false,
+    "archives": "Each run stores source/data/config snapshots and hashes",
+    "historical_attempts_preserved": true
+  }
+}

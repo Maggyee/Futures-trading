@@ -1,0 +1,12 @@
+[Unit]
+Description=Sync bounded quant research archives every 15 minutes
+
+[Timer]
+OnCalendar=*:0/15
+Persistent=true
+RandomizedDelaySec=30
+Unit=quant-research-archive.service
+
+[Install]
+WantedBy=timers.target
+

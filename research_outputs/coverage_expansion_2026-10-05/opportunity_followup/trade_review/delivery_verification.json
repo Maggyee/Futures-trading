@@ -1,0 +1,185 @@
+{
+  "status": "passed",
+  "charts": 35,
+  "selected": "control",
+  "selected_trades": 8,
+  "files": {
+    "control-2026-07-1.png": {
+      "sha256": "6db86fff0293ba2b66c8e4ac80843cff1a2cb81f3c13a467fcfb571aae64f8e3",
+      "bytes": 295209
+    },
+    "control-2026-07-2.png": {
+      "sha256": "d87e1b4500ff5b036a97a78ae5941e397f0c39f68219f57ef33507d6f1fc50a4",
+      "bytes": 300175
+    },
+    "control-2026-07-3.png": {
+      "sha256": "90bea7873662e2c2d98b49c18d527f6423304e7b936637caadf53a35a9dbf95d",
+      "bytes": 297940
+    },
+    "control-2026-07-4.png": {
+      "sha256": "7a0fd99c22d31eb1f00b6a2e82d9ce8ae9a3d686da110f644202763333549cdd",
+      "bytes": 294598
+    },
+    "control-2026-07-5.png": {
+      "sha256": "e5af13bc720bef39f2ffe854606ff1114d1e83bc6939d811557630dedcd9d60e",
+      "bytes": 300546
+    },
+    "control-2026-07-6.png": {
+      "sha256": "5826d6936d8f4d07ca2dca319f34f8446b79c16f0bc8d9cfab73637572261a5e",
+      "bytes": 295210
+    },
+    "control-2026-09-1.png": {
+      "sha256": "adc8be13469775d9ed33f3535c5b648474d761b143cbe48ea5f62a6bddab7bed",
+      "bytes": 330167
+    },
+    "control-2026-09-2.png": {
+      "sha256": "bc2dbe923e37fb1f27a395dc71b7884a3e6e9c15305ee8ad068c57addae8cde0",
+      "bytes": 302663
+    },
+    "breakeven15-2026-07-1.png": {
+      "sha256": "d8c1ecd43161b1110ad05a9b012da572f3c5a0c09e6259248052f9e15bb004ba",
+      "bytes": 306379
+    },
+    "breakeven15-2026-07-2.png": {
+      "sha256": "93f095672f77cbe60e6c5a0c19fa64ce94ddb11608adbfa8b2f598200a5420d8",
+      "bytes": 302675
+    },
+    "breakeven15-2026-07-3.png": {
+      "sha256": "e9bdb30e2718cc70ba3bc99a8be3e8c3dff7c7e1887e9ea7a44c6de6ecf39261",
+      "bytes": 300690
+    },
+    "breakeven15-2026-07-4.png": {
+      "sha256": "63f246b523449797d99f55bec0fbccf55c7fcdce1ebd2969f03deaa48ba66527",
+      "bytes": 297567
+    },
+    "breakeven15-2026-07-5.png": {
+      "sha256": "1ed779ef666eae80ce984f9686667e90d14f8464dd1fbe5ea32de924c13d44c5",
+      "bytes": 303495
+    },
+    "breakeven15-2026-07-6.png": {
+      "sha256": "b067b58ccd45ae2c28389b290ec847d189bb7761b2ad54fac09ec19d78f2d0c9",
+      "bytes": 297793
+    },
+    "ma40confirm-2026-07-1.png": {
+      "sha256": "98b03dd962e2dd8ea628a8976cac8767e23ea8d58dddbd8ca6491358335ab2e6",
+      "bytes": 299277
+    },
+    "ma40confirm-2026-07-2.png": {
+      "sha256": "f63f81ad513eb36c197d72749a44cecebe0178081b88e60f5d314c03112c15fc",
+      "bytes": 304183
+    },
+    "ma40confirm-2026-07-3.png": {
+      "sha256": "22651ee66a0ada645e45c7a36380f6f1ec524d0e0731729e27b16aa394c73724",
+      "bytes": 302024
+    },
+    "ma40confirm-2026-07-4.png": {
+      "sha256": "d56b27afc8cb9a6ad98b0730baaa5492eafb2921fdb14f84b6b9d2d1aab56629",
+      "bytes": 298492
+    },
+    "ma40confirm-2026-07-5.png": {
+      "sha256": "a88a8594e2c391a0cd449e31a37575c233a34839d399a5fec56fa5aa449ff048",
+      "bytes": 304708
+    },
+    "ma40confirm-2026-07-6.png": {
+      "sha256": "8cd39dbc3ffcf5496ad4adcd663454f2ab6a028ff536d3902c1e9e4aa034b6bf",
+      "bytes": 299190
+    },
+    "replacement-2026-07-1.png": {
+      "sha256": "d410f3a904312ea44101076d77107e5d0039f9d85d3a7770c67bdf50359ffd6e",
+      "bytes": 304519
+    },
+    "replacement-2026-07-2.png": {
+      "sha256": "3e264ce8d837f1c025c5b3541619909d9ba8fe6229dd8f777349c779d438608e",
+      "bytes": 309324
+    },
+    "replacement-2026-07-3.png": {
+      "sha256": "bbf78126e9111fb59ab5facdba3778707e4f6cccda68a3afb8c8ad12bd0b53d9",
+      "bytes": 307086
+    },
+    "replacement-2026-07-4.png": {
+      "sha256": "6cdfaeef9633d03496fa8f399cb48e5f70656d76e5eb36abe0338815cb9c0d14",
+      "bytes": 303828
+    },
+    "replacement-2026-07-5.png": {
+      "sha256": "dbc5677d8d8ec295db175c595fd8a573b418c87de07333cb9b1cef9e1dd2c704",
+      "bytes": 309842
+    },
+    "replacement-2026-07-6.png": {
+      "sha256": "a4874dbd345b649476819b4d56cdd3df2919d39d925a71fdd7981943acaaad06",
+      "bytes": 304374
+    },
+    "trend-2026-07-1.png": {
+      "sha256": "6542d3008ca3563c8e8202e85df3a18cfdaf76e0f27c541a8297d4766362b11a",
+      "bytes": 332198
+    },
+    "trend-2026-07-2.png": {
+      "sha256": "fb059561c42e3e38a590d97953590d9d997bd8a66ab990af45adc290490f3444",
+      "bytes": 328231
+    },
+    "trend-2026-07-3.png": {
+      "sha256": "bf788c5068ab7efc6aef90f945a9d1bffa542141844d639746a3901b68e1326e",
+      "bytes": 327981
+    },
+    "breakeven15-2026-09-1.png": {
+      "sha256": "96c755ecb725471771b3cb879753f45bfc5b74d8656dd17e641d0a4b97720064",
+      "bytes": 333198
+    },
+    "breakeven15-2026-09-2.png": {
+      "sha256": "6470cb0ba69715e93ba64d4ed2800bca2a8f516dd1da5a9c7ff3a3fb63cc0634",
+      "bytes": 305308
+    },
+    "ma40confirm-2026-09-1.png": {
+      "sha256": "808549ea459c07ce285d7001dfb791b37e797ec272159564db0c5bcb94258192",
+      "bytes": 334305
+    },
+    "ma40confirm-2026-09-2.png": {
+      "sha256": "8218362984a6a2ef17dd74a6076b1e6261f9afaa0284f2a37f8bd259dcf2d24b",
+      "bytes": 306902
+    },
+    "replacement-2026-09-1.png": {
+      "sha256": "f27242274a49663186bb516774543885190129d531153ae3b4688ce7e4f912ff",
+      "bytes": 339565
+    },
+    "replacement-2026-09-2.png": {
+      "sha256": "178fe427f8ad9f6e9b5eaa061476d5e1167836274c01974832dac52efc574ee6",
+      "bytes": 311949
+    },
+    "trade_review.csv": {
+      "sha256": "d1cd1a6412cd31732b0b3b4f58346e1c1cba374398e11ac6963520aab6188d12",
+      "bytes": 8153
+    },
+    "selected_trades_export.csv": {
+      "sha256": "38ff06308332061134b496791355e3a94a3ea4b782ff0b16d680215ca48f8591",
+      "bytes": 1572
+    },
+    "review_notes.md": {
+      "sha256": "46200afba65792440e083e1c9400b71439859a0badcac8c0b916d8f04b3a2821",
+      "bytes": 5570
+    },
+    "opportunity_followup_review.html": {
+      "sha256": "68ad3dd40eab79ed3e038db4a614dcdb4b3bda91aef996102a0eb8c6fe47dbf6",
+      "bytes": 12531035
+    },
+    "selection_diagnosis.json": {
+      "sha256": "9292d3e7c8aa78342661a05d18c042e7099bea39111cb270f6055ea0ec0a1bd9",
+      "bytes": 4133
+    },
+    "verification.json": {
+      "sha256": "0c9df852607079be7d5034cf0b0ced689cbcd471213fcb7f7004a33cb9f9554e",
+      "bytes": 29822
+    },
+    "browser_verification.json": {
+      "sha256": "deba500647b81fcacd2854cd5e4ca5c492efbebc5f1e25e2811dd7524e5d3bb3",
+      "bytes": 10268
+    },
+    "进出场图与成交清单.zip": {
+      "sha256": "29ebc59efcff60b03498d4371b5a7372eed7850e20592457a607b8fcf82c4200",
+      "bytes": 13147577
+    }
+  },
+  "source_checks": 35,
+  "browser_views": 70,
+  "locked_test_read": false,
+  "live_trading_changed": false,
+  "archive_reserve_bytes": 24430720
+}

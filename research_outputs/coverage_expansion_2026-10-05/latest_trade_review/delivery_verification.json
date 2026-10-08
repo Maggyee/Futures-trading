@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "html": "/home/nishiki/vnpy-ctp/research_outputs/coverage_expansion_2026-10-05/latest_trade_review/latest_entry_exit_review.html",
+  "html_sha256": "3cfd751e78ae9291a3402cfe30e1caad8529c4de34217bc318937077f52f3cab",
+  "chart_views_checked": 40,
+  "higher_timeframe_views_checked": 20,
+  "latest_trade_pngs": 8,
+  "zip": "/home/nishiki/vnpy-ctp/research_outputs/coverage_expansion_2026-10-05/latest_trade_review/最新8笔进出场图.zip",
+  "zip_sha256": "b3ba2ef4bc9ae34a18f51a6d1dd52378de6a35c86d338da44d06ee509978e9c1",
+  "latest_net_pnl": 5818.2716,
+  "locked_test_read": false,
+  "strategy_changed": false
+}

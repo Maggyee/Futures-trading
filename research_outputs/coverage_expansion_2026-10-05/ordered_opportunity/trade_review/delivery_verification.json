@@ -1,0 +1,191 @@
+{
+  "status": "passed",
+  "charts": 35,
+  "selected": "control",
+  "selected_trades": 7,
+  "files": {
+    "control-2026-07-1.png": {
+      "sha256": "f120c59185902517a72b7fdf28da3e175cd79d578a96947747e8c076d8e429e4",
+      "bytes": 304157
+    },
+    "control-2026-07-2.png": {
+      "sha256": "63f5df3efadcab317d49269216f294fd797655b77537d5380ffa35ab8c858714",
+      "bytes": 309012
+    },
+    "control-2026-07-3.png": {
+      "sha256": "b248db6b23d633af52e6a17a806634e262d89c9fa135f9fa090af048fd216dc0",
+      "bytes": 307156
+    },
+    "control-2026-07-4.png": {
+      "sha256": "bb74ed70e3c1e332a00df0f8999cf5cb97232c420d176138379ac29c48bf3483",
+      "bytes": 303705
+    },
+    "control-2026-07-5.png": {
+      "sha256": "b96fa9352b6deddfb1650ac659adb00afcea624b511b522ad5f3559830b11df1",
+      "bytes": 304135
+    },
+    "control-2026-09-1.png": {
+      "sha256": "94385708aba195a02757d8d3bf1320163927ebd5218d71f75142bb6f98923af3",
+      "bytes": 339402
+    },
+    "control-2026-09-2.png": {
+      "sha256": "0cc0fe9254f609a481e8419ad5b2e133f328491d632d744f4c85baed0a7ff7cb",
+      "bytes": 311544
+    },
+    "dual-2026-07-1.png": {
+      "sha256": "7dcaccadbf5d679cba8f7f896ac4c4f2a97affd3520b092836f5987bd403637f",
+      "bytes": 333003
+    },
+    "dual-2026-07-2.png": {
+      "sha256": "a3bee8df89721832e7d65aa08b46dda8319c291f4c7cda78db126df612c1fa28",
+      "bytes": 303134
+    },
+    "dual-2026-07-3.png": {
+      "sha256": "f76050551d881a6e67df212f9048badbfc691bef52ac269d18d30159e55c2690",
+      "bytes": 328853
+    },
+    "dual-2026-07-4.png": {
+      "sha256": "d808e6851686086c58a11b23171f63eb730163544e173445d2f7f5cadf9de737",
+      "bytes": 308066
+    },
+    "dual-2026-07-5.png": {
+      "sha256": "86027394fd2f06ff47fe412dbf5a7cb3ea424e1a88cc74141fdb54782374e75c",
+      "bytes": 306242
+    },
+    "dual-2026-07-6.png": {
+      "sha256": "f0217fbe6d11b82e22065ccdcef0aa5f261fd7fc1f06d845f0a40ce1e04a433b",
+      "bytes": 302615
+    },
+    "dual-2026-07-7.png": {
+      "sha256": "d035873ba3391198dc4f01f6a6d8186d3d1871bf1d96bf78b8daed67d004add5",
+      "bytes": 303054
+    },
+    "pool-2026-07-1.png": {
+      "sha256": "1a1fed65778a7e0371ba9b5d66ecafa3b4946f12e1e28c4e202ada00c950d357",
+      "bytes": 310417
+    },
+    "pool-2026-07-2.png": {
+      "sha256": "cbb98ec826d67adcb00505cc27615ac2ae9178af1da4a83278d6220b2d3be902",
+      "bytes": 315220
+    },
+    "pool-2026-07-3.png": {
+      "sha256": "56e2cc9a017013c28b98d14f6e4abd871d2704caf735a2f9a91d3eb912df829c",
+      "bytes": 315882
+    },
+    "pool-2026-07-4.png": {
+      "sha256": "e8afa48ca7eb8899bdd999f7be4f0052dc53a4d2308ab8d47d60407a9c1ecc90",
+      "bytes": 310800
+    },
+    "pool-2026-07-5.png": {
+      "sha256": "cc66175306acb3bf6667b1df48aa111abba9cadd59cf00e0e080e2ba0b9ce23a",
+      "bytes": 315349
+    },
+    "pool-2026-07-6.png": {
+      "sha256": "7befd1c4d5202391ffb59379a19e0d26c767c3f865706b65b5e393240ac39370",
+      "bytes": 321404
+    },
+    "pool-2026-07-7.png": {
+      "sha256": "16261f3d849b593754d4ddac06191cff180ea09f42272b4a75d54ecc17adb973",
+      "bytes": 326996
+    },
+    "pool-2026-07-8.png": {
+      "sha256": "b5073a758b91455417d7b287e6d44c5a50941c94d596f119941f25adbbdb7ad0",
+      "bytes": 313305
+    },
+    "pool-2026-07-9.png": {
+      "sha256": "0d1f36b7639dd6e00588c49ef5ca726bb81b26bab269d4ed2753b1829c87f7da",
+      "bytes": 301834
+    },
+    "pool-2026-07-10.png": {
+      "sha256": "3338cdba8aeb4dc2cc9ccb8c468b7ddb2b90410a71ed94a6c48d95d579fb4a36",
+      "bytes": 309925
+    },
+    "pool-2026-07-11.png": {
+      "sha256": "0970dbc8828c0d613f7d37dea6ae0e479bd23a148505458ce288e313b2d8025a",
+      "bytes": 322445
+    },
+    "pool-2026-07-12.png": {
+      "sha256": "a651cf65e9dc9e9bc9b0bb76463059fe6c61482233b0345e32aa7e60d376116c",
+      "bytes": 310174
+    },
+    "pool-2026-08-1.png": {
+      "sha256": "fc501f1b9e7e4bac95492681072de34b9a50645ee148f14e022061906961e949",
+      "bytes": 299336
+    },
+    "pool-2026-08-2.png": {
+      "sha256": "0a923214b7cd32dc88eda77f831963fe00a6a794b6bb4e19a72b6621788cd4e5",
+      "bytes": 302600
+    },
+    "pool-2026-08-3.png": {
+      "sha256": "8ced0498b6d8a2d09db075a9f8713e093b373a7fa79f87b706843f4095f2d475",
+      "bytes": 312646
+    },
+    "pool-2026-08-4.png": {
+      "sha256": "d605410520a3cb0e04c8255b66df53485694ca15fc1bd766122978f6a7cb8f40",
+      "bytes": 307453
+    },
+    "dual-2026-09-1.png": {
+      "sha256": "d83caaf5321ad2e71e7c598fd0cae14df94e443699c2df1a485b9e5dc84c1a14",
+      "bytes": 338537
+    },
+    "dual-2026-09-2.png": {
+      "sha256": "752f2abe9b9f523af6eee767deeab59b2ca9d75a5ae267fe8e294e8ad9794fd6",
+      "bytes": 310663
+    },
+    "pool-2026-09-1.png": {
+      "sha256": "d3fb7f7c539ce26db6c863086d4f61e0855121b1b1363877602bb8b77562f772",
+      "bytes": 345858
+    },
+    "pool-2026-09-2.png": {
+      "sha256": "1d353be1fc3fbec76e3c6ce885b5fc09f82aa0e5d9951217a5c46c5d9527b6c6",
+      "bytes": 317550
+    },
+    "pool-2026-09-3.png": {
+      "sha256": "79d64f62b0f74c2ff91cdd3c4f577b70a4fb3d38ee80dbe162c6f7803b4b450d",
+      "bytes": 300738
+    },
+    "trade_review.csv": {
+      "sha256": "df4f743595801bf0f9babf882baa6c7708dc664659273f40deba26ab284d130b",
+      "bytes": 7909
+    },
+    "selected_trades_export.csv": {
+      "sha256": "2658cf67215500afa04ad3b7a80a799615db8947b8975179a5f914c614e672c9",
+      "bytes": 1393
+    },
+    "review_notes.md": {
+      "sha256": "b5bed028240589a34f48e639ec7474ce3de4cb4652efcd5ef82f98c322bcc782",
+      "bytes": 4947
+    },
+    "ordered_opportunity_review.html": {
+      "sha256": "5d5926731164a487831c98c508c2ac4e87f9d64a4ec73324dc61287e5e2d9ad6",
+      "bytes": 12518336
+    },
+    "selection_diagnosis.json": {
+      "sha256": "c6518284599723bf353c8e3ec9c96e6fbfb522f86502026dca89cb13757f035c",
+      "bytes": 97837
+    },
+    "assessment.json": {
+      "sha256": "c838b65650d2b99a7cdacc37cc3a84aa5b464cae71349e1f7f5da2241fa976ec",
+      "bytes": 621678
+    },
+    "verification.json": {
+      "sha256": "b998bf7be707215e7f18364020e75efd908e25fc4fcf9ca3559bd6a548aace45",
+      "bytes": 26151
+    },
+    "browser_verification.json": {
+      "sha256": "8e60ef15d0f827a92158a690d3b34c285177e7ec3bbf04b920bb4b45db1b6d37",
+      "bytes": 9926
+    },
+    "进出场图与成交清单.zip": {
+      "sha256": "b6682bf9cc81250fab9d9cf0ce228ea8fe34bba54efa50cd138cbf855979f29c",
+      "bytes": 13398903
+    }
+  },
+  "source_checks": 35,
+  "browser_views": 70,
+  "locked_test_read": false,
+  "live_trading_changed": false,
+  "archive_reserve_bytes": 13398903,
+  "archive_source_bytes": 24261387,
+  "archive_size_measured_before_write": true
+}

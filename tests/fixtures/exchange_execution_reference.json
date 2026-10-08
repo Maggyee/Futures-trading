@@ -1,0 +1,109 @@
+{
+  "kind": "REAL_OFFICIAL_PARAMETER_ARITHMETIC_ONLY",
+  "czce": {
+    "day": "2026-09-11",
+    "text": "\t\t\t\t\t郑州商品交易所期货结算参数表(2026-09-11)\n合约代码|当日结算价|是否单边市|连续单边市天数|交易保证金率(%)|涨跌停板(%)|交易手续费|手续费收取方式|交割手续费|日内平今仓交易手续费|日持仓限额|交易限额\nAP701    |7,494.00   |N          |0              |9               |±8         |5.00       |绝对值           |0.00       |10.00      |1000       |           \nFG701    |984.00     |N          |0              |9               |±8         |2.00       |绝对值           |0.00       |2.00       |115501     |25000      \nPX611    |9,362.00   |N          |0              |7               |±6         |1.00       |比例值           |0.00       |0.00       |6000       |           \n",
+    "source": {
+      "path": "/home/nishiki/vnpy-ctp/research_inputs/2026-09/source_docs/triggered_contracts/czce_static_clear_20260911_retry.txt",
+      "url": "https://www.czce.com.cn/cn/DFSStaticFiles/Future/2026/20260911/FutureDataClearParams.txt",
+      "sha256": "e01cd5f66245e136c4b43909527eafce8eb6f204e5b1cd7ea152b2058e48e997",
+      "checked_utc": "2026-10-03T13:08:53.301491+00:00",
+      "bytes": 38758
+    }
+  },
+  "cffex": {
+    "day": "2026-09-14",
+    "text": "期货合约结算业务参数表（20260914）\n期货合约,合约多头保证金标准,合约空头保证金标准,交易手续费标准,交割手续费标准,平今仓收取率\nIC2612,12.00%,12.00%,万分之0.23,万分之0.5,1000%\nIM2612,12.00%,12.00%,万分之0.23,万分之0.5,1000%\nTF2612,1.200%,1.200%,3元/手,2.5元/手,0%\nTL2612,3.500%,3.500%,3元/手,2.5元/手,0%\n",
+    "source": {
+      "path": "/home/nishiki/vnpy-ctp/research_inputs/2026-09/source_docs/triggered_contracts/cffex_settlement_20260914.csv",
+      "url": "http://www.cffex.com.cn/sj/jscs/202609/14/20260914_1.csv",
+      "sha256": "30ded919cd5e1fa7efd37e3a6805306a927909840872fb3989bfaaa9cf3452d4",
+      "checked_utc": "2026-10-03T11:53:37.671290+00:00",
+      "bytes": 2155
+    }
+  },
+  "gfex": {
+    "20260911": {
+      "document": {
+        "code": "0",
+        "msg": "接口访问成功！",
+        "param": {
+          "trade_date": [
+            "20260911"
+          ],
+          "variety": [
+            "lc"
+          ]
+        },
+        "data": [
+          {
+            "variety": "碳酸锂",
+            "varietyEn": "Lithium Carbonate",
+            "varietyOrder": "lc",
+            "contractId": "lc2701",
+            "clearPrice": 133960.0,
+            "openFee": 1.6,
+            "offsetFee": 1.6,
+            "shortOpenFee": 1.6,
+            "shortOffsetFee": 3.2,
+            "specBuyRate": 0.15,
+            "specSellRate": 0.15,
+            "hedgeBuyRate": 0.14,
+            "hedgeSellRate": 0.14,
+            "style": "比例值",
+            "styleEn": "ratio value"
+          }
+        ],
+        "time": 1791028550487
+      },
+      "source": {
+        "path": "/home/nishiki/vnpy-ctp/research_inputs/2026-09/source_docs/triggered_contracts/gfex_lc_settlement_20260911.json",
+        "url": "http://www.gfex.com.cn/u/interfacesWebTiFutAndOptSettle/loadList",
+        "sha256": "f3a4b25d7901ffda8a2b27cfcfb68043acc2ccef0c4188c429232a4ce64a2648",
+        "checked_utc": "2026-10-03T11:55:48.998838+00:00",
+        "bytes": 4097
+      }
+    },
+    "20260922": {
+      "document": {
+        "code": "0",
+        "msg": "接口访问成功！",
+        "param": {
+          "trade_date": [
+            "20260922"
+          ],
+          "variety": [
+            "lc"
+          ]
+        },
+        "data": [
+          {
+            "variety": "碳酸锂",
+            "varietyEn": "Lithium Carbonate",
+            "varietyOrder": "lc",
+            "contractId": "lc2701",
+            "clearPrice": 133160.0,
+            "openFee": 0.8,
+            "offsetFee": 0.8,
+            "shortOpenFee": 0.8,
+            "shortOffsetFee": 0.8,
+            "specBuyRate": 0.15,
+            "specSellRate": 0.15,
+            "hedgeBuyRate": 0.14,
+            "hedgeSellRate": 0.14,
+            "style": "比例值",
+            "styleEn": "ratio value"
+          }
+        ],
+        "time": 1791028552614
+      },
+      "source": {
+        "path": "/home/nishiki/vnpy-ctp/research_inputs/2026-09/source_docs/triggered_contracts/gfex_lc_settlement_20260922.json",
+        "url": "http://www.gfex.com.cn/u/interfacesWebTiFutAndOptSettle/loadList",
+        "sha256": "d7dba87cb8d937890f2354ae9738062ed1cdd3a31c5792a54cf965e33df43af4",
+        "checked_utc": "2026-10-03T11:55:51.135459+00:00",
+        "bytes": 4097
+      }
+    }
+  }
+}
