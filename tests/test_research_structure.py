@@ -13,7 +13,12 @@ from research.data import load_data
 from research.execution import PortfolioBacktest
 from research.fixtures import create_fixture
 from research.signals import Features
-from research.structure_rules import ConfirmedLogic, StructureBacktest, structure_context
+from research.structure_rules import (
+    ConfirmedLogic,
+    StructureBacktest,
+    structure_context,
+)
+from research.trailing import initial_trailing
 
 DAY, KEY = "2026-01-08", "aa2603.SHFE"
 ENTRY = {"quality_minutes": 5, "valid_minutes": 5, "breakout_lookback_bars": 2,
@@ -23,6 +28,10 @@ ENTRY = {"quality_minutes": 5, "valid_minutes": 5, "breakout_lookback_bars": 2,
 STOP = {"timeframe_minutes": 5, "lookback_bars": 3, "buffer_ticks": 1,
         "max_stop_atr": 2., "same_session_only": True,
         "retain_original_distance_floors": True, "frozen_after_fill": True}
+LIFETIME = ENTRY | {"state_policy": "setup_lifetime", "patterns": ["breakout", "pullback"],
+                    "pullback_confirmation": "next_close"}
+PROFIT = {"basis": "signal_base_price_scale", "breakeven_multiple": 1.,
+          "target_multiple": 1., "trailing_atr_multiple": 2.}
 
 
 @pytest.fixture(scope="module")
@@ -307,3 +316,203 @@ def test_signal_funnel_counts_the_new_confirmation_gates_and_rejections(market):
     assert result["sequential"]["smooth"] == result["sequential"]["actual_fill"] == 1
     assert result["independent_rejections"]["price_pattern_confirmed"] == 1
     assert "trend_window_valid" not in result["independent_rejections"]
+
+
+@pytest.mark.parametrize("sign", [1, -1])
+def test_late_setup_survives_completed_five_minute_boundary(market, sign):
+    logic, frame, evaluate = pattern(market, sign)
+    logic.data.cfg["strategy"]["entry_confirmation"] = LIFETIME.copy()
+    for clock, move in [("09:17", 0), ("09:18", 0), ("09:19", 2), ("09:20", 3)]:
+        price = 100 + sign*move
+        frame.loc[at(DAY, clock), ["close", "high", "low"]] = [price, price+.1, price-.1]
+    evaluate("09:18")
+    detail = evaluate("09:19")["snapshot"]["price_confirmation"]
+    assert detail["setup"]["expires_at"] == at(DAY, "09:24").isoformat()
+    result = evaluate("09:20")
+    assert result["all_pass"]
+    detail = result["snapshot"]["price_confirmation"]
+    assert detail["confirmation"]["setup_end"] == at(DAY, "09:19").isoformat()
+    assert detail["window"]["armed_at"] == at(DAY, "09:18").isoformat()
+    assert [r["action"] for r in logic.events] == ["formed", "confirmed"]
+
+
+@pytest.mark.parametrize("case,reason", [("expired", "expired"), ("broken", "structure_broken"),
+    ("lost_quality", "higher_invalid"), ("gap", "nonadjacent")])
+def test_lifetime_reports_the_terminal_cause(market, case, reason):
+    logic, frame, evaluate = pattern(market)
+    logic.data.cfg["strategy"]["entry_confirmation"] = LIFETIME.copy()
+    if case == "expired":
+        logic.data.cfg["strategy"]["entry_confirmation"]["valid_minutes"] = 1
+    evaluate("09:15")
+    evaluate("09:16")
+    if case == "broken":
+        frame.loc[at(DAY,"09:17"), "low"] = 99
+    if case == "lost_quality":
+        before = logic.higher
+        logic.higher = lambda *args: before(*args) | {"filters": {"quality": False}}
+    evaluate("09:18" if case == "gap" else "09:17")
+    assert any(r["action"] == "cancelled" and r["reason"] == reason for r in logic.events)
+
+
+def test_pattern_can_confirm_later_within_its_lifetime_if_structure_holds(market):
+    logic, frame, evaluate = pattern(market)
+    logic.data.cfg["strategy"]["entry_confirmation"] = LIFETIME.copy()
+    evaluate("09:15")
+    evaluate("09:16")
+    frame.loc[at(DAY,"09:17"), ["close","high","low"]] = [102,102.1,101.9]
+    assert not evaluate("09:17")["all_pass"]
+    assert len(logic.setups) == 1
+    result = evaluate("09:18")
+    assert result["all_pass"] and result["pullback"]["event"] == at(DAY,"09:16").isoformat()
+    assert [row["action"] for row in logic.events] == ["formed","observed","confirmed"]
+
+
+def test_configured_lookback_and_lifetime_affect_actual_pattern(market):
+    logic, frame, evaluate = pattern(market)
+    logic.data.cfg["strategy"]["entry_confirmation"] = LIFETIME | {"valid_minutes": 7, "breakout_lookback_bars": 3}
+    frame.loc[at(DAY,"09:13"), "high"] = 104
+    evaluate("09:15")
+    assert evaluate("09:16")["snapshot"]["price_confirmation"]["setup"] is None
+    frame.loc[at(DAY,"09:13"), "high"] = 100.1
+    logic.windows.clear()
+    evaluate("09:15")
+    setup = evaluate("09:16")["snapshot"]["price_confirmation"]["setup"]
+    assert len(setup["reference_ends"]) == 3
+    assert setup["expires_at"] == at(DAY,"09:23").isoformat()
+
+
+@pytest.mark.parametrize("reference", ["ma10", "ma20"])
+def test_pullback_recovery_confirms_without_another_expansion(market, reference):
+    logic, frame, evaluate = pattern(market)
+    logic.data.cfg["strategy"]["entry_confirmation"] = LIFETIME | {
+        "patterns": ["pullback"], "pullback_reference": reference, "pullback_confirmation": "recovery_close"}
+    frame.loc[at(DAY,"09:15"), "high"] = 101
+    frame.loc[at(DAY,"09:16"), ["close", "high", "low", reference]] = [100.2,100.3,100.,100.]
+    frame.loc[at(DAY,"09:17"), ["close", "high", "low"]] = [100.5,100.6,100.4]
+    evaluate("09:15")
+    evaluate("09:16")
+    result = evaluate("09:17")
+    assert result["all_pass"] and result["pullback"]["references"] == [int(reference[2:])]
+    assert result["pullback"]["event"] == at(DAY,"09:16").isoformat()
+    assert not logic.setups
+
+
+def test_structure_lookback_is_read_from_config(market):
+    cfg = copy.deepcopy(market.cfg)
+    cfg["strategy"]["structure_protection"] = STOP | {"lookback_bars": 2}
+    data = SimpleNamespace(cfg=cfg, metadata=market.metadata, calendar=market.calendar)
+    bar = market.by_day[(DAY,KEY)][at(DAY,"09:11")]
+    result = structure_context(data, Features(market), bar, "LONG")
+    assert result["ready"] and len(result["sources"]) == 2
+
+
+@pytest.mark.parametrize("direction,extreme", [("LONG",96), ("SHORT",104)])
+def test_stop_widening_does_not_move_independent_profit_thresholds(market, direction, extreme):
+    from research.execution import Position
+
+    e = engine(market)
+    e.cfg["strategy"].update(structure_protection=STOP, profit_protection=PROFIT,
+                            protection_scale={"atr_multiple":1., "roundtrip_cost_multiple":1.})
+    row = risk_signal(extreme, direction)
+    meta = market.metadata.get(KEY,DAY)
+    reference = PortfolioBacktest.entry_protection(e,row,meta,3,price=100)
+    plan = e.entry_protection(row,meta,3,price=100)
+    assert plan["stop_loss_ticks"] > reference["stop_loss_ticks"]
+    assert plan["take_profit_ticks"] == reference["take_profit_ticks"]
+    filled = e.entry_protection(row,meta,6,plan["stop_loss_ticks"],price=102 if direction=="LONG" else 98)
+    assert filled["profit_protection_reference"] == plan["profit_protection_reference"]
+    sign = 1 if direction == "LONG" else -1
+    row["entry_protection"] = filled
+    position = Position(KEY,meta,sign,1,100,100,at(DAY,"09:16"),DAY,
+                        100-sign*filled["stop_loss_ticks"]*meta["tick_size"],
+                        100+sign*filled["take_profit_ticks"]*meta["tick_size"],3,100,100,row)
+    trailing = initial_trailing(position,{"atr_multiple":2.},{"activation_r":1.,"include_costs":True},1)
+    assert abs(trailing["breakeven_activation_price"]-100) == reference["stop_loss_ticks"]*meta["tick_size"]
+
+
+def test_diagnostics_separate_cost_timescales_and_account_capacity(market):
+    from research.signals import SignalLogic
+
+    e = engine(market)
+    e.cfg["strategy"].update(protection_scale={"atr_multiple":1.,"roundtrip_cost_multiple":2.})
+    bar = market.by_day[(DAY,KEY)][at(DAY,"09:16")]
+    candidate = {"direction":"LONG","selected":True,"rank":1}
+    evaluation = SignalLogic(e.data,e.features).evaluate(bar,candidate)
+    evaluation["filters"] = {k:True for k in evaluation["filters"]} | {"cost":False}
+    e.diagnose_opportunity(bar,candidate,evaluation)
+    row = e.opportunity_diagnostics[-1]
+    assert row["cost_to_atr_1m"] > 0 and row["cost_to_atr_5m"] > 0
+    required = row["minimum_required_capital_and_equity"]
+    qty, *_ = e.allocator.allocate(market.metadata.get(KEY,DAY),bar.close,DAY,{},required+1,
+        stop_loss_ticks=round(row["initial_risk_distance"]/market.metadata.get(KEY,DAY)["tick_size"]))
+    assert qty >= row["minimum_open_lots"]
+    assert row["cost_pass"] is False
+
+
+def test_new_research_budget_allows_normal_drawdown_in_previously_empty_window():
+    from research.structure_assessment import research_checks
+
+    criteria = {"max_window_drawdown_cny":10000,"max_window_loss_cny":10000,
+                "minimum_trades_for_further_review":20}
+    checks = research_checks([{"max_drawdown":1500,"net_profit":-500,"trade_count":3}],criteria)
+    assert checks["drawdown_within_budget"] and checks["loss_within_budget"]
+    assert not checks["enough_trades_for_further_review"]
+
+
+@pytest.mark.parametrize("field,value", [("valid_minutes",7),("breakout_lookback_bars",3),("pullback_reference","ma20")])
+def test_legacy_configuration_rejects_apparent_tuning_but_new_recipe_accepts_it(market,field,value):
+    cfg = copy.deepcopy(market.cfg)
+    cfg["execution"] = {"mode":"diagnostic"}
+    cfg["strategy"].update(entry_confirmation=ENTRY | {field:value},
+        slope_band={"min_move_ticks":1.,"timeframes":{label:{"lookback_bars":3,"min_atr_per_bar":.01,"max_atr_per_bar":.3}
+                   for label in ("1m","5m")}},trend_quality={"min_price_changes":3,"min_displacement_atr":1.,"min_displacement_ticks":2},
+        entry_cost_filter={"max_cost_atr":.5})
+    cfg["strategy"]["entry_mode"] = "direct"
+    cfg.pop("baseline_expectation",None)
+    with pytest.raises(ResearchError,match="旧确认方案参数固定"):
+        validate_config(cfg)
+    cfg["strategy"]["entry_confirmation"] = LIFETIME | {field:value}
+    validate_config(cfg)
+
+
+def test_september_batch_preserves_verified_training_proof_for_each_configuration(market, tmp_path, monkeypatch):
+    import json
+
+    from research import prepared_review, structure_audit, structure_followup
+    from research.experiments import scope_data
+    from research.prepared_review import PreparedDataset
+
+    cutoff = market.cfg["splits"]["train"]["end"]
+    full_training_hash = market.training_fingerprint(cutoff)
+    variants = ("control", "lifetime", "stop_only")
+    (tmp_path / "manifest.json").write_text(json.dumps({
+        "window": {"end": market.cfg["splits"]["validation"]["end"]}}))
+
+    def configuration(month, variant, plan_path):
+        cfg = copy.deepcopy(market.cfg)
+        cfg["optimization_review"] = {"month": month, "variant": variant}
+        return {"order": variants}, tmp_path, cfg
+
+    def prepare(source, cfg):
+        # Full training was checked before retaining only the replay rows.
+        data = PreparedDataset([], cfg)
+        data.verified_training_cutoff = cutoff
+        data.verified_training_fingerprint = full_training_hash
+        return data, SimpleNamespace(), {}
+
+    completed = []
+
+    def replay(month, variant, plan_path, prepared=None):
+        _, _, cfg = configuration(month, variant, plan_path)
+        data, _, _ = prepared if prepared is not None else prepare(None, cfg)
+        scoped, _ = scope_data(data, cfg, "shared")
+        assert scoped.training_fingerprint(cutoff) == full_training_hash
+        completed.append(variant)
+        return {"directory": str(tmp_path)}
+
+    monkeypatch.setattr(structure_followup, "configuration", configuration)
+    monkeypatch.setattr(structure_followup, "run", replay)
+    monkeypatch.setattr(prepared_review, "prepare_review", prepare)
+    monkeypatch.setattr(structure_audit, "audit", lambda *args: None)
+    structure_followup.batch("2026-09", tmp_path / "plan.json")
+    assert completed == list(variants)

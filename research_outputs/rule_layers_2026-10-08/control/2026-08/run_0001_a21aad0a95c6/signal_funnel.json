@@ -1,0 +1,39 @@
+{
+  "unit": "合约-已完成分钟观察；不是独立交易样本",
+  "sequential": {
+    "candidate": 35884,
+    "trend": 5073,
+    "vwap": 4833,
+    "oi": 2083,
+    "smooth": 124,
+    "entry_trigger": 1,
+    "execution_pass": 1,
+    "risk_pass": 0,
+    "actual_fill": 0
+  },
+  "independent_rejections": {
+    "current_session_15m": 1106,
+    "vwap": 16770,
+    "oi": 21186,
+    "extension": 6798,
+    "no_exit_condition": 18750,
+    "slope_1m_maximum": 3856,
+    "slope_5m_maximum": 4578,
+    "trend_5m": 20129,
+    "trend_1m": 21184,
+    "efficiency": 31429,
+    "trend_displacement": 25347,
+    "slope_1m_minimum": 23395,
+    "trend_15m": 18581,
+    "slope_5m_minimum": 20517,
+    "cost": 24210,
+    "exchange_execution_not_reviewed": 3488,
+    "exact_previous_parameter_missing": 6976,
+    "shock": 5477,
+    "entry_time": 4898,
+    "trend_activity": 1626,
+    "warmup_1m": 1038,
+    "single_trade_risk": 1,
+    "group_margin": 1
+  }
+}

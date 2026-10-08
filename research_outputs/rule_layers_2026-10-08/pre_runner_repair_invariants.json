@@ -1,0 +1,54 @@
+{
+  "completed_audited_scenarios": 24,
+  "operational_attempts": 25,
+  "failed_initializations": 1,
+  "all_saved_replay_source_hashes_match_original_freeze": true,
+  "current_source_changes_after_replays": {},
+  "all_filter_decisions_recomputed": true,
+  "controls_exact_csv_matches": {
+    "2026-07": {
+      "trades": true,
+      "signals": true,
+      "orders": true,
+      "events": true,
+      "equity": true,
+      "daily_pool": true,
+      "pool_exclusions": true,
+      "daily_candidates": true,
+      "candidate_execution": true,
+      "rank_contribution": true
+    },
+    "2026-08": {
+      "trades": true,
+      "signals": true,
+      "orders": true,
+      "events": true,
+      "equity": true,
+      "daily_pool": true,
+      "pool_exclusions": true,
+      "daily_candidates": true,
+      "candidate_execution": true,
+      "rank_contribution": true
+    },
+    "2026-09": {
+      "trades": true,
+      "signals": true,
+      "orders": true,
+      "events": true,
+      "equity": true,
+      "daily_pool": true,
+      "pool_exclusions": true,
+      "daily_candidates": true,
+      "candidate_execution": true,
+      "rank_contribution": true
+    }
+  },
+  "preserved_published_result_files": 671,
+  "locked_test_read": false,
+  "budget": {
+    "used_bytes": 5242887332,
+    "free_bytes": 9471606784,
+    "max_bytes": 6442450944,
+    "minimum_free_bytes": 4294967296
+  }
+}

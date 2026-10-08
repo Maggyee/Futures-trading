@@ -1,0 +1,77 @@
+{
+  "status": "passed",
+  "directory": "/home/nishiki/vnpy-ctp/research_outputs/rule_layers_2026-10-08/control/2026-08/run_0001_a21aad0a95c6",
+  "trades": [],
+  "paths": [],
+  "net": "0",
+  "fees": "0",
+  "risk_observations": 0,
+  "independent_slope_arithmetic": true,
+  "independent_twenty_close_means": true,
+  "independent_exit_matching": true,
+  "source_data_sha256": "47ea450717035a3d6fd74032ea29d2e7fb955ea73912306229e5663026692106",
+  "physical_execution_sources_verified": 87,
+  "supplier_specification_assumptions": [],
+  "cache_sha256": "45e1745212c293c67181bc5772a45043d0c04d8c90efccaca6360ce60cb24379",
+  "audit_helpers": [
+    {
+      "path": "/home/nishiki/vnpy-ctp/research_inputs/2026-09/audit_trailing_exit.py",
+      "sha256": "fcaca05203e3f6c06f721f2c565ebacc484986e42860e1ba5c5441dae3cd93cd"
+    },
+    {
+      "path": "/home/nishiki/vnpy-ctp/research_inputs/2026-09/audit_slope_band.py",
+      "sha256": "912c8c223f85639c7d3d97a7954a00fd2834fe7326cd1ba8b62098c62e3d68d7"
+    }
+  ],
+  "locked_test_read": false,
+  "optimization_checks": {
+    "journal": {
+      "status": "passed",
+      "unchanged_measurements": 35884,
+      "cost_checks": 28908,
+      "observations": 35884,
+      "future_measurements_used": false
+    },
+    "pullback": null,
+    "afternoon": null,
+    "source_archive": {
+      "status": "passed",
+      "files_checked": 55,
+      "code_hash": "7c121a05a2d09731c29033aacd8bde109d688600d5c42e2a2ef96549dc20d2f5",
+      "archive_sha256": "f18624350b87cbf527ad69f7599c6b81aa475d81fafb72dbaff591ec35f8ccd5"
+    }
+  },
+  "optimization_audit_sha256": "69ba38c0ac144e922370bb7b8bc216541f312d7a39e0e37b61229d4860e607f7",
+  "candidate_selection": {
+    "status": "passed",
+    "enabled": false
+  },
+  "entry_channels": {
+    "status": "passed",
+    "enabled": false
+  },
+  "exact_csv_matches": {
+    "trades": true,
+    "signals": true,
+    "orders": true,
+    "events": true,
+    "equity": true,
+    "daily_pool": true,
+    "pool_exclusions": true,
+    "daily_candidates": true,
+    "candidate_execution": true,
+    "rank_contribution": true
+  },
+  "protection_stage": {
+    "status": "passed",
+    "breakeven_r": 1,
+    "independent_hard_stop_and_trailing_paths": true,
+    "slope_checked_per_actual_entry_channel": true,
+    "shared_fees_slippage_and_risk": true
+  },
+  "inherited_audit": {
+    "path": "/home/nishiki/vnpy-ctp/research_outputs/coverage_expansion_2026-10-05/ordered_opportunity/control/2026-08/run_0001_3dad7c4c9503/independent_ordered_opportunity_audit.json",
+    "sha256": "70a0f0a3dba17fe18fc6f866e14f59000921e43604b0f7e1dea5c6d6c9ab21eb",
+    "basis": "all ten CSV ledgers byte-identical after full filter recomputation"
+  }
+}

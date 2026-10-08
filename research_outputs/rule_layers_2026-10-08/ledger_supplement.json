@@ -1,0 +1,2138 @@
+{
+  "status": "completed",
+  "plan_sha256": "37dd73c0b4428c774aabf524cf9eb477bb24cd39859351baeb99cadece5be539",
+  "implementation_freeze_sha256": "764ad076f60143982357c6e4128402987999987110c9aa79aec2b58e85e32509",
+  "audited_scenarios": 24,
+  "sources": [
+    {
+      "month": "2026-07",
+      "variant": "control",
+      "directory": "/home/nishiki/vnpy-ctp/research_outputs/rule_layers_2026-10-08/control/2026-07/run_0001_dc0c0f07bacc",
+      "files": {
+        "config_snapshot.json": "bc5f0d71eeb312de574a87aa32d1af3c653e8fe6d28793a735a639ce9096dc77",
+        "trades.csv.gz": "618566cd26d98cfde9ca31214d15413a61269eeb0b840b217cd8a443bdb591d2",
+        "signals.csv.gz": "79969d2bd726e144686369e7e18574638844e156277356712d953c89d57eeb59",
+        "confirmation_events.csv.gz": "0510818b525a8789fd01997a41c25f8984e4704f7764f0c52600e2458544bdd2",
+        "opportunity_diagnostics.csv.gz": "04b72438258d23559395f9dd54cd4a89fd257f072577f7fb3d93527d5c9ecbfc",
+        "independent_structure_audit.json": "747f1e647891dd8132ab79163d56d5b4b90d6283981c7867090fda89072667f8"
+      },
+      "audit_status": "passed"
+    },
+    {
+      "month": "2026-07",
+      "variant": "bucket_confirmation",
+      "directory": "/home/nishiki/vnpy-ctp/research_outputs/rule_layers_2026-10-08/bucket_confirmation/2026-07/run_0001_72ea1bc444d2",
+      "files": {
+        "config_snapshot.json": "3f53e4e692dba35c8aaf1196b75bfbb39b0493881f4c93b6f6e272052ef3ed61",
+        "trades.csv.gz": "1a8ffdb18049dc8e2fcaca4ef9bcb1d32e2cef2326a504072638785011e3ab03",
+        "signals.csv.gz": "e999a32fddfbe4e5eba2c8a82126a700172fefae894d7b0b5508574507c57865",
+        "confirmation_events.csv.gz": "2e0a60293ba9563b06b1a7923cf9cf862cf8a8ac9c471f4ed7492b4040e95c2f",
+        "opportunity_diagnostics.csv.gz": "06fe8eeb0c5777c89bc13e95038f41842be6d4b36a4798f338eecb22dbaf53a7",
+        "independent_structure_audit.json": "8133494c0e99a8fe7117dd9f551a400987f153713d1edce6e6686b950b5314e0"
+      },
+      "audit_status": "passed"
+    },
+    {
+      "month": "2026-07",
+      "variant": "lifetime",
+      "directory": "/home/nishiki/vnpy-ctp/research_outputs/rule_layers_2026-10-08/lifetime/2026-07/run_0001_ae3de9d45dfe",
+      "files": {
+        "config_snapshot.json": "c6bf7640f91751d56d4606fb179df605f148df6917507c7f183892561d59f3ae",
+        "trades.csv.gz": "1a8ffdb18049dc8e2fcaca4ef9bcb1d32e2cef2326a504072638785011e3ab03",
+        "signals.csv.gz": "5ef6e870012139d125118637f6ea62bc4d4322a79d7393f3538980bf2310fac0",
+        "confirmation_events.csv.gz": "5528ff2165340dc9152389e7d39a762687bd01acf34b7d8ecf7e44311a92225c",
+        "opportunity_diagnostics.csv.gz": "2f7ae1ba9078910cd5023c0848cba48e0582a5e86465c5a49c398e05e6ae13e3",
+        "independent_structure_audit.json": "59d4d2ec7742c28621dd6473e919da85d15adc9614ddd46b1007aaf40c7344e6"
+      },
+      "audit_status": "passed"
+    },
+    {
+      "month": "2026-07",
+      "variant": "pullback_recovery",
+      "directory": "/home/nishiki/vnpy-ctp/research_outputs/rule_layers_2026-10-08/pullback_recovery/2026-07/run_0001_ee5be06701d6",
+      "files": {
+        "config_snapshot.json": "73be017428a2f61712e2819ab7a077d1d087d3e8ecd9be367c58e5471ed84de9",
+        "trades.csv.gz": "615b7bb6e7ffdf06c8c040f5b55c449cc48ec42b9488eecade40a9f3c5c1d518",
+        "signals.csv.gz": "d0c1106560d9459e25285187da8c4eb42a7a917fa2af4c8f322e3d234bf18802",
+        "confirmation_events.csv.gz": "64ca7304f0a34aa5db5bba24993aef901d5832bd24431065d138a12c4eeaad04",
+        "opportunity_diagnostics.csv.gz": "ce5dbfe981191a0811278f715ade8bad2470310a191909bea424c79caa8c830d",
+        "independent_structure_audit.json": "481a70670e4f2789ea19952d4e19ac2989eecf929c362f4d8ee57eb4598fe709"
+      },
+      "audit_status": "passed"
+    },
+    {
+      "month": "2026-07",
+      "variant": "structure_coupled",
+      "directory": "/home/nishiki/vnpy-ctp/research_outputs/rule_layers_2026-10-08/structure_coupled/2026-07/run_0001_df78fcb574e0",
+      "files": {
+        "config_snapshot.json": "2a6f42d714644e48f8f6cb5e3f78cee1694c6404df899abcef239b676d964acc",
+        "trades.csv.gz": "20be530f167f1e60ac753fa6d9b5a6913aca09a0fd4b033329bf22ae615ef1c4",
+        "signals.csv.gz": "f9e5ada0297e2b8ca7d03834f040a8f47643136cd23e5dbf7302dbe1639bd595",
+        "confirmation_events.csv.gz": "0510818b525a8789fd01997a41c25f8984e4704f7764f0c52600e2458544bdd2",
+        "opportunity_diagnostics.csv.gz": "a9f692524174605f2250f33a7bcc4adc2bc92bcede20821efbf5d3cf641cfa23",
+        "independent_structure_audit.json": "bf9b779ec46c9f91fc9226545b71da87d676f4b32d90ce0d21589e5e17a2a655"
+      },
+      "audit_status": "passed"
+    },
+    {
+      "month": "2026-07",
+      "variant": "stop_only",
+      "directory": "/home/nishiki/vnpy-ctp/research_outputs/rule_layers_2026-10-08/stop_only/2026-07/run_0001_80caee39cf6a",
+      "files": {
+        "config_snapshot.json": "b0878ca5703573ad5df5d161dc6339f8f666a97a36431dbf7d8599d6c8ae094f",
+        "trades.csv.gz": "f5cd98e20dfceb7236e66cda56167520902c3e0bc7bbdb461af338c10501a56b",
+        "signals.csv.gz": "5f328bf462856b4f51b0f01f3de2c1b03674a7fa5025d533101239913cd34025",
+        "confirmation_events.csv.gz": "0510818b525a8789fd01997a41c25f8984e4704f7764f0c52600e2458544bdd2",
+        "opportunity_diagnostics.csv.gz": "f757058798cfd0b6e16b2a5de9ab616ddc02ca1756bddd4c500de637799c7d03",
+        "independent_structure_audit.json": "f5c7c1e630bc72daf156583fedffc0a2a1eb6e48ffb717268e9f281523e39fe8"
+      },
+      "audit_status": "passed"
+    },
+    {
+      "month": "2026-07",
+      "variant": "profit_only",
+      "directory": "/home/nishiki/vnpy-ctp/research_outputs/rule_layers_2026-10-08/profit_only/2026-07/run_0001_aad743bce640",
+      "files": {
+        "config_snapshot.json": "487663788e9f553c922c196ffdf98b47ce756474856b2856c5a15dcb8256fbb0",
+        "trades.csv.gz": "3bacf19ef1b39e5e249a34c1185dbb869ea15de0f11c1f15a6c6ade44cbfbd13",
+        "signals.csv.gz": "b3d3c18597485431bd17e3eb52e278d4ccde31c8a15da4323efb483eb4af8935",
+        "confirmation_events.csv.gz": "0510818b525a8789fd01997a41c25f8984e4704f7764f0c52600e2458544bdd2",
+        "opportunity_diagnostics.csv.gz": "04b72438258d23559395f9dd54cd4a89fd257f072577f7fb3d93527d5c9ecbfc",
+        "independent_structure_audit.json": "871ecb875e814c59efa81c839907a634b3326179da81ccf359fbeb69340644d6"
+      },
+      "audit_status": "passed"
+    },
+    {
+      "month": "2026-07",
+      "variant": "stop_profit",
+      "directory": "/home/nishiki/vnpy-ctp/research_outputs/rule_layers_2026-10-08/stop_profit/2026-07/run_0001_a2284db004ba",
+      "files": {
+        "config_snapshot.json": "e2371bc81a62c157f8e280cfb018d752408c531682a3f72e3c408cd16dff7986",
+        "trades.csv.gz": "6fbd8620490d1f67a7c5e378839a6440cef6f19b39336e44aa2921e96701eb2a",
+        "signals.csv.gz": "5d2e116106b2d04de3510dffa76b63110ef89fc8600620fbac3ab886dfa186ea",
+        "confirmation_events.csv.gz": "0510818b525a8789fd01997a41c25f8984e4704f7764f0c52600e2458544bdd2",
+        "opportunity_diagnostics.csv.gz": "f757058798cfd0b6e16b2a5de9ab616ddc02ca1756bddd4c500de637799c7d03",
+        "independent_structure_audit.json": "7f9a798980bb0bfd954b7d487a266a579958140b6b3a9793351ad415a030107d"
+      },
+      "audit_status": "passed"
+    },
+    {
+      "month": "2026-08",
+      "variant": "control",
+      "directory": "/home/nishiki/vnpy-ctp/research_outputs/rule_layers_2026-10-08/control/2026-08/run_0001_a21aad0a95c6",
+      "files": {
+        "config_snapshot.json": "4b1a3af8fdb0bd94dc19da9f08ea69009e19064b38b012c763f347c505fa86d1",
+        "trades.csv.gz": "0510818b525a8789fd01997a41c25f8984e4704f7764f0c52600e2458544bdd2",
+        "signals.csv.gz": "61ab5202272ccae554c9bb773d1a99b9a4e5a56943cc6c324773202b62f27132",
+        "confirmation_events.csv.gz": "0510818b525a8789fd01997a41c25f8984e4704f7764f0c52600e2458544bdd2",
+        "opportunity_diagnostics.csv.gz": "e966aa7b731f41f7d6fee1aa0e890412be9e293e242e00a840c281839d4af579",
+        "independent_structure_audit.json": "e8a3db3b018f96a91cde7c495c0a5af29130eb5d115c22bce0d7056cab80be91"
+      },
+      "audit_status": "passed"
+    },
+    {
+      "month": "2026-08",
+      "variant": "bucket_confirmation",
+      "directory": "/home/nishiki/vnpy-ctp/research_outputs/rule_layers_2026-10-08/bucket_confirmation/2026-08/run_0001_3d268cc7dbc1",
+      "files": {
+        "config_snapshot.json": "1e3d1f7d1b5aeadc69ed7f1ece5f7de09a346e3a03b9173bf8a669c3ac8ed762",
+        "trades.csv.gz": "0510818b525a8789fd01997a41c25f8984e4704f7764f0c52600e2458544bdd2",
+        "signals.csv.gz": "d73c7a1eceaf6b02f226b2d94220e260553d963c53aa48ff13368ac56374bcc3",
+        "confirmation_events.csv.gz": "6e994588a793687bc6d97a608b6072573c1c7fd383ed5830c0ab2f4f46c5b804",
+        "opportunity_diagnostics.csv.gz": "c69eb5cd562b9dc4d7d0b615c1a172d9062cf6b72dfe1383e16c52906c911a75",
+        "independent_structure_audit.json": "a8b6b00110bd1306ae4e6bcbbda14ae08ede4f8691b41615413a588fb7aabfde"
+      },
+      "audit_status": "passed"
+    },
+    {
+      "month": "2026-08",
+      "variant": "lifetime",
+      "directory": "/home/nishiki/vnpy-ctp/research_outputs/rule_layers_2026-10-08/lifetime/2026-08/run_0001_7d644cb420c0",
+      "files": {
+        "config_snapshot.json": "4e2c38efc51692aa54d915462a04746a51bbf0e0cd7287503c5846e24b332846",
+        "trades.csv.gz": "f2412f0e2dd0022d99d3f26f2b99c608fe2c1789d070c400b0dce7616082bfdc",
+        "signals.csv.gz": "3b12ea0bb0974115b68f3d3bc71b863c57f1c77eba4b52e324d5169daf417a70",
+        "confirmation_events.csv.gz": "4048f5ffad9d9c9dea5b473786dde5c73dc31c7794877b301f8f257486f13a28",
+        "opportunity_diagnostics.csv.gz": "3435cf4feb41be7416c1bf4049bd592192fca6a954e04f0f6b21f7e829c4194b",
+        "independent_structure_audit.json": "67aea002154dc064ea5b9fd52dc9b282512b36c59db3e15c93ac57bd1ac40584"
+      },
+      "audit_status": "passed"
+    },
+    {
+      "month": "2026-08",
+      "variant": "pullback_recovery",
+      "directory": "/home/nishiki/vnpy-ctp/research_outputs/rule_layers_2026-10-08/pullback_recovery/2026-08/run_0001_9b6676b90d84",
+      "files": {
+        "config_snapshot.json": "19ef8cde3ba41afa77a6b35841082bfe66c383ad8194f53a98ba9868837fca3d",
+        "trades.csv.gz": "2356cb8f5592e71b08e04d547d8eb5ee3e178581a9b67d31d677c1bdc6ed1158",
+        "signals.csv.gz": "6306694ae874eeb8db2326537ff39cba4ae7b6a35a6fe399da0912d026330ba1",
+        "confirmation_events.csv.gz": "af98c1de41f137bc7d9593c6e631d885306e1cd8c13ea637c149aa7a2ffe5284",
+        "opportunity_diagnostics.csv.gz": "5085a3d70bfabe7f37cc492dbb153534361bdb5449388c48798cf1a887e7a785",
+        "independent_structure_audit.json": "9fc1ef77a2031819764770f9b3f22676db8b5d28773a708f5c161d096ca7050d"
+      },
+      "audit_status": "passed"
+    },
+    {
+      "month": "2026-08",
+      "variant": "structure_coupled",
+      "directory": "/home/nishiki/vnpy-ctp/research_outputs/rule_layers_2026-10-08/structure_coupled/2026-08/run_0001_1659458f69eb",
+      "files": {
+        "config_snapshot.json": "14b178cb55383c5886c40c80647a7ec2edbba9a7105f086464f25cf06845c64f",
+        "trades.csv.gz": "0510818b525a8789fd01997a41c25f8984e4704f7764f0c52600e2458544bdd2",
+        "signals.csv.gz": "8f3a645fa6d04f0ab6fd4e8376e5969008d8e9d2945789a7029cac772c7b1a8d",
+        "confirmation_events.csv.gz": "0510818b525a8789fd01997a41c25f8984e4704f7764f0c52600e2458544bdd2",
+        "opportunity_diagnostics.csv.gz": "c3b578329c3a71a137baa853c2c469dd37038825b0621d383dfe7b607011e359",
+        "independent_structure_audit.json": "aa3c64569a4feaf0b9e1158e12c72cb4d282afbd0e53c50bbfc8177fd5fee55a"
+      },
+      "audit_status": "passed"
+    },
+    {
+      "month": "2026-08",
+      "variant": "stop_only",
+      "directory": "/home/nishiki/vnpy-ctp/research_outputs/rule_layers_2026-10-08/stop_only/2026-08/run_0001_5499de9c2c7c",
+      "files": {
+        "config_snapshot.json": "c7d5ba58da36fb40481500cd2803bd1c9f70e41417f5c1e3dc19a3d08562069a",
+        "trades.csv.gz": "0510818b525a8789fd01997a41c25f8984e4704f7764f0c52600e2458544bdd2",
+        "signals.csv.gz": "ab949abab230e9a278290c29635e04270863478f29c0fe11d72d5fe5749f566a",
+        "confirmation_events.csv.gz": "0510818b525a8789fd01997a41c25f8984e4704f7764f0c52600e2458544bdd2",
+        "opportunity_diagnostics.csv.gz": "c3b578329c3a71a137baa853c2c469dd37038825b0621d383dfe7b607011e359",
+        "independent_structure_audit.json": "ce6b783a21454e2d2ade30e9fb4f6e2b754b7afb0e822cf1a16b4f6b3c16e381"
+      },
+      "audit_status": "passed"
+    },
+    {
+      "month": "2026-08",
+      "variant": "profit_only",
+      "directory": "/home/nishiki/vnpy-ctp/research_outputs/rule_layers_2026-10-08/profit_only/2026-08/run_0001_6f3b8e313c03",
+      "files": {
+        "config_snapshot.json": "0ebad48fd9a62903a915affd716b4d7e96c70739a82d4d09ebdab32e01e592e2",
+        "trades.csv.gz": "0510818b525a8789fd01997a41c25f8984e4704f7764f0c52600e2458544bdd2",
+        "signals.csv.gz": "b3fdea772efba6008a0917ab4a37a8b7ceb86dc5ef376e4c1b1b1738226fb469",
+        "confirmation_events.csv.gz": "0510818b525a8789fd01997a41c25f8984e4704f7764f0c52600e2458544bdd2",
+        "opportunity_diagnostics.csv.gz": "e966aa7b731f41f7d6fee1aa0e890412be9e293e242e00a840c281839d4af579",
+        "independent_structure_audit.json": "5aa85c45ac41ca04961653cf7b72bed817b7dbc8973067ba5118bb61affd22c0"
+      },
+      "audit_status": "passed"
+    },
+    {
+      "month": "2026-08",
+      "variant": "stop_profit",
+      "directory": "/home/nishiki/vnpy-ctp/research_outputs/rule_layers_2026-10-08/stop_profit/2026-08/run_0001_6ca700ecb8d9",
+      "files": {
+        "config_snapshot.json": "78db626e738a76058333dfa238b71c2fa075ceb16c0cc3225778729c22d68134",
+        "trades.csv.gz": "0510818b525a8789fd01997a41c25f8984e4704f7764f0c52600e2458544bdd2",
+        "signals.csv.gz": "ab949abab230e9a278290c29635e04270863478f29c0fe11d72d5fe5749f566a",
+        "confirmation_events.csv.gz": "0510818b525a8789fd01997a41c25f8984e4704f7764f0c52600e2458544bdd2",
+        "opportunity_diagnostics.csv.gz": "c3b578329c3a71a137baa853c2c469dd37038825b0621d383dfe7b607011e359",
+        "independent_structure_audit.json": "08cdbbe47292e55683dd988e62408d90888a03b0be65eacf667fa9f54b63244c"
+      },
+      "audit_status": "passed"
+    },
+    {
+      "month": "2026-09",
+      "variant": "control",
+      "directory": "/home/nishiki/vnpy-ctp/research_outputs/rule_layers_2026-10-08/control/2026-09/run_0001_382a9e730dc7",
+      "files": {
+        "config_snapshot.json": "033e34a570319bd9c68a0970154e29130451c46144c40fde13e34b568fdedb8c",
+        "trades.csv.gz": "d93b1cb2077497ff52bf65b8b61d5ebe0d043ff1de8fad7ad98a0e9c09985279",
+        "signals.csv.gz": "fba717b10aa36394a2afb9b6dd1bd6ca8d14765e57bac9da7f4d9fdae0ea36e6",
+        "confirmation_events.csv.gz": "0510818b525a8789fd01997a41c25f8984e4704f7764f0c52600e2458544bdd2",
+        "opportunity_diagnostics.csv.gz": "dc2db3b8080f4eed080efba7cbfca23464ef3be20989746a9ad3ef63f1a08fcd",
+        "independent_structure_audit.json": "812b871031111f3a4208eb55950f20e9c574b000aafb6e83dcf9b5042898909c"
+      },
+      "audit_status": "passed"
+    },
+    {
+      "month": "2026-09",
+      "variant": "bucket_confirmation",
+      "directory": "/home/nishiki/vnpy-ctp/research_outputs/rule_layers_2026-10-08/bucket_confirmation/2026-09/run_0001_899ac96f528c",
+      "files": {
+        "config_snapshot.json": "50ee2bf7c45a8ec910443a8d2a6a237d822e63f8d5773c1eafbffd650ba58cc7",
+        "trades.csv.gz": "c7776a50b7ddb5cdce575cc7d572ecdfe19401c855758b76ee6d630c4b2696b5",
+        "signals.csv.gz": "b1b030fb75873aafa5fff9c83b2ded7de96bb3863df1279072b2131340431ac1",
+        "confirmation_events.csv.gz": "f708f3e20ea9a0608daa7dd0f9c66cce337649283207ea735312919552975747",
+        "opportunity_diagnostics.csv.gz": "dc2db3b8080f4eed080efba7cbfca23464ef3be20989746a9ad3ef63f1a08fcd",
+        "independent_structure_audit.json": "4bf92b29dad00f47df380503aa5cf63c87c199d6a67bef613bc1195b6efdac26"
+      },
+      "audit_status": "passed"
+    },
+    {
+      "month": "2026-09",
+      "variant": "lifetime",
+      "directory": "/home/nishiki/vnpy-ctp/research_outputs/rule_layers_2026-10-08/lifetime/2026-09/run_0001_43d63bb88309",
+      "files": {
+        "config_snapshot.json": "1fc3de828ae48d3fa4b22c0998fd087e0025024d5d2b63b83226f072eb1d9bc0",
+        "trades.csv.gz": "c7776a50b7ddb5cdce575cc7d572ecdfe19401c855758b76ee6d630c4b2696b5",
+        "signals.csv.gz": "b1b030fb75873aafa5fff9c83b2ded7de96bb3863df1279072b2131340431ac1",
+        "confirmation_events.csv.gz": "56a34aa5fd91bcd7cb3e76ff835225eb340ad985dd3b515bf4ee743127f61d4f",
+        "opportunity_diagnostics.csv.gz": "f5db67dec69865d7d5cfb96aca25856679e4ddb3439627e2f6daa0f6058895f2",
+        "independent_structure_audit.json": "5d25e55ab0152534ee6a76a68d89ee3d44ed6221ad74735de3b1aee94d26d97e"
+      },
+      "audit_status": "passed"
+    },
+    {
+      "month": "2026-09",
+      "variant": "pullback_recovery",
+      "directory": "/home/nishiki/vnpy-ctp/research_outputs/rule_layers_2026-10-08/pullback_recovery/2026-09/run_0001_224778acd945",
+      "files": {
+        "config_snapshot.json": "6214fce5592d42456abbe8dfdbe332d46cedf878c4ffa0f64711b8b6436d20b1",
+        "trades.csv.gz": "c7776a50b7ddb5cdce575cc7d572ecdfe19401c855758b76ee6d630c4b2696b5",
+        "signals.csv.gz": "b1b030fb75873aafa5fff9c83b2ded7de96bb3863df1279072b2131340431ac1",
+        "confirmation_events.csv.gz": "14e6b28f094a9f0b23b7bac028da6dbd71766c1a03a1297a6a20d882d9ddde26",
+        "opportunity_diagnostics.csv.gz": "ad69f49ff48eea778f94044898983b607910f1776c994b4c5c1be206fd95bba0",
+        "independent_structure_audit.json": "94af14b23079e0a722a9cfd97cc998f24da8041ba76da849f5529427e07ef2b7"
+      },
+      "audit_status": "passed"
+    },
+    {
+      "month": "2026-09",
+      "variant": "structure_coupled",
+      "directory": "/home/nishiki/vnpy-ctp/research_outputs/rule_layers_2026-10-08/structure_coupled/2026-09/run_0001_8540e72996a0",
+      "files": {
+        "config_snapshot.json": "f364f97b54e7dff41cfce916479708239883cf0cd133921b2fdeeea8c006ade9",
+        "trades.csv.gz": "5809f0333c079faa5d8d8099843e98b3bd50488d2e64ab29c2742d2e0a0c143b",
+        "signals.csv.gz": "50044d740f4d61ee9e5ad347711fbd9e7b96624d04cac4fea874420a0fe69ca7",
+        "confirmation_events.csv.gz": "0510818b525a8789fd01997a41c25f8984e4704f7764f0c52600e2458544bdd2",
+        "opportunity_diagnostics.csv.gz": "1b952587a65f5d157c8d6fac0830c38ed99d1d2eab75a16e4e3d7b8ad01e15f3",
+        "independent_structure_audit.json": "d0b88b518845fe770202aa8639a2518db669af4bd6e89b5d4547f44e11df71e2"
+      },
+      "audit_status": "passed"
+    },
+    {
+      "month": "2026-09",
+      "variant": "stop_only",
+      "directory": "/home/nishiki/vnpy-ctp/research_outputs/rule_layers_2026-10-08/stop_only/2026-09/run_0001_15eae439937a",
+      "files": {
+        "config_snapshot.json": "bf17c5abed345ae502f1914e18382ca440e52f726a896943f30c9d60316bb441",
+        "trades.csv.gz": "203436196c09fcfd850250672893882768005270d8560dfc1ed7624280199e3c",
+        "signals.csv.gz": "050835bb0b005bb75a232fba92d34b2f0707cf041cd93ef3f41179b478c03339",
+        "confirmation_events.csv.gz": "0510818b525a8789fd01997a41c25f8984e4704f7764f0c52600e2458544bdd2",
+        "opportunity_diagnostics.csv.gz": "1b952587a65f5d157c8d6fac0830c38ed99d1d2eab75a16e4e3d7b8ad01e15f3",
+        "independent_structure_audit.json": "f6f9680fe8023526b60cd1815fdb8af376af85fc6ef1bb66f6109cbcd9adceee"
+      },
+      "audit_status": "passed"
+    },
+    {
+      "month": "2026-09",
+      "variant": "profit_only",
+      "directory": "/home/nishiki/vnpy-ctp/research_outputs/rule_layers_2026-10-08/profit_only/2026-09/run_0001_2527ee270fe9",
+      "files": {
+        "config_snapshot.json": "5a2c9c3d62d153dca297f4d0c82581895584831a6ccf406352eda3ed279ad259",
+        "trades.csv.gz": "5accf39b907f56379cdc0b426ee7905296b42937cc593438dfab22e8720b880a",
+        "signals.csv.gz": "beb471615d5173de31bdea506c508bbb0080680ade92b3b32021edf52a54b584",
+        "confirmation_events.csv.gz": "0510818b525a8789fd01997a41c25f8984e4704f7764f0c52600e2458544bdd2",
+        "opportunity_diagnostics.csv.gz": "dc2db3b8080f4eed080efba7cbfca23464ef3be20989746a9ad3ef63f1a08fcd",
+        "independent_structure_audit.json": "6ee6603c3a67e9fa4ae7dc54eee40668e6048fd197d0f763947cab5df76517aa"
+      },
+      "audit_status": "passed"
+    },
+    {
+      "month": "2026-09",
+      "variant": "stop_profit",
+      "directory": "/home/nishiki/vnpy-ctp/research_outputs/rule_layers_2026-10-08/stop_profit/2026-09/run_0001_6cafb1ef84d8",
+      "files": {
+        "config_snapshot.json": "839b41d554e283f8de126a26638ecccb7b5709cbad6bcfd3adde93ff46f0434f",
+        "trades.csv.gz": "8dfecaf60d312aafee4feed5320018214e22ba3d1d9bd70073ab5a54ca8eb770",
+        "signals.csv.gz": "8fcf94e12d45121de0f556979d5b7eb16632911871e60bf9bc8e77021422988e",
+        "confirmation_events.csv.gz": "0510818b525a8789fd01997a41c25f8984e4704f7764f0c52600e2458544bdd2",
+        "opportunity_diagnostics.csv.gz": "1b952587a65f5d157c8d6fac0830c38ed99d1d2eab75a16e4e3d7b8ad01e15f3",
+        "independent_structure_audit.json": "1947329bc348ccb6d790fe7e6cbbf2d2da37a3466a6d56d0f6fb0c8db9204d17"
+      },
+      "audit_status": "passed"
+    }
+  ],
+  "concentration": {
+    "control": {
+      "net_cny": {
+        "sum": 7540.0508,
+        "without_best": 341.14519999999993,
+        "without_two_best": -1805.9523999999992,
+        "best_share_of_positive": 0.6807262804488348,
+        "non_lc": -84.67240000000001
+      },
+      "net_initial_price_r": {
+        "sum": 5.293547234847299,
+        "without_best": 0.494276834847299,
+        "without_two_best": -1.0844714004468186,
+        "best_share_of_positive": 0.6247202506385534,
+        "non_lc": 0.1811756583767109
+      },
+      "net_budget_r": {
+        "sum": 4.459880304627841,
+        "without_best": 0.4681524221621758,
+        "without_two_best": -0.7434360442656534,
+        "best_share_of_positive": 0.6285076613077784,
+        "non_lc": 0.21190669981829108
+      }
+    },
+    "bucket_confirmation": {
+      "net_cny": {
+        "sum": 7540.0508,
+        "without_best": 341.14519999999993,
+        "without_two_best": -1805.9523999999992,
+        "best_share_of_positive": 0.6807262804488348,
+        "non_lc": -84.67240000000001
+      },
+      "net_initial_price_r": {
+        "sum": 5.293547234847299,
+        "without_best": 0.494276834847299,
+        "without_two_best": -1.0844714004468186,
+        "best_share_of_positive": 0.6247202506385534,
+        "non_lc": 0.1811756583767109
+      },
+      "net_budget_r": {
+        "sum": 4.459880304627841,
+        "without_best": 0.4681524221621758,
+        "without_two_best": -0.7434360442656534,
+        "best_share_of_positive": 0.6285076613077784,
+        "non_lc": 0.21190669981829108
+      }
+    },
+    "lifetime": {
+      "net_cny": {
+        "sum": 7752.2804,
+        "without_best": 553.3747999999996,
+        "without_two_best": -1593.7227999999996,
+        "best_share_of_positive": 0.6673339784961946,
+        "non_lc": 127.5572
+      },
+      "net_initial_price_r": {
+        "sum": 5.431358663418727,
+        "without_best": 0.6320882634187273,
+        "without_two_best": -0.9466599718753903,
+        "best_share_of_positive": 0.6137109564785317,
+        "non_lc": 0.3189870869481395
+      },
+      "net_budget_r": {
+        "sum": 4.566647967532973,
+        "without_best": 0.574920085067308,
+        "without_two_best": -0.6366683813605212,
+        "best_share_of_positive": 0.6181166027166458,
+        "non_lc": 0.31867436272342337
+      }
+    },
+    "pullback_recovery": {
+      "net_cny": {
+        "sum": 7486.9576,
+        "without_best": 288.0519999999997,
+        "without_two_best": -1859.0455999999995,
+        "best_share_of_positive": 0.5880979504480909,
+        "non_lc": -137.76560000000006
+      },
+      "net_initial_price_r": {
+        "sum": 5.185691044371109,
+        "without_best": 0.3864206443711087,
+        "without_two_best": -1.1923275909230089,
+        "best_share_of_positive": 0.5473621462009791,
+        "non_lc": 0.07331946790052055
+      },
+      "net_budget_r": {
+        "sum": 4.421096487476954,
+        "without_best": 0.4293686050112888,
+        "without_two_best": -0.7822198614165403,
+        "best_share_of_positive": 0.5551923885986286,
+        "non_lc": 0.17312288266740417
+      }
+    },
+    "structure_coupled": {
+      "net_cny": {
+        "sum": 1115.0851000000002,
+        "without_best": -1284.5501,
+        "without_two_best": -1821.3244999999997,
+        "best_share_of_positive": 0.7669530297380429,
+        "non_lc": -1520.5053
+      },
+      "net_initial_price_r": {
+        "sum": 0.8129467747195497,
+        "without_best": -0.6683095215767466,
+        "without_two_best": -1.062996580400276,
+        "best_share_of_positive": 0.738620350544219,
+        "non_lc": -0.892076580400276
+      },
+      "net_budget_r": {
+        "sum": 0.8050992182604662,
+        "without_best": -0.5891037341806895,
+        "without_two_best": -0.9559951029093365,
+        "best_share_of_positive": 0.7412716034492607,
+        "non_lc": -0.8041329719996113
+      }
+    },
+    "stop_only": {
+      "net_cny": {
+        "sum": 2404.5060000000003,
+        "without_best": 4.870800000000145,
+        "without_two_best": -646.5036,
+        "best_share_of_positive": 0.6459355165755563,
+        "non_lc": -20.511599999999966
+      },
+      "net_initial_price_r": {
+        "sum": 1.4180048469777469,
+        "without_best": -0.06325144931854942,
+        "without_two_best": -0.5352618841011583,
+        "best_share_of_positive": 0.6100602111185244,
+        "non_lc": 0.09555170462387856
+      },
+      "net_budget_r": {
+        "sum": 1.363039329670554,
+        "without_best": -0.031163622770601584,
+        "without_two_best": -0.48081560165531867,
+        "best_share_of_positive": 0.6107302174496294,
+        "non_lc": 0.0972266066264636
+      }
+    },
+    "profit_only": {
+      "net_cny": {
+        "sum": 6039.8084,
+        "without_best": -378.84760000000006,
+        "without_two_best": -2525.9452,
+        "best_share_of_positive": 0.7072830276782758,
+        "non_lc": -804.6652
+      },
+      "net_initial_price_r": {
+        "sum": 3.931283992742036,
+        "without_best": -0.347820007257964,
+        "without_two_best": -1.9265682425520816,
+        "best_share_of_positive": 0.6770725633842355,
+        "non_lc": -0.6609211837285521
+      },
+      "net_budget_r": {
+        "sum": 3.2756246331547225,
+        "without_best": -0.2834619206619493,
+        "without_two_best": -1.4950503870897776,
+        "best_share_of_positive": 0.6888290447948519,
+        "non_lc": -0.5397076430058342
+      }
+    },
+    "stop_profit": {
+      "net_cny": {
+        "sum": 1664.4276,
+        "without_best": -475.12440000000015,
+        "without_two_best": -1011.8987999999999,
+        "best_share_of_positive": 0.7192018012046127,
+        "non_lc": -500.5068
+      },
+      "net_initial_price_r": {
+        "sum": 0.9096370530969095,
+        "without_best": -0.4110740580142017,
+        "without_two_best": -0.8057611168377311,
+        "best_share_of_positive": 0.6879844784808473,
+        "non_lc": -0.25227090407177366
+      },
+      "net_budget_r": {
+        "sum": 0.8805826237770171,
+        "without_best": -0.36251037440094747,
+        "without_two_best": -0.7294017431295945,
+        "best_share_of_positive": 0.6904579439763785,
+        "non_lc": -0.2341201450038823
+      }
+    }
+  },
+  "position_path_attribution": {
+    "control_to_structure_coupled": {
+      "matched": [
+        {
+          "entry_key": [
+            "PL609.CZCE",
+            "LONG",
+            "2026-07-14T14:26:00+08:00"
+          ],
+          "lots_before": 7,
+          "lots_after": 3,
+          "net_per_lot_before": 17.0,
+          "net_per_lot_after": 57.0,
+          "size_component": -68.0,
+          "path_per_lot_component": 120.0,
+          "net_delta": 52.0
+        },
+        {
+          "entry_key": [
+            "PX609.CZCE",
+            "SHORT",
+            "2026-07-02T11:20:00+08:00"
+          ],
+          "lots_before": 21,
+          "lots_after": 9,
+          "net_per_lot_before": 6.345999999999999,
+          "net_per_lot_after": -103.654,
+          "size_component": -76.15199999999999,
+          "path_per_lot_component": -990.0,
+          "net_delta": -1066.152
+        },
+        {
+          "entry_key": [
+            "ag2610.SHFE",
+            "LONG",
+            "2026-07-30T09:25:00+08:00"
+          ],
+          "lots_before": 3,
+          "lots_after": 2,
+          "net_per_lot_before": 325.6872,
+          "net_per_lot_after": 10.69035,
+          "size_component": -325.6872,
+          "path_per_lot_component": -629.9937,
+          "net_delta": -955.6809
+        },
+        {
+          "entry_key": [
+            "lc2609.GFEX",
+            "LONG",
+            "2026-07-27T14:06:00+08:00"
+          ],
+          "lots_before": 4,
+          "lots_after": 2,
+          "net_per_lot_before": -430.32000000000005,
+          "net_per_lot_after": -150.4096,
+          "size_component": 860.6400000000001,
+          "path_per_lot_component": 559.8208000000001,
+          "net_delta": 1420.4608000000003
+        },
+        {
+          "entry_key": [
+            "lc2701.GFEX",
+            "LONG",
+            "2026-09-17T11:27:00+08:00"
+          ],
+          "lots_before": 4,
+          "lots_after": 1,
+          "net_per_lot_before": 536.7744,
+          "net_per_lot_after": 536.7744,
+          "size_component": -1610.3232,
+          "path_per_lot_component": 0.0,
+          "net_delta": -1610.3232
+        },
+        {
+          "entry_key": [
+            "lc2701.GFEX",
+            "SHORT",
+            "2026-09-16T09:31:00+08:00"
+          ],
+          "lots_before": 3,
+          "lots_after": 1,
+          "net_per_lot_before": 2399.6352,
+          "net_per_lot_after": 2399.6352,
+          "size_component": -4799.2704,
+          "path_per_lot_component": 0.0,
+          "net_delta": -4799.270399999999
+        },
+        {
+          "entry_key": [
+            "ni2609.SHFE",
+            "SHORT",
+            "2026-07-17T13:59:00+08:00"
+          ],
+          "lots_before": 9,
+          "lots_after": 5,
+          "net_per_lot_before": -146.0,
+          "net_per_lot_after": -156.0,
+          "size_component": 584.0,
+          "path_per_lot_component": -50.0,
+          "net_delta": 534.0
+        }
+      ],
+      "matched_count": 7,
+      "size_component": -5434.7928,
+      "path_per_lot_component": -990.1728999999999,
+      "added_entries": [],
+      "removed_entries": [],
+      "added_net": 0,
+      "removed_net": 0,
+      "total_delta": -6424.9657
+    },
+    "control_to_stop_only": {
+      "matched": [
+        {
+          "entry_key": [
+            "PL609.CZCE",
+            "LONG",
+            "2026-07-14T14:26:00+08:00"
+          ],
+          "lots_before": 7,
+          "lots_after": 3,
+          "net_per_lot_before": 17.0,
+          "net_per_lot_after": 17.0,
+          "size_component": -68.0,
+          "path_per_lot_component": 0.0,
+          "net_delta": -68.0
+        },
+        {
+          "entry_key": [
+            "PX609.CZCE",
+            "SHORT",
+            "2026-07-02T11:20:00+08:00"
+          ],
+          "lots_before": 21,
+          "lots_after": 9,
+          "net_per_lot_before": 6.345999999999999,
+          "net_per_lot_after": 6.346,
+          "size_component": -76.15199999999999,
+          "path_per_lot_component": 7.993605777301127e-15,
+          "net_delta": -76.15199999999999
+        },
+        {
+          "entry_key": [
+            "ag2610.SHFE",
+            "LONG",
+            "2026-07-30T09:25:00+08:00"
+          ],
+          "lots_before": 3,
+          "lots_after": 2,
+          "net_per_lot_before": 325.6872,
+          "net_per_lot_after": 325.6872,
+          "size_component": -325.6872,
+          "path_per_lot_component": 0.0,
+          "net_delta": -325.68719999999996
+        },
+        {
+          "entry_key": [
+            "lc2609.GFEX",
+            "LONG",
+            "2026-07-27T14:06:00+08:00"
+          ],
+          "lots_before": 4,
+          "lots_after": 2,
+          "net_per_lot_before": -430.32000000000005,
+          "net_per_lot_after": 9.539199999999994,
+          "size_component": 860.6400000000001,
+          "path_per_lot_component": 879.7184000000001,
+          "net_delta": 1740.3584
+        },
+        {
+          "entry_key": [
+            "lc2701.GFEX",
+            "LONG",
+            "2026-09-17T11:27:00+08:00"
+          ],
+          "lots_before": 4,
+          "lots_after": 1,
+          "net_per_lot_before": 536.7744,
+          "net_per_lot_after": 536.7744,
+          "size_component": -1610.3232,
+          "path_per_lot_component": 0.0,
+          "net_delta": -1610.3232
+        },
+        {
+          "entry_key": [
+            "lc2701.GFEX",
+            "SHORT",
+            "2026-09-16T09:31:00+08:00"
+          ],
+          "lots_before": 3,
+          "lots_after": 1,
+          "net_per_lot_before": 2399.6352,
+          "net_per_lot_after": 2399.6352,
+          "size_component": -4799.2704,
+          "path_per_lot_component": 0.0,
+          "net_delta": -4799.270399999999
+        },
+        {
+          "entry_key": [
+            "ni2609.SHFE",
+            "SHORT",
+            "2026-07-17T13:59:00+08:00"
+          ],
+          "lots_before": 9,
+          "lots_after": 5,
+          "net_per_lot_before": -146.0,
+          "net_per_lot_after": -156.0,
+          "size_component": 584.0,
+          "path_per_lot_component": -50.0,
+          "net_delta": 534.0
+        }
+      ],
+      "matched_count": 7,
+      "size_component": -5434.7928,
+      "path_per_lot_component": 829.7184000000001,
+      "added_entries": [
+        [
+          "lc2609.GFEX",
+          "LONG",
+          "2026-07-27T14:27:00+08:00"
+        ]
+      ],
+      "removed_entries": [],
+      "added_net": -530.4704,
+      "removed_net": 0,
+      "total_delta": -5135.5448
+    },
+    "control_to_profit_only": {
+      "matched": [
+        {
+          "entry_key": [
+            "PL609.CZCE",
+            "LONG",
+            "2026-07-14T14:26:00+08:00"
+          ],
+          "lots_before": 7,
+          "lots_after": 7,
+          "net_per_lot_before": 17.0,
+          "net_per_lot_after": 17.0,
+          "size_component": 0.0,
+          "path_per_lot_component": 0.0,
+          "net_delta": 0.0
+        },
+        {
+          "entry_key": [
+            "PX609.CZCE",
+            "SHORT",
+            "2026-07-02T11:20:00+08:00"
+          ],
+          "lots_before": 21,
+          "lots_after": 21,
+          "net_per_lot_before": 6.345999999999999,
+          "net_per_lot_after": 6.345999999999999,
+          "size_component": 0.0,
+          "path_per_lot_component": 0.0,
+          "net_delta": 0.0
+        },
+        {
+          "entry_key": [
+            "ag2610.SHFE",
+            "LONG",
+            "2026-07-30T09:25:00+08:00"
+          ],
+          "lots_before": 3,
+          "lots_after": 3,
+          "net_per_lot_before": 325.6872,
+          "net_per_lot_after": 85.6896,
+          "size_component": 0.0,
+          "path_per_lot_component": -719.9928000000001,
+          "net_delta": -719.9928
+        },
+        {
+          "entry_key": [
+            "lc2609.GFEX",
+            "LONG",
+            "2026-07-27T14:06:00+08:00"
+          ],
+          "lots_before": 4,
+          "lots_after": 4,
+          "net_per_lot_before": -430.32000000000005,
+          "net_per_lot_after": -430.32000000000005,
+          "size_component": -0.0,
+          "path_per_lot_component": 0.0,
+          "net_delta": 0.0
+        },
+        {
+          "entry_key": [
+            "lc2701.GFEX",
+            "LONG",
+            "2026-09-17T11:27:00+08:00"
+          ],
+          "lots_before": 4,
+          "lots_after": 4,
+          "net_per_lot_before": 536.7744,
+          "net_per_lot_after": 536.7744,
+          "size_component": 0.0,
+          "path_per_lot_component": 0.0,
+          "net_delta": 0.0
+        },
+        {
+          "entry_key": [
+            "lc2701.GFEX",
+            "SHORT",
+            "2026-09-16T09:31:00+08:00"
+          ],
+          "lots_before": 3,
+          "lots_after": 3,
+          "net_per_lot_before": 2399.6352,
+          "net_per_lot_after": 2139.552,
+          "size_component": 0.0,
+          "path_per_lot_component": -780.2496000000001,
+          "net_delta": -780.2496000000001
+        },
+        {
+          "entry_key": [
+            "ni2609.SHFE",
+            "SHORT",
+            "2026-07-17T13:59:00+08:00"
+          ],
+          "lots_before": 9,
+          "lots_after": 9,
+          "net_per_lot_before": -146.0,
+          "net_per_lot_after": -146.0,
+          "size_component": -0.0,
+          "path_per_lot_component": 0.0,
+          "net_delta": 0.0
+        }
+      ],
+      "matched_count": 7,
+      "size_component": 0.0,
+      "path_per_lot_component": -1500.2424,
+      "added_entries": [],
+      "removed_entries": [],
+      "added_net": 0,
+      "removed_net": 0,
+      "total_delta": -1500.2424
+    },
+    "control_to_stop_profit": {
+      "matched": [
+        {
+          "entry_key": [
+            "PL609.CZCE",
+            "LONG",
+            "2026-07-14T14:26:00+08:00"
+          ],
+          "lots_before": 7,
+          "lots_after": 3,
+          "net_per_lot_before": 17.0,
+          "net_per_lot_after": 17.0,
+          "size_component": -68.0,
+          "path_per_lot_component": 0.0,
+          "net_delta": -68.0
+        },
+        {
+          "entry_key": [
+            "PX609.CZCE",
+            "SHORT",
+            "2026-07-02T11:20:00+08:00"
+          ],
+          "lots_before": 21,
+          "lots_after": 9,
+          "net_per_lot_before": 6.345999999999999,
+          "net_per_lot_after": 6.346,
+          "size_component": -76.15199999999999,
+          "path_per_lot_component": 7.993605777301127e-15,
+          "net_delta": -76.15199999999999
+        },
+        {
+          "entry_key": [
+            "ag2610.SHFE",
+            "LONG",
+            "2026-07-30T09:25:00+08:00"
+          ],
+          "lots_before": 3,
+          "lots_after": 2,
+          "net_per_lot_before": 325.6872,
+          "net_per_lot_after": 85.6896,
+          "size_component": -325.6872,
+          "path_per_lot_component": -479.99520000000007,
+          "net_delta": -805.6824
+        },
+        {
+          "entry_key": [
+            "lc2609.GFEX",
+            "LONG",
+            "2026-07-27T14:06:00+08:00"
+          ],
+          "lots_before": 4,
+          "lots_after": 2,
+          "net_per_lot_before": -430.32000000000005,
+          "net_per_lot_after": 9.539199999999994,
+          "size_component": 860.6400000000001,
+          "path_per_lot_component": 879.7184000000001,
+          "net_delta": 1740.3584
+        },
+        {
+          "entry_key": [
+            "lc2701.GFEX",
+            "LONG",
+            "2026-09-17T11:27:00+08:00"
+          ],
+          "lots_before": 4,
+          "lots_after": 1,
+          "net_per_lot_before": 536.7744,
+          "net_per_lot_after": 536.7744,
+          "size_component": -1610.3232,
+          "path_per_lot_component": 0.0,
+          "net_delta": -1610.3232
+        },
+        {
+          "entry_key": [
+            "lc2701.GFEX",
+            "SHORT",
+            "2026-09-16T09:31:00+08:00"
+          ],
+          "lots_before": 3,
+          "lots_after": 1,
+          "net_per_lot_before": 2399.6352,
+          "net_per_lot_after": 2139.552,
+          "size_component": -4799.2704,
+          "path_per_lot_component": -260.08320000000003,
+          "net_delta": -5059.3536
+        },
+        {
+          "entry_key": [
+            "ni2609.SHFE",
+            "SHORT",
+            "2026-07-17T13:59:00+08:00"
+          ],
+          "lots_before": 9,
+          "lots_after": 5,
+          "net_per_lot_before": -146.0,
+          "net_per_lot_after": -156.0,
+          "size_component": 584.0,
+          "path_per_lot_component": -50.0,
+          "net_delta": 534.0
+        }
+      ],
+      "matched_count": 7,
+      "size_component": -5434.7928,
+      "path_per_lot_component": 89.64,
+      "added_entries": [
+        [
+          "lc2609.GFEX",
+          "LONG",
+          "2026-07-27T14:27:00+08:00"
+        ]
+      ],
+      "removed_entries": [],
+      "added_net": -530.4704,
+      "removed_net": 0,
+      "total_delta": -5875.6232
+    },
+    "structure_coupled_to_stop_only": {
+      "matched": [
+        {
+          "entry_key": [
+            "PL609.CZCE",
+            "LONG",
+            "2026-07-14T14:26:00+08:00"
+          ],
+          "lots_before": 3,
+          "lots_after": 3,
+          "net_per_lot_before": 57.0,
+          "net_per_lot_after": 17.0,
+          "size_component": 0.0,
+          "path_per_lot_component": -120.0,
+          "net_delta": -120.0
+        },
+        {
+          "entry_key": [
+            "PX609.CZCE",
+            "SHORT",
+            "2026-07-02T11:20:00+08:00"
+          ],
+          "lots_before": 9,
+          "lots_after": 9,
+          "net_per_lot_before": -103.654,
+          "net_per_lot_after": 6.346,
+          "size_component": -0.0,
+          "path_per_lot_component": 990.0,
+          "net_delta": 990.0
+        },
+        {
+          "entry_key": [
+            "ag2610.SHFE",
+            "LONG",
+            "2026-07-30T09:25:00+08:00"
+          ],
+          "lots_before": 2,
+          "lots_after": 2,
+          "net_per_lot_before": 10.69035,
+          "net_per_lot_after": 325.6872,
+          "size_component": 0.0,
+          "path_per_lot_component": 629.9937,
+          "net_delta": 629.9937
+        },
+        {
+          "entry_key": [
+            "lc2609.GFEX",
+            "LONG",
+            "2026-07-27T14:06:00+08:00"
+          ],
+          "lots_before": 2,
+          "lots_after": 2,
+          "net_per_lot_before": -150.4096,
+          "net_per_lot_after": 9.539199999999994,
+          "size_component": -0.0,
+          "path_per_lot_component": 319.8976,
+          "net_delta": 319.8976
+        },
+        {
+          "entry_key": [
+            "lc2701.GFEX",
+            "LONG",
+            "2026-09-17T11:27:00+08:00"
+          ],
+          "lots_before": 1,
+          "lots_after": 1,
+          "net_per_lot_before": 536.7744,
+          "net_per_lot_after": 536.7744,
+          "size_component": 0.0,
+          "path_per_lot_component": 0.0,
+          "net_delta": 0.0
+        },
+        {
+          "entry_key": [
+            "lc2701.GFEX",
+            "SHORT",
+            "2026-09-16T09:31:00+08:00"
+          ],
+          "lots_before": 1,
+          "lots_after": 1,
+          "net_per_lot_before": 2399.6352,
+          "net_per_lot_after": 2399.6352,
+          "size_component": 0.0,
+          "path_per_lot_component": 0.0,
+          "net_delta": 0.0
+        },
+        {
+          "entry_key": [
+            "ni2609.SHFE",
+            "SHORT",
+            "2026-07-17T13:59:00+08:00"
+          ],
+          "lots_before": 5,
+          "lots_after": 5,
+          "net_per_lot_before": -156.0,
+          "net_per_lot_after": -156.0,
+          "size_component": -0.0,
+          "path_per_lot_component": 0.0,
+          "net_delta": 0.0
+        }
+      ],
+      "matched_count": 7,
+      "size_component": 0.0,
+      "path_per_lot_component": 1819.8913,
+      "added_entries": [
+        [
+          "lc2609.GFEX",
+          "LONG",
+          "2026-07-27T14:27:00+08:00"
+        ]
+      ],
+      "removed_entries": [],
+      "added_net": -530.4704,
+      "removed_net": 0,
+      "total_delta": 1289.4209
+    },
+    "stop_only_to_stop_profit": {
+      "matched": [
+        {
+          "entry_key": [
+            "PL609.CZCE",
+            "LONG",
+            "2026-07-14T14:26:00+08:00"
+          ],
+          "lots_before": 3,
+          "lots_after": 3,
+          "net_per_lot_before": 17.0,
+          "net_per_lot_after": 17.0,
+          "size_component": 0.0,
+          "path_per_lot_component": 0.0,
+          "net_delta": 0.0
+        },
+        {
+          "entry_key": [
+            "PX609.CZCE",
+            "SHORT",
+            "2026-07-02T11:20:00+08:00"
+          ],
+          "lots_before": 9,
+          "lots_after": 9,
+          "net_per_lot_before": 6.346,
+          "net_per_lot_after": 6.346,
+          "size_component": 0.0,
+          "path_per_lot_component": 0.0,
+          "net_delta": 0.0
+        },
+        {
+          "entry_key": [
+            "ag2610.SHFE",
+            "LONG",
+            "2026-07-30T09:25:00+08:00"
+          ],
+          "lots_before": 2,
+          "lots_after": 2,
+          "net_per_lot_before": 325.6872,
+          "net_per_lot_after": 85.6896,
+          "size_component": 0.0,
+          "path_per_lot_component": -479.99520000000007,
+          "net_delta": -479.99520000000007
+        },
+        {
+          "entry_key": [
+            "lc2609.GFEX",
+            "LONG",
+            "2026-07-27T14:06:00+08:00"
+          ],
+          "lots_before": 2,
+          "lots_after": 2,
+          "net_per_lot_before": 9.539199999999994,
+          "net_per_lot_after": 9.539199999999994,
+          "size_component": 0.0,
+          "path_per_lot_component": 0.0,
+          "net_delta": 0.0
+        },
+        {
+          "entry_key": [
+            "lc2609.GFEX",
+            "LONG",
+            "2026-07-27T14:27:00+08:00"
+          ],
+          "lots_before": 1,
+          "lots_after": 1,
+          "net_per_lot_before": -530.4704,
+          "net_per_lot_after": -530.4704,
+          "size_component": -0.0,
+          "path_per_lot_component": 0.0,
+          "net_delta": 0.0
+        },
+        {
+          "entry_key": [
+            "lc2701.GFEX",
+            "LONG",
+            "2026-09-17T11:27:00+08:00"
+          ],
+          "lots_before": 1,
+          "lots_after": 1,
+          "net_per_lot_before": 536.7744,
+          "net_per_lot_after": 536.7744,
+          "size_component": 0.0,
+          "path_per_lot_component": 0.0,
+          "net_delta": 0.0
+        },
+        {
+          "entry_key": [
+            "lc2701.GFEX",
+            "SHORT",
+            "2026-09-16T09:31:00+08:00"
+          ],
+          "lots_before": 1,
+          "lots_after": 1,
+          "net_per_lot_before": 2399.6352,
+          "net_per_lot_after": 2139.552,
+          "size_component": 0.0,
+          "path_per_lot_component": -260.08320000000003,
+          "net_delta": -260.08320000000003
+        },
+        {
+          "entry_key": [
+            "ni2609.SHFE",
+            "SHORT",
+            "2026-07-17T13:59:00+08:00"
+          ],
+          "lots_before": 5,
+          "lots_after": 5,
+          "net_per_lot_before": -156.0,
+          "net_per_lot_after": -156.0,
+          "size_component": -0.0,
+          "path_per_lot_component": 0.0,
+          "net_delta": 0.0
+        }
+      ],
+      "matched_count": 8,
+      "size_component": 0.0,
+      "path_per_lot_component": -740.0784000000001,
+      "added_entries": [],
+      "removed_entries": [],
+      "added_net": 0,
+      "removed_net": 0,
+      "total_delta": -740.0784000000003
+    }
+  },
+  "trade_resource_summary": {
+    "control": {
+      "trade_count": 7,
+      "average_holding_trade_minutes": 11.428571428571429,
+      "mean_single_trade_budget_utilization": 0.8351130050813094,
+      "minimum_single_trade_budget_utilization": 0.4803009342241589
+    },
+    "bucket_confirmation": {
+      "trade_count": 7,
+      "average_holding_trade_minutes": 11.428571428571429,
+      "mean_single_trade_budget_utilization": 0.8351130050813094,
+      "minimum_single_trade_budget_utilization": 0.4803009342241589
+    },
+    "lifetime": {
+      "trade_count": 8,
+      "average_holding_trade_minutes": 10.625,
+      "mean_single_trade_budget_utilization": 0.8549595294461457,
+      "minimum_single_trade_budget_utilization": 0.4803009342241589
+    },
+    "pullback_recovery": {
+      "trade_count": 10,
+      "average_holding_trade_minutes": 9.7,
+      "mean_single_trade_budget_utilization": 0.8810167938191509,
+      "minimum_single_trade_budget_utilization": 0.48106571872411147
+    },
+    "structure_coupled": {
+      "trade_count": 7,
+      "average_holding_trade_minutes": 17.571428571428573,
+      "mean_single_trade_budget_utilization": 0.8545892019122283,
+      "minimum_single_trade_budget_utilization": 0.7256466528605888
+    },
+    "stop_only": {
+      "trade_count": 8,
+      "average_holding_trade_minutes": 13.0,
+      "mean_single_trade_budget_utilization": 0.8131195539229518,
+      "minimum_single_trade_budget_utilization": 0.5256519495876457
+    },
+    "profit_only": {
+      "trade_count": 7,
+      "average_holding_trade_minutes": 13.428571428571429,
+      "mean_single_trade_budget_utilization": 0.8351130050813094,
+      "minimum_single_trade_budget_utilization": 0.4803009342241589
+    },
+    "stop_profit": {
+      "trade_count": 8,
+      "average_holding_trade_minutes": 14.75,
+      "mean_single_trade_budget_utilization": 0.8131195539229518,
+      "minimum_single_trade_budget_utilization": 0.5256519495876457
+    }
+  },
+  "previous_dual_comparison": {
+    "2026-07": {
+      "old_directory": "/home/nishiki/vnpy-ctp/research_outputs/coverage_expansion_2026-10-05/ordered_opportunity/dual/2026-07/run_0001_ae3193a49caa",
+      "old_ledger_sha256": "80d8bb40bfb33a84271160e75bbfe32d92a779f604f4982a7652792b2605138e",
+      "trade_count": 7,
+      "same_economic_records": true
+    },
+    "2026-08": {
+      "old_directory": "/home/nishiki/vnpy-ctp/research_outputs/coverage_expansion_2026-10-05/ordered_opportunity/dual/2026-08/run_0001_2285f3b68c8c",
+      "old_ledger_sha256": "0510818b525a8789fd01997a41c25f8984e4704f7764f0c52600e2458544bdd2",
+      "trade_count": 1,
+      "same_economic_records": false
+    },
+    "2026-09": {
+      "old_directory": "/home/nishiki/vnpy-ctp/research_outputs/coverage_expansion_2026-10-05/ordered_opportunity/dual/2026-09/run_0001_b5da08dc029f",
+      "old_ledger_sha256": "b945e4c7d44fca9ddbe6f6f4760e33556550c46074d7455119a4d4eca8123f28",
+      "trade_count": 2,
+      "same_economic_records": true
+    }
+  },
+  "diagnostic_counts": {
+    "2026-07_control": {
+      "observations": {
+        "overlap_execution": 3,
+        "overlap_market": 0,
+        "overlap_cost": 10,
+        "overlap_state_or_cutoff": 11,
+        "overlap_structure": 0,
+        "overlap_account": 15,
+        "exclusive_no_listed_block": 8,
+        "observations": 34,
+        "exclusive_state_or_cutoff": 6,
+        "exclusive_cost": 7,
+        "exclusive_account": 10,
+        "exclusive_execution": 3
+      },
+      "overlapping_account_reasons": {
+        "single_trade_risk": 11,
+        "group_margin": 15
+      },
+      "formed_timestamp_count": 0,
+      "touch_or_breakout_identity_count": 0,
+      "actual_trigger_counts": {
+        "triggers": 15,
+        "admitted_triggers": 5,
+        "filled": 5,
+        "risk_or_protection_rejected_triggers": 10,
+        "account_rejected_triggers": 10
+      },
+      "actual_risk_reasons": {
+        "single_trade_risk": 7,
+        "group_margin": 10
+      },
+      "actual_risk_rejected_contract_day_directions": 5,
+      "diagnostic_stop_and_target_reconstructed_checks": 31
+    },
+    "2026-07_bucket_confirmation": {
+      "observations": {
+        "overlap_execution": 3,
+        "overlap_market": 0,
+        "overlap_cost": 10,
+        "overlap_state_or_cutoff": 11,
+        "overlap_structure": 0,
+        "overlap_account": 16,
+        "exclusive_no_listed_block": 9,
+        "observations": 36,
+        "exclusive_state_or_cutoff": 6,
+        "exclusive_cost": 7,
+        "exclusive_account": 11,
+        "exclusive_execution": 3
+      },
+      "overlapping_account_reasons": {
+        "single_trade_risk": 12,
+        "group_margin": 16
+      },
+      "formed_timestamp_count": 24,
+      "touch_or_breakout_identity_count": 24,
+      "actual_trigger_counts": {
+        "triggers": 17,
+        "admitted_triggers": 6,
+        "filled": 5,
+        "risk_or_protection_rejected_triggers": 11,
+        "account_rejected_triggers": 11
+      },
+      "actual_risk_reasons": {
+        "single_trade_risk": 8,
+        "group_margin": 11
+      },
+      "actual_risk_rejected_contract_day_directions": 5,
+      "diagnostic_stop_and_target_reconstructed_checks": 33
+    },
+    "2026-07_lifetime": {
+      "observations": {
+        "overlap_execution": 7,
+        "overlap_market": 7,
+        "overlap_cost": 20,
+        "overlap_state_or_cutoff": 11,
+        "overlap_structure": 0,
+        "overlap_account": 17,
+        "exclusive_no_listed_block": 9,
+        "observations": 48,
+        "exclusive_market": 5,
+        "exclusive_cost": 9,
+        "exclusive_state_or_cutoff": 6,
+        "exclusive_account": 12,
+        "exclusive_execution": 7
+      },
+      "overlapping_account_reasons": {
+        "single_trade_risk": 13,
+        "group_margin": 17
+      },
+      "formed_timestamp_count": 24,
+      "touch_or_breakout_identity_count": 24,
+      "actual_trigger_counts": {
+        "triggers": 18,
+        "admitted_triggers": 6,
+        "filled": 5,
+        "risk_or_protection_rejected_triggers": 12,
+        "account_rejected_triggers": 12
+      },
+      "actual_risk_reasons": {
+        "single_trade_risk": 9,
+        "group_margin": 12
+      },
+      "actual_risk_rejected_contract_day_directions": 6,
+      "diagnostic_stop_and_target_reconstructed_checks": 41
+    },
+    "2026-07_pullback_recovery": {
+      "observations": {
+        "overlap_execution": 6,
+        "overlap_market": 0,
+        "overlap_cost": 17,
+        "overlap_state_or_cutoff": 11,
+        "overlap_structure": 0,
+        "overlap_account": 18,
+        "exclusive_execution": 6,
+        "observations": 47,
+        "exclusive_no_listed_block": 11,
+        "exclusive_cost": 11,
+        "exclusive_state_or_cutoff": 6,
+        "exclusive_account": 13
+      },
+      "overlapping_account_reasons": {
+        "single_trade_risk": 14,
+        "group_margin": 18
+      },
+      "formed_timestamp_count": 13,
+      "touch_or_breakout_identity_count": 12,
+      "actual_trigger_counts": {
+        "triggers": 20,
+        "admitted_triggers": 7,
+        "filled": 7,
+        "risk_or_protection_rejected_triggers": 13,
+        "account_rejected_triggers": 13
+      },
+      "actual_risk_reasons": {
+        "single_trade_risk": 10,
+        "group_margin": 13
+      },
+      "actual_risk_rejected_contract_day_directions": 6,
+      "diagnostic_stop_and_target_reconstructed_checks": 41
+    },
+    "2026-07_structure_coupled": {
+      "observations": {
+        "overlap_execution": 3,
+        "overlap_market": 0,
+        "overlap_cost": 10,
+        "overlap_state_or_cutoff": 14,
+        "overlap_structure": 1,
+        "overlap_account": 14,
+        "exclusive_no_listed_block": 5,
+        "observations": 34,
+        "exclusive_state_or_cutoff": 9,
+        "exclusive_cost": 7,
+        "exclusive_account": 10,
+        "exclusive_execution": 3
+      },
+      "overlapping_account_reasons": {
+        "single_trade_risk": 14,
+        "group_risk": 14,
+        "group_margin": 14,
+        "portfolio_risk": 4
+      },
+      "formed_timestamp_count": 0,
+      "touch_or_breakout_identity_count": 0,
+      "actual_trigger_counts": {
+        "triggers": 15,
+        "admitted_triggers": 5,
+        "filled": 5,
+        "risk_or_protection_rejected_triggers": 10,
+        "account_rejected_triggers": 10
+      },
+      "actual_risk_reasons": {
+        "single_trade_risk": 10,
+        "group_risk": 10,
+        "group_margin": 10,
+        "portfolio_risk": 3
+      },
+      "actual_risk_rejected_contract_day_directions": 5,
+      "diagnostic_stop_and_target_reconstructed_checks": 31
+    },
+    "2026-07_stop_only": {
+      "observations": {
+        "overlap_execution": 3,
+        "overlap_market": 0,
+        "overlap_cost": 10,
+        "overlap_state_or_cutoff": 13,
+        "overlap_structure": 1,
+        "overlap_account": 14,
+        "exclusive_no_listed_block": 6,
+        "observations": 34,
+        "exclusive_state_or_cutoff": 8,
+        "exclusive_cost": 7,
+        "exclusive_account": 10,
+        "exclusive_execution": 3
+      },
+      "overlapping_account_reasons": {
+        "single_trade_risk": 14,
+        "group_risk": 14,
+        "group_margin": 14,
+        "portfolio_risk": 4
+      },
+      "formed_timestamp_count": 0,
+      "touch_or_breakout_identity_count": 0,
+      "actual_trigger_counts": {
+        "triggers": 16,
+        "admitted_triggers": 6,
+        "filled": 6,
+        "risk_or_protection_rejected_triggers": 10,
+        "account_rejected_triggers": 10
+      },
+      "actual_risk_reasons": {
+        "single_trade_risk": 10,
+        "group_risk": 10,
+        "group_margin": 10,
+        "portfolio_risk": 3
+      },
+      "actual_risk_rejected_contract_day_directions": 5,
+      "diagnostic_stop_and_target_reconstructed_checks": 31
+    },
+    "2026-07_profit_only": {
+      "observations": {
+        "overlap_execution": 3,
+        "overlap_market": 0,
+        "overlap_cost": 10,
+        "overlap_state_or_cutoff": 11,
+        "overlap_structure": 0,
+        "overlap_account": 15,
+        "exclusive_no_listed_block": 8,
+        "observations": 34,
+        "exclusive_state_or_cutoff": 6,
+        "exclusive_cost": 7,
+        "exclusive_account": 10,
+        "exclusive_execution": 3
+      },
+      "overlapping_account_reasons": {
+        "single_trade_risk": 11,
+        "group_margin": 15
+      },
+      "formed_timestamp_count": 0,
+      "touch_or_breakout_identity_count": 0,
+      "actual_trigger_counts": {
+        "triggers": 15,
+        "admitted_triggers": 5,
+        "filled": 5,
+        "risk_or_protection_rejected_triggers": 10,
+        "account_rejected_triggers": 10
+      },
+      "actual_risk_reasons": {
+        "single_trade_risk": 7,
+        "group_margin": 10
+      },
+      "actual_risk_rejected_contract_day_directions": 5,
+      "diagnostic_stop_and_target_reconstructed_checks": 31
+    },
+    "2026-07_stop_profit": {
+      "observations": {
+        "overlap_execution": 3,
+        "overlap_market": 0,
+        "overlap_cost": 10,
+        "overlap_state_or_cutoff": 13,
+        "overlap_structure": 1,
+        "overlap_account": 14,
+        "exclusive_no_listed_block": 6,
+        "observations": 34,
+        "exclusive_state_or_cutoff": 8,
+        "exclusive_cost": 7,
+        "exclusive_account": 10,
+        "exclusive_execution": 3
+      },
+      "overlapping_account_reasons": {
+        "single_trade_risk": 14,
+        "group_risk": 14,
+        "group_margin": 14,
+        "portfolio_risk": 4
+      },
+      "formed_timestamp_count": 0,
+      "touch_or_breakout_identity_count": 0,
+      "actual_trigger_counts": {
+        "triggers": 16,
+        "admitted_triggers": 6,
+        "filled": 6,
+        "risk_or_protection_rejected_triggers": 10,
+        "account_rejected_triggers": 10
+      },
+      "actual_risk_reasons": {
+        "single_trade_risk": 10,
+        "group_risk": 10,
+        "group_margin": 10,
+        "portfolio_risk": 3
+      },
+      "actual_risk_rejected_contract_day_directions": 5,
+      "diagnostic_stop_and_target_reconstructed_checks": 31
+    },
+    "2026-08_control": {
+      "observations": {
+        "overlap_execution": 0,
+        "overlap_market": 0,
+        "overlap_cost": 14,
+        "overlap_state_or_cutoff": 2,
+        "overlap_structure": 0,
+        "overlap_account": 3,
+        "exclusive_cost": 14,
+        "observations": 17,
+        "exclusive_account": 1,
+        "exclusive_state_or_cutoff": 2
+      },
+      "overlapping_account_reasons": {
+        "single_trade_risk": 3,
+        "group_margin": 3
+      },
+      "formed_timestamp_count": 0,
+      "touch_or_breakout_identity_count": 0,
+      "actual_trigger_counts": {
+        "triggers": 1,
+        "risk_or_protection_rejected_triggers": 1,
+        "account_rejected_triggers": 1
+      },
+      "actual_risk_reasons": {
+        "single_trade_risk": 1,
+        "group_margin": 1
+      },
+      "actual_risk_rejected_contract_day_directions": 1,
+      "diagnostic_stop_and_target_reconstructed_checks": 17
+    },
+    "2026-08_bucket_confirmation": {
+      "observations": {
+        "overlap_execution": 0,
+        "overlap_market": 0,
+        "overlap_cost": 15,
+        "overlap_state_or_cutoff": 2,
+        "overlap_structure": 0,
+        "overlap_account": 3,
+        "exclusive_cost": 15,
+        "observations": 18,
+        "exclusive_account": 1,
+        "exclusive_state_or_cutoff": 2
+      },
+      "overlapping_account_reasons": {
+        "single_trade_risk": 3,
+        "group_margin": 3
+      },
+      "formed_timestamp_count": 10,
+      "touch_or_breakout_identity_count": 10,
+      "actual_trigger_counts": {
+        "triggers": 1,
+        "risk_or_protection_rejected_triggers": 1,
+        "account_rejected_triggers": 1
+      },
+      "actual_risk_reasons": {
+        "single_trade_risk": 1,
+        "group_margin": 1
+      },
+      "actual_risk_rejected_contract_day_directions": 1,
+      "diagnostic_stop_and_target_reconstructed_checks": 18
+    },
+    "2026-08_lifetime": {
+      "observations": {
+        "overlap_execution": 1,
+        "overlap_market": 1,
+        "overlap_cost": 17,
+        "overlap_state_or_cutoff": 2,
+        "overlap_structure": 0,
+        "overlap_account": 4,
+        "exclusive_cost": 15,
+        "observations": 23,
+        "exclusive_no_listed_block": 2,
+        "exclusive_account": 2,
+        "exclusive_state_or_cutoff": 2,
+        "exclusive_execution": 1,
+        "exclusive_market": 1
+      },
+      "overlapping_account_reasons": {
+        "single_trade_risk": 4,
+        "group_margin": 4
+      },
+      "formed_timestamp_count": 12,
+      "touch_or_breakout_identity_count": 12,
+      "actual_trigger_counts": {
+        "triggers": 4,
+        "admitted_triggers": 2,
+        "filled": 1,
+        "risk_or_protection_rejected_triggers": 2,
+        "account_rejected_triggers": 2
+      },
+      "actual_risk_reasons": {
+        "single_trade_risk": 2,
+        "group_margin": 2
+      },
+      "actual_risk_rejected_contract_day_directions": 1,
+      "diagnostic_stop_and_target_reconstructed_checks": 22
+    },
+    "2026-08_pullback_recovery": {
+      "observations": {
+        "overlap_execution": 2,
+        "overlap_market": 0,
+        "overlap_cost": 20,
+        "overlap_state_or_cutoff": 2,
+        "overlap_structure": 0,
+        "overlap_account": 3,
+        "exclusive_cost": 18,
+        "observations": 25,
+        "exclusive_execution": 2,
+        "exclusive_no_listed_block": 2,
+        "exclusive_account": 1,
+        "exclusive_state_or_cutoff": 2
+      },
+      "overlapping_account_reasons": {
+        "single_trade_risk": 3,
+        "group_margin": 3
+      },
+      "formed_timestamp_count": 8,
+      "touch_or_breakout_identity_count": 8,
+      "actual_trigger_counts": {
+        "triggers": 3,
+        "admitted_triggers": 2,
+        "filled": 1,
+        "risk_or_protection_rejected_triggers": 1,
+        "account_rejected_triggers": 1
+      },
+      "actual_risk_reasons": {
+        "single_trade_risk": 1,
+        "group_margin": 1
+      },
+      "actual_risk_rejected_contract_day_directions": 1,
+      "diagnostic_stop_and_target_reconstructed_checks": 23
+    },
+    "2026-08_structure_coupled": {
+      "observations": {
+        "overlap_execution": 0,
+        "overlap_market": 0,
+        "overlap_cost": 14,
+        "overlap_state_or_cutoff": 2,
+        "overlap_structure": 2,
+        "overlap_account": 3,
+        "exclusive_cost": 14,
+        "observations": 17,
+        "exclusive_account": 1,
+        "exclusive_state_or_cutoff": 2
+      },
+      "overlapping_account_reasons": {
+        "single_trade_risk": 3,
+        "group_risk": 1,
+        "group_margin": 3
+      },
+      "formed_timestamp_count": 0,
+      "touch_or_breakout_identity_count": 0,
+      "actual_trigger_counts": {
+        "triggers": 1,
+        "risk_or_protection_rejected_triggers": 1,
+        "account_rejected_triggers": 1
+      },
+      "actual_risk_reasons": {
+        "single_trade_risk": 1,
+        "group_risk": 1,
+        "group_margin": 1
+      },
+      "actual_risk_rejected_contract_day_directions": 1,
+      "diagnostic_stop_and_target_reconstructed_checks": 17
+    },
+    "2026-08_stop_only": {
+      "observations": {
+        "overlap_execution": 0,
+        "overlap_market": 0,
+        "overlap_cost": 14,
+        "overlap_state_or_cutoff": 2,
+        "overlap_structure": 2,
+        "overlap_account": 3,
+        "exclusive_cost": 14,
+        "observations": 17,
+        "exclusive_account": 1,
+        "exclusive_state_or_cutoff": 2
+      },
+      "overlapping_account_reasons": {
+        "single_trade_risk": 3,
+        "group_risk": 1,
+        "group_margin": 3
+      },
+      "formed_timestamp_count": 0,
+      "touch_or_breakout_identity_count": 0,
+      "actual_trigger_counts": {
+        "triggers": 1,
+        "risk_or_protection_rejected_triggers": 1,
+        "account_rejected_triggers": 1
+      },
+      "actual_risk_reasons": {
+        "single_trade_risk": 1,
+        "group_risk": 1,
+        "group_margin": 1
+      },
+      "actual_risk_rejected_contract_day_directions": 1,
+      "diagnostic_stop_and_target_reconstructed_checks": 17
+    },
+    "2026-08_profit_only": {
+      "observations": {
+        "overlap_execution": 0,
+        "overlap_market": 0,
+        "overlap_cost": 14,
+        "overlap_state_or_cutoff": 2,
+        "overlap_structure": 0,
+        "overlap_account": 3,
+        "exclusive_cost": 14,
+        "observations": 17,
+        "exclusive_account": 1,
+        "exclusive_state_or_cutoff": 2
+      },
+      "overlapping_account_reasons": {
+        "single_trade_risk": 3,
+        "group_margin": 3
+      },
+      "formed_timestamp_count": 0,
+      "touch_or_breakout_identity_count": 0,
+      "actual_trigger_counts": {
+        "triggers": 1,
+        "risk_or_protection_rejected_triggers": 1,
+        "account_rejected_triggers": 1
+      },
+      "actual_risk_reasons": {
+        "single_trade_risk": 1,
+        "group_margin": 1
+      },
+      "actual_risk_rejected_contract_day_directions": 1,
+      "diagnostic_stop_and_target_reconstructed_checks": 17
+    },
+    "2026-08_stop_profit": {
+      "observations": {
+        "overlap_execution": 0,
+        "overlap_market": 0,
+        "overlap_cost": 14,
+        "overlap_state_or_cutoff": 2,
+        "overlap_structure": 2,
+        "overlap_account": 3,
+        "exclusive_cost": 14,
+        "observations": 17,
+        "exclusive_account": 1,
+        "exclusive_state_or_cutoff": 2
+      },
+      "overlapping_account_reasons": {
+        "single_trade_risk": 3,
+        "group_risk": 1,
+        "group_margin": 3
+      },
+      "formed_timestamp_count": 0,
+      "touch_or_breakout_identity_count": 0,
+      "actual_trigger_counts": {
+        "triggers": 1,
+        "risk_or_protection_rejected_triggers": 1,
+        "account_rejected_triggers": 1
+      },
+      "actual_risk_reasons": {
+        "single_trade_risk": 1,
+        "group_risk": 1,
+        "group_margin": 1
+      },
+      "actual_risk_rejected_contract_day_directions": 1,
+      "diagnostic_stop_and_target_reconstructed_checks": 17
+    },
+    "2026-09_control": {
+      "observations": {
+        "overlap_execution": 0,
+        "overlap_market": 0,
+        "overlap_cost": 0,
+        "overlap_state_or_cutoff": 0,
+        "overlap_structure": 0,
+        "overlap_account": 1,
+        "exclusive_no_listed_block": 2,
+        "observations": 3,
+        "exclusive_account": 1
+      },
+      "overlapping_account_reasons": {
+        "single_trade_risk": 1,
+        "group_margin": 1
+      },
+      "formed_timestamp_count": 0,
+      "touch_or_breakout_identity_count": 0,
+      "actual_trigger_counts": {
+        "triggers": 3,
+        "admitted_triggers": 2,
+        "filled": 2,
+        "risk_or_protection_rejected_triggers": 1,
+        "account_rejected_triggers": 1
+      },
+      "actual_risk_reasons": {
+        "single_trade_risk": 1,
+        "group_margin": 1
+      },
+      "actual_risk_rejected_contract_day_directions": 1,
+      "diagnostic_stop_and_target_reconstructed_checks": 3
+    },
+    "2026-09_bucket_confirmation": {
+      "observations": {
+        "overlap_execution": 0,
+        "overlap_market": 0,
+        "overlap_cost": 0,
+        "overlap_state_or_cutoff": 0,
+        "overlap_structure": 0,
+        "overlap_account": 1,
+        "exclusive_no_listed_block": 2,
+        "observations": 3,
+        "exclusive_account": 1
+      },
+      "overlapping_account_reasons": {
+        "single_trade_risk": 1,
+        "group_margin": 1
+      },
+      "formed_timestamp_count": 4,
+      "touch_or_breakout_identity_count": 4,
+      "actual_trigger_counts": {
+        "triggers": 3,
+        "admitted_triggers": 2,
+        "filled": 2,
+        "risk_or_protection_rejected_triggers": 1,
+        "account_rejected_triggers": 1
+      },
+      "actual_risk_reasons": {
+        "single_trade_risk": 1,
+        "group_margin": 1
+      },
+      "actual_risk_rejected_contract_day_directions": 1,
+      "diagnostic_stop_and_target_reconstructed_checks": 3
+    },
+    "2026-09_lifetime": {
+      "observations": {
+        "overlap_execution": 0,
+        "overlap_market": 2,
+        "overlap_cost": 1,
+        "overlap_state_or_cutoff": 0,
+        "overlap_structure": 0,
+        "overlap_account": 1,
+        "exclusive_no_listed_block": 2,
+        "observations": 5,
+        "exclusive_account": 1,
+        "exclusive_market": 2
+      },
+      "overlapping_account_reasons": {
+        "single_trade_risk": 1,
+        "group_margin": 1
+      },
+      "formed_timestamp_count": 4,
+      "touch_or_breakout_identity_count": 4,
+      "actual_trigger_counts": {
+        "triggers": 3,
+        "admitted_triggers": 2,
+        "filled": 2,
+        "risk_or_protection_rejected_triggers": 1,
+        "account_rejected_triggers": 1
+      },
+      "actual_risk_reasons": {
+        "single_trade_risk": 1,
+        "group_margin": 1
+      },
+      "actual_risk_rejected_contract_day_directions": 1,
+      "diagnostic_stop_and_target_reconstructed_checks": 5
+    },
+    "2026-09_pullback_recovery": {
+      "observations": {
+        "overlap_execution": 0,
+        "overlap_market": 0,
+        "overlap_cost": 1,
+        "overlap_state_or_cutoff": 0,
+        "overlap_structure": 0,
+        "overlap_account": 1,
+        "exclusive_no_listed_block": 2,
+        "observations": 4,
+        "exclusive_account": 1,
+        "exclusive_cost": 1
+      },
+      "overlapping_account_reasons": {
+        "single_trade_risk": 1,
+        "group_margin": 1
+      },
+      "formed_timestamp_count": 1,
+      "touch_or_breakout_identity_count": 1,
+      "actual_trigger_counts": {
+        "triggers": 3,
+        "admitted_triggers": 2,
+        "filled": 2,
+        "risk_or_protection_rejected_triggers": 1,
+        "account_rejected_triggers": 1
+      },
+      "actual_risk_reasons": {
+        "single_trade_risk": 1,
+        "group_margin": 1
+      },
+      "actual_risk_rejected_contract_day_directions": 1,
+      "diagnostic_stop_and_target_reconstructed_checks": 4
+    },
+    "2026-09_structure_coupled": {
+      "observations": {
+        "overlap_execution": 0,
+        "overlap_market": 0,
+        "overlap_cost": 0,
+        "overlap_state_or_cutoff": 0,
+        "overlap_structure": 0,
+        "overlap_account": 1,
+        "exclusive_no_listed_block": 2,
+        "observations": 3,
+        "exclusive_account": 1
+      },
+      "overlapping_account_reasons": {
+        "single_trade_risk": 1,
+        "group_risk": 1,
+        "group_margin": 1
+      },
+      "formed_timestamp_count": 0,
+      "touch_or_breakout_identity_count": 0,
+      "actual_trigger_counts": {
+        "triggers": 3,
+        "admitted_triggers": 2,
+        "filled": 2,
+        "risk_or_protection_rejected_triggers": 1,
+        "account_rejected_triggers": 1
+      },
+      "actual_risk_reasons": {
+        "single_trade_risk": 1,
+        "group_risk": 1,
+        "group_margin": 1
+      },
+      "actual_risk_rejected_contract_day_directions": 1,
+      "diagnostic_stop_and_target_reconstructed_checks": 3
+    },
+    "2026-09_stop_only": {
+      "observations": {
+        "overlap_execution": 0,
+        "overlap_market": 0,
+        "overlap_cost": 0,
+        "overlap_state_or_cutoff": 0,
+        "overlap_structure": 0,
+        "overlap_account": 1,
+        "exclusive_no_listed_block": 2,
+        "observations": 3,
+        "exclusive_account": 1
+      },
+      "overlapping_account_reasons": {
+        "single_trade_risk": 1,
+        "group_risk": 1,
+        "group_margin": 1
+      },
+      "formed_timestamp_count": 0,
+      "touch_or_breakout_identity_count": 0,
+      "actual_trigger_counts": {
+        "triggers": 3,
+        "admitted_triggers": 2,
+        "filled": 2,
+        "risk_or_protection_rejected_triggers": 1,
+        "account_rejected_triggers": 1
+      },
+      "actual_risk_reasons": {
+        "single_trade_risk": 1,
+        "group_risk": 1,
+        "group_margin": 1
+      },
+      "actual_risk_rejected_contract_day_directions": 1,
+      "diagnostic_stop_and_target_reconstructed_checks": 3
+    },
+    "2026-09_profit_only": {
+      "observations": {
+        "overlap_execution": 0,
+        "overlap_market": 0,
+        "overlap_cost": 0,
+        "overlap_state_or_cutoff": 0,
+        "overlap_structure": 0,
+        "overlap_account": 1,
+        "exclusive_no_listed_block": 2,
+        "observations": 3,
+        "exclusive_account": 1
+      },
+      "overlapping_account_reasons": {
+        "single_trade_risk": 1,
+        "group_margin": 1
+      },
+      "formed_timestamp_count": 0,
+      "touch_or_breakout_identity_count": 0,
+      "actual_trigger_counts": {
+        "triggers": 3,
+        "admitted_triggers": 2,
+        "filled": 2,
+        "risk_or_protection_rejected_triggers": 1,
+        "account_rejected_triggers": 1
+      },
+      "actual_risk_reasons": {
+        "single_trade_risk": 1,
+        "group_margin": 1
+      },
+      "actual_risk_rejected_contract_day_directions": 1,
+      "diagnostic_stop_and_target_reconstructed_checks": 3
+    },
+    "2026-09_stop_profit": {
+      "observations": {
+        "overlap_execution": 0,
+        "overlap_market": 0,
+        "overlap_cost": 0,
+        "overlap_state_or_cutoff": 0,
+        "overlap_structure": 0,
+        "overlap_account": 1,
+        "exclusive_no_listed_block": 2,
+        "observations": 3,
+        "exclusive_account": 1
+      },
+      "overlapping_account_reasons": {
+        "single_trade_risk": 1,
+        "group_risk": 1,
+        "group_margin": 1
+      },
+      "formed_timestamp_count": 0,
+      "touch_or_breakout_identity_count": 0,
+      "actual_trigger_counts": {
+        "triggers": 3,
+        "admitted_triggers": 2,
+        "filled": 2,
+        "risk_or_protection_rejected_triggers": 1,
+        "account_rejected_triggers": 1
+      },
+      "actual_risk_reasons": {
+        "single_trade_risk": 1,
+        "group_risk": 1,
+        "group_margin": 1
+      },
+      "actual_risk_rejected_contract_day_directions": 1,
+      "diagnostic_stop_and_target_reconstructed_checks": 3
+    }
+  },
+  "cross_variant_units": {
+    "version_trade_records": 62,
+    "entry_timestamp_keys": 12,
+    "contract_day_direction_keys": 9,
+    "active_dates": 8,
+    "statistical_independence_claimed": false
+  },
+  "definitions": {
+    "attribution": "(q_new-q_old)*net_per_lot_old + q_new*(net_per_lot_new-net_per_lot_old); new/lost entries separate; arithmetic, no reallocation counterfactual",
+    "exclusive_priority": [
+      "execution",
+      "market",
+      "cost",
+      "state_or_cutoff",
+      "structure",
+      "account",
+      "no_listed_block"
+    ],
+    "diagnostic_scope": "recorded market-qualified or confirmed observations only; no_listed_block is not an accepted order or fill; observed capacities precede same-minute priority allocations; actual_trigger_counts uses the final signal ledger",
+    "formed_scales": "signal-time audited journal arithmetic for every formed timestamp; no future extrema; training target and scaled target are mechanical references, not favorable-space forecasts",
+    "R": "net / integer-lots initial-price-stop-risk; budget R includes modeled cost buffer; summing R does not create a continuous capital curve"
+  }
+}

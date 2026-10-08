@@ -1,0 +1,15 @@
+{
+  "source_run": "/home/nishiki/vnpy-ctp/research_outputs/coverage_expansion_2026-10-05/ordered_opportunity/control/2026-08/run_0001_3dad7c4c9503",
+  "source_signals_sha256": "61ab5202272ccae554c9bb773d1a99b9a4e5a56943cc6c324773202b62f27132",
+  "source_fills_or_profit_used": false,
+  "future_measurements_used": false,
+  "only_exact_clock_contract_measurements_reused": true,
+  "portfolio_allocation_and_matching_recomputed": true,
+  "source_rule_fingerprint": "38bcf33d300879349d795c538043649b8d3b809dc57831a6551aacf63fbcb5ab",
+  "active_rule_fingerprint": "38bcf33d300879349d795c538043649b8d3b809dc57831a6551aacf63fbcb5ab",
+  "cached_booleans_reused": false,
+  "locked_test_read": false,
+  "observations_replayed": 0,
+  "fresh_observations": 35884,
+  "all_filter_decisions_recomputed": true
+}

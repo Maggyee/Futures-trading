@@ -92,21 +92,56 @@ def validate_config(c):
     if type(s.get("block_same_day_reentry_after_stop", False)) is not bool:
         raise ResearchError("同日同方向止损后禁入开关必须为布尔值")
     if s.get("entry_confirmation") is not None:
-        if s["entry_confirmation"] != {
+        legacy = {
             "quality_minutes": 5, "valid_minutes": 5, "breakout_lookback_bars": 2,
             "confirmation_bars": 2, "confirmation": "close_beyond_setup_extreme",
             "pullback_reference": "ma10", "preserve_original_channel": True,
             "higher_efficiency_min": 0.45, "require_touch_start_after_armed": True,
-        } or s["entry_mode"] != "direct" or s.get("trend_entry") or s.get("dual_entry") or not all(s.get(k) for k in ("slope_band", "trend_quality", "entry_cost_filter")):
+        }
+        rule = s["entry_confirmation"]
+        if not isinstance(rule, dict):
+            raise ResearchError("确认入场规则必须为对象")
+        if rule.get("state_policy") == "setup_lifetime":
+            fixed = {k: v for k, v in legacy.items() if k not in {
+                "valid_minutes", "breakout_lookback_bars", "pullback_reference", "higher_efficiency_min"}}
+            if (set(rule) != set(legacy) | {"state_policy", "patterns", "pullback_confirmation"}
+                    or any(rule.get(k) != v for k, v in fixed.items())
+                    or type(rule["valid_minutes"]) is not int or not 1 <= rule["valid_minutes"] <= 30
+                    or type(rule["breakout_lookback_bars"]) is not int or not 1 <= rule["breakout_lookback_bars"] <= 20
+                    or rule["pullback_reference"] not in {"ma10", "ma20"}
+                    or type(rule["higher_efficiency_min"]) not in (int, float)
+                    or not math.isfinite(rule["higher_efficiency_min"]) or not 0 < rule["higher_efficiency_min"] <= 1
+                    or rule["patterns"] not in (["breakout"], ["pullback"], ["breakout", "pullback"])
+                    or rule["pullback_confirmation"] not in {"next_close", "recovery_close"}):
+                raise ResearchError("形态有效期、回看根数、回踩基准或确认方式无效")
+        elif rule != legacy:
+            raise ResearchError("旧确认方案参数固定；可调参数须显式声明setup_lifetime")
+        if s["entry_mode"] != "direct" or s.get("trend_entry") or s.get("dual_entry") or not all(s.get(k) for k in ("slope_band", "trend_quality", "entry_cost_filter")):
             raise ResearchError("延续确认仅支持预声明的高周期资格、相邻两根确认和原通道优先")
     if s.get("structure_protection") is not None:
-        if s["structure_protection"] != {
-            "timeframe_minutes": 5, "lookback_bars": 3, "buffer_ticks": 1,
-            "max_stop_atr": 2.0, "same_session_only": True,
+        rule = s["structure_protection"]
+        if not isinstance(rule, dict):
+            raise ResearchError("结构保护规则必须为对象")
+        fixed = {"timeframe_minutes": 5, "same_session_only": True,
             "retain_original_distance_floors": True, "frozen_after_fill": True,
-        } or not s.get("protection_scale") or s.get("candidate_pool") or s.get("candidate_replacement"):
-            raise ResearchError("结构保护仅支持同小节三根完成5分钟结构、原风险下限及2ATR上限")
-    if (s.get("entry_confirmation") or s.get("structure_protection")) and (
+        }
+        if (set(rule) != set(fixed) | {"lookback_bars", "buffer_ticks", "max_stop_atr"}
+                or any(rule.get(k) != v for k, v in fixed.items())
+                or type(rule["lookback_bars"]) is not int or not 1 <= rule["lookback_bars"] <= 20
+                or type(rule["buffer_ticks"]) is not int or rule["buffer_ticks"] < 0
+                or type(rule["max_stop_atr"]) not in (int, float)
+                or not math.isfinite(rule["max_stop_atr"]) or rule["max_stop_atr"] <= 0
+                or not s.get("protection_scale") or s.get("candidate_pool") or s.get("candidate_replacement")):
+            raise ResearchError("结构保护须声明同小节完成5分钟根数、缓冲跳数、原风险下限及ATR上限")
+    if s.get("profit_protection") is not None:
+        rule = s["profit_protection"]
+        if (not isinstance(rule, dict) or set(rule) != {"basis", "breakeven_multiple", "target_multiple", "trailing_atr_multiple"}
+                or rule["basis"] != "signal_base_price_scale"
+                or any(type(rule[k]) not in (int, float) or not math.isfinite(rule[k]) or rule[k] <= 0
+                       for k in ("breakeven_multiple", "target_multiple", "trailing_atr_multiple"))
+                or not all(s.get(k) for k in ("protection_scale", "breakeven", "trailing_exit"))):
+            raise ResearchError("独立盈利保护须声明信号时基础价格尺度、保本/追踪启动及追踪距离")
+    if (s.get("entry_confirmation") or s.get("structure_protection") or s.get("profit_protection")) and (
             c.get("execution", {}).get("mode", "formal") != "diagnostic" or c.get("price_replay")):
         raise ResearchError("确认入场与结构保护仅用于声明的离线诊断")
     if s.get("candidate_replacement") is not None:

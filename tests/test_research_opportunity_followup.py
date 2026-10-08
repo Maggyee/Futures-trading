@@ -1,7 +1,10 @@
 """Causal boundaries for replacement, trend windows and immediate protection."""
 
 import copy
+import csv
+import gzip
 import json
+import tarfile
 from dataclasses import replace
 from types import SimpleNamespace
 
@@ -218,6 +221,44 @@ def test_cached_measurements_restore_source_rejection_order_and_current_state():
                             {"direction": "LONG", "rank": 1, "selected": True}, False, True)
     assert tuple(result["filters"]) == tuple(source)
     assert result["rejections"] == ["trend_15m", "oi", "extension", "state"]
+
+
+@pytest.mark.parametrize("change", ["efficiency", "slope", "quality", "unknown_rule"])
+def test_changed_rules_recompute_every_observation_instead_of_old_booleans(market, tmp_path, change):
+    from pathlib import Path
+
+    original = copy.deepcopy(market.cfg)
+    (tmp_path/"config_snapshot.json").write_text(json.dumps(original))
+    source = Path(__file__).resolve().parents[1]/"research"
+    with tarfile.open(tmp_path/"source_snapshot.tar.gz","w:gz") as archive:
+        for name in ("signals.py","refinements.py"):
+            archive.add(source/name,arcname="research/"+name)
+    with gzip.open(tmp_path/"signals.csv.gz","wt") as stream:
+        writer = csv.DictWriter(stream,fieldnames=["filters"])
+        writer.writeheader()
+        writer.writerow({"filters":json.dumps({"efficiency":True})})
+    cfg = copy.deepcopy(original)
+    if change == "efficiency":
+        cfg["strategy"]["efficiency_min"] = .99
+    elif change == "slope":
+        cfg["strategy"]["slope_band"] = {"changed":True}
+    elif change == "quality":
+        cfg["strategy"]["trend_quality"] = {"changed":True}
+    else:
+        cfg["strategy"]["future_new_gate"] = {"threshold":.9}
+    entry = BaselineEntries(tmp_path,cfg)
+    assert not entry.reuse_filters
+    calls = []
+    def evaluate(*args):
+        calls.append(args)
+        return {"filters":{"efficiency":False},"all_pass":False}
+    entry.bind(SimpleNamespace(evaluate=evaluate,data=market,features=SimpleNamespace()))
+    with entry:
+        for clock in ("09:16","09:17","09:18"):
+            row = entry.baseline(SimpleNamespace(end=at(DAY,clock),key=KEY),{})
+            assert not row["all_pass"]
+        entry.finish()
+    assert len(calls) == 3 and entry.evidence["all_filter_decisions_recomputed"]
 
 
 def test_trend_funnel_uses_actual_higher_quality_and_consumable_pullback_gates():

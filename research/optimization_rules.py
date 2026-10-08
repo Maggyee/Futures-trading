@@ -1,7 +1,7 @@
 """Causal cost checks, cost-aware break-even prices and afternoon candidates."""
 
 import math
-from decimal import Decimal, ROUND_CEILING, ROUND_FLOOR
+from decimal import ROUND_CEILING, ROUND_FLOOR, Decimal
 
 from .calendar import MINUTE
 from .config import ResearchError
@@ -19,7 +19,7 @@ def cost_check(signal, meta, strategy, roundtrip_fees, price):
             "fee_basis": "entry_time_known_exchange_schedule", "slippage_both_sides": strategy["slippage_ticks"]}
 
 
-def initial_breakeven(position, rule, slippage_ticks):
+def initial_breakeven(position, rule, slippage_ticks, activation_distance=None):
     sign, meta = position.sign, position.meta
     schedules = [r for r in meta["fees"] if r["effective_from"] <= position.entry_day
                  and (not r.get("effective_to") or position.entry_day <= r["effective_to"])]
@@ -34,8 +34,9 @@ def initial_breakeven(position, rule, slippage_ticks):
     raw = modeled + sign * slippage_ticks * tick
     rounded = (raw / tick).to_integral_value(rounding=ROUND_CEILING if sign > 0 else ROUND_FLOOR) * tick
     risk_distance = abs(position.price - position.stop)
+    activation = rule["activation_r"] * risk_distance if activation_distance is None else activation_distance
     return {"breakeven_active": False, "breakeven_armed_at": None,
-            "breakeven_activation_price": position.price + sign * rule["activation_r"] * risk_distance,
+            "breakeven_activation_price": position.price + sign * activation,
             "breakeven_price": float(rounded), "breakeven_fee_basis": "entry_time_known_close_today",
             "breakeven_slippage_ticks": slippage_ticks}
 

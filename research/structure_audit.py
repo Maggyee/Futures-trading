@@ -20,7 +20,7 @@ from pathlib import Path
 from unittest.mock import patch
 
 from . import coverage_audit
-from .calendar import Calendar, MINUTE
+from .calendar import MINUTE, Calendar
 from .coverage_audit import rows
 from .data import Metadata, file_sha256
 from .feature_cache import read_frames
@@ -157,10 +157,11 @@ class Evidence:
 
     def structure(self, row):
         period = self.period(row)
-        past = self.past(row["contract"], 5, row["time"], 3)
+        count = self.cfg["strategy"]["structure_protection"]["lookback_bars"]
+        past = self.past(row["contract"], 5, row["time"], count)
         result = {"signal_time": row["time"], "period_open": period[0].isoformat() if period else None,
                   "ready": False, "sources": []}
-        if not period or len(past) != 3:
+        if not period or len(past) != count:
             return result
         result["sources"] = [{k: r[k] for k in ("end", "low", "high")} for r in past]
         times = [datetime.fromisoformat(r["end"]) for r in past]
@@ -196,7 +197,7 @@ class Evidence:
                 signed_ma20_slope5_ticks=sign*(five["ma20"]-past[-6]["ma20"])/tick if five["ma20"] is not None and past[-6]["ma20"] is not None else None,
                 signed_ma40_distance_ticks=sign*(five["close"]-five["ma40"])/tick if five["ma40"] is not None else None)
         efficiency = sign*five["efficiency"] if five and five["efficiency"] is not None else None
-        quality["efficiency"] = efficiency is not None and efficiency >= .45
+        quality["efficiency"] = efficiency is not None and efficiency >= self.cfg["strategy"]["entry_confirmation"]["higher_efficiency_min"]
         return {"filters": {k: base[k] for k in WANTED} | quality,
                 "trend_quality": details, "efficiency": efficiency,
                 "source_5m_end": five["end"] if five else None,
@@ -215,12 +216,15 @@ def pullback(past, sign, tick, strategy):
         epsilon = max(strategy["pullback_epsilon_ticks"]*tick, strategy["pullback_epsilon_atr"]*row["previous_atr"])
         price = row["low"] if sign > 0 else row["high"]
         touched = [n for n in (10, 20) if row["ma"+str(n)] is not None and abs(price-row["ma"+str(n)]) <= epsilon]
-        if 10 in touched:
+        reference = int(strategy.get("entry_confirmation", {}).get("pullback_reference", "ma10")[2:])
+        if reference in touched:
             return {"event": row["end"], "dual_touch": len(touched)==2, "epsilon": epsilon}
     return None
 
 
 def expected_pattern(row, base, evidence, windows, setups):
+    if evidence.cfg["strategy"]["entry_confirmation"].get("state_policy") == "setup_lifetime":
+        return expected_lifetime(row, base, evidence, windows, setups)
     higher, period = evidence.higher(row, base), evidence.period(row)
     source = datetime.fromisoformat(higher["source_5m_end"]) if higher["source_5m_end"] else None
     identity = row["date"], row["contract"], row["direction"]
@@ -276,7 +280,95 @@ def expected_pattern(row, base, evidence, windows, setups):
     return detail, filters, event, bool(setup or previous)
 
 
-def protection(row, meta, price, fee_solver, context, reserved=0):
+def expected_lifetime(row, base, evidence, windows, setups):
+    """Reconstruct the new state machine from independently aggregated bars."""
+    rule = evidence.cfg["strategy"]["entry_confirmation"]
+    higher, period = evidence.higher(row, base), evidence.period(row)
+    clock, identity = datetime.fromisoformat(row["time"]), (row["date"], row["contract"], row["direction"])
+    source = datetime.fromisoformat(higher["source_5m_end"]) if higher["source_5m_end"] else None
+    qualified = bool(all(higher["filters"].values()) and period and source
+                     and period[0]+5*MINUTE <= source <= clock < source+5*MINUTE)
+    for old in list(setups):
+        if old[1] == row["contract"] and old != identity:
+            setups.pop(old)
+            windows.pop(old, None)
+    sign = 1 if row["direction"] == "LONG" else -1
+    tick = evidence.metadata.get(row["contract"], row["date"])["tick_size"]
+    current = evidence.raw[(row["contract"], row["time"])]
+    saved = setups.get(identity)
+    previous = saved["pattern"] if saved else None
+    window, cancellations = windows.get(identity), []
+    if previous:
+        reason = ("session_changed" if not period or previous["window"]["period_open"] != period[0].isoformat() else
+                  "expired" if row["time"] >= previous["expires_at"] else
+                  "higher_invalid" if not qualified else
+                  "structure_broken" if sign*((current["low"] if sign > 0 else current["high"])-previous["invalidation_level"]) < -tick*1e-8 else
+                  "nonadjacent" if saved["last_observed_end"] != (clock-MINUTE).isoformat() else None)
+        if reason:
+            cancellations.append(reason)
+            setups.pop(identity)
+            previous = None
+    if not qualified:
+        windows.pop(identity, None)
+        window = None
+    elif not window or window["period_open"] != period[0].isoformat():
+        window = {"armed_at": row["time"], "expires_at": period[1].isoformat(),
+                  "source_5m_end": higher["source_5m_end"], "period_open": period[0].isoformat()}
+        windows[identity] = window
+    else:
+        window["source_5m_end"] = higher["source_5m_end"]
+    valid = bool(window and clock < period[1])
+    low = {k: v for k, v in base.items() if k not in REMOVED}
+    eligible = qualified and valid and all(low.values())
+    confirmation, event, setup = None, None, None
+    def price_event(pattern):
+        return {"event": pattern["setup_end"], "kind": pattern["kind"], "references": pattern["references"],
+                "dual_touch": pattern["dual_touch"], "epsilon": pattern["epsilon"], "touch_event": pattern["touch_event"]}
+    if previous:
+        if sign*(current["close"]-previous["confirmation_level"]) > tick*1e-8:
+            confirmation, event = previous, price_event(previous)
+            setups.pop(identity)
+        else:
+            setups[identity]["last_observed_end"] = row["time"]
+    past = evidence.past(row["contract"], 1, row["time"], max(11, rule["breakout_lookback_bars"]+1))
+    if eligible and not event and identity not in setups:
+        n = rule["breakout_lookback_bars"]
+        before = past[-n-1:-1]
+        adjacent = len(before) == n and all(r["end"] == (clock-(n-i)*MINUTE).isoformat()
+                                            for i, r in enumerate(before))
+        armed = datetime.fromisoformat(window["armed_at"])
+        touch = pullback(past, sign, tick, evidence.cfg["strategy"])
+        touched = bool("pullback" in rule["patterns"] and touch
+                       and datetime.fromisoformat(touch["event"])-MINUTE >= armed)
+        boundary = (max(r["high"] for r in before) if sign > 0 else min(r["low"] for r in before)) if adjacent else None
+        broken = bool("breakout" in rule["patterns"] and adjacent and clock-MINUTE >= armed
+                      and sign*(current["close"]-boundary) > tick*1e-8)
+        if broken or touched:
+            recovery = touched and rule["pullback_confirmation"] == "recovery_close"
+            kind = "confirmed_pullback" if recovery or not broken else "confirmed_breakout"
+            setup = {"kind": kind, "setup_end": row["time"], "setup_start": (clock-MINUTE).isoformat(),
+                     "expires_at": min(clock+rule["valid_minutes"]*MINUTE, period[1]).isoformat(),
+                     "invalidation_level": current["low"] if sign > 0 else current["high"],
+                     "confirmation_level": current["high"] if sign > 0 else current["low"],
+                     "breakout_boundary": boundary, "reference_ends": [r["end"] for r in before],
+                     "references": [int(rule["pullback_reference"][2:])] if kind == "confirmed_pullback" else [],
+                     "window": dict(window), "higher": higher, "touch_event": touch["event"] if touched else None,
+                     "dual_touch": touch["dual_touch"] if touched else False, "epsilon": touch["epsilon"] if touched else 0}
+            if recovery:
+                confirmation, event = setup, price_event(setup)
+                event["event"] = setup["touch_event"]
+            else:
+                setups[identity] = {"pattern":setup,"last_observed_end":row["time"]}
+    detail = {"qualified": qualified, "window": dict(window) if window else None, "higher": higher,
+              "confirmation": confirmation, "setup": setup, "confirmation_time": row["time"] if event else None,
+              "cancellations": cancellations, "pending_setup":setups[identity]["pattern"] if identity in setups else None,
+              "state_policy": "setup_lifetime"}
+    flags = low | {"higher_trend_quality": qualified, "confirmation_window": valid,
+                   "price_pattern_confirmed": event is not None}
+    return detail, flags, event, bool(setup or previous or confirmation or cancellations)
+
+
+def protection(row, meta, price, fee_solver, context, reserved=0, signal_price=None):
     """Reconstruct every stop floor from declared inputs, never actual stop output."""
     s = row["_strategy"]
     sign, tick, value = (1 if row["direction"] == "LONG" else -1), meta["tick_size"], meta["value_per_price"]
@@ -286,19 +378,33 @@ def protection(row, meta, price, fee_solver, context, reserved=0):
     original = s["fixed_ticks"][meta["product"]]
     floor = max(original["stop_loss_ticks"], math.ceil(atr*s["protection_scale"]["atr_multiple"]/tick-1e-9),
                 math.ceil(s["protection_scale"]["roundtrip_cost_multiple"]*(costs/(tick*value)+2*s["slippage_ticks"])-1e-9), reserved)
-    if not context["ready"]:
+    rule = s.get("structure_protection")
+    if rule and not context["ready"]:
         return {"accepted": False, "rejections": ["structure_history_missing"]}
-    anchor = context["extreme"]-sign*tick
-    distance = sign*(price-anchor)
-    ticks = math.ceil(distance/tick-1e-9)
-    stop = max(floor, ticks)
-    rejected = (["structure_already_broken"] if distance <= tick*1e-8 else
-                ["structure_distance_exceeds_atr_cap"] if stop*tick > 2*context["atr_previous"]+tick*1e-8 else [])
-    return {"accepted": not rejected, "rejections": rejected, "stop_loss_ticks": stop,
-            "take_profit_ticks": math.ceil(stop*original["take_profit_ticks"]/original["stop_loss_ticks"]-1e-9),
-            "structure_anchor": anchor, "structure_distance_ticks": ticks,
-            "structure_atr_previous": context["atr_previous"], "structure_sources": context["sources"],
-            "structure_source_end": context["source_end"], "max_stop_atr": 2.}
+    stop, result = floor, {}
+    if rule:
+        anchor = context["extreme"]-sign*rule["buffer_ticks"]*tick
+        distance = sign*(price-anchor)
+        ticks = math.ceil(distance/tick-1e-9)
+        stop = max(floor, ticks)
+        rejected = (["structure_already_broken"] if distance <= tick*1e-8 else
+                    ["structure_distance_exceeds_atr_cap"] if stop*tick > rule["max_stop_atr"]*context["atr_previous"]+tick*1e-8 else [])
+        result = {"accepted": not rejected, "rejections": rejected,
+                  "structure_anchor": anchor, "structure_distance_ticks": ticks,
+                  "structure_atr_previous": context["atr_previous"], "structure_sources": context["sources"],
+                  "structure_source_end": context["source_end"], "max_stop_atr": rule["max_stop_atr"]}
+    result.update(stop_loss_ticks=stop, take_profit_ticks=math.ceil(stop*original["take_profit_ticks"]/original["stop_loss_ticks"]-1e-9))
+    if profit := s.get("profit_protection"):
+        quote = Decimal(str(price if signal_price is None else signal_price))
+        signal_costs = float(fee_solver(meta, 1, "open", quote)+fee_solver(meta, 1, "close_today", quote))
+        base = max(original["stop_loss_ticks"], math.ceil(atr*s["protection_scale"]["atr_multiple"]/tick-1e-9),
+                   math.ceil(s["protection_scale"]["roundtrip_cost_multiple"]*(signal_costs/(tick*value)+2*s["slippage_ticks"])-1e-9))
+        target = math.ceil(base*original["take_profit_ticks"]/original["stop_loss_ticks"]-1e-9)
+        reference = {"signal_time": row["time"], "stop_ticks": base, "target_ticks": target, "tick_size": tick}
+        result.update(take_profit_ticks=math.ceil(target*profit["target_multiple"]-1e-9),
+                      profit_protection_reference=reference, breakeven_activation_distance=base*tick*profit["breakeven_multiple"],
+                      trailing_atr_multiple=profit["trailing_atr_multiple"], profit_protection_basis=profit["basis"])
+    return result
 
 
 def audit_journal(run, cfg, fee_solver, evidence):
@@ -411,14 +517,15 @@ def audit_journal(run, cfg, fee_solver, evidence):
             require(flags == base | common, "结构方案改变了入场过滤")
         require((row["all_pass"] == "True") == all(flags.values()), "总通过标记不符")
         require(set(json.loads(row["rejections"])) == {k for k,v in flags.items() if not v}, "拒绝原因不符")
-        if structural:
-            context = evidence.structure(row)
-            equivalent(snapshot["structure_stop"], context, "独立结构快照")
+        if structural or cfg["strategy"].get("profit_protection"):
+            context = evidence.structure(row) if structural else None
+            if structural:
+                equivalent(snapshot["structure_stop"], context, "独立结构快照")
             counters["structural_snapshots"] += 1
             if row["trigger"] == row["execution_pass"] == "True":
                 meta = evidence.metadata.get(row["contract"], row["date"]) | rules[(row["date"],row["contract"])]
                 expected = protection(row | {"_strategy": cfg["strategy"]}, meta, evidence.raw[identity]["close"], fee_solver, context)
-                if expected["accepted"]:
+                if expected.get("accepted", True):
                     recorded_plan = row.get("protection_plan")
                     require(row["risk_pass"] != "True" or bool(recorded_plan), "已预约结构信号缺少保护计划")
                     if recorded_plan:
@@ -436,7 +543,7 @@ def audit_journal(run, cfg, fee_solver, evidence):
                     sign = 1 if row["direction"]=="LONG" else -1
                     price = evidence.raw[(row["contract"],opening_end)]["open"]+sign*cfg["strategy"]["slippage_ticks"]*meta["tick_size"]
                     expected_fill = protection(row | {"_strategy":cfg["strategy"]},meta,price,fee_solver,context,
-                                               json.loads(row["protection_plan"])["stop_loss_ticks"])
+                                               json.loads(row["protection_plan"])["stop_loss_ticks"], evidence.raw[identity]["close"])
                     require(not expected_fill["accepted"] and row["filled"]=="False"
                             and json.loads(row["fill_structure_rejections"])==expected_fill["rejections"], "独立成交结构复核不符")
                     counters["structural_fill_cancellations"] += 1
@@ -457,6 +564,145 @@ def audit_journal(run, cfg, fee_solver, evidence):
             "source_data_sha256": evidence.source_sha, "future_measurements_used": False}
 
 
+def audit_profit_trades(run, cfg, signals, module, evidence):
+    """Check independent signal distances, integer risk and complete raw exits."""
+    trades, events = list(rows(run/"trades.csv.gz")), list(rows(run/"events.csv.gz"))
+    raw, frames, indices = module.load_market(run, trades, cfg)
+    rules = {(r["trading_day"], r["contract"]): r for r in cfg["execution"]["qualification"]["rules"]}
+    arithmetic, paths, net, fees_total, opened = [], [], 0., 0., Counter()
+    for t in trades:
+        key, day, quantity = t["contract"], t["entry_time"][:10], int(t["quantity"])
+        signal = signals[(key, t["entry_signal_time"])]
+        rule = rules[(day, key)]
+        meta = evidence.metadata.get(key, day) | rule
+        sign, tick, value = (1 if t["direction"] == "LONG" else -1), rule["tick_size"], rule["value_per_price"]
+        entry, exit_price, hard, target = (float(t[k]) for k in ("entry_price", "exit_price", "stop_price", "target_price"))
+        close(entry, raw[(key,t["entry_time"])]["open"]+sign*tick*cfg["strategy"]["slippage_ticks"], "入场撮合")
+        require(all(json.loads(signal["filters"]).values()), "未通过过滤仍成交")
+        equivalent(json.loads(t["entry_snapshot"]), json.loads(signal["snapshot"]), "成交快照")
+        guard = json.loads(signal["fill_price_check"])
+        require(guard["accepted"] and sign*(entry-guard["modeled_price_limit"]) <= tick*1e-8, "超追价边界")
+        context = evidence.structure(signal) if cfg["strategy"].get("structure_protection") else None
+        expected = protection(signal | {"_strategy":cfg["strategy"]}, meta, entry, module.fee, context,
+            json.loads(signal["protection_plan"])["stop_loss_ticks"], evidence.raw[(key,signal["time"])]["close"])
+        require(expected.get("accepted", True), "无效保护仍成交")
+        actual = json.loads(t["entry_protection"])
+        equivalent({k:actual[k] for k in expected}, expected, "独立止损与盈利距离")
+        close(hard, entry-sign*tick*expected["stop_loss_ticks"], "固定止损价格")
+        close(target, entry+sign*tick*expected["take_profit_ticks"], "独立追踪启动价格")
+        costs = float(module.fee(rule,1,"open",Decimal(str(entry)))+module.fee(rule,1,"close_today",Decimal(str(entry))))
+        cost_distance = costs/value+2*cfg["strategy"]["slippage_ticks"]*tick
+        check = json.loads(t["entry_cost_check"])
+        ratio = cost_distance/json.loads(signal["snapshot"])["atr_previous"]
+        close(check["cost_atr"], ratio, "成交成本比例")
+        require(check["accepted"] and ratio <= cfg["strategy"]["entry_cost_filter"]["max_cost_atr"]+1e-12, "成本超限仍成交")
+        allocation = json.loads(t["entry_allocation"])
+        planned = quantity*(tick*expected["stop_loss_ticks"]*value+cfg["risk"]["cost_buffer_multiple"]*cost_distance*value)
+        close(planned, allocation["planned_risk"], "整数手数计划风险")
+        close(allocation["single_trade_budget"], min(cfg["risk"]["initial_capital"], allocation["equity_before_fee"])*cfg["risk"]["trade_risk_fraction"], "风险额度")
+        require(quantity <= allocation["reserved_quantity"] and planned <= allocation["single_trade_budget"]+1e-6, "风险或预约手数超额")
+        opened[(day,key)] += quantity
+        require(quantity >= rule.get("min_open_lots",1) and (not rule.get("daily_open_limit") or opened[(day,key)] <= rule["daily_open_limit"]), "最小/每日开仓数量不符")
+        # The existing independent path checker expresses activation in R.
+        # Convert the independently rebuilt price distance for this trade;
+        # it still verifies every stop, fee, raw candle and exit time.
+        path_cfg = copy.deepcopy(cfg)
+        path_cfg["strategy"]["breakeven"]["activation_r"] = expected["breakeven_activation_distance"]/abs(entry-hard)
+        path_cfg["strategy"]["trailing_exit"]["atr_multiple"] = expected["trailing_atr_multiple"]
+        paths.append(module.independent_path(t,path_cfg,raw,frames[key],indices[key],events,meta))
+        gross = sign*(exit_price-entry)*quantity*value
+        fees = float(module.fee(rule,quantity,"open",Decimal(str(entry)))+module.fee(rule,quantity,t["exit_offset"],Decimal(str(exit_price))))
+        for k,v in (("gross_pnl",gross),("fees",fees),("net_pnl",gross-fees)):
+            close(t[k],v,"逐笔费用和净额")
+        close(t["holding_minutes"],evidence.calendar.holding_minutes(datetime.fromisoformat(t["entry_time"]),datetime.fromisoformat(t["exit_time"]),meta),"持有交易分钟")
+        net, fees_total = net+gross-fees, fees_total+fees
+        arithmetic.append({"id":t["id"],"contract":key,"net":str(gross-fees),"fees":str(fees),"planned_risk":str(planned),"passed":True})
+    summary = json.loads((run/"summary.json").read_text())
+    close(summary["metrics"]["net_profit"],net,"汇总净额")
+    close(summary["metrics"]["fees"],fees_total,"汇总费用")
+    peak, drawdown, observations = cfg["risk"]["initial_capital"], 0., 0
+    for row in rows(run/"equity.csv.gz"):
+        equity = float(row["equity"])
+        peak, drawdown = max(peak,equity), max(drawdown,max(peak,equity)-equity)
+        reserved = sum(float(json.loads(t["entry_allocation"])["planned_risk"]) for t in trades if t["entry_time"] < row["time"] < t["exit_time"])
+        require(float(row["risk"])+1e-6 >= reserved,"追踪收紧提前释放初始风险")
+        observations += reserved > 0
+    close(summary["metrics"]["max_drawdown"],drawdown,"回撤")
+    require(not summary["open_positions"] and not summary["unflattened_risk"] and not summary["break_unflattened_risk"],"未平风险")
+    return arithmetic, paths, str(net), str(fees_total), observations
+
+
+def audit_lifecycle(run, cfg):
+    active, counts = {}, Counter()
+    lifetime = cfg["strategy"].get("entry_confirmation", {}).get("state_policy") == "setup_lifetime"
+    for row in rows(run/"confirmation_events.csv.gz"):
+        identity = row["date"], row["contract"], row["direction"], row["setup_id"], row["kind"]
+        setup = json.loads(row["setup"])
+        require(setup["setup_end"] == row["setup_id"] and row["setup_id"] <= row["time"], "形态事件时间有未来信息")
+        if row["action"] == "formed":
+            require(identity not in active,"同一形态重复形成")
+            if lifetime:
+                end = datetime.fromisoformat(setup["setup_end"])
+                expected = min(end+cfg["strategy"]["entry_confirmation"]["valid_minutes"]*MINUTE,
+                               datetime.fromisoformat(setup["window"]["expires_at"]))
+                require(setup["expires_at"] == expected.isoformat(),"有效期未从形态时间计算")
+            active[identity] = setup
+        elif row["action"] == "observed":
+            require(identity in active,"确认观察没有对应形态")
+            equivalent(setup,active[identity],"待确认形态快照")
+        else:
+            require(identity in active,"形态消失没有对应的形成记录")
+            equivalent(setup,active.pop(identity),"终态形态快照")
+            require(row["action"] in {"confirmed","cancelled"},"未知形态终态")
+            if lifetime:
+                require(row["reason"] != "five_minute_boundary","新5分钟边界无条件清除形态")
+        counts[row["action"]+":"+row["reason"]] += 1
+    require(not active,"形态消失原因遗漏")
+    return {"status":"passed","counts":dict(counts),"all_formed_patterns_have_terminal_reason":True}
+
+
+def audit_cost_scales(run, cfg, evidence, fee_solver):
+    rules = {(r["trading_day"],r["contract"]):r for r in cfg["execution"]["qualification"]["rules"]}
+    checked = 0
+    for row in rows(run/"opportunity_diagnostics.csv.gz"):
+        if json.loads(row["execution_rejections"]):
+            continue
+        meta = evidence.metadata.get(row["contract"],row["date"]) | rules[(row["date"],row["contract"])]
+        price = evidence.raw[(row["contract"],row["time"])]["close"]
+        close(row["price"],price,"成本尺度报价")
+        quote, tick, value = Decimal(str(price)), meta["tick_size"], meta["value_per_price"]
+        costs = float(fee_solver(meta,1,"open",quote)+fee_solver(meta,1,"close_today",quote))/value+2*cfg["strategy"]["slippage_ticks"]*tick
+        one = evidence.past(row["contract"],1,row["time"],1)[-1]
+        five = evidence.past(row["contract"],5,row["time"],1)
+        atr5 = five[-1]["previous_atr"] if five else None
+        require(row["atr_5m_source_end"] == (five[-1]["end"] if five else ""),"5分钟成本尺度使用未来来源")
+        for name,denominator in (("cost_to_atr_1m",one["previous_atr"]),("cost_to_atr_5m",atr5),
+                                 ("cost_to_predefined_space",float(row["predefined_space"])),
+                                 ("cost_to_initial_risk",float(row["initial_risk_distance"]))):
+            if denominator is None or denominator <= 0:
+                require(not row[name],"无有效分母仍给出成本比例")
+            else:
+                close(row[name],costs/denominator,"独立成本尺度/"+name)
+        close(row["roundtrip_cost_distance"],costs,"往返成本距离")
+        minimum, r = meta.get("min_open_lots",1), cfg["risk"]
+        per_risk = float(row["initial_risk_distance"])*value+r["cost_buffer_multiple"]*costs*value
+        per_margin = price*value*meta["margin_rate"]
+        close(row["risk_per_lot"],per_risk,"含成本最小手风险")
+        close(row["margin_per_lot"],per_margin,"最小手保证金")
+        fraction = r["group_fractions"].get(meta["group"],0)
+        shares = {"single_trade_risk":r["trade_risk_fraction"],"portfolio_risk":r["portfolio_risk_fraction"],
+                  "group_risk":r["portfolio_risk_fraction"]*fraction,"margin":r["margin_fraction"],
+                  "group_margin":r["margin_fraction"]*fraction}
+        needs = {k:minimum*(per_margin if "margin" in k else per_risk)/v if v > 0 else None for k,v in shares.items()}
+        equivalent(json.loads(row["required_by_limit"]),needs,"最低资金各项下限")
+        if all(v is not None for v in needs.values()):
+            close(row["minimum_required_capital_and_equity"],max(needs.values()),"最低资金下限")
+        else:
+            require(not row["minimum_required_capital_and_equity"],"零分组额度仍给出有限资金需求")
+        checked += 1
+    return {"status":"passed","observations":checked,"causal_cost_and_empty_portfolio_requirements_checked":True}
+
+
 def audit(directory):
     run = Path(directory)
     cfg = json.loads((run / "config_snapshot.json").read_text())
@@ -472,8 +718,25 @@ def audit(directory):
             if name.startswith("research/"):
                 require(manifest["source_hashes"][name]==checksum, "回放实现改变了冻结规则："+name)
     if variant == "control":
-        from .ordered_opportunity_audit import audit as original_control_audit
-        result = original_control_audit(run)
+        if cfg.get("rule_layer_review"):
+            from .optimization_audit import audit_source_archive
+
+            names = ("trades","signals","orders","events","equity","daily_pool",
+                     "pool_exclusions","daily_candidates","candidate_execution","rank_contribution")
+            exact = {n:file_sha256(run/(n+".csv.gz")) == file_sha256(parent/(n+".csv.gz")) for n in names}
+            require(all(exact.values()),"逐分钟重算的对照未复现原10份账本")
+            proof = parent/"independent_ordered_opportunity_audit.json"
+            require(file_sha256(proof) == plan["baselines"][cfg["optimization_review"]["month"]]["audit_sha256"],"原对照审计来源改变")
+            result = json.loads(proof.read_text())
+            require(result["status"] == "passed","原对照审计失败")
+            result.update(directory=str(run),exact_csv_matches=exact,
+                          inherited_audit={"path":str(proof),"sha256":file_sha256(proof),
+                                           "basis":"all ten CSV ledgers byte-identical after full filter recomputation"})
+            result["optimization_checks"]["source_archive"] = audit_source_archive(run)
+            write_json(run/"independent_coverage_audit.json",result,SpaceBudget(plan["budget"]))
+        else:
+            from .ordered_opportunity_audit import audit as original_control_audit
+            result = original_control_audit(run)
         result["structure_round"] = {"status": "passed", "enabled": False, "exact_original_control": True}
     else:
         evidence = Evidence(run, cfg)
@@ -490,7 +753,9 @@ def audit(directory):
                         actual["strategy"]["slope_band"]["timeframes"] = {"5m": configuration["strategy"]["slope_band"]["timeframes"]["5m"]}
                     return original(signal, frames, actual, metadata)
                 module.audit_slope = slope
-            if name == "audit_trailing_exit" and cfg["strategy"].get("structure_protection"):
+            if name == "audit_trailing_exit" and cfg["strategy"].get("profit_protection"):
+                module.audit_trades = lambda directory, configuration, signals: audit_profit_trades(directory,configuration,signals,module,evidence)
+            elif name == "audit_trailing_exit" and cfg["strategy"].get("structure_protection"):
                 original = module.audit_trades
                 def trades(directory, configuration, signals):
                     adapted = copy.deepcopy(signals)
@@ -501,7 +766,8 @@ def audit(directory):
                         context = evidence.structure(signal)
                         plan_stop = json.loads(signal["protection_plan"])["stop_loss_ticks"]
                         meta = evidence.metadata.get(trade["contract"],trade["entry_time"][:10]) | rules[(trade["entry_time"][:10],trade["contract"])]
-                        expected = protection(signal | {"_strategy":configuration["strategy"]}, meta, float(trade["entry_price"]), module.fee, context, plan_stop)
+                        expected = protection(signal | {"_strategy":configuration["strategy"]}, meta, float(trade["entry_price"]), module.fee, context, plan_stop,
+                                              evidence.raw[(trade["contract"],signal["time"])]["close"])
                         require(expected["accepted"], "无效结构仍成交")
                         actual = json.loads(trade["entry_protection"])
                         equivalent({k:actual[k] for k in expected}, expected, "结构成交止损")
@@ -531,12 +797,17 @@ def audit(directory):
             "fill_floor_adapter_uses_only_independently_recomputed_stop":True,
             "frozen_geometry_and_atr_rebuilt_from_raw_minutes":True,
             "all_confirmations_and_channel_choices_checked":bool(cfg["strategy"].get("entry_confirmation"))}
+        if cfg.get("rule_layer_review"):
+            trailing_module, _ = base_helper("audit_trailing_exit")
+            result["cost_scales"] = audit_cost_scales(run,cfg,evidence,trailing_module.fee)
         exact = {n:file_sha256(run/(n+".csv.gz"))==file_sha256(parent/(n+".csv.gz")) for n in ("daily_pool","pool_exclusions","daily_candidates","candidate_execution")}
         require(all(exact.values()), "原池/排名改变")
         result["exact_csv_matches"] = exact
     require(cfg["risk"] == baseline["risk"] and cfg["strategy"]["breakeven"] == {"activation_r":1.,"include_costs":True}
             and cfg["strategy"]["trailing_exit"] == baseline["strategy"]["trailing_exit"], "原风险或保本/追踪改变")
     result["plan_sha256"] = file_sha256(cfg["optimization_review"]["plan"])
+    if (run/"confirmation_events.csv.gz").exists():
+        result["lifecycle"] = audit_lifecycle(run,cfg)
     result["auditor_sha256"] = file_sha256(__file__)
     write_json(run / plan["audit_filename"],result,SpaceBudget(plan["budget"]))
     deduplicate(run,parent,plan)

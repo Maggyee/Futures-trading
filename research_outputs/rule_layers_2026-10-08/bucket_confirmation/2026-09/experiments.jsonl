@@ -1,0 +1,2 @@
+{"id": "run_0001_899ac96f528c", "config_hash": "bd6d6c2e1d682a85bc7b1e74dcd8779ca4c7d70c98df6eabf514a9943d41755a", "window": {"start": "2026-09-14", "end": "2026-09-23"}, "scope": "shared", "status": "failed", "error": "诊断准备后训练数据已改变，拒绝沿用旧执行资格和跳数"}
+{"id": "run_0001_899ac96f528c", "config_hash": "bd6d6c2e1d682a85bc7b1e74dcd8779ca4c7d70c98df6eabf514a9943d41755a", "window": {"start": "2026-09-14", "end": "2026-09-23"}, "scope": "shared", "status": "completed", "error": null}

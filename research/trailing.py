@@ -5,19 +5,21 @@ from decimal import ROUND_CEILING, ROUND_FLOOR, Decimal
 
 
 def initial_trailing(position, rule, breakeven_rule=None, slippage_ticks=0):
+    protection = position.signal.get("entry_protection", {})
     state = {
         "active": False,
         "activation_price": position.target,
         "initial_hard_stop": position.stop,
         "best_price": position.price,
         "stop_price": position.stop,
-        "atr_multiple": rule["atr_multiple"],
+        "atr_multiple": protection.get("trailing_atr_multiple", rule["atr_multiple"]),
         "armed_at": None,
         "known_at": position.opened.isoformat(),
     }
     if breakeven_rule:
         from .optimization_rules import initial_breakeven
-        state.update(initial_breakeven(position, breakeven_rule, slippage_ticks))
+        state.update(initial_breakeven(position, breakeven_rule, slippage_ticks,
+                     protection.get("breakeven_activation_distance")))
     return state
 
 

@@ -10,7 +10,7 @@ import sys
 import tarfile
 from pathlib import Path
 
-from .config import read_config, validate_config
+from .config import digest, read_config, validate_config
 from .coverage_expansion import ORIGINAL, ROOT
 from .data import file_sha256, load_data
 from .experiments import run_one
@@ -25,12 +25,29 @@ from .storage import SpaceBudget
 PLAN = ROOT / "research_inputs/coverage_expansion_2026-10-05/opportunity_followup_plan.json"
 
 
+def baseline_rule_fingerprint(cfg):
+    # Only these overlays run after (or alongside) SignalLogic.evaluate.
+    # Unknown/new fields stay in the fingerprint, so they cannot silently
+    # inherit another recipe's booleans.
+    overlays = {"entry_confirmation", "structure_protection", "profit_protection",
+                "trend_entry", "dual_entry", "candidate_replacement", "candidate_pool",
+                "entry_cost_filter", "breakeven", "trailing_exit",
+                "block_same_day_reentry_after_stop", "ma40_exit_confirmation_bars"}
+    return digest({"strategy": {k: v for k, v in cfg["strategy"].items() if k not in overlays},
+                   "metadata": cfg["metadata"], "calendar": cfg["calendar"]})
+
+
 class BaselineEntries:
     """Reuse unchanged measurements by exact clock/key; new rank slots evaluate fresh."""
 
     def __init__(self, parent, cfg):
         self.parent, self.cfg = Path(parent), cfg
         self.path = self.parent / "signals.csv.gz"
+        source_cfg = read_config(self.parent / "config_snapshot.json")
+        self.source_rules = baseline_rule_fingerprint(source_cfg)
+        self.active_rules = baseline_rule_fingerprint(cfg)
+        force_recompute = cfg.get("rule_layer_review", {}).get("recompute_all_filters", False)
+        self.reuse_filters = self.source_rules == self.active_rules and not force_recompute
         with tarfile.open(self.parent / "source_snapshot.tar.gz") as archive:
             for name in ("signals.py", "refinements.py"):
                 require(archive.extractfile("research/" + name).read() == Path(__file__).with_name(name).read_bytes(),
@@ -42,6 +59,9 @@ class BaselineEntries:
                          "source_fills_or_profit_used": False, "future_measurements_used": False,
                          "only_exact_clock_contract_measurements_reused": True,
                          "portfolio_allocation_and_matching_recomputed": True,
+                         "source_rule_fingerprint": self.source_rules,
+                         "active_rule_fingerprint": self.active_rules,
+                         "cached_booleans_reused": self.reuse_filters,
                          "locked_test_read": False}
 
     def bind(self, original):
@@ -60,6 +80,9 @@ class BaselineEntries:
         self.stream.close()
 
     def baseline(self, bar, candidate, state_allows=True, before_cutoff=True):
+        if not getattr(self, "reuse_filters", True):
+            self.fresh += 1
+            return self.original.evaluate(bar, candidate, state_allows, before_cutoff)
         target = bar.end.isoformat(), bar.key
         while self.peek is not None and (self.peek["time"], self.peek["contract"]) < target:
             self.skipped += 1
@@ -102,6 +125,10 @@ class BaselineEntries:
         return (self.trend.evaluate if self.trend else self.baseline)(*args, **kwargs)
 
     def finish(self):
+        if not self.reuse_filters:
+            self.evidence.update(observations_replayed=0, fresh_observations=self.fresh,
+                                 all_filter_decisions_recomputed=True)
+            return
         if self.peek is not None:
             self.skipped += 1 + sum(1 for _ in self.reader)
         if not self.cfg["strategy"].get("candidate_replacement"):
@@ -126,13 +153,15 @@ def configuration(month, variant, plan_path=PLAN):
     cfg["baseline_expectation"]["strategy"]["entry_mode"] = cfg["strategy"]["entry_mode"]
     cfg["storage"]["compress_signal_journal"] = True
     cfg["storage"]["budget"] = copy.deepcopy(plan["budget"])
+    if plan.get("rule_layer_review"):
+        cfg["rule_layer_review"] = copy.deepcopy(plan["rule_layer_review"])
     validate_config(cfg)
     validate_optimization(cfg)
     return plan, parent, cfg
 
 
 def run(month, variant, *, plan_path=PLAN, engine_factory=OpportunityBacktest,
-        entries_factory=BaselineEntries):
+        entries_factory=BaselineEntries, prepared=None):
     plan, parent, cfg = configuration(month, variant, plan_path)
     output = Path(plan["output"])
     target = output / (month + "_" + variant + "_latest.json")
@@ -153,7 +182,9 @@ def run(month, variant, *, plan_path=PLAN, engine_factory=OpportunityBacktest,
         require(proof.exists() and json.loads(proof.read_text())["status"] == "passed",
                 "对照尚未通过审计")
     window = json.loads((parent / "manifest.json").read_text())["window"]
-    if month == "2026-09":
+    if prepared is not None:
+        data, features, evidence = prepared
+    elif month == "2026-09":
         data, features, evidence = prepare_review(ORIGINAL, cfg)
     else:
         data = load_data(cfg, cutoff=window["end"])
@@ -172,7 +203,7 @@ def run(month, variant, *, plan_path=PLAN, engine_factory=OpportunityBacktest,
         data, cfg, output / variant / month, window,
         split="retrospective" if month != "2026-09" else "validation",
         prepared_features=features, prepared_entries=entries,
-        engine_factory=engine_factory if variant != "control" else None,
+        engine_factory=engine_factory if variant != "control" or cfg.get("rule_layer_review") else None,
     )
     write_json(directory / "prepared_source_review.json", evidence, budget)
     write_json(directory / "prepared_entries_review.json", entries.evidence, budget)

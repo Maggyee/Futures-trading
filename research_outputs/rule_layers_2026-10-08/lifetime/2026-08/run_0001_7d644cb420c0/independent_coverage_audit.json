@@ -1,0 +1,175 @@
+{
+  "status": "passed",
+  "directory": "/home/nishiki/vnpy-ctp/research_outputs/rule_layers_2026-10-08/lifetime/2026-08/run_0001_7d644cb420c0",
+  "trades": [
+    {
+      "id": "1",
+      "contract": "fu2611.SHFE",
+      "net": "212.22960",
+      "fees": "7.77040",
+      "planned_risk": "1987.770400",
+      "passed": true
+    }
+  ],
+  "paths": [
+    {
+      "id": 1,
+      "contract": "fu2611.SHFE",
+      "entry_time": "2026-08-14T11:25:00+08:00",
+      "exit_time": "2026-08-14T11:30:00+08:00",
+      "exit_kind": "intrabar_existing_line",
+      "activated": false,
+      "armed_at": null,
+      "breakeven_activated": true,
+      "final_stop": 3534.0,
+      "observations": 4,
+      "line_tightenings": 1,
+      "path": [
+        {
+          "start": "2026-08-14T11:25:00+08:00",
+          "end": "2026-08-14T11:26:00+08:00",
+          "open": 3531.0,
+          "high": 3534.0,
+          "low": 3531.0,
+          "close": 3533.0,
+          "stop_at_open": 3525.0,
+          "known_at_open": "2026-08-14T11:25:00+08:00",
+          "active_at_open": false,
+          "exit_pending_at_open": false,
+          "stop_after_close": 3525.0,
+          "best_after_close": 3534.0,
+          "active_after_close": false,
+          "previous_atr": 4.011813046645333,
+          "vr": 0.7689320388349514,
+          "volume_weakness": false,
+          "flags": []
+        },
+        {
+          "start": "2026-08-14T11:26:00+08:00",
+          "end": "2026-08-14T11:27:00+08:00",
+          "open": 3533.0,
+          "high": 3536.0,
+          "low": 3531.0,
+          "close": 3536.0,
+          "stop_at_open": 3525.0,
+          "known_at_open": "2026-08-14T11:25:00+08:00",
+          "active_at_open": false,
+          "exit_pending_at_open": false,
+          "stop_after_close": 3525.0,
+          "best_after_close": 3536.0,
+          "active_after_close": false,
+          "previous_atr": 3.9395406861706666,
+          "vr": 1.191129883843717,
+          "volume_weakness": false,
+          "flags": []
+        },
+        {
+          "start": "2026-08-14T11:27:00+08:00",
+          "end": "2026-08-14T11:28:00+08:00",
+          "open": 3536.0,
+          "high": 3536.0,
+          "low": 3533.0,
+          "close": 3533.0,
+          "stop_at_open": 3525.0,
+          "known_at_open": "2026-08-14T11:25:00+08:00",
+          "active_at_open": false,
+          "exit_pending_at_open": false,
+          "stop_after_close": 3525.0,
+          "best_after_close": 3536.0,
+          "active_after_close": false,
+          "previous_atr": 4.015287780015619,
+          "vr": 1.0988593155893536,
+          "volume_weakness": true,
+          "flags": []
+        },
+        {
+          "start": "2026-08-14T11:28:00+08:00",
+          "end": "2026-08-14T11:29:00+08:00",
+          "open": 3533.0,
+          "high": 3539.0,
+          "low": 3533.0,
+          "close": 3535.0,
+          "stop_at_open": 3525.0,
+          "known_at_open": "2026-08-14T11:25:00+08:00",
+          "active_at_open": false,
+          "exit_pending_at_open": false,
+          "stop_after_close": 3534.0,
+          "best_after_close": 3539.0,
+          "active_after_close": false,
+          "previous_atr": 3.942767224300218,
+          "vr": 1.6657681940700808,
+          "volume_weakness": false,
+          "flags": []
+        },
+        {
+          "start": "2026-08-14T11:29:00+08:00",
+          "end": "2026-08-14T11:30:00+08:00",
+          "open": 3535.0,
+          "high": 3536.0,
+          "low": 3531.0,
+          "close": 3533.0,
+          "stop_at_open": 3534.0,
+          "known_at_open": "2026-08-14T11:29:00+08:00",
+          "active_at_open": false,
+          "exit_pending_at_open": false,
+          "exit": true,
+          "exit_candle_extreme_excluded": true
+        }
+      ],
+      "verified_favorable_price": 3539.0,
+      "verified_adverse_price": 3531.0,
+      "favorable_gross_cny": 1540.0,
+      "giveback_to_raw_exit_cny": 1100.0,
+      "extrema_definition": "Completed held candles plus exit opening; other extrema of an intrabar exit candle excluded because sequence is unknown. Gross diagnostic, not achievable net profit."
+    }
+  ],
+  "net": "212.22960",
+  "fees": "7.77040",
+  "risk_observations": 4,
+  "independent_slope_arithmetic": true,
+  "independent_twenty_close_means": true,
+  "independent_exit_matching": true,
+  "source_data_sha256": "47ea450717035a3d6fd74032ea29d2e7fb955ea73912306229e5663026692106",
+  "physical_execution_sources_verified": 87,
+  "supplier_specification_assumptions": [],
+  "cache_sha256": "45e1745212c293c67181bc5772a45043d0c04d8c90efccaca6360ce60cb24379",
+  "audit_helpers": [
+    {
+      "path": "/home/nishiki/vnpy-ctp/research_inputs/2026-09/audit_trailing_exit.py",
+      "sha256": "fcaca05203e3f6c06f721f2c565ebacc484986e42860e1ba5c5441dae3cd93cd"
+    },
+    {
+      "path": "/home/nishiki/vnpy-ctp/research_inputs/2026-09/audit_slope_band.py",
+      "sha256": "912c8c223f85639c7d3d97a7954a00fd2834fe7326cd1ba8b62098c62e3d68d7"
+    }
+  ],
+  "locked_test_read": false,
+  "optimization_checks": {
+    "journal": {
+      "status": "passed",
+      "cost_checks": 28908,
+      "legacy_fills": 0,
+      "observations": 35884,
+      "setup_decisions": 38,
+      "confirmed_patterns": 6,
+      "channel_decisions": 4,
+      "confirmed_breakout_fills": 1,
+      "all_pattern_decisions_reconstructed": true,
+      "raw_completed_higher_bars_and_wilder_atr_checked": 57988,
+      "source_data_sha256": "47ea450717035a3d6fd74032ea29d2e7fb955ea73912306229e5663026692106",
+      "future_measurements_used": false
+    },
+    "pullback": {
+      "status": "passed",
+      "verified_in": "full_confirmation_state_audit"
+    },
+    "afternoon": null,
+    "source_archive": {
+      "status": "passed",
+      "files_checked": 55,
+      "code_hash": "7c121a05a2d09731c29033aacd8bde109d688600d5c42e2a2ef96549dc20d2f5",
+      "archive_sha256": "471bdb726d1f20ea54d9943ff3a01da761aa6a8cf7f4841677b4e785b5b7224d"
+    }
+  },
+  "optimization_audit_sha256": "69ba38c0ac144e922370bb7b8bc216541f312d7a39e0e37b61229d4860e607f7"
+}
