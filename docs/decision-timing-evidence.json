@@ -5,7 +5,7 @@
   "sample_status": "retrospective_on_52_repeatedly_inspected_development_days",
   "plan_sha256": "f4e52ba7e940457ffe786f2e2d66c2bead77f96793ab574e82302b4c737adfee",
   "implementation_freeze_sha256": "28bcebc144b4fca975dc3a0910171e8719109c29f667b2a503a3738f11e21aa5",
-  "report_sha256": "b40155b5224fbfe0cc05286838e9c9eef429f70076b23e37925def7ead796293",
+  "report_sha256": "6c94b0e70139c6793d677dab21a3519869153a7a59ebab207f19f2b4b5899c1c",
   "assessment_sha256": "c50a2caebe503e3e7399b1640c11dcb7d4ede44d4f0fa921cf8aefd7e20b8144",
   "source_archive_sha256": "31075bfbd3ec274419e9c1751ead3593d0e32d06c7f3aa4741dc410b0aba0735",
   "publication_verification_sha256": "d5cc6856dd334eae32e1d69c2d0112970f46dc435a94afe5e31c6babb30fe689",
@@ -194,5 +194,22 @@
   "reproduction": {
     "git_only": "publication verifier and assessment reaggregation",
     "raw_required": "raw audit and full minute scanning; source archives and causal caches excluded from Git"
+  },
+  "documentation_amendment": {
+    "date": "2026-10-09",
+    "basis_commit": "34a11db1c8eaa226879a750edbdfa3e344c31697",
+    "scope": "formal_closeout_and_backtest_fill_terminology",
+    "closeout_path": "docs/research-closeout.md",
+    "closeout_sha256": "ddaaa84d8bd3758b2a67ff61e2c773cc10fdcbc1359aea02bb30c47e19a021fc",
+    "project_status": "closed_current_entry_hypothesis_archived_as_unvalidated_research_baseline",
+    "live_promotion_supported": false,
+    "new_hypothesis_research_started": false,
+    "superseded_report_sha256": "b40155b5224fbfe0cc05286838e9c9eef429f70076b23e37925def7ead796293",
+    "superseded_evidence_sha256": "8da5fa66e9b426489e02942f37f388f83f3801eff473b46eef67c3af25e76641",
+    "historical_validation_commit": "34a11db1c8eaa226879a750edbdfa3e344c31697",
+    "new_test_runs": 0,
+    "new_raw_audit_runs": 0,
+    "new_monthly_scans": 0,
+    "new_full_strategy_backtests": 0
   }
 }

@@ -1,11 +1,18 @@
 {
   "status": "passed",
-  "report_sha256": "b40155b5224fbfe0cc05286838e9c9eef429f70076b23e37925def7ead796293",
+  "report_sha256": "6c94b0e70139c6793d677dab21a3519869153a7a59ebab207f19f2b4b5899c1c",
   "assessment_sha256": "c50a2caebe503e3e7399b1640c11dcb7d4ede44d4f0fa921cf8aefd7e20b8144",
-  "evidence_sha256": "8da5fa66e9b426489e02942f37f388f83f3801eff473b46eef67c3af25e76641",
+  "evidence_sha256": "f5f7aaaad9d7cff5c6401817ad71dbf8157420decc0295bd25968bceb87ba045",
   "prior_result_files_preserved": 1424,
   "monthly_scans": 3,
   "full_strategy_backtests": 0,
   "locked_test_read": false,
-  "automatic_promotion": false
+  "automatic_promotion": false,
+  "documentation_amendment": {
+    "basis_commit": "34a11db1c8eaa226879a750edbdfa3e344c31697",
+    "scope": "documentation_only_closeout",
+    "superseded_delivery_sha256": "88d2be687f9a5784022ae35ee3b8162593b7483bffc5992db412e64202e122ed",
+    "closeout_path": "docs/research-closeout.md",
+    "closeout_sha256": "ddaaa84d8bd3758b2a67ff61e2c773cc10fdcbc1359aea02bb30c47e19a021fc"
+  }
 }
