@@ -1,0 +1,27 @@
+{
+  "python_tests": {
+    "command": ".venv/bin/pytest -q tests",
+    "passed": 497,
+    "warnings": 1,
+    "duration_seconds": 306.94
+  },
+  "focused_tests": {
+    "command": ".venv/bin/pytest -q tests/test_decision_timing.py",
+    "passed": 21
+  },
+  "changed_file_ruff": {
+    "status": "passed",
+    "files": [
+      "docs/study-decision-timing.py",
+      "docs/verify-decision-timing.py",
+      "tests/test_decision_timing.py"
+    ]
+  },
+  "full_repository_ruff": {
+    "status": "preexisting_failures",
+    "errors": 67,
+    "unchanged_baseline_files": 13,
+    "changed_file_errors": 0
+  },
+  "before_new_scans": true
+}

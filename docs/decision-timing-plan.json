@@ -1,0 +1,222 @@
+{
+  "schema": 1,
+  "kind": "DECISION_TIMING_LABEL_STUDY",
+  "declared_date": "2026-10-09",
+  "baseline_commit": "a3bbaf92de8eef79012dbc8a0de06d856014f2b5",
+  "sample_status": "retrospective_on_52_repeatedly_inspected_development_days",
+  "months": {
+    "2026-07": {
+      "directory": "research_outputs/coverage_expansion_2026-10-05/ordered_opportunity/control/2026-07/run_0001_1aba36425311",
+      "config_sha256": "7c3160732fe0b137d2f2864b17e75b7fe1ad2df5298c066ae2b983af2215a705",
+      "trades_sha256": "618566cd26d98cfde9ca31214d15413a61269eeb0b840b217cd8a443bdb591d2",
+      "manifest_sha256": "3d7cef7a807ba26f70d3f7e15866dda28531cae124b756853dccd57e42d75ac8",
+      "audit_sha256": "f222e65c0d750c8cb5733f2f7039f476d9e72b56282c00dd3376853816ae2cc7",
+      "window": {
+        "start": "2026-07-01",
+        "end": "2026-07-31"
+      },
+      "trading_days": [
+        "2026-07-01",
+        "2026-07-02",
+        "2026-07-03",
+        "2026-07-06",
+        "2026-07-07",
+        "2026-07-08",
+        "2026-07-09",
+        "2026-07-10",
+        "2026-07-13",
+        "2026-07-14",
+        "2026-07-15",
+        "2026-07-16",
+        "2026-07-17",
+        "2026-07-20",
+        "2026-07-21",
+        "2026-07-22",
+        "2026-07-23",
+        "2026-07-24",
+        "2026-07-27",
+        "2026-07-28",
+        "2026-07-29",
+        "2026-07-30",
+        "2026-07-31"
+      ]
+    },
+    "2026-08": {
+      "directory": "research_outputs/coverage_expansion_2026-10-05/ordered_opportunity/control/2026-08/run_0001_3dad7c4c9503",
+      "config_sha256": "36f0ba1c6cdc93d9a7ecac64272a73ee2260829706fb50bd7b639d4d3ec18865",
+      "trades_sha256": "0510818b525a8789fd01997a41c25f8984e4704f7764f0c52600e2458544bdd2",
+      "manifest_sha256": "1ac98780ce202014331438cc29bc9ad8b206c69d26706c2391b46ea250ab5cdd",
+      "audit_sha256": "70a0f0a3dba17fe18fc6f866e14f59000921e43604b0f7e1dea5c6d6c9ab21eb",
+      "window": {
+        "start": "2026-08-03",
+        "end": "2026-08-31"
+      },
+      "trading_days": [
+        "2026-08-03",
+        "2026-08-04",
+        "2026-08-05",
+        "2026-08-06",
+        "2026-08-07",
+        "2026-08-10",
+        "2026-08-11",
+        "2026-08-12",
+        "2026-08-13",
+        "2026-08-14",
+        "2026-08-17",
+        "2026-08-18",
+        "2026-08-19",
+        "2026-08-20",
+        "2026-08-21",
+        "2026-08-24",
+        "2026-08-25",
+        "2026-08-26",
+        "2026-08-27",
+        "2026-08-28",
+        "2026-08-31"
+      ]
+    },
+    "2026-09": {
+      "directory": "research_outputs/coverage_expansion_2026-10-05/ordered_opportunity/control/2026-09/run_0001_09f61aef2939",
+      "config_sha256": "95377cca13d35e88176de652e1c1128181ac05d7a4ec2b519acc24ea495710d7",
+      "trades_sha256": "d93b1cb2077497ff52bf65b8b61d5ebe0d043ff1de8fad7ad98a0e9c09985279",
+      "manifest_sha256": "ef37cd27ae297271909b58a2e6a69947efc3125a176e602868103a5ee8dde544",
+      "audit_sha256": "9488b851048ef222af8b43fae4fe9e1aecb80d74938e4f01937e64cd8327009d",
+      "window": {
+        "start": "2026-09-14",
+        "end": "2026-09-23"
+      },
+      "trading_days": [
+        "2026-09-14",
+        "2026-09-15",
+        "2026-09-16",
+        "2026-09-17",
+        "2026-09-18",
+        "2026-09-21",
+        "2026-09-22",
+        "2026-09-23"
+      ]
+    }
+  },
+  "output": "research_outputs/decision_timing_2026-10-09",
+  "maximum_monthly_scans": 3,
+  "full_strategy_backtests": 0,
+  "parameter_search": false,
+  "retune_after_labels": false,
+  "locked_test_read": false,
+  "live_trading_changed": false,
+  "automatic_promotion": false,
+  "primary_horizon_trading_minutes": 15,
+  "secondary_horizons_trading_minutes": [
+    5,
+    30
+  ],
+  "cohort": {
+    "primary": "original selected opening rank 1-2; other ranks only descriptive and phase matched controls",
+    "direction_and_pool": "original previous-day pool, fixed R8 sign and separate group/direction ranks, no replacement or reversal",
+    "base_environment": [
+      "complete current-session 15m MA10/MA20 directional order, MA20 slope3 and close beyond MA20",
+      "completed 5m close beyond directional MA20",
+      "1m close beyond MA20 and beyond the immediately preceding close"
+    ],
+    "hard_data_checks": [
+      "original previous-day contract pool and trading permission",
+      "every scheduled minute from day opening through observation present",
+      "1m/5m/15m causal indicator readiness; positive previous 1m ATR",
+      "no locked test or next-day label"
+    ],
+    "clock": "every completed minute after the first current-session 15m bar, strictly before the original entry cutoff; original causal indicator cache",
+    "segment": "same contract/day/direction/session; base-qualified minute clocks separated by at most 30 trading minutes share a causal segment; first base clock opens it; while same session and at most 30 trading minutes since the latest base clock it remains eligible for strict readiness; missing hard data/cutoff/end closes it; never delete a never-strict segment",
+    "strict_clock": "first minute in the causally live segment at which ALL original market flags pass, including minutes without the base continuation candle; exclude only candidate/state/entry_time; do not wait again until execution passes",
+    "scope_limit": "strict market readiness is not a portfolio trigger; join prior control diagnostics, triggers and real fills without rerunning them",
+    "missing_strict": "never_strict retained as its own outcome, not a zero-return substitute",
+    "outside_segment": "original strict clocks that precede the first base environment or occur after expiry without new base recovery are saved and counted as outside-cohort cases, not forced into a segment"
+  },
+  "execution": {
+    "clock": "at first strict clock and exactly its next scheduled minute open, skipping calendar breaks but not missing or nonfillable bars; no future endpoint data used to classify eligibility",
+    "outcomes": [
+      "never_strict",
+      "strict_not_executable",
+      "strict_executable_empty_account",
+      "strict_unknown"
+    ],
+    "unchanged": "original cost/1m ATR <=0.5, signal and next-open cost, original signal price cap, stop floors, initial capital and all integer risk/margin/minimum/daily caps",
+    "account": "empty-portfolio capacity is an upper bound on available lots and minimum capital a lower bound; actual published state/trigger/fill joined separately",
+    "rejects": "record every failure; future exit fee availability must not determine entry eligibility; no retry after first strict refusal"
+  },
+  "labels": {
+    "own_horizon": "base next-open to base+hth close; strict next-open to strict+hth close, 5/15/30 trading minutes separately; different market intervals must remain explicit",
+    "common_endpoint": "each base endpoint is fixed BEFORE strict eligibility; strict entry to that same close only if it precedes the endpoint; if wait >= h report late_strict_no_remaining_minutes and keep the segment",
+    "common_scaling": "paired changes use the base signal ATR, base next raw open for bps and the unchanged metadata tick for ticks, so ATR/entry denominator changes cannot manufacture a waiting improvement",
+    "metrics": [
+      "signed gross price, net price, ATR, bps and price ticks",
+      "MFE/MAE as diagnostic extrema only",
+      "original modeled roundtrip burden",
+      "fixed endpoint extra one adverse tick each side"
+    ],
+    "future_data": "labels only; no stops, breakeven, trail, portfolio competition or force-close strategy return; censor absent scheduled minutes/day end/unknown execution; report endpoints after original force close"
+  },
+  "matching": {
+    "stages": [
+      "base",
+      "first_strict"
+    ],
+    "comparisons": [
+      [
+        "rank_1_2",
+        "rank_3_5"
+      ],
+      [
+        "rank_1_2",
+        "rank_6_plus"
+      ],
+      [
+        "rank_3_5",
+        "rank_6_plus"
+      ]
+    ],
+    "strata": [
+      "same date",
+      "exact same observation clock",
+      "same original commodity/financial group",
+      "same session profile",
+      "same fixed direction"
+    ],
+    "representative": "both members must be FIRST occurrences of the SAME decision stage, not a control mid-segment clock",
+    "age": "age is trading minutes since first base clock, available from the past; absolute age difference <=5, fixed before labels",
+    "maximum_liquidity_ratio": 4,
+    "maximum_relative_atr_ratio": 2,
+    "distance": "absolute log volume ratio + absolute log relative ATR ratio; deterministic contract tie break; no reuse at one clock/comparison/stage",
+    "limitations": "same-product exact match impossible within a date; phase control reduces coverage, not a causal estimate; no parameter search",
+    "prior_matching_check": "audit segment age and representative status in all original frozen pairs; report original pairs with both base representatives as a fixed sensitivity without replacing the prior study"
+  },
+  "execution_supplement": {
+    "file": "docs/decision-timing-execution-supplement.json",
+    "targets": "September missing CZCE contract/date members of prior rank 1-2 vs rank 6+ matched pairs, ordered by date and contract, maximum 16; only prior missing qualifications, never future returns",
+    "documents": "reuse locally archived official exact-previous-day CZCE settlement tables with original receipts and hashes; no bulk minute-data acquisition",
+    "specification": "keep original contract metadata tick/units, same supplier historical-continuity assumption already declared for reviewed CZCE cases; explicitly NOT dated official historical specification verification",
+    "coverage": "fee/margin/daily limit must be exactly parsed for the exact contract/date; otherwise unknown; DCE and GFEX non-LC remain unknown without sufficient dated documents",
+    "analysis": "original qualification remains primary; supplementary resolver and same locked pairs reported separately, no rewriting old configs or replacing trades"
+  },
+  "aggregation": {
+    "primary": "average within contract/day/direction, then within trading day, then equally over observed days; no money sum presented as portfolio profit",
+    "paired": "average differences within contract/day/direction, then date, then equal dates; both endpoints complete; gross same economic subset shown beside net",
+    "uncertainty": "95% trading-day cluster bootstrap of daily means, 2000 resamples, fixed seed 20261009; descriptive only, does not repair repeated-development selection bias",
+    "required_views": [
+      "every outcome including never/unknown",
+      "same-segment base among eventual strict vs all-base to separate selection from timing",
+      "same endpoint and own horizon separately",
+      "zero wait vs positive wait",
+      "each month, rank 1-2 separately, product and non-LC/financial/commodity",
+      "execution and raw/economic coverage; causes of censoring; absolute price and ATR alongside bps/ticks"
+    ],
+    "stopping": "finish this limited study after the three scans; do not tune any threshold or exit to repair it. If first-strict executable price labels do not show positive cost room repeating across windows, dates and products, record no repeatable edge observed and stop patching this entry hypothesis; any positive subset needs pre-identifiable frozen rules and fresh independent data, never promotion from these 52 days"
+  },
+  "provenance": {
+    "original_plan": "research/opportunity_quality_plan.json",
+    "original_freeze": "research/opportunity_quality_freeze.json",
+    "original_output": "research_outputs/opportunity_quality_2026-10-09",
+    "prior_outputs_immutable": true,
+    "research_sources_unchanged": true,
+    "implementation_location": "isolated docs script, reusing the 57 existing frozen research Python files"
+  }
+}

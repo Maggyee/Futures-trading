@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "report_sha256": "b40155b5224fbfe0cc05286838e9c9eef429f70076b23e37925def7ead796293",
+  "assessment_sha256": "c50a2caebe503e3e7399b1640c11dcb7d4ede44d4f0fa921cf8aefd7e20b8144",
+  "evidence_sha256": "8da5fa66e9b426489e02942f37f388f83f3801eff473b46eef67c3af25e76641",
+  "prior_result_files_preserved": 1424,
+  "monthly_scans": 3,
+  "full_strategy_backtests": 0,
+  "locked_test_read": false,
+  "automatic_promotion": false
+}

@@ -1,0 +1,28 @@
+{
+  "status": "completed",
+  "month": "2026-08",
+  "plan_sha256": "f4e52ba7e940457ffe786f2e2d66c2bead77f96793ab574e82302b4c737adfee",
+  "freeze_sha256": "28bcebc144b4fca975dc3a0910171e8719109c29f667b2a503a3738f11e21aa5",
+  "counts": {
+    "clocks": 96296,
+    "segments": 2347,
+    "records": 2447,
+    "phase_matches": 153,
+    "original_selected_segments": 222
+  },
+  "files": {
+    "attempt.json": "f51bd0946abbd341b203eca72050348715b20c211652a354c0aaf8b3aa5516d3",
+    "clocks.json.gz": "bec0fa042163c95d36982ebd8316126c8f095353a981accdf347024033475126",
+    "coverage.json": "5e0ddb7bb0d7e1870d60683cc451706226b457161088c93333f4540c7d18e360",
+    "phase_matches.json.gz": "bd8982ee966645c595e2e7d040377e3ac6d28218ef35e252a06adfb2ce893120",
+    "prior_matching_stage_audit.json.gz": "a05f447f68fa1de622df0bd87b781dfe9842e06ca0a396f146e4dbfa1c17e723",
+    "prior_matching_supplementary_records.json.gz": "c0b7194fc65acaf656488b55c0baccfbf13bf44eafd294eaabe791cae84212b9",
+    "published_clock_joins.json.gz": "46ce8f208f175c7198834b2337935115fd6f48c522c9d3a35a5f02818aa8baee",
+    "records.json.gz": "77513c432a04d130dca4eaa825b7110d17f0138acf0b50acb25c20fe5f2b4fce",
+    "segments.json.gz": "0c78014d2830473f54f9487ab5a5a79856133833bf620f0bcd03297060626b31",
+    "sources.json": "d19e12784ccfdbec3566eb20fbc76e919a2c446083ef4a25c2a7f9ac64721ee1",
+    "supplementary_records.json.gz": "77513c432a04d130dca4eaa825b7110d17f0138acf0b50acb25c20fe5f2b4fce"
+  },
+  "full_strategy_backtests": 0,
+  "locked_test_read": false
+}

@@ -1,0 +1,1237 @@
+{
+  "schema": 1,
+  "kind": "BOUNDED_EXECUTION_SUPPLEMENT",
+  "original_config_sha256": "95377cca13d35e88176de652e1c1128181ac05d7a4ec2b519acc24ea495710d7",
+  "original_pair_file_sha256": "d68ab7a670fcc3fc015b8c6745e8c43dee995c8483bab4692587cbbdb28f526f",
+  "targets_causal_basis": "members with missing signal execution metadata in previously frozen September 1-2 vs 6+ pairs; sorted by date/contract; no use of endpoint outcomes",
+  "maximum_czce_targets": 16,
+  "rules": [
+    {
+      "contract": "SA701.CZCE",
+      "trading_day": "2026-09-14",
+      "source_date": "2026-09-11",
+      "source_basis": "previous_close_archive",
+      "available_at": "2026-09-11T23:59:59+08:00",
+      "margin_effective_at": "2026-09-11T15:00:00+08:00",
+      "effective_from": "2026-09-14T09:00:00+08:00",
+      "effective_to": "2026-09-14T15:01:00+08:00",
+      "tick_size": 1,
+      "value_per_price": 20,
+      "listed": "2026-08-24",
+      "expiry": "2027-01-14",
+      "margin_rate": 0.08,
+      "fees": {
+        "open": {
+          "mode": "rate",
+          "value": 0.0001
+        },
+        "close_yesterday": {
+          "mode": "rate",
+          "value": 0.0001
+        },
+        "close_today": {
+          "mode": "rate",
+          "value": 0.0001
+        }
+      },
+      "sources": [
+        {
+          "path": "/home/nishiki/vnpy-ctp/research_inputs/2026-09/source_docs/triggered_contracts/czce_static_clear_20260911_retry.txt",
+          "url": "https://www.czce.com.cn/cn/DFSStaticFiles/Future/2026/20260911/FutureDataClearParams.txt",
+          "sha256": "e01cd5f66245e136c4b43909527eafce8eb6f204e5b1cd7ea152b2058e48e997",
+          "checked_utc": "2026-10-03T13:08:53.301491+00:00",
+          "bytes": 38758
+        }
+      ],
+      "specification_basis": "supplier_specification_continuity_assumed",
+      "specification_source": {
+        "url": "https://openmd.shinnytech.com/t/md/symbols/latest.json",
+        "source_asof": "2026-10-03T12:46:12.018393+08:00",
+        "historical_applicability_verified": false
+      },
+      "historical_specification_verified": false,
+      "daily_open_limit": 10000
+    },
+    {
+      "contract": "TA701.CZCE",
+      "trading_day": "2026-09-14",
+      "source_date": "2026-09-11",
+      "source_basis": "previous_close_archive",
+      "available_at": "2026-09-11T23:59:59+08:00",
+      "margin_effective_at": "2026-09-11T15:00:00+08:00",
+      "effective_from": "2026-09-14T09:00:00+08:00",
+      "effective_to": "2026-09-14T15:01:00+08:00",
+      "tick_size": 2,
+      "value_per_price": 5,
+      "listed": "2026-08-24",
+      "expiry": "2027-01-14",
+      "margin_rate": 0.07,
+      "fees": {
+        "open": {
+          "mode": "fixed",
+          "value": 3.0
+        },
+        "close_yesterday": {
+          "mode": "fixed",
+          "value": 3.0
+        },
+        "close_today": {
+          "mode": "fixed",
+          "value": 0.0
+        }
+      },
+      "sources": [
+        {
+          "path": "/home/nishiki/vnpy-ctp/research_inputs/2026-09/source_docs/triggered_contracts/czce_static_clear_20260911_retry.txt",
+          "url": "https://www.czce.com.cn/cn/DFSStaticFiles/Future/2026/20260911/FutureDataClearParams.txt",
+          "sha256": "e01cd5f66245e136c4b43909527eafce8eb6f204e5b1cd7ea152b2058e48e997",
+          "checked_utc": "2026-10-03T13:08:53.301491+00:00",
+          "bytes": 38758
+        }
+      ],
+      "specification_basis": "supplier_specification_continuity_assumed",
+      "specification_source": {
+        "url": "https://openmd.shinnytech.com/t/md/symbols/latest.json",
+        "source_asof": "2026-10-03T12:46:12.018393+08:00",
+        "historical_applicability_verified": false
+      },
+      "historical_specification_verified": false,
+      "daily_open_limit": 30000
+    },
+    {
+      "contract": "PL611.CZCE",
+      "trading_day": "2026-09-16",
+      "source_date": "2026-09-15",
+      "source_basis": "previous_close_archive",
+      "available_at": "2026-09-15T23:59:59+08:00",
+      "margin_effective_at": "2026-09-15T15:00:00+08:00",
+      "effective_from": "2026-09-16T09:00:00+08:00",
+      "effective_to": "2026-09-16T15:01:00+08:00",
+      "tick_size": 1,
+      "value_per_price": 20,
+      "listed": "2026-08-24",
+      "expiry": "2026-11-13",
+      "margin_rate": 0.07,
+      "fees": {
+        "open": {
+          "mode": "fixed",
+          "value": 3.0
+        },
+        "close_yesterday": {
+          "mode": "fixed",
+          "value": 3.0
+        },
+        "close_today": {
+          "mode": "fixed",
+          "value": 0.0
+        }
+      },
+      "sources": [
+        {
+          "path": "/home/nishiki/vnpy-ctp/research_inputs/2026-09/source_docs/triggered_contracts/czce_clear_20260915.txt",
+          "url": "https://www.czce.com.cn/cn/DFSStaticFiles/Future/2026/20260915/FutureDataClearParams.txt",
+          "sha256": "88df3bc77813d3d3e9260ad2c968df4e2973029f60aa39da8623903a3f1901d8",
+          "checked_utc": "2026-10-03T13:14:54.648024+00:00",
+          "bytes": 38597
+        }
+      ],
+      "specification_basis": "supplier_specification_continuity_assumed",
+      "specification_source": {
+        "url": "https://openmd.shinnytech.com/t/md/symbols/latest.json",
+        "source_asof": "2026-10-03T12:46:12.018393+08:00",
+        "historical_applicability_verified": false
+      },
+      "historical_specification_verified": false
+    },
+    {
+      "contract": "PR611.CZCE",
+      "trading_day": "2026-09-16",
+      "source_date": "2026-09-15",
+      "source_basis": "previous_close_archive",
+      "available_at": "2026-09-15T23:59:59+08:00",
+      "margin_effective_at": "2026-09-15T15:00:00+08:00",
+      "effective_from": "2026-09-16T09:00:00+08:00",
+      "effective_to": "2026-09-16T15:01:00+08:00",
+      "tick_size": 2,
+      "value_per_price": 15,
+      "listed": "2026-08-24",
+      "expiry": "2026-11-13",
+      "margin_rate": 0.07,
+      "fees": {
+        "open": {
+          "mode": "rate",
+          "value": 5e-05
+        },
+        "close_yesterday": {
+          "mode": "rate",
+          "value": 5e-05
+        },
+        "close_today": {
+          "mode": "rate",
+          "value": 0.0
+        }
+      },
+      "sources": [
+        {
+          "path": "/home/nishiki/vnpy-ctp/research_inputs/2026-09/source_docs/triggered_contracts/czce_clear_20260915.txt",
+          "url": "https://www.czce.com.cn/cn/DFSStaticFiles/Future/2026/20260915/FutureDataClearParams.txt",
+          "sha256": "88df3bc77813d3d3e9260ad2c968df4e2973029f60aa39da8623903a3f1901d8",
+          "checked_utc": "2026-10-03T13:14:54.648024+00:00",
+          "bytes": 38597
+        }
+      ],
+      "specification_basis": "supplier_specification_continuity_assumed",
+      "specification_source": {
+        "url": "https://openmd.shinnytech.com/t/md/symbols/latest.json",
+        "source_asof": "2026-10-03T12:46:12.018393+08:00",
+        "historical_applicability_verified": false
+      },
+      "historical_specification_verified": false
+    },
+    {
+      "contract": "UR701.CZCE",
+      "trading_day": "2026-09-17",
+      "source_date": "2026-09-16",
+      "source_basis": "previous_close_archive",
+      "available_at": "2026-09-16T23:59:59+08:00",
+      "margin_effective_at": "2026-09-16T15:00:00+08:00",
+      "effective_from": "2026-09-17T09:00:00+08:00",
+      "effective_to": "2026-09-17T15:01:00+08:00",
+      "tick_size": 1,
+      "value_per_price": 20,
+      "listed": "2026-08-24",
+      "expiry": "2027-01-14",
+      "margin_rate": 0.08,
+      "fees": {
+        "open": {
+          "mode": "rate",
+          "value": 0.0001
+        },
+        "close_yesterday": {
+          "mode": "rate",
+          "value": 0.0001
+        },
+        "close_today": {
+          "mode": "rate",
+          "value": 0.0001
+        }
+      },
+      "sources": [
+        {
+          "path": "/home/nishiki/vnpy-ctp/research_inputs/2026-09/source_docs/triggered_contracts/czce_clear_20260916.txt",
+          "url": "https://www.czce.com.cn/cn/DFSStaticFiles/Future/2026/20260916/FutureDataClearParams.txt",
+          "sha256": "5f45d6c1cb37eb4c583ee65fb709c13e022a8490ceabf62a76ea02924f0acc1a",
+          "checked_utc": "2026-10-03T13:14:55.529072+00:00",
+          "bytes": 39402
+        }
+      ],
+      "specification_basis": "supplier_specification_continuity_assumed",
+      "specification_source": {
+        "url": "https://openmd.shinnytech.com/t/md/symbols/latest.json",
+        "source_asof": "2026-10-03T12:46:12.018393+08:00",
+        "historical_applicability_verified": false
+      },
+      "historical_specification_verified": false
+    },
+    {
+      "contract": "MA701.CZCE",
+      "trading_day": "2026-09-18",
+      "source_date": "2026-09-17",
+      "source_basis": "previous_close_archive",
+      "available_at": "2026-09-17T23:59:59+08:00",
+      "margin_effective_at": "2026-09-17T15:00:00+08:00",
+      "effective_from": "2026-09-18T09:00:00+08:00",
+      "effective_to": "2026-09-18T15:01:00+08:00",
+      "tick_size": 1,
+      "value_per_price": 10,
+      "listed": "2026-08-24",
+      "expiry": "2027-01-14",
+      "margin_rate": 0.07,
+      "fees": {
+        "open": {
+          "mode": "rate",
+          "value": 0.0001
+        },
+        "close_yesterday": {
+          "mode": "rate",
+          "value": 0.0001
+        },
+        "close_today": {
+          "mode": "rate",
+          "value": 0.0001
+        }
+      },
+      "sources": [
+        {
+          "path": "/home/nishiki/vnpy-ctp/research_inputs/2026-09/source_docs/triggered_contracts/czce_clear_20260917.txt",
+          "url": "https://www.czce.com.cn/cn/DFSStaticFiles/Future/2026/20260917/FutureDataClearParams.txt",
+          "sha256": "17b0ba946c557ce3bf623aa03c9d7280402da778167bc560b24840e3399c8851",
+          "checked_utc": "2026-10-03T13:14:56.460825+00:00",
+          "bytes": 39402
+        }
+      ],
+      "specification_basis": "supplier_specification_continuity_assumed",
+      "specification_source": {
+        "url": "https://openmd.shinnytech.com/t/md/symbols/latest.json",
+        "source_asof": "2026-10-03T12:46:12.018393+08:00",
+        "historical_applicability_verified": false
+      },
+      "historical_specification_verified": false,
+      "daily_open_limit": 25000
+    },
+    {
+      "contract": "PL611.CZCE",
+      "trading_day": "2026-09-18",
+      "source_date": "2026-09-17",
+      "source_basis": "previous_close_archive",
+      "available_at": "2026-09-17T23:59:59+08:00",
+      "margin_effective_at": "2026-09-17T15:00:00+08:00",
+      "effective_from": "2026-09-18T09:00:00+08:00",
+      "effective_to": "2026-09-18T15:01:00+08:00",
+      "tick_size": 1,
+      "value_per_price": 20,
+      "listed": "2026-08-24",
+      "expiry": "2026-11-13",
+      "margin_rate": 0.07,
+      "fees": {
+        "open": {
+          "mode": "fixed",
+          "value": 3.0
+        },
+        "close_yesterday": {
+          "mode": "fixed",
+          "value": 3.0
+        },
+        "close_today": {
+          "mode": "fixed",
+          "value": 0.0
+        }
+      },
+      "sources": [
+        {
+          "path": "/home/nishiki/vnpy-ctp/research_inputs/2026-09/source_docs/triggered_contracts/czce_clear_20260917.txt",
+          "url": "https://www.czce.com.cn/cn/DFSStaticFiles/Future/2026/20260917/FutureDataClearParams.txt",
+          "sha256": "17b0ba946c557ce3bf623aa03c9d7280402da778167bc560b24840e3399c8851",
+          "checked_utc": "2026-10-03T13:14:56.460825+00:00",
+          "bytes": 39402
+        }
+      ],
+      "specification_basis": "supplier_specification_continuity_assumed",
+      "specification_source": {
+        "url": "https://openmd.shinnytech.com/t/md/symbols/latest.json",
+        "source_asof": "2026-10-03T12:46:12.018393+08:00",
+        "historical_applicability_verified": false
+      },
+      "historical_specification_verified": false
+    },
+    {
+      "contract": "RM701.CZCE",
+      "trading_day": "2026-09-18",
+      "source_date": "2026-09-17",
+      "source_basis": "previous_close_archive",
+      "available_at": "2026-09-17T23:59:59+08:00",
+      "margin_effective_at": "2026-09-17T15:00:00+08:00",
+      "effective_from": "2026-09-18T09:00:00+08:00",
+      "effective_to": "2026-09-18T15:01:00+08:00",
+      "tick_size": 1,
+      "value_per_price": 10,
+      "listed": "2026-08-24",
+      "expiry": "2027-01-14",
+      "margin_rate": 0.07,
+      "fees": {
+        "open": {
+          "mode": "fixed",
+          "value": 1.5
+        },
+        "close_yesterday": {
+          "mode": "fixed",
+          "value": 1.5
+        },
+        "close_today": {
+          "mode": "fixed",
+          "value": 0.0
+        }
+      },
+      "sources": [
+        {
+          "path": "/home/nishiki/vnpy-ctp/research_inputs/2026-09/source_docs/triggered_contracts/czce_clear_20260917.txt",
+          "url": "https://www.czce.com.cn/cn/DFSStaticFiles/Future/2026/20260917/FutureDataClearParams.txt",
+          "sha256": "17b0ba946c557ce3bf623aa03c9d7280402da778167bc560b24840e3399c8851",
+          "checked_utc": "2026-10-03T13:14:56.460825+00:00",
+          "bytes": 39402
+        }
+      ],
+      "specification_basis": "supplier_specification_continuity_assumed",
+      "specification_source": {
+        "url": "https://openmd.shinnytech.com/t/md/symbols/latest.json",
+        "source_asof": "2026-10-03T12:46:12.018393+08:00",
+        "historical_applicability_verified": false
+      },
+      "historical_specification_verified": false,
+      "daily_open_limit": 15000
+    },
+    {
+      "contract": "CF701.CZCE",
+      "trading_day": "2026-09-21",
+      "source_date": "2026-09-18",
+      "source_basis": "previous_close_archive",
+      "available_at": "2026-09-18T23:59:59+08:00",
+      "margin_effective_at": "2026-09-18T15:00:00+08:00",
+      "effective_from": "2026-09-21T09:00:00+08:00",
+      "effective_to": "2026-09-21T15:01:00+08:00",
+      "tick_size": 5,
+      "value_per_price": 5,
+      "listed": "2026-08-24",
+      "expiry": "2027-01-14",
+      "margin_rate": 0.07,
+      "fees": {
+        "open": {
+          "mode": "fixed",
+          "value": 4.3
+        },
+        "close_yesterday": {
+          "mode": "fixed",
+          "value": 4.3
+        },
+        "close_today": {
+          "mode": "fixed",
+          "value": 0.0
+        }
+      },
+      "sources": [
+        {
+          "path": "/home/nishiki/vnpy-ctp/research_inputs/2026-09/source_docs/triggered_contracts/czce_clear_20260918.txt",
+          "url": "https://www.czce.com.cn/cn/DFSStaticFiles/Future/2026/20260918/FutureDataClearParams.txt",
+          "sha256": "0a55c80749e94acdc735f9ef8ad38622889716dad58cf0a1820dbf0e630c126b",
+          "checked_utc": "2026-10-03T13:14:57.335645+00:00",
+          "bytes": 39402
+        }
+      ],
+      "specification_basis": "supplier_specification_continuity_assumed",
+      "specification_source": {
+        "url": "https://openmd.shinnytech.com/t/md/symbols/latest.json",
+        "source_asof": "2026-10-03T12:46:12.018393+08:00",
+        "historical_applicability_verified": false
+      },
+      "historical_specification_verified": false,
+      "daily_open_limit": 10000
+    },
+    {
+      "contract": "MA701.CZCE",
+      "trading_day": "2026-09-21",
+      "source_date": "2026-09-18",
+      "source_basis": "previous_close_archive",
+      "available_at": "2026-09-18T23:59:59+08:00",
+      "margin_effective_at": "2026-09-18T15:00:00+08:00",
+      "effective_from": "2026-09-21T09:00:00+08:00",
+      "effective_to": "2026-09-21T15:01:00+08:00",
+      "tick_size": 1,
+      "value_per_price": 10,
+      "listed": "2026-08-24",
+      "expiry": "2027-01-14",
+      "margin_rate": 0.07,
+      "fees": {
+        "open": {
+          "mode": "rate",
+          "value": 0.0001
+        },
+        "close_yesterday": {
+          "mode": "rate",
+          "value": 0.0001
+        },
+        "close_today": {
+          "mode": "rate",
+          "value": 0.0001
+        }
+      },
+      "sources": [
+        {
+          "path": "/home/nishiki/vnpy-ctp/research_inputs/2026-09/source_docs/triggered_contracts/czce_clear_20260918.txt",
+          "url": "https://www.czce.com.cn/cn/DFSStaticFiles/Future/2026/20260918/FutureDataClearParams.txt",
+          "sha256": "0a55c80749e94acdc735f9ef8ad38622889716dad58cf0a1820dbf0e630c126b",
+          "checked_utc": "2026-10-03T13:14:57.335645+00:00",
+          "bytes": 39402
+        }
+      ],
+      "specification_basis": "supplier_specification_continuity_assumed",
+      "specification_source": {
+        "url": "https://openmd.shinnytech.com/t/md/symbols/latest.json",
+        "source_asof": "2026-10-03T12:46:12.018393+08:00",
+        "historical_applicability_verified": false
+      },
+      "historical_specification_verified": false,
+      "daily_open_limit": 25000
+    },
+    {
+      "contract": "PL611.CZCE",
+      "trading_day": "2026-09-21",
+      "source_date": "2026-09-18",
+      "source_basis": "previous_close_archive",
+      "available_at": "2026-09-18T23:59:59+08:00",
+      "margin_effective_at": "2026-09-18T15:00:00+08:00",
+      "effective_from": "2026-09-21T09:00:00+08:00",
+      "effective_to": "2026-09-21T15:01:00+08:00",
+      "tick_size": 1,
+      "value_per_price": 20,
+      "listed": "2026-08-24",
+      "expiry": "2026-11-13",
+      "margin_rate": 0.07,
+      "fees": {
+        "open": {
+          "mode": "fixed",
+          "value": 3.0
+        },
+        "close_yesterday": {
+          "mode": "fixed",
+          "value": 3.0
+        },
+        "close_today": {
+          "mode": "fixed",
+          "value": 0.0
+        }
+      },
+      "sources": [
+        {
+          "path": "/home/nishiki/vnpy-ctp/research_inputs/2026-09/source_docs/triggered_contracts/czce_clear_20260918.txt",
+          "url": "https://www.czce.com.cn/cn/DFSStaticFiles/Future/2026/20260918/FutureDataClearParams.txt",
+          "sha256": "0a55c80749e94acdc735f9ef8ad38622889716dad58cf0a1820dbf0e630c126b",
+          "checked_utc": "2026-10-03T13:14:57.335645+00:00",
+          "bytes": 39402
+        }
+      ],
+      "specification_basis": "supplier_specification_continuity_assumed",
+      "specification_source": {
+        "url": "https://openmd.shinnytech.com/t/md/symbols/latest.json",
+        "source_asof": "2026-10-03T12:46:12.018393+08:00",
+        "historical_applicability_verified": false
+      },
+      "historical_specification_verified": false
+    },
+    {
+      "contract": "SH611.CZCE",
+      "trading_day": "2026-09-22",
+      "source_date": "2026-09-21",
+      "source_basis": "previous_close_archive",
+      "available_at": "2026-09-21T23:59:59+08:00",
+      "margin_effective_at": "2026-09-21T15:00:00+08:00",
+      "effective_from": "2026-09-22T09:00:00+08:00",
+      "effective_to": "2026-09-22T15:01:00+08:00",
+      "tick_size": 1,
+      "value_per_price": 30,
+      "listed": "2026-08-24",
+      "expiry": "2026-11-13",
+      "margin_rate": 0.08,
+      "fees": {
+        "open": {
+          "mode": "rate",
+          "value": 0.0001
+        },
+        "close_yesterday": {
+          "mode": "rate",
+          "value": 0.0001
+        },
+        "close_today": {
+          "mode": "rate",
+          "value": 0.0
+        }
+      },
+      "sources": [
+        {
+          "path": "/home/nishiki/vnpy-ctp/research_inputs/2026-09/source_docs/triggered_contracts/czce_clear_20260921.txt",
+          "url": "https://www.czce.com.cn/cn/DFSStaticFiles/Future/2026/20260921/FutureDataClearParams.txt",
+          "sha256": "726d88a0a544da53edcd186e97f702145f48f3a192391dd68801a31ad8d8d87e",
+          "checked_utc": "2026-10-03T13:14:58.266784+00:00",
+          "bytes": 39402
+        }
+      ],
+      "specification_basis": "supplier_specification_continuity_assumed",
+      "specification_source": {
+        "url": "https://openmd.shinnytech.com/t/md/symbols/latest.json",
+        "source_asof": "2026-10-03T12:46:12.018393+08:00",
+        "historical_applicability_verified": false
+      },
+      "historical_specification_verified": false
+    }
+  ],
+  "target_review": [
+    {
+      "date": "2026-09-14",
+      "contract": "SA701.CZCE",
+      "primary_status": "unknown",
+      "reason": "exact_previous_official_fees_margin_limits_supplemented_under_explicit_supplier_specification_assumption",
+      "supplement_status": "reviewed_under_explicit_original_supplier_continuity_assumption",
+      "previous_day": "2026-09-11",
+      "source": {
+        "path": "/home/nishiki/vnpy-ctp/research_inputs/2026-09/source_docs/triggered_contracts/czce_static_clear_20260911_retry.txt",
+        "url": "https://www.czce.com.cn/cn/DFSStaticFiles/Future/2026/20260911/FutureDataClearParams.txt",
+        "sha256": "e01cd5f66245e136c4b43909527eafce8eb6f204e5b1cd7ea152b2058e48e997",
+        "checked_utc": "2026-10-03T13:08:53.301491+00:00",
+        "bytes": 38758
+      },
+      "official_row": {
+        "合约代码": "SA701",
+        "当日结算价": "1,079.00",
+        "是否单边市": "N",
+        "连续单边市天数": "0",
+        "交易保证金率(%)": "8",
+        "涨跌停板(%)": "±7",
+        "交易手续费": "1.00",
+        "手续费收取方式": "比例值",
+        "交割手续费": "0.00",
+        "日内平今仓交易手续费": "1.00",
+        "日持仓限额": "20000",
+        "交易限额": "10000"
+      },
+      "specification_source": {
+        "url": "https://openmd.shinnytech.com/t/md/symbols/latest.json",
+        "source_asof": "2026-10-03T12:46:12.018393+08:00",
+        "historical_applicability_verified": false
+      },
+      "primary_rejections": [
+        "contract_specification_not_reviewed",
+        "exact_previous_parameter_missing",
+        "exchange_execution_not_reviewed"
+      ]
+    },
+    {
+      "date": "2026-09-14",
+      "contract": "TA701.CZCE",
+      "primary_status": "unknown",
+      "reason": "exact_previous_official_fees_margin_limits_supplemented_under_explicit_supplier_specification_assumption",
+      "supplement_status": "reviewed_under_explicit_original_supplier_continuity_assumption",
+      "previous_day": "2026-09-11",
+      "source": {
+        "path": "/home/nishiki/vnpy-ctp/research_inputs/2026-09/source_docs/triggered_contracts/czce_static_clear_20260911_retry.txt",
+        "url": "https://www.czce.com.cn/cn/DFSStaticFiles/Future/2026/20260911/FutureDataClearParams.txt",
+        "sha256": "e01cd5f66245e136c4b43909527eafce8eb6f204e5b1cd7ea152b2058e48e997",
+        "checked_utc": "2026-10-03T13:08:53.301491+00:00",
+        "bytes": 38758
+      },
+      "official_row": {
+        "合约代码": "TA701",
+        "当日结算价": "6,312.00",
+        "是否单边市": "N",
+        "连续单边市天数": "0",
+        "交易保证金率(%)": "7",
+        "涨跌停板(%)": "±6",
+        "交易手续费": "3.00",
+        "手续费收取方式": "绝对值",
+        "交割手续费": "0.00",
+        "日内平今仓交易手续费": "0.00",
+        "日持仓限额": "113865",
+        "交易限额": "30000"
+      },
+      "specification_source": {
+        "url": "https://openmd.shinnytech.com/t/md/symbols/latest.json",
+        "source_asof": "2026-10-03T12:46:12.018393+08:00",
+        "historical_applicability_verified": false
+      },
+      "primary_rejections": [
+        "contract_specification_not_reviewed",
+        "exact_previous_parameter_missing",
+        "exchange_execution_not_reviewed"
+      ]
+    },
+    {
+      "date": "2026-09-16",
+      "contract": "PL611.CZCE",
+      "primary_status": "unknown",
+      "reason": "exact_previous_official_fees_margin_limits_supplemented_under_explicit_supplier_specification_assumption",
+      "supplement_status": "reviewed_under_explicit_original_supplier_continuity_assumption",
+      "previous_day": "2026-09-15",
+      "source": {
+        "path": "/home/nishiki/vnpy-ctp/research_inputs/2026-09/source_docs/triggered_contracts/czce_clear_20260915.txt",
+        "url": "https://www.czce.com.cn/cn/DFSStaticFiles/Future/2026/20260915/FutureDataClearParams.txt",
+        "sha256": "88df3bc77813d3d3e9260ad2c968df4e2973029f60aa39da8623903a3f1901d8",
+        "checked_utc": "2026-10-03T13:14:54.648024+00:00",
+        "bytes": 38597
+      },
+      "official_row": {
+        "合约代码": "PL611",
+        "当日结算价": "9,252.00",
+        "是否单边市": "N",
+        "连续单边市天数": "0",
+        "交易保证金率(%)": "7",
+        "涨跌停板(%)": "±6",
+        "交易手续费": "3.00",
+        "手续费收取方式": "绝对值",
+        "交割手续费": "0.00",
+        "日内平今仓交易手续费": "0.00",
+        "日持仓限额": "2000",
+        "交易限额": ""
+      },
+      "specification_source": {
+        "url": "https://openmd.shinnytech.com/t/md/symbols/latest.json",
+        "source_asof": "2026-10-03T12:46:12.018393+08:00",
+        "historical_applicability_verified": false
+      },
+      "primary_rejections": [
+        "contract_specification_not_reviewed",
+        "exact_previous_parameter_missing",
+        "exchange_execution_not_reviewed"
+      ]
+    },
+    {
+      "date": "2026-09-16",
+      "contract": "PR611.CZCE",
+      "primary_status": "unknown",
+      "reason": "exact_previous_official_fees_margin_limits_supplemented_under_explicit_supplier_specification_assumption",
+      "supplement_status": "reviewed_under_explicit_original_supplier_continuity_assumption",
+      "previous_day": "2026-09-15",
+      "source": {
+        "path": "/home/nishiki/vnpy-ctp/research_inputs/2026-09/source_docs/triggered_contracts/czce_clear_20260915.txt",
+        "url": "https://www.czce.com.cn/cn/DFSStaticFiles/Future/2026/20260915/FutureDataClearParams.txt",
+        "sha256": "88df3bc77813d3d3e9260ad2c968df4e2973029f60aa39da8623903a3f1901d8",
+        "checked_utc": "2026-10-03T13:14:54.648024+00:00",
+        "bytes": 38597
+      },
+      "official_row": {
+        "合约代码": "PR611",
+        "当日结算价": "8,306.00",
+        "是否单边市": "N",
+        "连续单边市天数": "0",
+        "交易保证金率(%)": "7",
+        "涨跌停板(%)": "±6",
+        "交易手续费": "0.50",
+        "手续费收取方式": "比例值",
+        "交割手续费": "0.00",
+        "日内平今仓交易手续费": "0.00",
+        "日持仓限额": "6429",
+        "交易限额": ""
+      },
+      "specification_source": {
+        "url": "https://openmd.shinnytech.com/t/md/symbols/latest.json",
+        "source_asof": "2026-10-03T12:46:12.018393+08:00",
+        "historical_applicability_verified": false
+      },
+      "primary_rejections": [
+        "contract_specification_not_reviewed",
+        "exact_previous_parameter_missing",
+        "exchange_execution_not_reviewed"
+      ]
+    },
+    {
+      "date": "2026-09-16",
+      "contract": "pg2611.DCE",
+      "primary_status": "unknown",
+      "reason": "outside_bounded_CZCE_supplement",
+      "primary_rejections": [
+        "contract_specification_not_reviewed",
+        "exact_previous_parameter_missing",
+        "exchange_execution_not_reviewed"
+      ]
+    },
+    {
+      "date": "2026-09-17",
+      "contract": "UR701.CZCE",
+      "primary_status": "unknown",
+      "reason": "exact_previous_official_fees_margin_limits_supplemented_under_explicit_supplier_specification_assumption",
+      "supplement_status": "reviewed_under_explicit_original_supplier_continuity_assumption",
+      "previous_day": "2026-09-16",
+      "source": {
+        "path": "/home/nishiki/vnpy-ctp/research_inputs/2026-09/source_docs/triggered_contracts/czce_clear_20260916.txt",
+        "url": "https://www.czce.com.cn/cn/DFSStaticFiles/Future/2026/20260916/FutureDataClearParams.txt",
+        "sha256": "5f45d6c1cb37eb4c583ee65fb709c13e022a8490ceabf62a76ea02924f0acc1a",
+        "checked_utc": "2026-10-03T13:14:55.529072+00:00",
+        "bytes": 39402
+      },
+      "official_row": {
+        "合约代码": "UR701",
+        "当日结算价": "1,805.00",
+        "是否单边市": "N",
+        "连续单边市天数": "0",
+        "交易保证金率(%)": "8",
+        "涨跌停板(%)": "±7",
+        "交易手续费": "1.00",
+        "手续费收取方式": "比例值",
+        "交割手续费": "0.00",
+        "日内平今仓交易手续费": "1.00",
+        "日持仓限额": "5000",
+        "交易限额": ""
+      },
+      "specification_source": {
+        "url": "https://openmd.shinnytech.com/t/md/symbols/latest.json",
+        "source_asof": "2026-10-03T12:46:12.018393+08:00",
+        "historical_applicability_verified": false
+      },
+      "primary_rejections": [
+        "contract_specification_not_reviewed",
+        "exact_previous_parameter_missing",
+        "exchange_execution_not_reviewed"
+      ]
+    },
+    {
+      "date": "2026-09-17",
+      "contract": "pg2611.DCE",
+      "primary_status": "unknown",
+      "reason": "outside_bounded_CZCE_supplement",
+      "primary_rejections": [
+        "contract_specification_not_reviewed",
+        "exact_previous_parameter_missing",
+        "exchange_execution_not_reviewed"
+      ]
+    },
+    {
+      "date": "2026-09-18",
+      "contract": "MA701.CZCE",
+      "primary_status": "unknown",
+      "reason": "exact_previous_official_fees_margin_limits_supplemented_under_explicit_supplier_specification_assumption",
+      "supplement_status": "reviewed_under_explicit_original_supplier_continuity_assumption",
+      "previous_day": "2026-09-17",
+      "source": {
+        "path": "/home/nishiki/vnpy-ctp/research_inputs/2026-09/source_docs/triggered_contracts/czce_clear_20260917.txt",
+        "url": "https://www.czce.com.cn/cn/DFSStaticFiles/Future/2026/20260917/FutureDataClearParams.txt",
+        "sha256": "17b0ba946c557ce3bf623aa03c9d7280402da778167bc560b24840e3399c8851",
+        "checked_utc": "2026-10-03T13:14:56.460825+00:00",
+        "bytes": 39402
+      },
+      "official_row": {
+        "合约代码": "MA701",
+        "当日结算价": "3,025.00",
+        "是否单边市": "N",
+        "连续单边市天数": "0",
+        "交易保证金率(%)": "7",
+        "涨跌停板(%)": "±6",
+        "交易手续费": "1.00",
+        "手续费收取方式": "比例值",
+        "交割手续费": "0.00",
+        "日内平今仓交易手续费": "1.00",
+        "日持仓限额": "66288",
+        "交易限额": "25000"
+      },
+      "specification_source": {
+        "url": "https://openmd.shinnytech.com/t/md/symbols/latest.json",
+        "source_asof": "2026-10-03T12:46:12.018393+08:00",
+        "historical_applicability_verified": false
+      },
+      "primary_rejections": [
+        "contract_specification_not_reviewed",
+        "exact_previous_parameter_missing",
+        "exchange_execution_not_reviewed"
+      ]
+    },
+    {
+      "date": "2026-09-18",
+      "contract": "PL611.CZCE",
+      "primary_status": "unknown",
+      "reason": "exact_previous_official_fees_margin_limits_supplemented_under_explicit_supplier_specification_assumption",
+      "supplement_status": "reviewed_under_explicit_original_supplier_continuity_assumption",
+      "previous_day": "2026-09-17",
+      "source": {
+        "path": "/home/nishiki/vnpy-ctp/research_inputs/2026-09/source_docs/triggered_contracts/czce_clear_20260917.txt",
+        "url": "https://www.czce.com.cn/cn/DFSStaticFiles/Future/2026/20260917/FutureDataClearParams.txt",
+        "sha256": "17b0ba946c557ce3bf623aa03c9d7280402da778167bc560b24840e3399c8851",
+        "checked_utc": "2026-10-03T13:14:56.460825+00:00",
+        "bytes": 39402
+      },
+      "official_row": {
+        "合约代码": "PL611",
+        "当日结算价": "9,326.00",
+        "是否单边市": "N",
+        "连续单边市天数": "0",
+        "交易保证金率(%)": "7",
+        "涨跌停板(%)": "±6",
+        "交易手续费": "3.00",
+        "手续费收取方式": "绝对值",
+        "交割手续费": "0.00",
+        "日内平今仓交易手续费": "0.00",
+        "日持仓限额": "2000",
+        "交易限额": ""
+      },
+      "specification_source": {
+        "url": "https://openmd.shinnytech.com/t/md/symbols/latest.json",
+        "source_asof": "2026-10-03T12:46:12.018393+08:00",
+        "historical_applicability_verified": false
+      },
+      "primary_rejections": [
+        "contract_specification_not_reviewed",
+        "exact_previous_parameter_missing",
+        "exchange_execution_not_reviewed"
+      ]
+    },
+    {
+      "date": "2026-09-18",
+      "contract": "RM701.CZCE",
+      "primary_status": "unknown",
+      "reason": "exact_previous_official_fees_margin_limits_supplemented_under_explicit_supplier_specification_assumption",
+      "supplement_status": "reviewed_under_explicit_original_supplier_continuity_assumption",
+      "previous_day": "2026-09-17",
+      "source": {
+        "path": "/home/nishiki/vnpy-ctp/research_inputs/2026-09/source_docs/triggered_contracts/czce_clear_20260917.txt",
+        "url": "https://www.czce.com.cn/cn/DFSStaticFiles/Future/2026/20260917/FutureDataClearParams.txt",
+        "sha256": "17b0ba946c557ce3bf623aa03c9d7280402da778167bc560b24840e3399c8851",
+        "checked_utc": "2026-10-03T13:14:56.460825+00:00",
+        "bytes": 39402
+      },
+      "official_row": {
+        "合约代码": "RM701",
+        "当日结算价": "2,421.00",
+        "是否单边市": "N",
+        "连续单边市天数": "0",
+        "交易保证金率(%)": "7",
+        "涨跌停板(%)": "±6",
+        "交易手续费": "1.50",
+        "手续费收取方式": "绝对值",
+        "交割手续费": "0.00",
+        "日内平今仓交易手续费": "0.00",
+        "日持仓限额": "60266",
+        "交易限额": "15000"
+      },
+      "specification_source": {
+        "url": "https://openmd.shinnytech.com/t/md/symbols/latest.json",
+        "source_asof": "2026-10-03T12:46:12.018393+08:00",
+        "historical_applicability_verified": false
+      },
+      "primary_rejections": [
+        "contract_specification_not_reviewed",
+        "exact_previous_parameter_missing",
+        "exchange_execution_not_reviewed"
+      ]
+    },
+    {
+      "date": "2026-09-18",
+      "contract": "bz2611.DCE",
+      "primary_status": "unknown",
+      "reason": "outside_bounded_CZCE_supplement",
+      "primary_rejections": [
+        "contract_specification_not_reviewed",
+        "exact_previous_parameter_missing",
+        "exchange_execution_not_reviewed"
+      ]
+    },
+    {
+      "date": "2026-09-18",
+      "contract": "j2701.DCE",
+      "primary_status": "unknown",
+      "reason": "outside_bounded_CZCE_supplement",
+      "primary_rejections": [
+        "contract_specification_not_reviewed",
+        "exact_previous_parameter_missing",
+        "exchange_execution_not_reviewed"
+      ]
+    },
+    {
+      "date": "2026-09-18",
+      "contract": "jm2701.DCE",
+      "primary_status": "unknown",
+      "reason": "outside_bounded_CZCE_supplement",
+      "primary_rejections": [
+        "contract_specification_not_reviewed",
+        "exact_previous_parameter_missing",
+        "exchange_execution_not_reviewed"
+      ]
+    },
+    {
+      "date": "2026-09-18",
+      "contract": "pg2611.DCE",
+      "primary_status": "unknown",
+      "reason": "outside_bounded_CZCE_supplement",
+      "primary_rejections": [
+        "contract_specification_not_reviewed",
+        "exact_previous_parameter_missing",
+        "exchange_execution_not_reviewed"
+      ]
+    },
+    {
+      "date": "2026-09-18",
+      "contract": "si2611.GFEX",
+      "primary_status": "unknown",
+      "reason": "outside_bounded_CZCE_supplement",
+      "primary_rejections": [
+        "contract_specification_not_reviewed",
+        "exact_previous_parameter_missing",
+        "exchange_execution_not_reviewed"
+      ]
+    },
+    {
+      "date": "2026-09-21",
+      "contract": "CF701.CZCE",
+      "primary_status": "unknown",
+      "reason": "exact_previous_official_fees_margin_limits_supplemented_under_explicit_supplier_specification_assumption",
+      "supplement_status": "reviewed_under_explicit_original_supplier_continuity_assumption",
+      "previous_day": "2026-09-18",
+      "source": {
+        "path": "/home/nishiki/vnpy-ctp/research_inputs/2026-09/source_docs/triggered_contracts/czce_clear_20260918.txt",
+        "url": "https://www.czce.com.cn/cn/DFSStaticFiles/Future/2026/20260918/FutureDataClearParams.txt",
+        "sha256": "0a55c80749e94acdc735f9ef8ad38622889716dad58cf0a1820dbf0e630c126b",
+        "checked_utc": "2026-10-03T13:14:57.335645+00:00",
+        "bytes": 39402
+      },
+      "official_row": {
+        "合约代码": "CF701",
+        "当日结算价": "15,795.00",
+        "是否单边市": "N",
+        "连续单边市天数": "0",
+        "交易保证金率(%)": "7",
+        "涨跌停板(%)": "±6",
+        "交易手续费": "4.30",
+        "手续费收取方式": "绝对值",
+        "交割手续费": "0.00",
+        "日内平今仓交易手续费": "0.00",
+        "日持仓限额": "55399",
+        "交易限额": "10000"
+      },
+      "specification_source": {
+        "url": "https://openmd.shinnytech.com/t/md/symbols/latest.json",
+        "source_asof": "2026-10-03T12:46:12.018393+08:00",
+        "historical_applicability_verified": false
+      },
+      "primary_rejections": [
+        "contract_specification_not_reviewed",
+        "exact_previous_parameter_missing",
+        "exchange_execution_not_reviewed"
+      ]
+    },
+    {
+      "date": "2026-09-21",
+      "contract": "MA701.CZCE",
+      "primary_status": "unknown",
+      "reason": "exact_previous_official_fees_margin_limits_supplemented_under_explicit_supplier_specification_assumption",
+      "supplement_status": "reviewed_under_explicit_original_supplier_continuity_assumption",
+      "previous_day": "2026-09-18",
+      "source": {
+        "path": "/home/nishiki/vnpy-ctp/research_inputs/2026-09/source_docs/triggered_contracts/czce_clear_20260918.txt",
+        "url": "https://www.czce.com.cn/cn/DFSStaticFiles/Future/2026/20260918/FutureDataClearParams.txt",
+        "sha256": "0a55c80749e94acdc735f9ef8ad38622889716dad58cf0a1820dbf0e630c126b",
+        "checked_utc": "2026-10-03T13:14:57.335645+00:00",
+        "bytes": 39402
+      },
+      "official_row": {
+        "合约代码": "MA701",
+        "当日结算价": "2,977.00",
+        "是否单边市": "N",
+        "连续单边市天数": "0",
+        "交易保证金率(%)": "7",
+        "涨跌停板(%)": "±6",
+        "交易手续费": "1.00",
+        "手续费收取方式": "比例值",
+        "交割手续费": "0.00",
+        "日内平今仓交易手续费": "1.00",
+        "日持仓限额": "67499",
+        "交易限额": "25000"
+      },
+      "specification_source": {
+        "url": "https://openmd.shinnytech.com/t/md/symbols/latest.json",
+        "source_asof": "2026-10-03T12:46:12.018393+08:00",
+        "historical_applicability_verified": false
+      },
+      "primary_rejections": [
+        "contract_specification_not_reviewed",
+        "exact_previous_parameter_missing",
+        "exchange_execution_not_reviewed"
+      ]
+    },
+    {
+      "date": "2026-09-21",
+      "contract": "PL611.CZCE",
+      "primary_status": "unknown",
+      "reason": "exact_previous_official_fees_margin_limits_supplemented_under_explicit_supplier_specification_assumption",
+      "supplement_status": "reviewed_under_explicit_original_supplier_continuity_assumption",
+      "previous_day": "2026-09-18",
+      "source": {
+        "path": "/home/nishiki/vnpy-ctp/research_inputs/2026-09/source_docs/triggered_contracts/czce_clear_20260918.txt",
+        "url": "https://www.czce.com.cn/cn/DFSStaticFiles/Future/2026/20260918/FutureDataClearParams.txt",
+        "sha256": "0a55c80749e94acdc735f9ef8ad38622889716dad58cf0a1820dbf0e630c126b",
+        "checked_utc": "2026-10-03T13:14:57.335645+00:00",
+        "bytes": 39402
+      },
+      "official_row": {
+        "合约代码": "PL611",
+        "当日结算价": "9,165.00",
+        "是否单边市": "N",
+        "连续单边市天数": "0",
+        "交易保证金率(%)": "7",
+        "涨跌停板(%)": "±6",
+        "交易手续费": "3.00",
+        "手续费收取方式": "绝对值",
+        "交割手续费": "0.00",
+        "日内平今仓交易手续费": "0.00",
+        "日持仓限额": "2000",
+        "交易限额": ""
+      },
+      "specification_source": {
+        "url": "https://openmd.shinnytech.com/t/md/symbols/latest.json",
+        "source_asof": "2026-10-03T12:46:12.018393+08:00",
+        "historical_applicability_verified": false
+      },
+      "primary_rejections": [
+        "contract_specification_not_reviewed",
+        "exact_previous_parameter_missing",
+        "exchange_execution_not_reviewed"
+      ]
+    },
+    {
+      "date": "2026-09-21",
+      "contract": "bz2611.DCE",
+      "primary_status": "unknown",
+      "reason": "outside_bounded_CZCE_supplement",
+      "primary_rejections": [
+        "contract_specification_not_reviewed",
+        "exact_previous_parameter_missing",
+        "exchange_execution_not_reviewed"
+      ]
+    },
+    {
+      "date": "2026-09-21",
+      "contract": "jm2701.DCE",
+      "primary_status": "unknown",
+      "reason": "outside_bounded_CZCE_supplement",
+      "primary_rejections": [
+        "contract_specification_not_reviewed",
+        "exact_previous_parameter_missing",
+        "exchange_execution_not_reviewed"
+      ]
+    },
+    {
+      "date": "2026-09-21",
+      "contract": "pg2611.DCE",
+      "primary_status": "unknown",
+      "reason": "outside_bounded_CZCE_supplement",
+      "primary_rejections": [
+        "contract_specification_not_reviewed",
+        "exact_previous_parameter_missing",
+        "exchange_execution_not_reviewed"
+      ]
+    },
+    {
+      "date": "2026-09-21",
+      "contract": "pp2701.DCE",
+      "primary_status": "unknown",
+      "reason": "outside_bounded_CZCE_supplement",
+      "primary_rejections": [
+        "contract_specification_not_reviewed",
+        "exact_previous_parameter_missing",
+        "exchange_execution_not_reviewed"
+      ]
+    },
+    {
+      "date": "2026-09-22",
+      "contract": "SH611.CZCE",
+      "primary_status": "unknown",
+      "reason": "exact_previous_official_fees_margin_limits_supplemented_under_explicit_supplier_specification_assumption",
+      "supplement_status": "reviewed_under_explicit_original_supplier_continuity_assumption",
+      "previous_day": "2026-09-21",
+      "source": {
+        "path": "/home/nishiki/vnpy-ctp/research_inputs/2026-09/source_docs/triggered_contracts/czce_clear_20260921.txt",
+        "url": "https://www.czce.com.cn/cn/DFSStaticFiles/Future/2026/20260921/FutureDataClearParams.txt",
+        "sha256": "726d88a0a544da53edcd186e97f702145f48f3a192391dd68801a31ad8d8d87e",
+        "checked_utc": "2026-10-03T13:14:58.266784+00:00",
+        "bytes": 39402
+      },
+      "official_row": {
+        "合约代码": "SH611",
+        "当日结算价": "1,887.00",
+        "是否单边市": "N",
+        "连续单边市天数": "0",
+        "交易保证金率(%)": "8",
+        "涨跌停板(%)": "±7",
+        "交易手续费": "1.00",
+        "手续费收取方式": "比例值",
+        "交割手续费": "0.00",
+        "日内平今仓交易手续费": "0.00",
+        "日持仓限额": "4000",
+        "交易限额": ""
+      },
+      "specification_source": {
+        "url": "https://openmd.shinnytech.com/t/md/symbols/latest.json",
+        "source_asof": "2026-10-03T12:46:12.018393+08:00",
+        "historical_applicability_verified": false
+      },
+      "primary_rejections": [
+        "contract_specification_not_reviewed",
+        "exact_previous_parameter_missing",
+        "exchange_execution_not_reviewed"
+      ]
+    },
+    {
+      "date": "2026-09-22",
+      "contract": "c2611.DCE",
+      "primary_status": "unknown",
+      "reason": "outside_bounded_CZCE_supplement",
+      "primary_rejections": [
+        "contract_specification_not_reviewed",
+        "exact_previous_parameter_missing",
+        "exchange_execution_not_reviewed"
+      ]
+    },
+    {
+      "date": "2026-09-22",
+      "contract": "eg2611.DCE",
+      "primary_status": "unknown",
+      "reason": "outside_bounded_CZCE_supplement",
+      "primary_rejections": [
+        "contract_specification_not_reviewed",
+        "exact_previous_parameter_missing",
+        "exchange_execution_not_reviewed"
+      ]
+    },
+    {
+      "date": "2026-09-22",
+      "contract": "lh2611.DCE",
+      "primary_status": "unknown",
+      "reason": "outside_bounded_CZCE_supplement",
+      "primary_rejections": [
+        "contract_specification_not_reviewed",
+        "exact_previous_parameter_missing",
+        "exchange_execution_not_reviewed"
+      ]
+    },
+    {
+      "date": "2026-09-22",
+      "contract": "pg2611.DCE",
+      "primary_status": "unknown",
+      "reason": "outside_bounded_CZCE_supplement",
+      "primary_rejections": [
+        "contract_specification_not_reviewed",
+        "exact_previous_parameter_missing",
+        "exchange_execution_not_reviewed"
+      ]
+    },
+    {
+      "date": "2026-09-22",
+      "contract": "sc2611.INE",
+      "primary_status": "unknown",
+      "reason": "outside_bounded_CZCE_supplement",
+      "primary_rejections": [
+        "contract_specification_not_reviewed"
+      ]
+    },
+    {
+      "date": "2026-09-23",
+      "contract": "ps2611.GFEX",
+      "primary_status": "unknown",
+      "reason": "outside_bounded_CZCE_supplement",
+      "primary_rejections": [
+        "contract_specification_not_reviewed",
+        "exact_previous_parameter_missing",
+        "exchange_execution_not_reviewed"
+      ]
+    },
+    {
+      "date": "2026-09-23",
+      "contract": "si2611.GFEX",
+      "primary_status": "unknown",
+      "reason": "outside_bounded_CZCE_supplement",
+      "primary_rejections": [
+        "contract_specification_not_reviewed",
+        "exact_previous_parameter_missing",
+        "exchange_execution_not_reviewed"
+      ]
+    }
+  ],
+  "source_hashes": {
+    "/home/nishiki/vnpy-ctp/research_inputs/2026-09/source_docs/triggered_contracts/czce_static_clear_20260911_retry.txt": "e01cd5f66245e136c4b43909527eafce8eb6f204e5b1cd7ea152b2058e48e997",
+    "/home/nishiki/vnpy-ctp/research_inputs/2026-09/source_docs/triggered_contracts/czce_clear_20260915.txt": "88df3bc77813d3d3e9260ad2c968df4e2973029f60aa39da8623903a3f1901d8",
+    "/home/nishiki/vnpy-ctp/research_inputs/2026-09/source_docs/triggered_contracts/czce_clear_20260916.txt": "5f45d6c1cb37eb4c583ee65fb709c13e022a8490ceabf62a76ea02924f0acc1a",
+    "/home/nishiki/vnpy-ctp/research_inputs/2026-09/source_docs/triggered_contracts/czce_clear_20260917.txt": "17b0ba946c557ce3bf623aa03c9d7280402da778167bc560b24840e3399c8851",
+    "/home/nishiki/vnpy-ctp/research_inputs/2026-09/source_docs/triggered_contracts/czce_clear_20260918.txt": "0a55c80749e94acdc735f9ef8ad38622889716dad58cf0a1820dbf0e630c126b",
+    "/home/nishiki/vnpy-ctp/research_inputs/2026-09/source_docs/triggered_contracts/czce_clear_20260921.txt": "726d88a0a544da53edcd186e97f702145f48f3a192391dd68801a31ad8d8d87e",
+    "/home/nishiki/vnpy-ctp/research_inputs/2026-09/source_docs/triggered_contracts/probe_receipts.jsonl": "7b1a6c813976cb43e13921839de9e714d33cc1de1e13eabb3d155dd44d437895"
+  },
+  "raw_data_downloads": 0,
+  "original_config_modified": false,
+  "fee_model": "exchange_only",
+  "historical_specifications_verified": false,
+  "specification_assumption": "same explicit supplier historical continuity already used for reviewed September CZCE; fees/margin/limits from exact prior official day; report primary and supplementary results separately",
+  "remaining_unknown": "DCE execution documents, GFEX non-LC dated limits and unreconciled non-CZCE specifications remain unknown"
+}

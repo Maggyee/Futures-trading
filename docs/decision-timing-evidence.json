@@ -1,0 +1,198 @@
+{
+  "schema": 1,
+  "status": "completed",
+  "baseline_commit": "a3bbaf92de8eef79012dbc8a0de06d856014f2b5",
+  "sample_status": "retrospective_on_52_repeatedly_inspected_development_days",
+  "plan_sha256": "f4e52ba7e940457ffe786f2e2d66c2bead77f96793ab574e82302b4c737adfee",
+  "implementation_freeze_sha256": "28bcebc144b4fca975dc3a0910171e8719109c29f667b2a503a3738f11e21aa5",
+  "report_sha256": "b40155b5224fbfe0cc05286838e9c9eef429f70076b23e37925def7ead796293",
+  "assessment_sha256": "c50a2caebe503e3e7399b1640c11dcb7d4ede44d4f0fa921cf8aefd7e20b8144",
+  "source_archive_sha256": "31075bfbd3ec274419e9c1751ead3593d0e32d06c7f3aa4741dc410b0aba0735",
+  "publication_verification_sha256": "d5cc6856dd334eae32e1d69c2d0112970f46dc435a94afe5e31c6babb30fe689",
+  "raw_verification_sha256": "cd4965b3c8ae71b34cfd93416c12b73ac274d51a107a0f486e5b0862d79d54f0",
+  "monthly_raw_proof_hashes": {
+    "2026-07": "a4b957f9403384a61891b19083f63aa12fcc7a1ae0e0a09f241126809b41e99c",
+    "2026-08": "6a6829ab3176e219be0e90556825dc27cd0df57fce19ce92ddd07f0a5bf0bfb3",
+    "2026-09": "a6d90b7d154a9258eeecfda9438cf4f9eadaa1a2397151c96a4d173bc9764849"
+  },
+  "source_reuse_verified_against_prior_study": {
+    "2026-07": {
+      "source_run": "/home/nishiki/vnpy-ctp/research_outputs/coverage_expansion_2026-10-05/ordered_opportunity/control/2026-07/run_0001_1aba36425311",
+      "cache_key": "09566f853de4c1d10bcfd6cf7593f72ede83f769d0b1f8253bb71287bfd92089",
+      "cache_sha256": "78dab67445f453dc0049d7922f73d8a70b8161fe6c5bd38d17c8abf41cb5a9e3",
+      "data_fingerprint": "92bfcc72dc2e774d86985ab2e9141e70b6885bbfa9157bad88a31f66fbe82cb9"
+    },
+    "2026-08": {
+      "source_run": "/home/nishiki/vnpy-ctp/research_outputs/coverage_expansion_2026-10-05/ordered_opportunity/control/2026-08/run_0001_3dad7c4c9503",
+      "cache_key": "27a098817b9a513dfaca2488546a627fc3070ea86cd462417b6cb6c2fca0fbcb",
+      "cache_sha256": "45e1745212c293c67181bc5772a45043d0c04d8c90efccaca6360ce60cb24379",
+      "data_fingerprint": "28d7af29a927b406dc4e53d72b96d8c726199f283352dff97a814977fa0c695c"
+    },
+    "2026-09": {
+      "source_run": "/home/nishiki/vnpy-ctp/research_outputs/2026-09/lc_history_baseline_k2/run_0001_21c90080fd67",
+      "cache_key": "a5673ad579092e90a1ac7626deaa1820b67f903af9923aca2364ae1ae68b0d95",
+      "cache_sha256": "d1aacf4be0d4c457d9aea42b2c2af27cd1a5658078ed77eed8e37df4f3df4073",
+      "shared_source_sha256": "b187c677b02989247eb4fa408fbc45e877bf0330e06503c8320eaff224250b3b",
+      "source_data_fingerprint": "c7d1355921f9d63be9deffb21f33762f8de45cdf8abae4255b0fc7c5dff999f8",
+      "retained_data_fingerprint": "6cafc278d9329f5134582c629ada17361d2b517ec1bb3217642a4e4c34e19625",
+      "training_fingerprint_recomputed_from_full_original_rows": "5908badd180d355ff29d594771a0b148c98fa629054607b1368a74eb344b97be"
+    }
+  },
+  "monthly_scans": 3,
+  "full_strategy_backtests": 0,
+  "parameter_search": false,
+  "locked_test_read": false,
+  "live_trading_changed": false,
+  "automatic_promotion": false,
+  "windows": {
+    "2026-07": {
+      "trading_days": 23,
+      "counts": {
+        "clocks": 98250,
+        "segments": 2431,
+        "records": 2531,
+        "phase_matches": 169,
+        "original_selected_segments": 249
+      },
+      "primary_rank_1_2_outcomes": {
+        "never_strict": 236,
+        "strict_executable_empty_account": 5,
+        "strict_not_executable": 6,
+        "strict_unknown": 2
+      },
+      "supplementary_rank_1_2_outcomes": {
+        "never_strict": 236,
+        "strict_executable_empty_account": 5,
+        "strict_not_executable": 6,
+        "strict_unknown": 2
+      },
+      "primary_rank_1_2_strict_15_economic_complete": 11,
+      "primary_rank_1_2_executable_15_economic_complete": 5,
+      "published_clock_alignment": {
+        "before_cutoff_cases": 25,
+        "mapped_minute_clocks": 25,
+        "outside_live_segments": 0,
+        "first_strict_cases": 13,
+        "strict_candles_without_base_continuation": 10,
+        "actual_fills_joined": 5,
+        "actual_fills_at_first_strict": 5,
+        "actual_fills_outside_segments": 0
+      }
+    },
+    "2026-08": {
+      "trading_days": 21,
+      "counts": {
+        "clocks": 96296,
+        "segments": 2347,
+        "records": 2447,
+        "phase_matches": 153,
+        "original_selected_segments": 222
+      },
+      "primary_rank_1_2_outcomes": {
+        "never_strict": 215,
+        "strict_not_executable": 7
+      },
+      "supplementary_rank_1_2_outcomes": {
+        "never_strict": 215,
+        "strict_not_executable": 7
+      },
+      "primary_rank_1_2_strict_15_economic_complete": 7,
+      "primary_rank_1_2_executable_15_economic_complete": 0,
+      "published_clock_alignment": {
+        "before_cutoff_cases": 15,
+        "mapped_minute_clocks": 15,
+        "outside_live_segments": 0,
+        "first_strict_cases": 7,
+        "strict_candles_without_base_continuation": 6,
+        "actual_fills_joined": 0,
+        "actual_fills_at_first_strict": 0,
+        "actual_fills_outside_segments": 0
+      }
+    },
+    "2026-09": {
+      "trading_days": 8,
+      "counts": {
+        "clocks": 38884,
+        "segments": 958,
+        "records": 1012,
+        "phase_matches": 54,
+        "original_selected_segments": 80
+      },
+      "primary_rank_1_2_outcomes": {
+        "never_strict": 77,
+        "strict_executable_empty_account": 2,
+        "strict_not_executable": 1
+      },
+      "supplementary_rank_1_2_outcomes": {
+        "never_strict": 77,
+        "strict_executable_empty_account": 2,
+        "strict_not_executable": 1
+      },
+      "primary_rank_1_2_strict_15_economic_complete": 3,
+      "primary_rank_1_2_executable_15_economic_complete": 2,
+      "published_clock_alignment": {
+        "before_cutoff_cases": 3,
+        "mapped_minute_clocks": 3,
+        "outside_live_segments": 0,
+        "first_strict_cases": 3,
+        "strict_candles_without_base_continuation": 2,
+        "actual_fills_joined": 2,
+        "actual_fills_at_first_strict": 2,
+        "actual_fills_outside_segments": 0
+      }
+    }
+  },
+  "totals": {
+    "minute_clocks": 233430,
+    "segments": 5736,
+    "phase_pairs": 376,
+    "primary_rank_1_2_segments": 551,
+    "development_days": 52
+  },
+  "prior_tracked_result_files_preserved": 1424,
+  "prior_files_preserved": 1430,
+  "original_research_python_sources_preserved": 57,
+  "frozen_source_files": 61,
+  "execution_supplement": {
+    "targets": 30,
+    "supplemented_contract_dates": 12,
+    "remaining_unknown": 18,
+    "official_tables": 6,
+    "historical_specification_verified": false,
+    "specification_basis": "original_explicit_supplier_continuity_assumption",
+    "overlay_sha256": "a0e6e7b5f938d17859dc2208b97d0fc5a26f253ec0b36c7c624a8bb11c62fc20"
+  },
+  "validation": {
+    "python_tests": {
+      "command": ".venv/bin/pytest -q tests",
+      "passed": 497,
+      "warnings": 1,
+      "duration_seconds": 306.94
+    },
+    "focused_tests": {
+      "command": ".venv/bin/pytest -q tests/test_decision_timing.py",
+      "passed": 21
+    },
+    "changed_file_ruff": {
+      "status": "passed",
+      "files": [
+        "docs/study-decision-timing.py",
+        "docs/verify-decision-timing.py",
+        "tests/test_decision_timing.py"
+      ]
+    },
+    "full_repository_ruff": {
+      "status": "preexisting_failures",
+      "errors": 67,
+      "unchanged_baseline_files": 13,
+      "changed_file_errors": 0
+    },
+    "before_new_scans": true
+  },
+  "stopping_decision": "no_repeatable_executable_edge_observed_stop_entry_patching_and_redefine_hypothesis",
+  "future_research": "only_pre_identifiable_frozen_rules_on_fresh_independent_data",
+  "reproduction": {
+    "git_only": "publication verifier and assessment reaggregation",
+    "raw_required": "raw audit and full minute scanning; source archives and causal caches excluded from Git"
+  }
+}

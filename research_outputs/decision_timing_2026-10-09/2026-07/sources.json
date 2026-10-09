@@ -1,0 +1,13 @@
+{
+  "source_run": "/home/nishiki/vnpy-ctp/research_outputs/coverage_expansion_2026-10-05/ordered_opportunity/control/2026-07/run_0001_1aba36425311",
+  "cache": "/home/nishiki/vnpy-ctp/research_outputs/coverage_expansion_2026-10-05/2026-07/indicator_cache/09566f853de4c1d10bcfd6cf7593f72ede83f769d0b1f8253bb71287bfd92089.jsonl.gz",
+  "cache_key": "09566f853de4c1d10bcfd6cf7593f72ede83f769d0b1f8253bb71287bfd92089",
+  "cache_sha256": "78dab67445f453dc0049d7922f73d8a70b8161fe6c5bd38d17c8abf41cb5a9e3",
+  "data_fingerprint": "92bfcc72dc2e774d86985ab2e9141e70b6885bbfa9157bad88a31f66fbe82cb9",
+  "locked_test_read": false,
+  "original_config_sha256": "7c3160732fe0b137d2f2864b17e75b7fe1ad2df5298c066ae2b983af2215a705",
+  "prior_signal_sha256": "79969d2bd726e144686369e7e18574638844e156277356712d953c89d57eeb59",
+  "prior_diagnostics_sha256": "04b72438258d23559395f9dd54cd4a89fd257f072577f7fb3d93527d5c9ecbfc",
+  "prior_trade_sha256": "618566cd26d98cfde9ca31214d15413a61269eeb0b840b217cd8a443bdb591d2",
+  "actual_prior_trade_count": 5
+}

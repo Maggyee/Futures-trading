@@ -1,0 +1,45 @@
+{
+  "status": "passed",
+  "with_raw_data": true,
+  "verifier_sha256": "e43c6db1d94fe27736e8bce47546d1d773d9c0e7b2dafb376bb23f64ba285e27",
+  "prior_files_preserved": 1430,
+  "full_strategy_backtests": 0,
+  "locked_test_read": false,
+  "windows": [
+    {
+      "clocks": 98250,
+      "segments": 2431,
+      "phase_pairs": 169,
+      "never_strict": 2329,
+      "old_pairs_stage_checked": 287,
+      "actual_fills_joined": 5,
+      "month": "2026-07",
+      "manifest_sha256": "b381cfb1f64af8c99fefc296fcd041c7184959b03bd9ad2acc567bf5c49ec34b",
+      "raw_verification": {
+        "source_sha256": "6dec3690f3a9e161b7c109f8bb65a60fae40b5e3d6be97d3547273a05bcfd4b1",
+        "rank_reference_sha256": "ba439cee27eca8bf66b415bc99e085c3e4af5850bbe80f132983dad64d228d6b",
+        "raw_candle_clocks_checked": 98250,
+        "indicator_reconstruction": false,
+        "exact_official_supplement_rows_checked": 0,
+        "primary": {
+          "raw_horizon_labels_checked": 7704,
+          "economic_labels_checked": 5162,
+          "labels_ending_after_original_force_close": 28,
+          "entry_decisions_independently_checked": 2531
+        },
+        "supplementary": {
+          "raw_horizon_labels_checked": 7704,
+          "economic_labels_checked": 5162,
+          "labels_ending_after_original_force_close": 28,
+          "entry_decisions_independently_checked": 2531
+        },
+        "prior_matching_supplementary": {
+          "raw_horizon_labels_checked": 1557,
+          "economic_labels_checked": 1130,
+          "labels_ending_after_original_force_close": 4,
+          "entry_decisions_independently_checked": 0
+        }
+      }
+    }
+  ]
+}

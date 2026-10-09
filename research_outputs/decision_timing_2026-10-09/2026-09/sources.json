@@ -1,0 +1,24 @@
+{
+  "source_run": "/home/nishiki/vnpy-ctp/research_outputs/2026-09/lc_history_baseline_k2/run_0001_21c90080fd67",
+  "shared_source_sha256": "b187c677b02989247eb4fa408fbc45e877bf0330e06503c8320eaff224250b3b",
+  "source_data_fingerprint": "c7d1355921f9d63be9deffb21f33762f8de45cdf8abae4255b0fc7c5dff999f8",
+  "retained_data_fingerprint": "6cafc278d9329f5134582c629ada17361d2b517ec1bb3217642a4e4c34e19625",
+  "raw_rows_retained": 170985,
+  "cache": "/home/nishiki/vnpy-ctp/research_outputs/2026-09/diagnostic_baseline/indicator_cache/a5673ad579092e90a1ac7626deaa1820b67f903af9923aca2364ae1ae68b0d95.jsonl.gz",
+  "cache_key": "a5673ad579092e90a1ac7626deaa1820b67f903af9923aca2364ae1ae68b0d95",
+  "cache_sha256": "d1aacf4be0d4c457d9aea42b2c2af27cd1a5658078ed77eed8e37df4f3df4073",
+  "feature_algorithm_and_accessors_unchanged": true,
+  "rolling_indicators_recomputed": false,
+  "locked_test_read": false,
+  "training_fingerprint_recomputed_from_full_original_rows": "5908badd180d355ff29d594771a0b148c98fa629054607b1368a74eb344b97be",
+  "original_training_rows_checked": {
+    "bar": 288075,
+    "daily": 12660
+  },
+  "sample_status": "development_sample_repeatedly_inspected",
+  "original_config_sha256": "95377cca13d35e88176de652e1c1128181ac05d7a4ec2b519acc24ea495710d7",
+  "prior_signal_sha256": "fba717b10aa36394a2afb9b6dd1bd6ca8d14765e57bac9da7f4d9fdae0ea36e6",
+  "prior_diagnostics_sha256": "dc2db3b8080f4eed080efba7cbfca23464ef3be20989746a9ad3ef63f1a08fcd",
+  "prior_trade_sha256": "d93b1cb2077497ff52bf65b8b61d5ebe0d043ff1de8fad7ad98a0e9c09985279",
+  "actual_prior_trade_count": 2
+}
