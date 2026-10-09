@@ -1,0 +1,15 @@
+{
+  "month": "2026-09",
+  "observations": 2509,
+  "segments": 922,
+  "matched_pairs": 94,
+  "raw_prices_checked": true,
+  "raw_horizon_labels_checked": 7674,
+  "economic_labels_checked": 2898,
+  "labels_ending_after_original_force_close": 85,
+  "source_sha256": "b187c677b02989247eb4fa408fbc45e877bf0330e06503c8320eaff224250b3b",
+  "rank_reference_sha256": "91ca585998080b05a1d732808c9dd8c073514c8c006ac5e253f5a26bdd6971e2",
+  "status": "passed",
+  "verifier_sha256": "81c500176d93193a680f9539f985ad17dc258648b5ad5a306b684c4b5bb7fc6c",
+  "monthly_manifest_sha256": "ae07595f2424920434516b2a1df510ad94a85e23c761a0dc9f893dcb695ae2c8"
+}

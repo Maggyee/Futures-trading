@@ -1,0 +1,10 @@
+{
+  "status": "passed",
+  "assessment_sha256": "d17baac8eb1d74f665d27fdf71c76ae4a9b87e2073ba768e1de973628ed9b80e",
+  "report_sha256": "908dcb211dc6327a21bfc4d2cc2948f2d7830f77c1c575eacf6be38a0e907cb9",
+  "source_archive_sha256": "ddd0ba3ff985cc3056dfe66e54221fecd4b8247bfbc2a4d8d8c9623722738570",
+  "prior_result_files_verified": 1384,
+  "monthly_scans": 3,
+  "full_strategy_backtests": 0,
+  "locked_test_read": false
+}

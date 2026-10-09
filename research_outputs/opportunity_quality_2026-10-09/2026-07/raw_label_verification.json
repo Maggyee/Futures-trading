@@ -1,0 +1,14 @@
+{
+  "month": "2026-07",
+  "observations": 6077,
+  "segments": 2270,
+  "matched_pairs": 287,
+  "raw_prices_checked": true,
+  "raw_horizon_labels_checked": 19978,
+  "economic_labels_checked": 13729,
+  "labels_ending_after_original_force_close": 260,
+  "source_sha256": "6dec3690f3a9e161b7c109f8bb65a60fae40b5e3d6be97d3547273a05bcfd4b1",
+  "rank_reference_sha256": "ba439cee27eca8bf66b415bc99e085c3e4af5850bbe80f132983dad64d228d6b",
+  "status": "passed",
+  "verifier_sha256": "81c500176d93193a680f9539f985ad17dc258648b5ad5a306b684c4b5bb7fc6c"
+}

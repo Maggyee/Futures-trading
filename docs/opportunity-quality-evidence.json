@@ -1,0 +1,2295 @@
+{
+  "schema": 1,
+  "status": "completed",
+  "baseline_commit": "49166d8bb9093dd497bf3f0bbbe3432ee99eb623",
+  "sample_status": "retrospective_on_52_repeatedly_inspected_development_days",
+  "primary_horizon_trading_minutes": 15,
+  "secondary_horizons_trading_minutes": [
+    5,
+    30
+  ],
+  "plan_sha256": "05259ee50a07bf39d9228aacd666366c2dbed1102387baafeaaf7e25b2d303b2",
+  "implementation_freeze_sha256": "db1ef7cf247d3f027b0c9ea0fa26db31765d6919fbcdec8225c5a6adb3ff9dac",
+  "report_sha256": "3d271496902e815bdb11f4a73187e7aa8ab49e694b7318f534ca360c7e586818",
+  "assessment_sha256": "d17baac8eb1d74f665d27fdf71c76ae4a9b87e2073ba768e1de973628ed9b80e",
+  "monthly_scans": 3,
+  "full_strategy_backtests": 0,
+  "parameter_search": false,
+  "locked_test_read": false,
+  "live_trading_changed": false,
+  "automatic_promotion": false,
+  "windows": {
+    "2026-07": {
+      "trading_days": 23,
+      "counts": {
+        "observations": 6077,
+        "shapes": 4218,
+        "shape_lifecycle": 17887,
+        "matches": 287,
+        "legacy_cases": 58
+      },
+      "segments": 2270,
+      "contract_day_directions": 1065,
+      "primary_raw_complete": 2270,
+      "primary_economic_complete": 1542
+    },
+    "2026-08": {
+      "trading_days": 21,
+      "counts": {
+        "observations": 5927,
+        "shapes": 4089,
+        "shape_lifecycle": 17285,
+        "matches": 255,
+        "legacy_cases": 29
+      },
+      "segments": 2178,
+      "contract_day_directions": 992,
+      "primary_raw_complete": 2178,
+      "primary_economic_complete": 1455
+    },
+    "2026-09": {
+      "trading_days": 8,
+      "counts": {
+        "observations": 2509,
+        "shapes": 1599,
+        "shape_lifecycle": 6878,
+        "matches": 94,
+        "legacy_cases": 7
+      },
+      "segments": 922,
+      "contract_day_directions": 401,
+      "primary_raw_complete": 922,
+      "primary_economic_complete": 364
+    }
+  },
+  "totals": {
+    "development_trading_days": 52,
+    "observations": 14513,
+    "segments": 5370,
+    "contract_day_directions": 2458,
+    "shape_version_rows": 9906,
+    "shape_lifecycle_events": 42050,
+    "matched_pairs": 636,
+    "legacy_case_rows": 94
+  },
+  "validation": {
+    "python_tests_passed": 476,
+    "python_tests_run_phase": "completed implementation validation before publication; not rerun for documentation-only edits",
+    "existing_warning": "Starlette deprecation warning",
+    "ruff_status": "passed",
+    "ruff_scope": [
+      "research/opportunity_quality.py",
+      "research/opportunity_quality_assessment.py",
+      "tests/test_research_opportunity_quality.py",
+      "docs/verify-opportunity-quality.py"
+    ],
+    "publication_verification": {
+      "path": "research_outputs/opportunity_quality_2026-10-09/publication_verification.json",
+      "status": "passed",
+      "frozen_source_files_verified": 57,
+      "existing_research_sources_unchanged_against_baseline": 55,
+      "prior_result_files_verified": 1384,
+      "source_archive_members_verified": true
+    },
+    "independent_raw_verification": {
+      "path": "research_outputs/opportunity_quality_2026-10-09/raw_label_verification.json",
+      "status": "passed",
+      "method": "aggregate existing per-month independent raw-price checks; source/cache/rank and monthly file hashes rechecked at publication; raw labels not re-audited",
+      "totals": {
+        "observations": 14513,
+        "segments": 5370,
+        "matched_pairs": 636,
+        "raw_horizon_labels_checked": 46823,
+        "economic_labels_checked": 29553,
+        "labels_ending_after_original_force_close": 556
+      },
+      "all_source_cache_rank_and_monthly_hashes_bound": true
+    },
+    "prior_provenance_preserved": {
+      "research/implementation_freeze.json": "764ad076f60143982357c6e4128402987999987110c9aa79aec2b58e85e32509",
+      "docs/publication_manifest.json": "da936a6e35d07880c0b6012a7e47515cf2e25bd0de0023142589b058c703726e"
+    }
+  },
+  "report_support": {
+    "derivation": "reaggregate existing frozen labels with the published daily aggregation; no new future labels or optimized subsets",
+    "ranking_15m_same_economic_subset_paths": {
+      "2026-07": {
+        "rank_1_2": {
+          "rows": 197,
+          "contract_day_directions": 97,
+          "trading_days": 23,
+          "raw_complete": 197,
+          "economic_complete": 197,
+          "positive_net_rows": 74,
+          "products": {
+            "CJ": 6,
+            "IM": 21,
+            "IC": 26,
+            "PR": 4,
+            "PX": 6,
+            "TS": 5,
+            "IH": 17,
+            "ec": 13,
+            "IF": 12,
+            "ss": 2,
+            "RM": 5,
+            "TL": 12,
+            "T": 10,
+            "lc": 7,
+            "MA": 15,
+            "ag": 6,
+            "TA": 2,
+            "AP": 6,
+            "PL": 13,
+            "TF": 2,
+            "ni": 1,
+            "SF": 1,
+            "UR": 1,
+            "FG": 1,
+            "sc": 2,
+            "fu": 1
+          },
+          "metrics": {
+            "raw_atr": {
+              "mean": -0.15575776857897422,
+              "days": 23,
+              "day_bootstrap_95": [
+                -0.563519312207424,
+                0.2937147852697081
+              ]
+            },
+            "raw_bps": {
+              "mean": -2.6040330884412892,
+              "days": 23,
+              "day_bootstrap_95": [
+                -8.507175237890113,
+                3.6398743979961723
+              ]
+            },
+            "mfe_atr": {
+              "mean": 1.631892377624794,
+              "days": 23,
+              "day_bootstrap_95": [
+                1.3950682263834184,
+                1.902483135225034
+              ]
+            },
+            "mae_atr": {
+              "mean": 1.8443575318577268,
+              "days": 23,
+              "day_bootstrap_95": [
+                1.5975510915169426,
+                2.090517020000997
+              ]
+            },
+            "mfe_less_signal_cost_atr": {
+              "mean": 1.0105565174383053,
+              "days": 23,
+              "day_bootstrap_95": [
+                0.7377372333475417,
+                1.3016457078818175
+              ]
+            },
+            "net_atr": {
+              "mean": -0.7769891792189985,
+              "days": 23,
+              "day_bootstrap_95": [
+                -1.233207172478254,
+                -0.31185026844082164
+              ]
+            },
+            "net_bps": {
+              "mean": -8.352796098889762,
+              "days": 23,
+              "day_bootstrap_95": [
+                -14.535235412411875,
+                -2.0088767288539806
+              ]
+            },
+            "extra_tick_net_atr": {
+              "mean": -1.2313184034786098,
+              "days": 23,
+              "day_bootstrap_95": [
+                -1.776405983422049,
+                -0.7128381652563062
+              ]
+            }
+          },
+          "raw_atr_same_economic_subset": {
+            "mean": -0.15575776857897422,
+            "days": 23,
+            "day_bootstrap_95": [
+              -0.563519312207424,
+              0.2937147852697081
+            ]
+          }
+        },
+        "rank_3_5": {
+          "rows": 238,
+          "contract_day_directions": 106,
+          "trading_days": 23,
+          "raw_complete": 238,
+          "economic_complete": 238,
+          "positive_net_rows": 88,
+          "products": {
+            "lu": 7,
+            "T": 12,
+            "TF": 17,
+            "TL": 15,
+            "lc": 11,
+            "ag": 17,
+            "TA": 16,
+            "PF": 6,
+            "IC": 7,
+            "IF": 13,
+            "TS": 11,
+            "IM": 9,
+            "sn": 4,
+            "PL": 7,
+            "ss": 3,
+            "bu": 2,
+            "IH": 11,
+            "SF": 5,
+            "SM": 7,
+            "PX": 10,
+            "PR": 8,
+            "MA": 5,
+            "FG": 5,
+            "ao": 6,
+            "ec": 4,
+            "bc": 5,
+            "RM": 2,
+            "CJ": 7,
+            "AP": 1,
+            "UR": 4,
+            "au": 1
+          },
+          "metrics": {
+            "raw_atr": {
+              "mean": 0.1064570433377671,
+              "days": 23,
+              "day_bootstrap_95": [
+                -0.22953204308399358,
+                0.4553902688435407
+              ]
+            },
+            "raw_bps": {
+              "mean": -0.20892232396497434,
+              "days": 23,
+              "day_bootstrap_95": [
+                -4.635211340463384,
+                4.2627894528652
+              ]
+            },
+            "mfe_atr": {
+              "mean": 1.7981635949671573,
+              "days": 23,
+              "day_bootstrap_95": [
+                1.6066445630323989,
+                2.0031196765079855
+              ]
+            },
+            "mae_atr": {
+              "mean": 1.7089328011847436,
+              "days": 23,
+              "day_bootstrap_95": [
+                1.5040225763906452,
+                1.9121677444140204
+              ]
+            },
+            "mfe_less_signal_cost_atr": {
+              "mean": 0.9548079805738007,
+              "days": 23,
+              "day_bootstrap_95": [
+                0.6843921358611157,
+                1.2423511975457204
+              ]
+            },
+            "net_atr": {
+              "mean": -0.736865002279133,
+              "days": 23,
+              "day_bootstrap_95": [
+                -1.1243406700670613,
+                -0.32492447365940175
+              ]
+            },
+            "net_bps": {
+              "mean": -5.075629759760628,
+              "days": 23,
+              "day_bootstrap_95": [
+                -9.903517143429811,
+                -0.3589100365115345
+              ]
+            },
+            "extra_tick_net_atr": {
+              "mean": -1.4836984823481159,
+              "days": 23,
+              "day_bootstrap_95": [
+                -1.9602971366010447,
+                -0.9906743395710451
+              ]
+            }
+          },
+          "raw_atr_same_economic_subset": {
+            "mean": 0.1064570433377671,
+            "days": 23,
+            "day_bootstrap_95": [
+              -0.22953204308399358,
+              0.4553902688435407
+            ]
+          }
+        },
+        "rank_6_plus": {
+          "rows": 1107,
+          "contract_day_directions": 508,
+          "trading_days": 23,
+          "raw_complete": 1107,
+          "economic_complete": 1107,
+          "positive_net_rows": 344,
+          "products": {
+            "bu": 28,
+            "nr": 27,
+            "PK": 31,
+            "ao": 21,
+            "FG": 19,
+            "fu": 27,
+            "ad": 15,
+            "bc": 31,
+            "al": 19,
+            "ni": 21,
+            "cu": 31,
+            "PL": 18,
+            "SM": 33,
+            "sc": 24,
+            "OI": 29,
+            "au": 39,
+            "SR": 17,
+            "rb": 31,
+            "PX": 20,
+            "ec": 13,
+            "SF": 34,
+            "pb": 25,
+            "br": 38,
+            "UR": 33,
+            "TA": 17,
+            "PR": 22,
+            "hc": 24,
+            "ru": 32,
+            "SH": 35,
+            "PF": 25,
+            "TS": 15,
+            "RM": 20,
+            "op": 13,
+            "AP": 19,
+            "MA": 9,
+            "lu": 21,
+            "ss": 26,
+            "T": 10,
+            "sn": 26,
+            "CF": 19,
+            "CY": 20,
+            "sp": 28,
+            "ag": 21,
+            "CJ": 11,
+            "lc": 25,
+            "SA": 13,
+            "zn": 22,
+            "TF": 10
+          },
+          "metrics": {
+            "raw_atr": {
+              "mean": -0.24003765146827838,
+              "days": 23,
+              "day_bootstrap_95": [
+                -0.5230087258369466,
+                -0.02157199911248684
+              ]
+            },
+            "raw_bps": {
+              "mean": -0.01429088359025024,
+              "days": 23,
+              "day_bootstrap_95": [
+                -1.4347470393522643,
+                1.577578122611606
+              ]
+            },
+            "mfe_atr": {
+              "mean": 1.7700362691858107,
+              "days": 23,
+              "day_bootstrap_95": [
+                1.6834311987498811,
+                1.8523043251182336
+              ]
+            },
+            "mae_atr": {
+              "mean": 2.0000523471304485,
+              "days": 23,
+              "day_bootstrap_95": [
+                1.8134508970404393,
+                2.25215525055037
+              ]
+            },
+            "mfe_less_signal_cost_atr": {
+              "mean": 0.8931103337698659,
+              "days": 23,
+              "day_bootstrap_95": [
+                0.8042809589477085,
+                0.9826380198605136
+              ]
+            },
+            "net_atr": {
+              "mean": -1.1169621294017245,
+              "days": 23,
+              "day_bootstrap_95": [
+                -1.4090245872883558,
+                -0.8853513679530056
+              ]
+            },
+            "net_bps": {
+              "mean": -6.783127805403284,
+              "days": 23,
+              "day_bootstrap_95": [
+                -8.193428348492233,
+                -5.251305315331037
+              ]
+            },
+            "extra_tick_net_atr": {
+              "mean": -1.8842685852139223,
+              "days": 23,
+              "day_bootstrap_95": [
+                -2.204851437681381,
+                -1.627031209052647
+              ]
+            }
+          },
+          "raw_atr_same_economic_subset": {
+            "mean": -0.24003765146827838,
+            "days": 23,
+            "day_bootstrap_95": [
+              -0.5230087258369466,
+              -0.02157199911248684
+            ]
+          }
+        }
+      },
+      "2026-08": {
+        "rank_1_2": {
+          "rows": 177,
+          "contract_day_directions": 84,
+          "trading_days": 21,
+          "raw_complete": 177,
+          "economic_complete": 177,
+          "positive_net_rows": 58,
+          "products": {
+            "ec": 27,
+            "MA": 7,
+            "PR": 2,
+            "IH": 20,
+            "IF": 8,
+            "IM": 21,
+            "IC": 17,
+            "TL": 11,
+            "UR": 5,
+            "CJ": 11,
+            "PX": 12,
+            "T": 8,
+            "AP": 6,
+            "PL": 6,
+            "SH": 2,
+            "fu": 2,
+            "lu": 2,
+            "lc": 3,
+            "TF": 2,
+            "ag": 1,
+            "CY": 2,
+            "TS": 2
+          },
+          "metrics": {
+            "raw_atr": {
+              "mean": -0.3268500422366243,
+              "days": 21,
+              "day_bootstrap_95": [
+                -0.9208186921428001,
+                0.20454320990576602
+              ]
+            },
+            "raw_bps": {
+              "mean": -8.700759908723247,
+              "days": 21,
+              "day_bootstrap_95": [
+                -29.13122194228848,
+                4.77032517656458
+              ]
+            },
+            "mfe_atr": {
+              "mean": 1.592270300220118,
+              "days": 21,
+              "day_bootstrap_95": [
+                1.3311057364868497,
+                1.8658389144126009
+              ]
+            },
+            "mae_atr": {
+              "mean": 1.9445814820083223,
+              "days": 21,
+              "day_bootstrap_95": [
+                1.574605749703611,
+                2.369515531897129
+              ]
+            },
+            "mfe_less_signal_cost_atr": {
+              "mean": 0.9423433897821406,
+              "days": 21,
+              "day_bootstrap_95": [
+                0.6533215404390497,
+                1.2366096614718929
+              ]
+            },
+            "net_atr": {
+              "mean": -0.9765123628784083,
+              "days": 21,
+              "day_bootstrap_95": [
+                -1.5642998723472847,
+                -0.44664100178143984
+              ]
+            },
+            "net_bps": {
+              "mean": -16.546160618721263,
+              "days": 21,
+              "day_bootstrap_95": [
+                -38.66771289448093,
+                -2.4386865537444127
+              ]
+            },
+            "extra_tick_net_atr": {
+              "mean": -1.3947851883185023,
+              "days": 21,
+              "day_bootstrap_95": [
+                -1.9736106504268818,
+                -0.8594417337646868
+              ]
+            }
+          },
+          "raw_atr_same_economic_subset": {
+            "mean": -0.3268500422366243,
+            "days": 21,
+            "day_bootstrap_95": [
+              -0.9208186921428001,
+              0.20454320990576602
+            ]
+          }
+        },
+        "rank_3_5": {
+          "rows": 255,
+          "contract_day_directions": 117,
+          "trading_days": 21,
+          "raw_complete": 255,
+          "economic_complete": 255,
+          "positive_net_rows": 77,
+          "products": {
+            "br": 5,
+            "PX": 5,
+            "PF": 9,
+            "TL": 14,
+            "SF": 4,
+            "FG": 2,
+            "IF": 18,
+            "TF": 16,
+            "TS": 12,
+            "PR": 8,
+            "TA": 5,
+            "IH": 10,
+            "fu": 10,
+            "ec": 2,
+            "lc": 10,
+            "IC": 11,
+            "T": 13,
+            "lu": 7,
+            "MA": 15,
+            "sp": 7,
+            "IM": 9,
+            "CJ": 7,
+            "sn": 6,
+            "PL": 8,
+            "UR": 8,
+            "RM": 4,
+            "SA": 2,
+            "bu": 2,
+            "ag": 3,
+            "pb": 2,
+            "nr": 3,
+            "PK": 3,
+            "ni": 2,
+            "SH": 3,
+            "sc": 3,
+            "ru": 1,
+            "AP": 3,
+            "CF": 3
+          },
+          "metrics": {
+            "raw_atr": {
+              "mean": -0.15222204102599174,
+              "days": 21,
+              "day_bootstrap_95": [
+                -0.5321371952037991,
+                0.23105825621720752
+              ]
+            },
+            "raw_bps": {
+              "mean": -1.330427025614104,
+              "days": 21,
+              "day_bootstrap_95": [
+                -5.2295629208791095,
+                2.7152726871333033
+              ]
+            },
+            "mfe_atr": {
+              "mean": 1.627795076189498,
+              "days": 21,
+              "day_bootstrap_95": [
+                1.3914476232739539,
+                1.8789810182984916
+              ]
+            },
+            "mae_atr": {
+              "mean": 1.7911470906796954,
+              "days": 21,
+              "day_bootstrap_95": [
+                1.5757648510406914,
+                2.0059797539054953
+              ]
+            },
+            "mfe_less_signal_cost_atr": {
+              "mean": 0.8504297441531354,
+              "days": 21,
+              "day_bootstrap_95": [
+                0.578475774628947,
+                1.1268248473177536
+              ]
+            },
+            "net_atr": {
+              "mean": -0.9295476109249947,
+              "days": 21,
+              "day_bootstrap_95": [
+                -1.3132934639966307,
+                -0.5555402439275747
+              ]
+            },
+            "net_bps": {
+              "mean": -6.686594878505061,
+              "days": 21,
+              "day_bootstrap_95": [
+                -10.499516856594317,
+                -2.6748602461306503
+              ]
+            },
+            "extra_tick_net_atr": {
+              "mean": -1.5834782826578995,
+              "days": 21,
+              "day_bootstrap_95": [
+                -2.0006952300740743,
+                -1.1827998876011647
+              ]
+            }
+          },
+          "raw_atr_same_economic_subset": {
+            "mean": -0.15222204102599174,
+            "days": 21,
+            "day_bootstrap_95": [
+              -0.5321371952037991,
+              0.23105825621720752
+            ]
+          }
+        },
+        "rank_6_plus": {
+          "rows": 1023,
+          "contract_day_directions": 461,
+          "trading_days": 21,
+          "raw_complete": 1023,
+          "economic_complete": 1023,
+          "positive_net_rows": 306,
+          "products": {
+            "AP": 14,
+            "sn": 21,
+            "zn": 31,
+            "CJ": 15,
+            "UR": 20,
+            "PL": 28,
+            "SF": 28,
+            "lc": 16,
+            "SM": 24,
+            "CF": 27,
+            "CY": 29,
+            "al": 32,
+            "fu": 21,
+            "pb": 33,
+            "ao": 34,
+            "ad": 23,
+            "SH": 21,
+            "ni": 24,
+            "ss": 21,
+            "OI": 34,
+            "PK": 19,
+            "ru": 19,
+            "rb": 25,
+            "nr": 14,
+            "ag": 21,
+            "hc": 26,
+            "SR": 26,
+            "au": 24,
+            "MA": 16,
+            "br": 19,
+            "sc": 27,
+            "bu": 28,
+            "op": 4,
+            "PR": 21,
+            "TA": 28,
+            "PX": 21,
+            "SA": 18,
+            "bc": 21,
+            "cu": 19,
+            "T": 7,
+            "lu": 19,
+            "PF": 29,
+            "FG": 21,
+            "RM": 24,
+            "TS": 11,
+            "ec": 8,
+            "sp": 7,
+            "TF": 5
+          },
+          "metrics": {
+            "raw_atr": {
+              "mean": -0.1874808973956322,
+              "days": 21,
+              "day_bootstrap_95": [
+                -0.407394419847567,
+                0.027129183775381368
+              ]
+            },
+            "raw_bps": {
+              "mean": -1.941837567567939,
+              "days": 21,
+              "day_bootstrap_95": [
+                -3.981174009522292,
+                -0.13989069401689405
+              ]
+            },
+            "mfe_atr": {
+              "mean": 1.7932188928586392,
+              "days": 21,
+              "day_bootstrap_95": [
+                1.6414821204781345,
+                1.942773873454557
+              ]
+            },
+            "mae_atr": {
+              "mean": 1.9319610208332816,
+              "days": 21,
+              "day_bootstrap_95": [
+                1.7973785765202572,
+                2.0748693805793303
+              ]
+            },
+            "mfe_less_signal_cost_atr": {
+              "mean": 0.9475462900670519,
+              "days": 21,
+              "day_bootstrap_95": [
+                0.786269922645014,
+                1.106950527510523
+              ]
+            },
+            "net_atr": {
+              "mean": -1.0331592648248846,
+              "days": 21,
+              "day_bootstrap_95": [
+                -1.2595615945243845,
+                -0.8107140951865492
+              ]
+            },
+            "net_bps": {
+              "mean": -8.507944278300332,
+              "days": 21,
+              "day_bootstrap_95": [
+                -10.589133759187341,
+                -6.751738771083176
+              ]
+            },
+            "extra_tick_net_atr": {
+              "mean": -1.775739503504703,
+              "days": 21,
+              "day_bootstrap_95": [
+                -2.017562383098484,
+                -1.5328178556281469
+              ]
+            }
+          },
+          "raw_atr_same_economic_subset": {
+            "mean": -0.1874808973956322,
+            "days": 21,
+            "day_bootstrap_95": [
+              -0.407394419847567,
+              0.027129183775381368
+            ]
+          }
+        }
+      },
+      "2026-09": {
+        "rank_1_2": {
+          "rows": 42,
+          "contract_day_directions": 18,
+          "trading_days": 8,
+          "raw_complete": 42,
+          "economic_complete": 42,
+          "positive_net_rows": 11,
+          "products": {
+            "FG": 3,
+            "TL": 3,
+            "lc": 9,
+            "AP": 7,
+            "IC": 5,
+            "IM": 6,
+            "PX": 4,
+            "bu": 2,
+            "TF": 3
+          },
+          "metrics": {
+            "raw_atr": {
+              "mean": -0.5757832849835253,
+              "days": 8,
+              "day_bootstrap_95": [
+                -1.7077173147259512,
+                0.3143475233773695
+              ]
+            },
+            "raw_bps": {
+              "mean": -5.956758919640697,
+              "days": 8,
+              "day_bootstrap_95": [
+                -26.757800945921602,
+                10.419332892827587
+              ]
+            },
+            "mfe_atr": {
+              "mean": 1.5218828444669357,
+              "days": 8,
+              "day_bootstrap_95": [
+                1.1948219161995604,
+                1.8440526917026223
+              ]
+            },
+            "mae_atr": {
+              "mean": 2.161298802147134,
+              "days": 8,
+              "day_bootstrap_95": [
+                1.4051303568626141,
+                3.073637431095382
+              ]
+            },
+            "mfe_less_signal_cost_atr": {
+              "mean": 0.91785517040614,
+              "days": 8,
+              "day_bootstrap_95": [
+                0.47466566211258704,
+                1.3689644938574603
+              ]
+            },
+            "net_atr": {
+              "mean": -1.1797593844393108,
+              "days": 8,
+              "day_bootstrap_95": [
+                -2.2252804213574273,
+                -0.34537845495286396
+              ]
+            },
+            "net_bps": {
+              "mean": -12.70951329126569,
+              "days": 8,
+              "day_bootstrap_95": [
+                -33.38848441078128,
+                0.6131101838394375
+              ]
+            },
+            "extra_tick_net_atr": {
+              "mean": -1.6465907397719637,
+              "days": 8,
+              "day_bootstrap_95": [
+                -2.6885660752813316,
+                -0.7421803407081573
+              ]
+            }
+          },
+          "raw_atr_same_economic_subset": {
+            "mean": -0.5757832849835253,
+            "days": 8,
+            "day_bootstrap_95": [
+              -1.7077173147259512,
+              0.3143475233773695
+            ]
+          }
+        },
+        "rank_3_5": {
+          "rows": 35,
+          "contract_day_directions": 17,
+          "trading_days": 8,
+          "raw_complete": 35,
+          "economic_complete": 35,
+          "positive_net_rows": 11,
+          "products": {
+            "sn": 3,
+            "TF": 3,
+            "lc": 2,
+            "br": 3,
+            "TL": 2,
+            "pb": 3,
+            "au": 2,
+            "FG": 6,
+            "PX": 1,
+            "IC": 3,
+            "IM": 1,
+            "nr": 3,
+            "sp": 3
+          },
+          "metrics": {
+            "raw_atr": {
+              "mean": -0.7679842114324895,
+              "days": 8,
+              "day_bootstrap_95": [
+                -1.5554861532865762,
+                0.010540088126385691
+              ]
+            },
+            "raw_bps": {
+              "mean": -9.730207786385375,
+              "days": 8,
+              "day_bootstrap_95": [
+                -23.073765872408455,
+                1.3955313684386912
+              ]
+            },
+            "mfe_atr": {
+              "mean": 1.6276157481683362,
+              "days": 8,
+              "day_bootstrap_95": [
+                1.2194681737299402,
+                2.0443066714959985
+              ]
+            },
+            "mae_atr": {
+              "mean": 2.3060073503932266,
+              "days": 8,
+              "day_bootstrap_95": [
+                1.5077803827417369,
+                3.370427134284805
+              ]
+            },
+            "mfe_less_signal_cost_atr": {
+              "mean": 0.8974744797037402,
+              "days": 8,
+              "day_bootstrap_95": [
+                0.5031528283598127,
+                1.276642501019651
+              ]
+            },
+            "net_atr": {
+              "mean": -1.4982209383788363,
+              "days": 8,
+              "day_bootstrap_95": [
+                -2.338350869709617,
+                -0.6534018563388062
+              ]
+            },
+            "net_bps": {
+              "mean": -15.419148137824692,
+              "days": 8,
+              "day_bootstrap_95": [
+                -29.255750744955037,
+                -3.7822223565312316
+              ]
+            },
+            "extra_tick_net_atr": {
+              "mean": -2.152961513841346,
+              "days": 8,
+              "day_bootstrap_95": [
+                -3.0795921885064814,
+                -1.2145512835749048
+              ]
+            }
+          },
+          "raw_atr_same_economic_subset": {
+            "mean": -0.7679842114324895,
+            "days": 8,
+            "day_bootstrap_95": [
+              -1.5554861532865762,
+              0.010540088126385691
+            ]
+          }
+        },
+        "rank_6_plus": {
+          "rows": 287,
+          "contract_day_directions": 118,
+          "trading_days": 8,
+          "raw_complete": 287,
+          "economic_complete": 287,
+          "positive_net_rows": 94,
+          "products": {
+            "lu": 6,
+            "bu": 8,
+            "fu": 11,
+            "ec": 7,
+            "ru": 18,
+            "pb": 20,
+            "nr": 21,
+            "ni": 12,
+            "ag": 5,
+            "sp": 14,
+            "bc": 20,
+            "cu": 18,
+            "br": 9,
+            "rb": 16,
+            "au": 3,
+            "hc": 13,
+            "zn": 11,
+            "ss": 9,
+            "op": 5,
+            "ad": 14,
+            "al": 6,
+            "sn": 11,
+            "AP": 8,
+            "ao": 12,
+            "PX": 8,
+            "lc": 2
+          },
+          "metrics": {
+            "raw_atr": {
+              "mean": -0.1331598836763579,
+              "days": 8,
+              "day_bootstrap_95": [
+                -0.5794090027911374,
+                0.3223102042597999
+              ]
+            },
+            "raw_bps": {
+              "mean": -0.610787499447067,
+              "days": 8,
+              "day_bootstrap_95": [
+                -4.523323319583693,
+                3.7719918590304755
+              ]
+            },
+            "mfe_atr": {
+              "mean": 1.8548287677014115,
+              "days": 8,
+              "day_bootstrap_95": [
+                1.5325080953620849,
+                2.1545394926936514
+              ]
+            },
+            "mae_atr": {
+              "mean": 1.9548456050765788,
+              "days": 8,
+              "day_bootstrap_95": [
+                1.7308237792619365,
+                2.1529122161354373
+              ]
+            },
+            "mfe_less_signal_cost_atr": {
+              "mean": 1.0227103855398416,
+              "days": 8,
+              "day_bootstrap_95": [
+                0.6656231083065434,
+                1.353123950403921
+              ]
+            },
+            "net_atr": {
+              "mean": -0.965253865836246,
+              "days": 8,
+              "day_bootstrap_95": [
+                -1.4569106317619,
+                -0.4575806614437862
+              ]
+            },
+            "net_bps": {
+              "mean": -6.1897450658850595,
+              "days": 8,
+              "day_bootstrap_95": [
+                -10.225707511584371,
+                -1.6179783921286335
+              ]
+            },
+            "extra_tick_net_atr": {
+              "mean": -1.6774787063505268,
+              "days": 8,
+              "day_bootstrap_95": [
+                -2.2306380769672756,
+                -1.117144027033511
+              ]
+            }
+          },
+          "raw_atr_same_economic_subset": {
+            "mean": -0.1331598836763579,
+            "days": 8,
+            "day_bootstrap_95": [
+              -0.5794090027911374,
+              0.3223102042597999
+            ]
+          }
+        }
+      }
+    },
+    "august_original_cost_refused_segments": [
+      {
+        "id": "legacy_control/2026-08-03/ec2610.INE/2026-08-03T14:05:00+08:00",
+        "date": "2026-08-03",
+        "contract": "ec2610.INE",
+        "time": "2026-08-03T14:05:00+08:00",
+        "direction": "LONG",
+        "cost_atr": 0.8816167516774677,
+        "quantity_signal_empty": 3,
+        "labels": {
+          "5": {
+            "horizon": 5,
+            "raw_status": "complete",
+            "economic_status": "complete",
+            "entry_time": "2026-08-03T14:05:00+08:00",
+            "exit_time": "2026-08-03T14:10:00+08:00",
+            "raw_entry": 1806.5,
+            "raw_exit": 1812.0,
+            "raw_atr": 1.1404596124435102,
+            "raw_bps": 30.445613063935788,
+            "mfe_atr": 1.3478159056150576,
+            "mae_atr": 0.41471258634309466,
+            "mfe_less_signal_cost_atr": 0.4661991539375899,
+            "modeled_entry": 1807.0,
+            "modeled_exit": 1811.5,
+            "roundtrip_fee_cny": 162.89999999999998,
+            "net_per_lot_cny": 62.10000000000002,
+            "net_atr": 0.25753651611906186,
+            "net_bps": 6.875172986437866,
+            "extra_tick_net_atr": 0.05024242983546595,
+            "price_guard_pass": true,
+            "quantity_empty": 3,
+            "account_rejections": [],
+            "cost_at_open": 0.881803372341322,
+            "cost_pass_at_open": false,
+            "quantity_and_guard_feasible": false,
+            "isolated_quantity_net_cny": null,
+            "initial_risk_distance": 9.0
+          },
+          "15": {
+            "horizon": 15,
+            "raw_status": "complete",
+            "economic_status": "complete",
+            "entry_time": "2026-08-03T14:05:00+08:00",
+            "exit_time": "2026-08-03T14:20:00+08:00",
+            "raw_entry": 1806.5,
+            "raw_exit": 1802.5,
+            "raw_atr": -0.8294251726861893,
+            "raw_bps": -22.142264046498752,
+            "mfe_atr": 2.5919536646443415,
+            "mae_atr": 0.9331033192719629,
+            "mfe_less_signal_cost_atr": 1.7103369129668737,
+            "modeled_entry": 1807.0,
+            "modeled_exit": 1802.0,
+            "roundtrip_fee_cny": 162.32999999999998,
+            "net_per_lot_cny": -412.3299999999999,
+            "net_atr": -1.709984407268482,
+            "net_bps": -45.64959867146415,
+            "extra_tick_net_atr": -1.917278493552078,
+            "price_guard_pass": true,
+            "quantity_empty": 3,
+            "account_rejections": [],
+            "cost_at_open": 0.881803372341322,
+            "cost_pass_at_open": false,
+            "quantity_and_guard_feasible": false,
+            "isolated_quantity_net_cny": null,
+            "initial_risk_distance": 9.0
+          },
+          "30": {
+            "horizon": 30,
+            "raw_status": "complete",
+            "economic_status": "complete",
+            "entry_time": "2026-08-03T14:05:00+08:00",
+            "exit_time": "2026-08-03T14:35:00+08:00",
+            "raw_entry": 1806.5,
+            "raw_exit": 1800.0,
+            "raw_atr": -1.3478159056150576,
+            "raw_bps": -35.981179075560476,
+            "mfe_atr": 2.5919536646443415,
+            "mae_atr": 2.073562931715473,
+            "mfe_less_signal_cost_atr": 1.7103369129668737,
+            "modeled_entry": 1807.0,
+            "modeled_exit": 1799.5,
+            "roundtrip_fee_cny": 162.17999999999998,
+            "net_per_lot_cny": -537.18,
+            "net_atr": -2.2277530713178355,
+            "net_bps": -59.471907002491,
+            "extra_tick_net_atr": -2.4350471576014314,
+            "price_guard_pass": true,
+            "quantity_empty": 3,
+            "account_rejections": [],
+            "cost_at_open": 0.881803372341322,
+            "cost_pass_at_open": false,
+            "quantity_and_guard_feasible": false,
+            "isolated_quantity_net_cny": null,
+            "initial_risk_distance": 9.0
+          }
+        }
+      },
+      {
+        "id": "legacy_control/2026-08-11/UR609.CZCE/2026-08-11T09:28:00+08:00",
+        "date": "2026-08-11",
+        "contract": "UR609.CZCE",
+        "time": "2026-08-11T09:28:00+08:00",
+        "direction": "SHORT",
+        "cost_atr": 0.8970734395023212,
+        "quantity_signal_empty": 13,
+        "labels": {
+          "5": {
+            "horizon": 5,
+            "raw_status": "complete",
+            "economic_status": "complete",
+            "entry_time": "2026-08-11T09:28:00+08:00",
+            "exit_time": "2026-08-11T09:33:00+08:00",
+            "raw_entry": 1705.0,
+            "raw_exit": 1706.0,
+            "raw_atr": -0.383200956643452,
+            "raw_bps": -5.865102639296188,
+            "mfe_atr": 1.149602869930356,
+            "mae_atr": 0.766401913286904,
+            "mfe_less_signal_cost_atr": 0.25252943042803483,
+            "modeled_entry": 1704,
+            "modeled_exit": 1707,
+            "roundtrip_fee_cny": 6.822000000000001,
+            "net_per_lot_cny": -66.822,
+            "net_atr": -1.2803127162414374,
+            "net_bps": -19.59589442815249,
+            "extra_tick_net_atr": -2.0467146295283416,
+            "price_guard_pass": false,
+            "quantity_empty": 13,
+            "account_rejections": [],
+            "cost_at_open": 0.8969967993109925,
+            "cost_pass_at_open": false,
+            "quantity_and_guard_feasible": false,
+            "isolated_quantity_net_cny": null,
+            "initial_risk_distance": 5
+          },
+          "15": {
+            "horizon": 15,
+            "raw_status": "complete",
+            "economic_status": "complete",
+            "entry_time": "2026-08-11T09:28:00+08:00",
+            "exit_time": "2026-08-11T09:43:00+08:00",
+            "raw_entry": 1705.0,
+            "raw_exit": 1708.0,
+            "raw_atr": -1.149602869930356,
+            "raw_bps": -17.59530791788856,
+            "mfe_atr": 1.149602869930356,
+            "mae_atr": 1.532803826573808,
+            "mfe_less_signal_cost_atr": 0.25252943042803483,
+            "modeled_entry": 1704,
+            "modeled_exit": 1709,
+            "roundtrip_fee_cny": 6.8260000000000005,
+            "net_per_lot_cny": -106.82600000000001,
+            "net_atr": -2.0467912697196704,
+            "net_bps": -31.32727272727273,
+            "extra_tick_net_atr": -2.8131931830065744,
+            "price_guard_pass": false,
+            "quantity_empty": 13,
+            "account_rejections": [],
+            "cost_at_open": 0.8969967993109925,
+            "cost_pass_at_open": false,
+            "quantity_and_guard_feasible": false,
+            "isolated_quantity_net_cny": null,
+            "initial_risk_distance": 5
+          },
+          "30": {
+            "horizon": 30,
+            "raw_status": "complete",
+            "economic_status": "complete",
+            "entry_time": "2026-08-11T09:28:00+08:00",
+            "exit_time": "2026-08-11T09:58:00+08:00",
+            "raw_entry": 1705.0,
+            "raw_exit": 1708.0,
+            "raw_atr": -1.149602869930356,
+            "raw_bps": -17.59530791788856,
+            "mfe_atr": 1.149602869930356,
+            "mae_atr": 1.91600478321726,
+            "mfe_less_signal_cost_atr": 0.25252943042803483,
+            "modeled_entry": 1704,
+            "modeled_exit": 1709,
+            "roundtrip_fee_cny": 6.8260000000000005,
+            "net_per_lot_cny": -106.82600000000001,
+            "net_atr": -2.0467912697196704,
+            "net_bps": -31.32727272727273,
+            "extra_tick_net_atr": -2.8131931830065744,
+            "price_guard_pass": false,
+            "quantity_empty": 13,
+            "account_rejections": [],
+            "cost_at_open": 0.8969967993109925,
+            "cost_pass_at_open": false,
+            "quantity_and_guard_feasible": false,
+            "isolated_quantity_net_cny": null,
+            "initial_risk_distance": 5
+          }
+        }
+      },
+      {
+        "id": "legacy_control/2026-08-17/ec2610.INE/2026-08-17T11:21:00+08:00",
+        "date": "2026-08-17",
+        "contract": "ec2610.INE",
+        "time": "2026-08-17T11:21:00+08:00",
+        "direction": "LONG",
+        "cost_atr": 0.9318417588630522,
+        "quantity_signal_empty": 3,
+        "labels": {
+          "5": {
+            "horizon": 5,
+            "raw_status": "complete",
+            "economic_status": "complete",
+            "entry_time": "2026-08-17T11:21:00+08:00",
+            "exit_time": "2026-08-17T11:26:00+08:00",
+            "raw_entry": 1740.5,
+            "raw_exit": 1744.0,
+            "raw_atr": 0.7891422865350439,
+            "raw_bps": 20.109164033323758,
+            "mfe_atr": 0.7891422865350439,
+            "mae_atr": 0.22546922472429826,
+            "mfe_less_signal_cost_atr": -0.14269947232800823,
+            "modeled_entry": 1741.0,
+            "modeled_exit": 1743.5,
+            "roundtrip_fee_cny": 156.83999999999997,
+            "net_per_lot_cny": -31.83999999999998,
+            "net_atr": -0.14357880230443304,
+            "net_bps": -3.658718758977303,
+            "extra_tick_net_atr": -0.3689803862613141,
+            "price_guard_pass": true,
+            "quantity_empty": 3,
+            "account_rejections": [],
+            "cost_at_open": 0.9320446811653041,
+            "cost_pass_at_open": false,
+            "quantity_and_guard_feasible": false,
+            "isolated_quantity_net_cny": null,
+            "initial_risk_distance": 8.5
+          },
+          "15": {
+            "horizon": 15,
+            "raw_status": "complete",
+            "economic_status": "complete",
+            "entry_time": "2026-08-17T11:21:00+08:00",
+            "exit_time": "2026-08-17T13:36:00+08:00",
+            "raw_entry": 1740.5,
+            "raw_exit": 1736.5,
+            "raw_atr": -0.901876898897193,
+            "raw_bps": -22.98190175237001,
+            "mfe_atr": 0.901876898897193,
+            "mae_atr": 4.396649882123816,
+            "mfe_less_signal_cost_atr": -0.029964859965859094,
+            "modeled_entry": 1741.0,
+            "modeled_exit": 1736.0,
+            "roundtrip_fee_cny": 156.39,
+            "net_per_lot_cny": -406.39000000000004,
+            "net_atr": -1.8325687647141515,
+            "net_bps": -46.69807526572824,
+            "extra_tick_net_atr": -2.057970348671032,
+            "price_guard_pass": true,
+            "quantity_empty": 3,
+            "account_rejections": [],
+            "cost_at_open": 0.9320446811653041,
+            "cost_pass_at_open": false,
+            "quantity_and_guard_feasible": false,
+            "isolated_quantity_net_cny": null,
+            "initial_risk_distance": 8.5
+          },
+          "30": {
+            "horizon": 30,
+            "raw_status": "complete",
+            "economic_status": "complete",
+            "entry_time": "2026-08-17T11:21:00+08:00",
+            "exit_time": "2026-08-17T13:51:00+08:00",
+            "raw_entry": 1740.5,
+            "raw_exit": 1741.0,
+            "raw_atr": 0.11273461236214913,
+            "raw_bps": 2.8727377190462513,
+            "mfe_atr": 0.901876898897193,
+            "mae_atr": 4.396649882123816,
+            "mfe_less_signal_cost_atr": -0.029964859965859094,
+            "modeled_entry": 1741.0,
+            "modeled_exit": 1740.5,
+            "roundtrip_fee_cny": 156.66,
+            "net_per_lot_cny": -181.66,
+            "net_atr": -0.8191747872683205,
+            "net_bps": -20.874461361677678,
+            "extra_tick_net_atr": -1.0445763712252012,
+            "price_guard_pass": true,
+            "quantity_empty": 3,
+            "account_rejections": [],
+            "cost_at_open": 0.9320446811653041,
+            "cost_pass_at_open": false,
+            "quantity_and_guard_feasible": false,
+            "isolated_quantity_net_cny": null,
+            "initial_risk_distance": 8.5
+          }
+        }
+      },
+      {
+        "id": "legacy_control/2026-08-19/lc2701.GFEX/2026-08-19T14:00:00+08:00",
+        "date": "2026-08-19",
+        "contract": "lc2701.GFEX",
+        "time": "2026-08-19T14:00:00+08:00",
+        "direction": "SHORT",
+        "cost_atr": 0.5436333493861142,
+        "quantity_signal_empty": 4,
+        "labels": {
+          "5": {
+            "horizon": 5,
+            "raw_status": "complete",
+            "economic_status": "complete",
+            "entry_time": "2026-08-19T14:00:00+08:00",
+            "exit_time": "2026-08-19T14:05:00+08:00",
+            "raw_entry": 150820.0,
+            "raw_exit": 150320.0,
+            "raw_atr": 2.418435522067601,
+            "raw_bps": 33.15210184325686,
+            "mfe_atr": 3.869496835308161,
+            "mae_atr": 0.0,
+            "mfe_less_signal_cost_atr": 3.325863485922047,
+            "modeled_entry": 150800,
+            "modeled_exit": 150340,
+            "roundtrip_fee_cny": 72.2368,
+            "net_per_lot_cny": 387.7632,
+            "net_atr": 1.8755605940612068,
+            "net_bps": 25.710330194934357,
+            "extra_tick_net_atr": 1.6820702743084575,
+            "price_guard_pass": false,
+            "quantity_empty": 4,
+            "account_rejections": [],
+            "cost_at_open": 0.5435869154240905,
+            "cost_pass_at_open": false,
+            "quantity_and_guard_feasible": false,
+            "isolated_quantity_net_cny": null,
+            "initial_risk_distance": 340
+          },
+          "15": {
+            "horizon": 15,
+            "raw_status": "complete",
+            "economic_status": "complete",
+            "entry_time": "2026-08-19T14:00:00+08:00",
+            "exit_time": "2026-08-19T14:15:00+08:00",
+            "raw_entry": 150820.0,
+            "raw_exit": 149620.0,
+            "raw_atr": 5.804245252962241,
+            "raw_bps": 79.56504442381646,
+            "mfe_atr": 8.222680775029842,
+            "mae_atr": 0.0,
+            "mfe_less_signal_cost_atr": 7.679047425643727,
+            "modeled_entry": 150800,
+            "modeled_exit": 149640,
+            "roundtrip_fee_cny": 72.01280000000001,
+            "net_per_lot_cny": 1087.9872,
+            "net_atr": 5.262453784069734,
+            "net_bps": 72.13812491711975,
+            "extra_tick_net_atr": 5.068963464316984,
+            "price_guard_pass": false,
+            "quantity_empty": 4,
+            "account_rejections": [],
+            "cost_at_open": 0.5435869154240905,
+            "cost_pass_at_open": false,
+            "quantity_and_guard_feasible": false,
+            "isolated_quantity_net_cny": null,
+            "initial_risk_distance": 340
+          },
+          "30": {
+            "horizon": 30,
+            "raw_status": "complete",
+            "economic_status": "complete",
+            "entry_time": "2026-08-19T14:00:00+08:00",
+            "exit_time": "2026-08-19T14:30:00+08:00",
+            "raw_entry": 150820.0,
+            "raw_exit": 150400.0,
+            "raw_atr": 2.0314858385367844,
+            "raw_bps": 27.84776554833576,
+            "mfe_atr": 8.222680775029842,
+            "mae_atr": 0.0,
+            "mfe_less_signal_cost_atr": 7.679047425643727,
+            "modeled_entry": 150800,
+            "modeled_exit": 150420,
+            "roundtrip_fee_cny": 72.26240000000001,
+            "net_per_lot_cny": 307.7376,
+            "net_atr": 1.4884870866316608,
+            "net_bps": 20.404296512398886,
+            "extra_tick_net_atr": 1.2949967668789115,
+            "price_guard_pass": false,
+            "quantity_empty": 4,
+            "account_rejections": [],
+            "cost_at_open": 0.5435869154240905,
+            "cost_pass_at_open": false,
+            "quantity_and_guard_feasible": false,
+            "isolated_quantity_net_cny": null,
+            "initial_risk_distance": 340
+          }
+        }
+      },
+      {
+        "id": "legacy_control/2026-08-21/ec2610.INE/2026-08-21T14:07:00+08:00",
+        "date": "2026-08-21",
+        "contract": "ec2610.INE",
+        "time": "2026-08-21T14:07:00+08:00",
+        "direction": "LONG",
+        "cost_atr": 0.8547529542211605,
+        "quantity_signal_empty": 2,
+        "labels": {
+          "5": {
+            "horizon": 5,
+            "raw_status": "complete",
+            "economic_status": "complete",
+            "entry_time": "2026-08-21T14:07:00+08:00",
+            "exit_time": "2026-08-21T14:12:00+08:00",
+            "raw_entry": 1920.0,
+            "raw_exit": 1930.0,
+            "raw_atr": 1.9182068092934483,
+            "raw_bps": 52.08333333333333,
+            "mfe_atr": 2.5895791925461555,
+            "mae_atr": 1.6304757878994312,
+            "mfe_less_signal_cost_atr": 1.7348262383249948,
+            "modeled_entry": 1920.5,
+            "modeled_exit": 1929.5,
+            "roundtrip_fee_cny": 173.385,
+            "net_per_lot_cny": 276.615,
+            "net_atr": 1.0612095531054144,
+            "net_bps": 28.814062500000002,
+            "extra_tick_net_atr": 0.8694464183803485,
+            "price_guard_pass": true,
+            "quantity_empty": 2,
+            "account_rejections": [],
+            "cost_at_open": 0.8549255928339968,
+            "cost_pass_at_open": false,
+            "quantity_and_guard_feasible": false,
+            "isolated_quantity_net_cny": null,
+            "initial_risk_distance": 9.0
+          },
+          "15": {
+            "horizon": 15,
+            "raw_status": "complete",
+            "economic_status": "complete",
+            "entry_time": "2026-08-21T14:07:00+08:00",
+            "exit_time": "2026-08-21T14:22:00+08:00",
+            "raw_entry": 1920.0,
+            "raw_exit": 1926.5,
+            "raw_atr": 1.2468344260407416,
+            "raw_bps": 33.854166666666664,
+            "mfe_atr": 2.5895791925461555,
+            "mae_atr": 1.6304757878994312,
+            "mfe_less_signal_cost_atr": 1.7348262383249948,
+            "modeled_entry": 1920.5,
+            "modeled_exit": 1926.0,
+            "roundtrip_fee_cny": 173.17499999999998,
+            "net_per_lot_cny": 101.82500000000002,
+            "net_atr": 0.3906428167126108,
+            "net_bps": 10.606770833333334,
+            "extra_tick_net_atr": 0.19887968198754488,
+            "price_guard_pass": true,
+            "quantity_empty": 2,
+            "account_rejections": [],
+            "cost_at_open": 0.8549255928339968,
+            "cost_pass_at_open": false,
+            "quantity_and_guard_feasible": false,
+            "isolated_quantity_net_cny": null,
+            "initial_risk_distance": 9.0
+          },
+          "30": {
+            "horizon": 30,
+            "raw_status": "complete",
+            "economic_status": "complete",
+            "entry_time": "2026-08-21T14:07:00+08:00",
+            "exit_time": "2026-08-21T14:37:00+08:00",
+            "raw_entry": 1920.0,
+            "raw_exit": 1938.0,
+            "raw_atr": 3.452772256728207,
+            "raw_bps": 93.75,
+            "mfe_atr": 4.507786001839603,
+            "mae_atr": 1.6304757878994312,
+            "mfe_less_signal_cost_atr": 3.653033047618443,
+            "modeled_entry": 1920.5,
+            "modeled_exit": 1937.5,
+            "roundtrip_fee_cny": 173.86499999999998,
+            "net_per_lot_cny": 676.135,
+            "net_atr": 2.5939335220032516,
+            "net_bps": 70.43072916666667,
+            "extra_tick_net_atr": 2.4021703872781854,
+            "price_guard_pass": true,
+            "quantity_empty": 2,
+            "account_rejections": [],
+            "cost_at_open": 0.8549255928339968,
+            "cost_pass_at_open": false,
+            "quantity_and_guard_feasible": false,
+            "isolated_quantity_net_cny": null,
+            "initial_risk_distance": 9.0
+          }
+        }
+      },
+      {
+        "id": "legacy_control/2026-08-24/ec2610.INE/2026-08-24T10:51:00+08:00",
+        "date": "2026-08-24",
+        "contract": "ec2610.INE",
+        "time": "2026-08-24T10:51:00+08:00",
+        "direction": "LONG",
+        "cost_atr": 0.6871902280860612,
+        "quantity_signal_empty": 2,
+        "labels": {
+          "5": {
+            "horizon": 5,
+            "raw_status": "complete",
+            "economic_status": "complete",
+            "entry_time": "2026-08-24T10:51:00+08:00",
+            "exit_time": "2026-08-24T10:56:00+08:00",
+            "raw_entry": 1992.0,
+            "raw_exit": 1984.0,
+            "raw_atr": -1.198866413269472,
+            "raw_bps": -40.16064257028112,
+            "mfe_atr": 0.44957490497605196,
+            "mae_atr": 1.723370469074866,
+            "mfe_less_signal_cost_atr": -0.23761532311000924,
+            "modeled_entry": 1992.5,
+            "modeled_exit": 1983.5,
+            "roundtrip_fee_cny": 178.78499999999997,
+            "net_per_lot_cny": -628.785,
+            "net_atr": -1.8845730441691122,
+            "net_bps": -63.13102409638554,
+            "extra_tick_net_atr": -2.034386388337299,
+            "price_guard_pass": true,
+            "quantity_empty": 2,
+            "account_rejections": [],
+            "cost_at_open": 0.687325100557554,
+            "cost_pass_at_open": false,
+            "quantity_and_guard_feasible": false,
+            "isolated_quantity_net_cny": null,
+            "initial_risk_distance": 9.5
+          },
+          "15": {
+            "horizon": 15,
+            "raw_status": "complete",
+            "economic_status": "complete",
+            "entry_time": "2026-08-24T10:51:00+08:00",
+            "exit_time": "2026-08-24T11:06:00+08:00",
+            "raw_entry": 1992.0,
+            "raw_exit": 2022.0,
+            "raw_atr": 4.495749049760519,
+            "raw_bps": 150.6024096385542,
+            "mfe_atr": 5.61968631220065,
+            "mae_atr": 2.0980162232215758,
+            "mfe_less_signal_cost_atr": 4.932496084114589,
+            "modeled_entry": 1992.5,
+            "modeled_exit": 2021.5,
+            "roundtrip_fee_cny": 181.065,
+            "net_per_lot_cny": 1268.9350000000002,
+            "net_atr": 3.8032088803052435,
+            "net_bps": 127.40311244979921,
+            "extra_tick_net_atr": 3.653395536137057,
+            "price_guard_pass": true,
+            "quantity_empty": 2,
+            "account_rejections": [],
+            "cost_at_open": 0.687325100557554,
+            "cost_pass_at_open": false,
+            "quantity_and_guard_feasible": false,
+            "isolated_quantity_net_cny": null,
+            "initial_risk_distance": 9.5
+          },
+          "30": {
+            "horizon": 30,
+            "raw_status": "complete",
+            "economic_status": "complete",
+            "entry_time": "2026-08-24T10:51:00+08:00",
+            "exit_time": "2026-08-24T11:21:00+08:00",
+            "raw_entry": 1992.0,
+            "raw_exit": 2018.5,
+            "raw_atr": 3.9712449939551258,
+            "raw_bps": 133.03212851405624,
+            "mfe_atr": 5.694615463029992,
+            "mae_atr": 2.0980162232215758,
+            "mfe_less_signal_cost_atr": 5.0074252349439305,
+            "modeled_entry": 1992.5,
+            "modeled_exit": 2018.0,
+            "roundtrip_fee_cny": 180.85499999999996,
+            "net_per_lot_cny": 1094.145,
+            "net_atr": 3.2793342293668157,
+            "net_bps": 109.85391566265059,
+            "extra_tick_net_atr": 3.12952088519863,
+            "price_guard_pass": true,
+            "quantity_empty": 2,
+            "account_rejections": [],
+            "cost_at_open": 0.687325100557554,
+            "cost_pass_at_open": false,
+            "quantity_and_guard_feasible": false,
+            "isolated_quantity_net_cny": null,
+            "initial_risk_distance": 9.5
+          }
+        }
+      }
+    ],
+    "august_cost_concentration_checks": {
+      "all_six": {
+        "rows": 6,
+        "contract_day_directions": 6,
+        "trading_days": 6,
+        "raw_complete": 6,
+        "economic_complete": 6,
+        "positive_net_rows": 3,
+        "products": {
+          "ec": 4,
+          "UR": 1,
+          "lc": 1
+        },
+        "metrics": {
+          "raw_atr": {
+            "mean": 1.444320631208294,
+            "days": 6,
+            "day_bootstrap_95": [
+              -0.6142583807167576,
+              3.7729397636789934
+            ]
+          },
+          "raw_bps": {
+            "mean": 33.550357835380005,
+            "days": 6,
+            "day_bootstrap_95": [
+              -12.331578808159904,
+              90.53297497714361
+            ]
+          },
+          "mfe_atr": {
+            "mean": 3.512563285541423,
+            "days": 6,
+            "day_bootstrap_95": [
+              1.5883073156300955,
+              5.823700478157819
+            ]
+          },
+          "mae_atr": {
+            "mean": 1.7651748398484324,
+            "days": 6,
+            "day_bootstrap_95": [
+              0.776932555065495,
+              2.9589788359064655
+            ]
+          },
+          "mfe_less_signal_cost_atr": {
+            "mean": 2.713211871918727,
+            "days": 6,
+            "day_bootstrap_95": [
+              0.6913828762086656,
+              5.156459045506181
+            ]
+          },
+          "net_atr": {
+            "mean": 0.6444935065642142,
+            "days": 6,
+            "day_bootstrap_95": [
+              -1.5130102765705857,
+              3.0714163392618397
+            ]
+          },
+          "net_bps": {
+            "mean": 14.412176922631195,
+            "days": 6,
+            "day_bootstrap_95": [
+              -34.23597496138736,
+              70.93263092146604
+            ]
+          },
+          "extra_tick_net_atr": {
+            "mean": 0.3554661095353169,
+            "days": 6,
+            "day_bootstrap_95": [
+              -1.910120979153291,
+              2.856981186253913
+            ]
+          }
+        },
+        "raw_atr_same_economic_subset": {
+          "mean": 1.444320631208294,
+          "days": 6,
+          "day_bootstrap_95": [
+            -0.6142583807167576,
+            3.7729397636789934
+          ]
+        }
+      },
+      "without_best_15m_label": {
+        "rows": 5,
+        "contract_day_directions": 5,
+        "trading_days": 5,
+        "raw_complete": 5,
+        "economic_complete": 5,
+        "positive_net_rows": 2,
+        "products": {
+          "ec": 4,
+          "UR": 1
+        },
+        "metrics": {
+          "raw_atr": {
+            "mean": 0.5723357068575046,
+            "days": 5,
+            "day_bootstrap_95": [
+              -0.9719865968260567,
+              2.716895741078389
+            ]
+          },
+          "raw_bps": {
+            "mean": 24.34742051769271,
+            "days": 5,
+            "day_bootstrap_95": [
+              -21.568727903125215,
+              92.53589876599186
+            ]
+          },
+          "mfe_atr": {
+            "mean": 2.5705397876437392,
+            "days": 5,
+            "day_bootstrap_95": [
+              1.2894374462532552,
+              4.120123094235329
+            ]
+          },
+          "mae_atr": {
+            "mean": 2.118209807818119,
+            "days": 5,
+            "day_bootstrap_95": [
+              1.305560393787379,
+              3.271134211975563
+            ]
+          },
+          "mfe_less_signal_cost_atr": {
+            "mean": 1.7200447611737268,
+            "days": 5,
+            "day_bootstrap_95": [
+              0.3794922177710905,
+              3.3569687842193594
+            ]
+          },
+          "net_atr": {
+            "mean": -0.27909854893688985,
+            "days": 5,
+            "day_bootstrap_95": [
+              -1.8754132657152554,
+              1.9506956375817341
+            ]
+          },
+          "net_bps": {
+            "mean": 2.8669873237334826,
+            "days": 5,
+            "day_bootstrap_95": [
+              -43.2045241203315,
+              69.22360658340054
+            ]
+          },
+          "extra_tick_net_atr": {
+            "mean": -0.5872333614210167,
+            "days": 5,
+            "day_bootstrap_95": [
+              -2.3037827403576676,
+              1.6691746214784284
+            ]
+          }
+        },
+        "raw_atr_same_economic_subset": {
+          "mean": 0.5723357068575046,
+          "days": 5,
+          "day_bootstrap_95": [
+            -0.9719865968260567,
+            2.716895741078389
+          ]
+        }
+      },
+      "ec_only": {
+        "rows": 4,
+        "contract_day_directions": 4,
+        "trading_days": 4,
+        "raw_complete": 4,
+        "economic_complete": 4,
+        "positive_net_rows": 2,
+        "products": {
+          "ec": 4
+        },
+        "metrics": {
+          "raw_atr": {
+            "mean": 1.0028203510544698,
+            "days": 4,
+            "day_bootstrap_95": [
+              -0.8656510357916912,
+              3.164455494148842
+            ]
+          },
+          "raw_bps": {
+            "mean": 34.83310262658803,
+            "days": 4,
+            "day_bootstrap_95": [
+              -22.56208289943438,
+              107.41624121729097
+            ]
+          },
+          "mfe_atr": {
+            "mean": 2.9257740170720847,
+            "days": 4,
+            "day_bootstrap_95": [
+              1.32439609033398,
+              4.862753150311573
+            ]
+          },
+          "mae_atr": {
+            "mean": 2.2645613031291965,
+            "days": 4,
+            "day_bootstrap_95": [
+              1.2243315452593662,
+              3.7051063585677197
+            ]
+          },
+          "mfe_less_signal_cost_atr": {
+            "mean": 2.0869235938601496,
+            "days": 4,
+            "day_bootstrap_95": [
+              0.4112329146068544,
+              4.12695629132766
+            ]
+          },
+          "net_atr": {
+            "mean": 0.1628246312588053,
+            "days": 4,
+            "day_bootstrap_95": [
+              -1.7712765859913167,
+              2.424910558411812
+            ]
+          },
+          "net_bps": {
+            "mean": 11.415552336485039,
+            "days": 4,
+            "day_bootstrap_95": [
+              -46.1738369685962,
+              84.13993466948337
+            ]
+          },
+          "extra_tick_net_atr": {
+            "mean": -0.030743406024626996,
+            "days": 4,
+            "day_bootstrap_95": [
+              -1.9876244211115552,
+              2.2607270287147734
+            ]
+          }
+        },
+        "raw_atr_same_economic_subset": {
+          "mean": 1.0028203510544698,
+          "days": 4,
+          "day_bootstrap_95": [
+            -0.8656510357916912,
+            3.164455494148842
+          ]
+        }
+      }
+    },
+    "september_ma20_recovered_below_ma10_complete_cases": [
+      {
+        "id": "shape_recovered/2026-09-17/bc2610.INE/2026-09-17T14:19:00+08:00",
+        "date": "2026-09-17",
+        "contract": "bc2610.INE",
+        "time": "2026-09-17T14:19:00+08:00",
+        "direction": "LONG",
+        "label_15": {
+          "horizon": 15,
+          "raw_status": "complete",
+          "economic_status": "complete",
+          "entry_time": "2026-09-17T14:19:00+08:00",
+          "exit_time": "2026-09-17T14:34:00+08:00",
+          "raw_entry": 96540.0,
+          "raw_exit": 96590.0,
+          "raw_atr": 1.727928958645258,
+          "raw_bps": 5.179200331468821,
+          "mfe_atr": 2.419100542103361,
+          "mae_atr": 1.0367573751871548,
+          "mfe_less_signal_cost_atr": 1.6945661063117352,
+          "modeled_entry": 96550.0,
+          "modeled_exit": 96580.0,
+          "roundtrip_fee_cny": 4.827500000000001,
+          "net_per_lot_cny": 145.1725,
+          "net_atr": 1.003391066995715,
+          "net_bps": 3.00750984048063,
+          "extra_tick_net_atr": 0.31221602767969436,
+          "price_guard_pass": true,
+          "quantity_empty": 2,
+          "account_rejections": [],
+          "cost_at_open": 0.7245378916495431,
+          "cost_pass_at_open": false,
+          "quantity_and_guard_feasible": false,
+          "isolated_quantity_net_cny": null,
+          "initial_risk_distance": 50.0
+        },
+        "cost_atr": 0.7245344357916258
+      },
+      {
+        "id": "shape_recovered/2026-09-22/AP701.CZCE/2026-09-22T11:29:00+08:00",
+        "date": "2026-09-22",
+        "contract": "AP701.CZCE",
+        "time": "2026-09-22T11:29:00+08:00",
+        "direction": "SHORT",
+        "label_15": {
+          "horizon": 15,
+          "raw_status": "complete",
+          "economic_status": "complete",
+          "entry_time": "2026-09-22T11:29:00+08:00",
+          "exit_time": "2026-09-22T13:44:00+08:00",
+          "raw_entry": 7065.0,
+          "raw_exit": 7045.0,
+          "raw_atr": 3.9646380086601645,
+          "raw_bps": 28.308563340410476,
+          "mfe_atr": 4.955797510825206,
+          "mae_atr": 1.5858552034640658,
+          "mfe_less_signal_cost_atr": 4.261985859309677,
+          "modeled_entry": 7064,
+          "modeled_exit": 7046,
+          "roundtrip_fee_cny": 15.0,
+          "net_per_lot_cny": 165.0,
+          "net_atr": 3.2708263571446357,
+          "net_bps": 23.35456475583864,
+          "extra_tick_net_atr": 2.8743625562786193,
+          "price_guard_pass": true,
+          "quantity_empty": 19,
+          "account_rejections": [],
+          "cost_at_open": 0.6938116515155288,
+          "cost_pass_at_open": false,
+          "quantity_and_guard_feasible": false,
+          "isolated_quantity_net_cny": null,
+          "initial_risk_distance": 7
+        },
+        "cost_atr": 0.6938116515155288
+      },
+      {
+        "id": "shape_recovered/2026-09-23/nr2611.INE/2026-09-23T09:49:00+08:00",
+        "date": "2026-09-23",
+        "contract": "nr2611.INE",
+        "time": "2026-09-23T09:49:00+08:00",
+        "direction": "LONG",
+        "label_15": {
+          "horizon": 15,
+          "raw_status": "complete",
+          "economic_status": "complete",
+          "entry_time": "2026-09-23T09:49:00+08:00",
+          "exit_time": "2026-09-23T10:04:00+08:00",
+          "raw_entry": 16355.0,
+          "raw_exit": 16320.0,
+          "raw_atr": -1.8275531324429921,
+          "raw_bps": -21.400183430143688,
+          "mfe_atr": 0.0,
+          "mae_atr": 2.871869208124702,
+          "mfe_less_signal_cost_atr": -0.5392378272586292,
+          "modeled_entry": 16360.0,
+          "modeled_exit": 16315.0,
+          "roundtrip_fee_cny": 3.2720000000000002,
+          "net_per_lot_cny": -453.272,
+          "net_atr": -2.3667961812819995,
+          "net_bps": -27.71458269642311,
+          "extra_tick_net_atr": -2.8889594407032333,
+          "price_guard_pass": true,
+          "quantity_empty": 5,
+          "account_rejections": [],
+          "cost_at_open": 0.5392430488390076,
+          "cost_pass_at_open": false,
+          "quantity_and_guard_feasible": false,
+          "isolated_quantity_net_cny": null,
+          "initial_risk_distance": 25.0
+        },
+        "cost_atr": 0.5392378272586292
+      }
+    ],
+    "ma20_timing_pair_counts": {
+      "2026-07": {
+        "same_touch_version_pairs": 488,
+        "pairs_waiting_beyond_recovery": 22
+      },
+      "2026-08": {
+        "same_touch_version_pairs": 483,
+        "pairs_waiting_beyond_recovery": 12
+      },
+      "2026-09": {
+        "same_touch_version_pairs": 188,
+        "pairs_waiting_beyond_recovery": 6
+      }
+    },
+    "im_affordability_case": {
+      "id": "legacy_control/2026-08-19/IM2609.CFFEX/2026-08-19T13:51:00+08:00",
+      "date": "2026-08-19",
+      "time": "2026-08-19T13:51:00+08:00",
+      "contract": "IM2609.CFFEX",
+      "direction": "SHORT",
+      "cost_atr": 0.21363299884624212,
+      "minimum_capital": 1309507.1199999999,
+      "required_by_limit": {
+        "single_trade_risk": 1309507.1199999999,
+        "portfolio_risk": 261901.424,
+        "group_risk": 523802.848,
+        "margin": 599232.0,
+        "group_margin": 1198464.0
+      },
+      "quantity_signal_empty": 0,
+      "account_signal_rejections": [
+        "single_trade_risk",
+        "group_margin"
+      ],
+      "labels": {
+        "5": {
+          "horizon": 5,
+          "raw_status": "complete",
+          "economic_status": "complete",
+          "entry_time": "2026-08-19T13:51:00+08:00",
+          "exit_time": "2026-08-19T13:56:00+08:00",
+          "raw_entry": 7490.4,
+          "raw_exit": 7467.2,
+          "raw_atr": 2.159534559639273,
+          "raw_bps": 30.97297874612814,
+          "mfe_atr": 2.1967679141157785,
+          "mae_atr": 0.11170006342968618,
+          "mfe_less_signal_cost_atr": 1.9831349152695368,
+          "modeled_entry": 7490.2,
+          "modeled_exit": 7467.4,
+          "roundtrip_fee_cny": 377.95532000000003,
+          "net_per_lot_cny": 4182.044680000036,
+          "net_atr": 1.9463944000895934,
+          "net_bps": 27.916030385560425,
+          "extra_tick_net_atr": 1.9091571919608148,
+          "price_guard_pass": true,
+          "quantity_empty": 0,
+          "account_rejections": [
+            "single_trade_risk",
+            "group_margin",
+            "reserved_quantity"
+          ],
+          "cost_at_open": 0.21362828882690083,
+          "cost_pass_at_open": true,
+          "quantity_and_guard_feasible": false,
+          "isolated_quantity_net_cny": 0.0,
+          "initial_risk_distance": 10.8
+        },
+        "15": {
+          "horizon": 15,
+          "raw_status": "complete",
+          "economic_status": "complete",
+          "entry_time": "2026-08-19T13:51:00+08:00",
+          "exit_time": "2026-08-19T14:06:00+08:00",
+          "raw_entry": 7490.4,
+          "raw_exit": 7476.4,
+          "raw_atr": 1.3031674066788819,
+          "raw_bps": 18.690590622663677,
+          "mfe_atr": 2.457401395451572,
+          "mae_atr": 0.11170006342968618,
+          "mfe_less_signal_cost_atr": 2.24376839660533,
+          "modeled_entry": 7490.2,
+          "modeled_exit": 7476.6,
+          "roundtrip_fee_cny": 378.37852000000004,
+          "net_per_lot_cny": 2341.6214799998907,
+          "net_atr": 1.0898302826839368,
+          "net_bps": 15.630817312826357,
+          "extra_tick_net_atr": 1.052593074555243,
+          "price_guard_pass": true,
+          "quantity_empty": 0,
+          "account_rejections": [
+            "single_trade_risk",
+            "group_margin",
+            "reserved_quantity"
+          ],
+          "cost_at_open": 0.21362828882690083,
+          "cost_pass_at_open": true,
+          "quantity_and_guard_feasible": false,
+          "isolated_quantity_net_cny": 0.0,
+          "initial_risk_distance": 10.8
+        },
+        "30": {
+          "horizon": 30,
+          "raw_status": "complete",
+          "economic_status": "complete",
+          "entry_time": "2026-08-19T13:51:00+08:00",
+          "exit_time": "2026-08-19T14:21:00+08:00",
+          "raw_entry": 7490.4,
+          "raw_exit": 7466.8,
+          "raw_atr": 2.1967679141157785,
+          "raw_bps": 31.5069956210609,
+          "mfe_atr": 3.741952124892201,
+          "mae_atr": 0.11170006342968618,
+          "mfe_less_signal_cost_atr": 3.5283191260459588,
+          "modeled_entry": 7490.2,
+          "modeled_exit": 7467.0,
+          "roundtrip_fee_cny": 377.93692000000004,
+          "net_per_lot_cny": 4262.0630799999635,
+          "net_atr": 1.9836363182376289,
+          "net_bps": 28.450170084374427,
+          "extra_tick_net_atr": 1.9463991101089348,
+          "price_guard_pass": true,
+          "quantity_empty": 0,
+          "account_rejections": [
+            "single_trade_risk",
+            "group_margin",
+            "reserved_quantity"
+          ],
+          "cost_at_open": 0.21362828882690083,
+          "cost_pass_at_open": true,
+          "quantity_and_guard_feasible": false,
+          "isolated_quantity_net_cny": 0.0,
+          "initial_risk_distance": 10.8
+        }
+      }
+    }
+  },
+  "artifact_sha256": {
+    "research_outputs/opportunity_quality_2026-10-09/2026-07/attempt.json": "2ae1ed25e0e5709721e92e66820c9ce2e4c97ea0dfc0dfcf3103f5207c743d06",
+    "research_outputs/opportunity_quality_2026-10-09/2026-07/config_snapshot.json": "7c3160732fe0b137d2f2864b17e75b7fe1ad2df5298c066ae2b983af2215a705",
+    "research_outputs/opportunity_quality_2026-10-09/2026-07/coverage.json": "455bbb284105c1cea2f7e5c50f5b2f62ed05b4acd15a7d614aa13b63eb7d730d",
+    "research_outputs/opportunity_quality_2026-10-09/2026-07/legacy_cases.json.gz": "4cb4e96a0c69afdd55cb2c5abf6b138123f39c28ef34efc74ab13a9c94e8472f",
+    "research_outputs/opportunity_quality_2026-10-09/2026-07/manifest.json": "a064c325b834909b286727418763fcd4c706b17214124c4c7e50e3f0771e344c",
+    "research_outputs/opportunity_quality_2026-10-09/2026-07/matches.json.gz": "f21c630fd44c7b3e1a1b218172589d884fb34b74a65cc0d08dc51c6e3567b681",
+    "research_outputs/opportunity_quality_2026-10-09/2026-07/observations.json.gz": "aa4bbfc10b54cff2f561b6b6dcf2d8d1b3a1b893d7c704fb96225a07fae7238c",
+    "research_outputs/opportunity_quality_2026-10-09/2026-07/raw_label_verification.json": "5cd22e2092d176b9935596966ea61cc05f6d46793c17a7f09af348da8d5c5034",
+    "research_outputs/opportunity_quality_2026-10-09/2026-07/shape_lifecycle.json.gz": "0f4516a73d4c5d2e5310e336ac5683b74e1ac9d6682676e9356dbc9c5824d9ab",
+    "research_outputs/opportunity_quality_2026-10-09/2026-07/shapes.json.gz": "eae6b7d7177f485858bf935725aa9152bd6442c30d62e4c5b61aec3587fdd285",
+    "research_outputs/opportunity_quality_2026-10-09/2026-07/sources.json": "b0ac64cec4e0642f32affd2f816960e7d228bd11d627b04303cf0aa41bdea91b",
+    "research_outputs/opportunity_quality_2026-10-09/2026-08/attempt.json": "2b7491ea06b7a4485a7e2fd14e9665dd1753f758012ddae8b667d706271058a4",
+    "research_outputs/opportunity_quality_2026-10-09/2026-08/config_snapshot.json": "36f0ba1c6cdc93d9a7ecac64272a73ee2260829706fb50bd7b639d4d3ec18865",
+    "research_outputs/opportunity_quality_2026-10-09/2026-08/coverage.json": "7b931a5283770f8632f25e5cec3da862794f61f77d9b53b48e3197cc9c75a2c4",
+    "research_outputs/opportunity_quality_2026-10-09/2026-08/legacy_cases.json.gz": "1a5b579ab80ed445986254f5986eed609b00532b93e3c4f6b26ac812cedadd1c",
+    "research_outputs/opportunity_quality_2026-10-09/2026-08/manifest.json": "110119a1dcdd9a5d1b9acee5ece8fdf1d7fb867b64b36e6c885f7729d4b860e8",
+    "research_outputs/opportunity_quality_2026-10-09/2026-08/matches.json.gz": "5dabc51ef52096965c35f0d65b04fdd154a33319e0ae2aa8ed0062eddfa25c6f",
+    "research_outputs/opportunity_quality_2026-10-09/2026-08/observations.json.gz": "14de1a66f0904f7dfdcc17f1d82c14f311fcf41713f043c75e2b814fbdebfd45",
+    "research_outputs/opportunity_quality_2026-10-09/2026-08/raw_label_verification.json": "f2bf9bc3027185eff4443cc06995232a915e3169070904bb2ef288c7c10450cc",
+    "research_outputs/opportunity_quality_2026-10-09/2026-08/shape_lifecycle.json.gz": "3fda112b1493a188c864cd385b2efa1b60346c46470929d961f28f09235a28e9",
+    "research_outputs/opportunity_quality_2026-10-09/2026-08/shapes.json.gz": "96344a09f7693ef18d95f6474b90fa5e7c8a8bbf8fb86dde1c4fd876f6d8e8f2",
+    "research_outputs/opportunity_quality_2026-10-09/2026-08/sources.json": "0b8cdcd54d2ca7db9423a7598764362f9bc4073aa5f6bf05aae384c586869db8",
+    "research_outputs/opportunity_quality_2026-10-09/2026-09/attempt.json": "84a66cafdc928575862c048a2ce77ed0e696409628318e5d30eb348452b74cc2",
+    "research_outputs/opportunity_quality_2026-10-09/2026-09/config_snapshot.json": "95377cca13d35e88176de652e1c1128181ac05d7a4ec2b519acc24ea495710d7",
+    "research_outputs/opportunity_quality_2026-10-09/2026-09/coverage.json": "a9cbade8cbbdacfb9bb24f02e0b1fcf8707442c4fd20b77a4776d16aac09bd0d",
+    "research_outputs/opportunity_quality_2026-10-09/2026-09/legacy_cases.json.gz": "804a1ee65ae9cf8e7db53d5593d310003eeab22fe2798f93c98406b1bc124c7f",
+    "research_outputs/opportunity_quality_2026-10-09/2026-09/manifest.json": "ae07595f2424920434516b2a1df510ad94a85e23c761a0dc9f893dcb695ae2c8",
+    "research_outputs/opportunity_quality_2026-10-09/2026-09/matches.json.gz": "d68ab7a670fcc3fc015b8c6745e8c43dee995c8483bab4692587cbbdb28f526f",
+    "research_outputs/opportunity_quality_2026-10-09/2026-09/observations.json.gz": "170eba90d91f4a6b3ebf929238b023eee5343d49f89d0fcf54b922f6c0ec626f",
+    "research_outputs/opportunity_quality_2026-10-09/2026-09/raw_label_verification.json": "e3387660f4732ac896da7856d33cba81bd1c24be4c5ba03d4a6899ccac95f6c9",
+    "research_outputs/opportunity_quality_2026-10-09/2026-09/shape_lifecycle.json.gz": "6f2c4ed77a6c6b3385dc2d6a69f2edae040e51848eda2e41c8423dbeaf55d386",
+    "research_outputs/opportunity_quality_2026-10-09/2026-09/shapes.json.gz": "412dece6b5dd82dcb6b51dadaac7bdf86bbed7690e3c0612b00ed39c48819806",
+    "research_outputs/opportunity_quality_2026-10-09/2026-09/sources.json": "adcc35698f92835340a18b4a47a9b76853127fb3ef3f1bee9822ad01ea6dffd0",
+    "research_outputs/opportunity_quality_2026-10-09/assessment.json": "d17baac8eb1d74f665d27fdf71c76ae4a9b87e2073ba768e1de973628ed9b80e",
+    "research_outputs/opportunity_quality_2026-10-09/delivery.json": "c4ad41721b73f0484f4d53eeeefa27e6ea3780b686058c8ed8a1d76d3d9898e0",
+    "research_outputs/opportunity_quality_2026-10-09/publication_verification.json": "da4db3bfe41d70cc71267076823cd59dacbc9356681ee8e4753dfe520aa4202b",
+    "research_outputs/opportunity_quality_2026-10-09/ranking_horizons.csv": "f8b9f312814cbd1da32723e6d5f18b782fb26dba8974ff54ffa90870fe2ba347",
+    "research_outputs/opportunity_quality_2026-10-09/raw_label_verification.json": "c38799cabc8fc47a3adb63ef276007a778cf729448f959cc4371913d0f7e6356",
+    "research_outputs/opportunity_quality_2026-10-09/report.md": "908dcb211dc6327a21bfc4d2cc2948f2d7830f77c1c575eacf6be38a0e907cb9",
+    "research_outputs/opportunity_quality_2026-10-09/source_snapshot.tar.gz": "ddd0ba3ff985cc3056dfe66e54221fecd4b8247bfbc2a4d8d8c9623722738570",
+    "docs/opportunity-quality-results.md": "3d271496902e815bdb11f4a73187e7aa8ab49e694b7318f534ca360c7e586818",
+    "docs/verify-opportunity-quality.py": "81c500176d93193a680f9539f985ad17dc258648b5ad5a306b684c4b5bb7fc6c",
+    "README.md": "b7c35c43751f33a811f52bc24da32bb0064df355a714fc284fddc50f59692c00",
+    "research/README.md": "0d63fc69271c2fa20cf8a729c24947b728bbc835742f0d29c5972b6b92df4fbc",
+    "tests/test_research_opportunity_quality.py": "2e169c377fed0ea678fd852ccdf572d98a99614e35f767130ae04850058c210d",
+    "research/opportunity_quality_plan.json": "05259ee50a07bf39d9228aacd666366c2dbed1102387baafeaaf7e25b2d303b2",
+    "research/opportunity_quality_freeze.json": "db1ef7cf247d3f027b0c9ea0fa26db31765d6919fbcdec8225c5a6adb3ff9dac"
+  },
+  "reproduction_limits": {
+    "git_only": "verify frozen sources, prior published results, monthly hashes, segments, matching and reaggregate labels",
+    "raw_data_required": "fresh monthly scans and independent raw-price label checks need the original archived minute prices, calendar/execution context and indicator caches; bulk raw inputs/caches are not published",
+    "cached_indicator_values_recomputed_by_independent_verifier": false,
+    "post_force_close_labels_are_price_diagnostics_only": true
+  }
+}

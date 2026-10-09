@@ -1,0 +1,32 @@
+{
+  "status": "completed",
+  "month": "2026-09",
+  "window": {
+    "start": "2026-09-14",
+    "end": "2026-09-23"
+  },
+  "days": 8,
+  "plan_sha256": "05259ee50a07bf39d9228aacd666366c2dbed1102387baafeaaf7e25b2d303b2",
+  "freeze_sha256": "db1ef7cf247d3f027b0c9ea0fa26db31765d6919fbcdec8225c5a6adb3ff9dac",
+  "counts": {
+    "observations": 2509,
+    "shapes": 1599,
+    "shape_lifecycle": 6878,
+    "matches": 94,
+    "legacy_cases": 7
+  },
+  "segments": 922,
+  "files": {
+    "attempt.json": "84a66cafdc928575862c048a2ce77ed0e696409628318e5d30eb348452b74cc2",
+    "config_snapshot.json": "95377cca13d35e88176de652e1c1128181ac05d7a4ec2b519acc24ea495710d7",
+    "coverage.json": "a9cbade8cbbdacfb9bb24f02e0b1fcf8707442c4fd20b77a4776d16aac09bd0d",
+    "legacy_cases.json.gz": "804a1ee65ae9cf8e7db53d5593d310003eeab22fe2798f93c98406b1bc124c7f",
+    "matches.json.gz": "d68ab7a670fcc3fc015b8c6745e8c43dee995c8483bab4692587cbbdb28f526f",
+    "observations.json.gz": "170eba90d91f4a6b3ebf929238b023eee5343d49f89d0fcf54b922f6c0ec626f",
+    "shape_lifecycle.json.gz": "6f2c4ed77a6c6b3385dc2d6a69f2edae040e51848eda2e41c8423dbeaf55d386",
+    "shapes.json.gz": "412dece6b5dd82dcb6b51dadaac7bdf86bbed7690e3c0612b00ed39c48819806",
+    "sources.json": "adcc35698f92835340a18b4a47a9b76853127fb3ef3f1bee9822ad01ea6dffd0"
+  },
+  "full_strategy_backtests": 0,
+  "locked_test_read": false
+}

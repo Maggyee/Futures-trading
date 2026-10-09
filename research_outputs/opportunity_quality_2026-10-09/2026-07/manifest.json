@@ -1,0 +1,32 @@
+{
+  "status": "completed",
+  "month": "2026-07",
+  "window": {
+    "start": "2026-07-01",
+    "end": "2026-07-31"
+  },
+  "days": 23,
+  "plan_sha256": "05259ee50a07bf39d9228aacd666366c2dbed1102387baafeaaf7e25b2d303b2",
+  "freeze_sha256": "db1ef7cf247d3f027b0c9ea0fa26db31765d6919fbcdec8225c5a6adb3ff9dac",
+  "counts": {
+    "observations": 6077,
+    "shapes": 4218,
+    "shape_lifecycle": 17887,
+    "matches": 287,
+    "legacy_cases": 58
+  },
+  "segments": 2270,
+  "files": {
+    "attempt.json": "2ae1ed25e0e5709721e92e66820c9ce2e4c97ea0dfc0dfcf3103f5207c743d06",
+    "config_snapshot.json": "7c3160732fe0b137d2f2864b17e75b7fe1ad2df5298c066ae2b983af2215a705",
+    "coverage.json": "455bbb284105c1cea2f7e5c50f5b2f62ed05b4acd15a7d614aa13b63eb7d730d",
+    "legacy_cases.json.gz": "4cb4e96a0c69afdd55cb2c5abf6b138123f39c28ef34efc74ab13a9c94e8472f",
+    "matches.json.gz": "f21c630fd44c7b3e1a1b218172589d884fb34b74a65cc0d08dc51c6e3567b681",
+    "observations.json.gz": "aa4bbfc10b54cff2f561b6b6dcf2d8d1b3a1b893d7c704fb96225a07fae7238c",
+    "shape_lifecycle.json.gz": "0f4516a73d4c5d2e5310e336ac5683b74e1ac9d6682676e9356dbc9c5824d9ab",
+    "shapes.json.gz": "eae6b7d7177f485858bf935725aa9152bd6442c30d62e4c5b61aec3587fdd285",
+    "sources.json": "b0ac64cec4e0642f32affd2f816960e7d228bd11d627b04303cf0aa41bdea91b"
+  },
+  "full_strategy_backtests": 0,
+  "locked_test_read": false
+}

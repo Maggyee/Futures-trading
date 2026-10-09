@@ -1,0 +1,31 @@
+{
+  "status": "passed",
+  "with_raw_data": false,
+  "verifier_sha256": "81c500176d93193a680f9539f985ad17dc258648b5ad5a306b684c4b5bb7fc6c",
+  "prior_result_files_verified": 1384,
+  "full_strategy_backtests": 0,
+  "locked_test_read": false,
+  "windows": [
+    {
+      "month": "2026-07",
+      "observations": 6077,
+      "segments": 2270,
+      "matched_pairs": 287,
+      "raw_prices_checked": false
+    },
+    {
+      "month": "2026-08",
+      "observations": 5927,
+      "segments": 2178,
+      "matched_pairs": 255,
+      "raw_prices_checked": false
+    },
+    {
+      "month": "2026-09",
+      "observations": 2509,
+      "segments": 922,
+      "matched_pairs": 94,
+      "raw_prices_checked": false
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "source_run": "/home/nishiki/vnpy-ctp/research_outputs/coverage_expansion_2026-10-05/ordered_opportunity/control/2026-07/run_0001_1aba36425311",
+  "data_fingerprint": "92bfcc72dc2e774d86985ab2e9141e70b6885bbfa9157bad88a31f66fbe82cb9",
+  "cache_sha256": "78dab67445f453dc0049d7922f73d8a70b8161fe6c5bd38d17c8abf41cb5a9e3",
+  "cache_key": "09566f853de4c1d10bcfd6cf7593f72ede83f769d0b1f8253bb71287bfd92089",
+  "locked_test_read": false,
+  "legacy_source_hashes": {
+    "research_outputs/rule_layers_2026-10-08/control/2026-07/run_0001_dc0c0f07bacc/opportunity_diagnostics.csv.gz": "04b72438258d23559395f9dd54cd4a89fd257f072577f7fb3d93527d5c9ecbfc",
+    "research_outputs/rule_layers_2026-10-08/lifetime/2026-07/run_0001_ae3de9d45dfe/confirmation_events.csv.gz": "5528ff2165340dc9152389e7d39a762687bd01acf34b7d8ecf7e44311a92225c"
+  }
+}

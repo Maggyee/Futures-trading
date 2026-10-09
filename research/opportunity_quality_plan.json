@@ -1,0 +1,260 @@
+{
+  "schema": 1,
+  "kind": "OPPORTUNITY_QUALITY_LABEL_STUDY",
+  "declared_date": "2026-10-09",
+  "baseline_commit": "49166d8bb9093dd497bf3f0bbbe3432ee99eb623",
+  "sample_status": "retrospective_on_52_repeatedly_inspected_development_days",
+  "months": {
+    "2026-07": {
+      "directory": "research_outputs/coverage_expansion_2026-10-05/ordered_opportunity/control/2026-07/run_0001_1aba36425311",
+      "config_sha256": "7c3160732fe0b137d2f2864b17e75b7fe1ad2df5298c066ae2b983af2215a705",
+      "trades_sha256": "618566cd26d98cfde9ca31214d15413a61269eeb0b840b217cd8a443bdb591d2",
+      "manifest_sha256": "3d7cef7a807ba26f70d3f7e15866dda28531cae124b756853dccd57e42d75ac8",
+      "audit_sha256": "f222e65c0d750c8cb5733f2f7039f476d9e72b56282c00dd3376853816ae2cc7",
+      "window": {
+        "start": "2026-07-01",
+        "end": "2026-07-31"
+      },
+      "trading_days": [
+        "2026-07-01",
+        "2026-07-02",
+        "2026-07-03",
+        "2026-07-06",
+        "2026-07-07",
+        "2026-07-08",
+        "2026-07-09",
+        "2026-07-10",
+        "2026-07-13",
+        "2026-07-14",
+        "2026-07-15",
+        "2026-07-16",
+        "2026-07-17",
+        "2026-07-20",
+        "2026-07-21",
+        "2026-07-22",
+        "2026-07-23",
+        "2026-07-24",
+        "2026-07-27",
+        "2026-07-28",
+        "2026-07-29",
+        "2026-07-30",
+        "2026-07-31"
+      ]
+    },
+    "2026-08": {
+      "directory": "research_outputs/coverage_expansion_2026-10-05/ordered_opportunity/control/2026-08/run_0001_3dad7c4c9503",
+      "config_sha256": "36f0ba1c6cdc93d9a7ecac64272a73ee2260829706fb50bd7b639d4d3ec18865",
+      "trades_sha256": "0510818b525a8789fd01997a41c25f8984e4704f7764f0c52600e2458544bdd2",
+      "manifest_sha256": "1ac98780ce202014331438cc29bc9ad8b206c69d26706c2391b46ea250ab5cdd",
+      "audit_sha256": "70a0f0a3dba17fe18fc6f866e14f59000921e43604b0f7e1dea5c6d6c9ab21eb",
+      "window": {
+        "start": "2026-08-03",
+        "end": "2026-08-31"
+      },
+      "trading_days": [
+        "2026-08-03",
+        "2026-08-04",
+        "2026-08-05",
+        "2026-08-06",
+        "2026-08-07",
+        "2026-08-10",
+        "2026-08-11",
+        "2026-08-12",
+        "2026-08-13",
+        "2026-08-14",
+        "2026-08-17",
+        "2026-08-18",
+        "2026-08-19",
+        "2026-08-20",
+        "2026-08-21",
+        "2026-08-24",
+        "2026-08-25",
+        "2026-08-26",
+        "2026-08-27",
+        "2026-08-28",
+        "2026-08-31"
+      ]
+    },
+    "2026-09": {
+      "directory": "research_outputs/coverage_expansion_2026-10-05/ordered_opportunity/control/2026-09/run_0001_09f61aef2939",
+      "config_sha256": "95377cca13d35e88176de652e1c1128181ac05d7a4ec2b519acc24ea495710d7",
+      "trades_sha256": "d93b1cb2077497ff52bf65b8b61d5ebe0d043ff1de8fad7ad98a0e9c09985279",
+      "manifest_sha256": "ef37cd27ae297271909b58a2e6a69947efc3125a176e602868103a5ee8dde544",
+      "audit_sha256": "9488b851048ef222af8b43fae4fe9e1aecb80d74938e4f01937e64cd8327009d",
+      "window": {
+        "start": "2026-09-14",
+        "end": "2026-09-23"
+      },
+      "trading_days": [
+        "2026-09-14",
+        "2026-09-15",
+        "2026-09-16",
+        "2026-09-17",
+        "2026-09-18",
+        "2026-09-21",
+        "2026-09-22",
+        "2026-09-23"
+      ]
+    }
+  },
+  "output": "research_outputs/opportunity_quality_2026-10-09",
+  "maximum_monthly_scans": 3,
+  "full_strategy_backtests": 0,
+  "parameter_search": false,
+  "retune_after_labels": false,
+  "automatic_promotion": false,
+  "live_trading_changed": false,
+  "locked_test_read": false,
+  "primary_horizon_trading_minutes": 15,
+  "secondary_horizons_trading_minutes": [
+    5,
+    30
+  ],
+  "observation": {
+    "grid_minutes": 5,
+    "clock": "completed five-minute grid from each contract day opening; after opening 15 minutes and strictly before original entry cutoff",
+    "direction": "original R8 sign, fixed for the contract/day; original separate group and direction ranks; no ex-post reversal",
+    "base_environment": [
+      "complete current-session 15m MA10/MA20 directional order, MA20 slope3 and close beyond MA20",
+      "completed 5m close beyond directional MA20",
+      "1m close beyond MA20 and beyond the immediately preceding close"
+    ],
+    "hard_data_checks": [
+      "original previous-day contract pool and trading permission",
+      "every scheduled minute from day opening through observation present",
+      "1m/5m/15m causal indicator readiness; positive previous 1m ATR",
+      "no locked test or next-day label"
+    ],
+    "rank_groups": {
+      "rank_1_2": [
+        1,
+        2
+      ],
+      "rank_3_5": [
+        3,
+        5
+      ],
+      "rank_6_plus": [
+        6,
+        null
+      ]
+    },
+    "segment": "same contract/day/direction/session; qualifying observations separated by at most 30 trading minutes merge; first observed clock is representative; no reselecting after a filter passes",
+    "independence": "segments are descriptive clusters, not independent samples; report contract/day/direction and trading-day counts; inference and weighting group by trading day"
+  },
+  "matching": {
+    "comparisons": [
+      [
+        "rank_1_2",
+        "rank_3_5"
+      ],
+      [
+        "rank_1_2",
+        "rank_6_plus"
+      ],
+      [
+        "rank_3_5",
+        "rank_6_plus"
+      ]
+    ],
+    "strata": [
+      "same date",
+      "exact same observation clock",
+      "same original commodity/financial group",
+      "same session profile",
+      "same fixed direction"
+    ],
+    "covariates": [
+      "previous-day volume in lots",
+      "causal 1m previous ATR divided by observation close"
+    ],
+    "maximum_liquidity_ratio": 4,
+    "maximum_relative_atr_ratio": 2,
+    "distance": "absolute log liquidity ratio + absolute log relative-ATR ratio; deterministic contract tie break; greedy without control reuse within each clock and comparison",
+    "selection": "causal covariates and base environment only; all pairs chosen before future labels, costs at horizon, or fillability are examined",
+    "limitation": "different products cannot be exactly matched within a date; report product mix, product/day weighting, financial/commodity and non-LC sensitivity; no causal identification"
+  },
+  "incremental_filters": {
+    "oi": "same original signed-independent session OI increase >0",
+    "efficiency": "same original signed 10-minute efficiency >=0.45",
+    "slope_1m": "same original frozen 1m slope ready/minimum/maximum bounds",
+    "slope_5m": "same original frozen 5m slope ready/minimum/maximum bounds",
+    "ma10_recovery": "pure MA10 recovery confirmation in preceding grid interval, evaluated at the common representative clock",
+    "ma20_recovery": "pure MA20 recovery confirmation in preceding grid interval, with reclaim-MA10 status reported separately",
+    "original_market_gate": "all original market conditions together, diagnostic comparator only",
+    "analysis": "each condition versus the SAME base cohort individually; retained/rejected counts, full path coverage, net ATR and bps, MFE/MAE, discarded positive-net labels and overlap; no optimized conjunction"
+  },
+  "pullback": {
+    "references": [
+      10,
+      20
+    ],
+    "epsilon": "unchanged max(original epsilon ticks * metadata tick, original epsilon ATR * causal previous ATR)",
+    "prior_state": "immediately preceding close above both directional MA10/MA20, MA10/MA20 directionally ordered, high-timeframe base environment intact",
+    "touch": "completed candle low (long) or high (short) within epsilon of reference; dual-touch is separate and excluded from pure-reference comparison",
+    "wait_trading_minutes": 10,
+    "confirmation": "first later adjacent candle closing beyond current reference AND beyond previous candle extreme in the fixed direction",
+    "ma20_variants": [
+      "recover MA20 without requiring MA10 reclaim",
+      "same touch, wait for a later recovery candle also beyond current MA10; shares original expiry and invalidation"
+    ],
+    "invalidate": [
+      "touch extreme broken by more than one metadata tick",
+      "higher base environment lost",
+      "missing adjacent minute",
+      "session change",
+      "10-minute expiry",
+      "original entry cutoff"
+    ],
+    "one_touch_one_unit": "record one lifecycle per touch; recovery and MA10-reclaim labels are paired versions of that touch, never extra independent samples; no changes to executable entry logic"
+  },
+  "forward_labels": {
+    "entry": "next scheduled trading minute open at or after observation, within same trading day; scheduled breaks skip by calendar; absent scheduled bars do not get silently skipped",
+    "horizons": [
+      5,
+      15,
+      30
+    ],
+    "endpoint": "close of the h-th scheduled minute counting the entry minute; a label endpoint may cross scheduled intraday breaks but never a trading day",
+    "censor": [
+      "day ends before horizon",
+      "any scheduled minute absent",
+      "execution parameter missing at decision, entry or horizon exit; leave economic labels unknown",
+      "nonfillable entry/exit minute; keep raw price labels and mark modeled execution unavailable"
+    ],
+    "metrics": [
+      "signed endpoint displacement / signal ATR and in bps",
+      "MFE and MAE / signal ATR; extrema are research labels, not attainable exit profits",
+      "one-lot fixed-horizon net after rounded adverse original slippage and exact reviewed open/close-today fees",
+      "additional one tick each side with identical endpoint",
+      "MFE less estimated causal roundtrip cost; potential room only"
+    ],
+    "no_lookahead": "future endpoints/extrema are labels only; cannot influence observation, direction, matching, filtering, protection, or account quantities"
+  },
+  "execution": {
+    "cost_gate": "retain causal modeled cost/previous 1m ATR <=0.5 as a label; do not replace its denominator or change a trading gate",
+    "account": "unchanged 1000000 capital, original stop/target floors, cost buffer, group/risk/margin/minimum/daily limits; empty-portfolio integer capacity is a lower-bound affordability diagnostic, not a portfolio backtest",
+    "price_guard": "original signal-time price cap checked at next modeled open; later recovery does not become a retrospective fill",
+    "model_limits": "only exchange fee model and minute OHLC slippage proxy are available; broker add-ons/tick depth unknown; do not fill unknown fees with zero",
+    "legacy_cases": "relabel every published control opportunity diagnostic and every published lifetime formation at its exact timestamp; deduplicate into opportunity segments and retain raw rows; specifically show August cost refusals and the IM affordability case"
+  },
+  "aggregation": {
+    "primary": "average within contract/day/direction, then within trading day, then equally over observed days; no money sum presented as portfolio profit",
+    "matched": "same treatment day/contract clustering before daily paired differences; report match coverage and both members complete at each horizon",
+    "uncertainty": "95% trading-day cluster bootstrap of daily means, 2000 resamples, fixed seed 20261009; descriptive only, does not repair repeated-development selection bias",
+    "sensitivity": [
+      "each month separately",
+      "5/15/30-minute horizons without picking best",
+      "commodity and financial",
+      "non-LC",
+      "product-level and equal-product mean"
+    ],
+    "decision": "show predeclared possible interpretations; no automatic strategy selection or new trade-count target"
+  },
+  "provenance": {
+    "plan_frozen_before_scan": true,
+    "implementation_frozen_before_scan": true,
+    "all_published_results_preserved": true,
+    "prior_plan_sha256": "37dd73c0b4428c774aabf524cf9eb477bb24cd39859351baeb99cadece5be539"
+  }
+}
